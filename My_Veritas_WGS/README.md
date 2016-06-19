@@ -1,6 +1,6 @@
 ### For Research Purposes Only ###
 
-Step #1) Download .bam, .bai,and .vcf file
+Step #1) Download .bam, .bai, and .vcf file
 
 Step #2) Download IGV: https://www.broadinstitute.org/software/igv/download
 
