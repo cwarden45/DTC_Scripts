@@ -3,6 +3,7 @@
 Step #1) Download .bam, .bai, and .vcf file
 
 Step #2) Download IGV: https://www.broadinstitute.org/software/igv/download
+--> Make sure you have [JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) installed on your computer
 
 Step #3) Download Dependencies from Docker Image: `docker pull cwarden45/dnaseq-dependencies`
 
