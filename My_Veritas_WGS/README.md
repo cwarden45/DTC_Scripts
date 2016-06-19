@@ -9,4 +9,4 @@ Step #3) Download Dependencies from Docker Image: `docker pull cwarden45/dnaseq-
 
 ### For Advanced Users ###
 
-I've also provided scripts for analyzing 23andMe data, which I will compare to my WGS variants
+I've also provided scripts for analyzing 23andMe data in the *23andMe* folder, which I will compare to my WGS variants
