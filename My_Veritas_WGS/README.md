@@ -15,7 +15,7 @@
 docker run -it -v /c/Users/Charles/Documents/My_Veritas_WGS:/mnt/wgs cwarden45/dnaseq-dependencies
 ```
 
-4b) Move the folder containing the .bam file (for example, `cd /mnt/wgs')
+4b) Move the folder containing the .bam file (for example, `cd /mnt/wgs`)
 
 4c) Run '/opt/samtools-1.3/samtools index [filename].bam'
 
