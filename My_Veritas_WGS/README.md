@@ -9,6 +9,7 @@
 **Step #3**) Download [Docker](https://docs.docker.com/engine/installation/) and Dependencies from Docker Image: `docker pull cwarden45/dnaseq-dependencies`
 
 **Step #4**) Index your .bam file to view in IGV
+
 4a) Open an interactive Docker session, with access to the folder containing your .bam file.  For example, on Windows, your command will likely look something like:
 
 ```
