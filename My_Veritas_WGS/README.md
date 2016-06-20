@@ -1,4 +1,4 @@
-### For Research Purposes Only ###
+### For Research Purposes Only! ###
 
 **Step #1**) Download .bam and .vcf files
 
