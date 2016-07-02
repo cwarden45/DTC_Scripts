@@ -30,6 +30,8 @@ docker run -it -v /c/Users/Charles/Documents/DNAseq_templates/My_Veritas_WGS:/mn
 
 The Java memory limit is set to 4GB (4g).  If you have more memory (and have allocated extra memory/CPU to docker), you can change this setting via `python combine_bams.py --java_mem=4g`.  You can also decrease the memory requirements, but the script already takes a few hours to run (with default settings) on my PC with 8 GB RAM and 4 CPU (with 5 GB RAM and 4 CPU allocated to the Docker VM).  Run `python combine_bams.py --help` for more information.`
 
+If everything works correctly, you can delete the *veritas_wgs.bam* and *veritas_wgs.sort.bam* files after the script stops running.
+
 ### For Advanced Users ###
 
 I've also provided scripts for analyzing 23andMe data in the `23andMe` folder, which I will compare to my WGS variants
