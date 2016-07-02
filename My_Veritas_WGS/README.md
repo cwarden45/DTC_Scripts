@@ -20,7 +20,7 @@ At this point, you can already visualize your genomic alignment (separately for 
 docker run -it -v /c/Users/Charles/Documents/My_Veritas_WGS:/mnt/wgs cwarden45/dnaseq-dependencies
 ```
 
-4b) Move the folder containing the .bam file (for example, `cd /mnt/wgs`)
+4b) Move the folder containing the .bam file (run `cd /mnt/wgs`)
 
 4c) Run ``
 
