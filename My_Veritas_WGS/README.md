@@ -18,7 +18,7 @@ On Windows, if you run `git clone https://github.com/cwarden45/DNAseq_templates`
 
 **Step #4**) Combine and re-index your .bam files
 
-4a) Open an interactive Docker session, with access to the folder containing your .bam file.  For example, on Windows, your command will likely look something like:
+4a) Open an interactive Docker session, with access to the folder containing your .bam file (or the folder containing these scripts).  For example, on Windows, your command will likely look something like:
 
 ```
 docker run -it -v /c/Users/Charles/Documents/DNAseq_templates/My_Veritas_WGS:/mnt/wgs cwarden45/dnaseq-dependencies
