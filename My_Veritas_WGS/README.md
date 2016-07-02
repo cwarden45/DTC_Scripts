@@ -2,7 +2,7 @@
 
 **Step #1**) Download .bam.tgz and .vcf.gz files
 
-4a) Extract the per-chromosome .bam files (the [ID].bam.tgz file) into a folder called "chr_bam"
+1a) Extract the per-chromosome .bam files (the [ID].bam.tgz file) into a folder called "chr_bam"
 
 **Step #2**) Download IGV: https://www.broadinstitute.org/software/igv/download
 
