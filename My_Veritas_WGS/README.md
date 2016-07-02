@@ -26,7 +26,7 @@ docker run -it -v /c/Users/Charles/Documents/DNAseq_templates/My_Veritas_WGS:/mn
 
 4b) Move the folder containing the .bam file (run `cd /mnt/wgs`)
 
-4c) Run ``
+4c) If the scripts and BAM folder (named *chr_bam*) are in the same directory, run `python combine_bams.py`.  Otherwise, you can specify the full file path using `python combine_bams.py -bam_folder=chr_bam`
 
 
 ### For Advanced Users ###
