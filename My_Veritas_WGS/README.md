@@ -32,6 +32,8 @@ The Java memory limit is set to 4GB (4g).  If you have more memory (and have all
 
 If everything works correctly, you can delete the *veritas_wgs.bam* and *veritas_wgs.sort.bam* files after the script stops running.
 
+Now, you can visualize coverage for all chromosomes simultaneously in IGV. After loading veritas_wgs.sort.filtered.bam in IGV, go to Tools --> igvtools --> count (produces veritas_wgs.sort.filter.bam.tdf file)
+
 ### For Advanced Users ###
 
 I've also provided scripts for analyzing 23andMe data in the `23andMe` folder, which I will compare to my WGS variants
