@@ -34,7 +34,7 @@ The Java memory limit is set to 4GB (4g).  If you have more memory (and have all
 
 If everything works correctly, you can delete the *veritas_wgs.bam* and *veritas_wgs.sort.bam* files after the script stops running.
 
-Now, you can visualize coverage for all chromosomes simultaneously in IGV. After loading veritas_wgs.sort.filtered.bam in IGV, go to Tools --> igvtools --> count (produces veritas_wgs.sort.filter.bam.tdf file).  You might want to increase the window size to produce the .tdf file more quickly (perhaps try 200+ bp), but I was able to keep the 25 bp window without any problems.
+Now, you can visualize coverage for all chromosomes simultaneously in IGV. After loading veritas_wgs.sort.filtered.bam in IGV, go to Tools --> igvtools --> count (produces **veritas_wgs.sort.filter.bam.tdf** file).  You might want to increase the window size to produce the .tdf file more quickly (perhaps try 200+ bp), but I was able to keep the 25 bp window without any problems.
 
 ### For Advanced Users ###
 
