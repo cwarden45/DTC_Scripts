@@ -41,18 +41,13 @@ mergedBam = "veritas_wgs.bam"
 command = "/opt/samtools-1.3/samtools merge " + mergedBam + " " + " ".join(bamFiles)
 os.system(command)
 
-print "Sort .bam File"
-sortedBam = "veritas_wgs.sort.bam"
-command = "/opt/samtools-1.3/samtools sort --threads " + threads + " -o " + sortedBam + " " + mergedBam
-os.system(command)
-
 print "Remove Duplicates and Re-Index .bam File"
 #Separate chromosome .bam files had some reads from other chromosomes
 #So, I want to make sure I don't count intra-chromosomal or multi-mapping reads more than once
 #...in addition to removing any PCR duplicates
-filteredBam = "veritas_wgs.sort.filter.bam"
+filteredBam = "veritas_wgs.filter.bam"
 duplicateMetrics = "MarkDuplicates_metrics.txt"
-command = "java -jar -Xmx" + javaMem + " /opt/picard-tools-2.5.0/picard.jar MarkDuplicates INPUT=" + sortedBam + " OUTPUT=" + filteredBam + " METRICS_FILE=" + duplicateMetrics + " REMOVE_DUPLICATES=true CREATE_INDEX=True"
+command = "java -jar -Xmx" + javaMem + " /opt/picard-tools-2.5.0/picard.jar MarkDuplicates INPUT=" + mergedBam + " OUTPUT=" + filteredBam + " METRICS_FILE=" + duplicateMetrics + " REMOVE_DUPLICATES=true CREATE_INDEX=True"
 os.system(command)
 
 print "Calculate WGS QC Metrics"
