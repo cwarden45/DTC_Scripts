@@ -51,6 +51,8 @@ command = "java -jar -Xmx" + javaMem + " /opt/picard-tools-2.5.0/picard.jar Mark
 os.system(command)
 
 print "Calculate WGS QC Metrics"
+#The coverage statistics were not accurate for my dataset, but the insert size (defined as the distance between reads) was similar to what I saw upon visual inspection
+#Adding VALIDATION_STRINGENCY=LENIENT does not change the result
 wgsMetrics = "WGS_metrics_querySorted.txt"
 command = "java -jar -Xmx" + javaMem + " /opt/picard-tools-2.5.0/picard.jar CollectWgsMetricsFromQuerySorted I=" + filteredBam + " O=" + wgsMetrics
 os.system(command)
