@@ -50,4 +50,6 @@ The script assumes that the ANNOVAR code as been extracted in the same directory
 docker run -it -v /c/Users/Charles/Documents/DNAseq_templates/My_Veritas_WGS:/mnt/wgs trausch/delly
 ```
 
+- You will probably need to allow a few hours for these programs to run.
+
 **3**) I've also provided scripts for analyzing 23andMe data in the `23andMe` folder, which I will compare to my WGS variants
