@@ -44,6 +44,7 @@ The script assumes that the ANNOVAR code as been extracted in the same directory
 
 **2**) Make additional structural variant calls using [DELLY](https://github.com/tobiasrausch/delly) (via `python run_DELLY.py`) and [LUMPY](https://github.com/arq5x/lumpy-sv)
 
+- In order to run DELLY, you must first run `python download_ref.py`.  You will be asked to enter your e-mail address as a password.
 - Delly is [Dockerized](https://hub.docker.com/r/trausch/delly/), so you can download and run the Docker container (used with the script) with a command similar to this one:
 
 ```
