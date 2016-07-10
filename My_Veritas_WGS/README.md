@@ -51,5 +51,6 @@ docker run -it -v /c/Users/Charles/Documents/DNAseq_templates/My_Veritas_WGS:/mn
 ```
 
 - You will probably need to allow a few hours for these programs to run.
+- You can get an idea about how the size of the deletions/duplications/insertions compare for DELLY/LUMPY versus those provided in the Vertias .vcf file by running `python vcf_to_bed.py --vcf=[file.vcf] --caller=[Veritas/DELLY_DEL/DELLY_DUP/DELLY_INS]`.  Run `python vcf_to_bed.py --help` for more information.
 
 **3**) I've also provided scripts for analyzing 23andMe data in the `23andMe` folder, which I will compare to my WGS variants
