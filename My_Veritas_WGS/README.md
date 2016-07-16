@@ -36,7 +36,7 @@ Now, you can visualize coverage for all chromosomes simultaneously in IGV. After
 
 ### For Advanced Users ###
 
-**1**) Use [ANNOVAR](http://annovar.openbioinformatics.org/en/latest/user-guide/download/) for additional annotations
+**1**) Use [ANNOVAR](http://annovar.openbioinformatics.org/en/latest/user-guide/download/) for additional annotations (using `python run_ANNOVAR.py --vcf=[file].vcf`)
 
 You can download ANNOVAR [here](http://www.openbioinformatics.org/annovar/annovar_download_form.php).  It is free for private use, but you will be encouraged to buy a commerical license if you provide a .com e-mail address.  So, it would be best if you could provide an educational or non-profit e-mail address.
 
