@@ -36,11 +36,11 @@ Now, you can visualize coverage for all chromosomes simultaneously in IGV. After
 
 ### For Advanced Users ###
 
-**1**) Use [ANNOVAR](http://annovar.openbioinformatics.org/en/latest/user-guide/download/) for additional annotations (using `python run_ANNOVAR.py --vcf=[file].vcf`)
+**1**) Use [ANNOVAR](http://annovar.openbioinformatics.org/en/latest/user-guide/download/) for additional annotations
 
 You can download ANNOVAR [here](http://www.openbioinformatics.org/annovar/annovar_download_form.php).  It is free for private use, but you will be encouraged to buy a commerical license if you provide a .com e-mail address.  So, it would be best if you could provide an educational or non-profit e-mail address.
 
-The script assumes that the ANNOVAR code as been extracted in the same directory as your .vcf file (in a folder called "annovar")
+The script assumes that the ANNOVAR code as been extracted in the same directory as your .vcf file (in a folder called "annovar").  Assuming that is the case, you can use `python run_ANNOVAR.py --vcf=[file].vcf` to annotate your variants.
 
 **2**) Make additional structural variant calls using [DELLY](https://github.com/tobiasrausch/delly) (via `python run_DELLY.py`) and/or [LUMPY](https://github.com/arq5x/lumpy-sv) (via `python run_LUMPY.py`)
 
