@@ -56,7 +56,7 @@ if caller == "Veritas":
 		command = "annovar/annotate_variation.pl -buildver hg19 -downdb -webfrom annovar dbnsfp30a annovar/humandb/"
 		os.system(command)
 
-	print "**Creating Annotation Table (the whole-genome WGS file is quite large, so this may also take a several minutes)**"
+	print "**Creating Annotation Table (the whole-genome WGS file is quite large, so this may also take a over 1 hour)**"
 	print "NOTE: You may see error messages pop up - don't worry about those.  You'll still probably get your final results."
 	annotationPrefix = "annovar_" + re.sub(".vcf$","",vcf)
 	annovarVar = annotationPrefix + ".avinput"
