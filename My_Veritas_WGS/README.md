@@ -42,6 +42,8 @@ You can download ANNOVAR [here](http://www.openbioinformatics.org/annovar/annova
 
 The script assumes that the ANNOVAR code as been extracted in the same directory as your .vcf file (in a folder called "annovar").  Assuming that is the case, you can use `python run_ANNOVAR.py --vcf=[file].vcf` to annotate your variants.
 
+You can see the ANNOVAR [ClinVar]http://www.ncbi.nlm.nih.gov/clinvar/) annotations in **annovar_[file name].hg19_clinvar_20160302_dropped**.
+
 **2**) Make additional structural variant calls using [DELLY](https://github.com/tobiasrausch/delly) (via `python run_DELLY.py`) and/or [LUMPY](https://github.com/arq5x/lumpy-sv) (via `python run_LUMPY.py`)
 
 - In order to run DELLY, you must first run `python download_ref.py`.  You will be asked to enter your e-mail address as a password.
