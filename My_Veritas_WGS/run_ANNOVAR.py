@@ -46,27 +46,27 @@ if caller == "Veritas":
 	else:
 		print "**Downloading 3 ANNOVAR Databases (might take a several minutes)**"
 	command = "annovar/annotate_variation.pl -buildver hg19 -downdb -webfrom annovar refGene annovar/humandb/"
-	#os.system(command)
+	os.system(command)
 
 	command = "annovar/annotate_variation.pl -buildver hg19 -downdb -webfrom annovar clinvar_20160302 annovar/humandb/"
-	#os.system(command)
+	os.system(command)
 
 	command = "annovar/annotate_variation.pl -buildver hg19 -downdb -webfrom annovar popfreq_all_20150413 annovar/humandb/"
-	#os.system(command)
+	os.system(command)
 	
 	if damaging != "skip":
 		command = "annovar/annotate_variation.pl -buildver hg19 -downdb -webfrom annovar ljb26_all annovar/humandb/"
-		#os.system(command)
+		os.system(command)
 
 	print "**Creating Annotation Table (the whole-genome WGS file is quite large, so this may take several minutes)**"
 	print "NOTE: You may see error messages pop up - don't worry about those.  You'll still probably get your final results."
 	annotationPrefix = "annovar_" + re.sub(".vcf$","",vcf)
 	annovarVar = annotationPrefix + ".avinput"
 	command = "annovar/convert2annovar.pl -format vcf4 -coverage 10 -fraction 0.3 " + vcf + " > " + annovarVar
-	#os.system(command)
+	os.system(command)
 
 	command = "annovar/table_annovar.pl " + annovarVar +" annovar/humandb/ -csvout -buildver hg19 -out " + annotationPrefix +" -protocol refGene,clinvar_20160302,popfreq_all_20150413 -operation g,f,f -nastring NA"
-	#os.system(command)
+	os.system(command)
 	
 	annovarTable = annotationPrefix + ".hg19_multianno.csv"
 	filteredVar2 = annotationPrefix + "_ClinVar_Pathogenic_plus_Rare.txt"
