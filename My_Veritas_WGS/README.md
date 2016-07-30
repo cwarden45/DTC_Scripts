@@ -36,7 +36,7 @@ Now, you can visualize coverage for all chromosomes simultaneously in IGV. After
 
 **Step #5**) Produce [snpEff](http://snpeff.sourceforge.net/index.html) variant summary
 
-5a) You can produce an HMTL summary of functional annotations for your variants (within the Docker container) by running `python run_SnpEff.py --input=[ID].vcf`.  The HTML file will be called "snpEff_summary.html".  It might take ~1 hour to produce this file.
+5a) You can produce an HMTL summary of functional annotations for your variants (within the Docker container) by running `python run_SnpEff.py --input=[ID].vcf`.  The HTML file will be called "snpEff_summary.html".  It might take a few hours to produce this file.
 
 5b) If you run the scripts in the "Advanced Users" section, you can also use snpEff to add gene annotations to your structural variant calls.
 
