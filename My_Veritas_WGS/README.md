@@ -34,6 +34,14 @@ If everything works correctly, you can delete the *veritas_wgs.bam* file after t
 
 Now, you can visualize coverage for all chromosomes simultaneously in IGV. After loading veritas_wgs.sort.filtered.bam in IGV, go to Tools --> igvtools --> count (produces veritas_wgs.sort.filter.bam.tdf file).  You might want to increase the window size to produce the .tdf file more quickly (perhaps try 200+ bp), but I was able to keep the 25 bp window without any problems.
 
+**Step #5**) Produce [snpEff](http://snpeff.sourceforge.net/index.html) variant summary
+
+5a) You can produce an HMTL summary of functional annotations for your variants (within the Docker container) by running `python run_SnpEff.py --input=[file.vcf]`
+
+5b)
+
+5c) If you run the scripts in the "Advanced Users" section, you can also use snpEff to add gene annotations to your structural variant calls.
+
 ### For Advanced Users ###
 
 **1**) Use [ANNOVAR](http://annovar.openbioinformatics.org/en/latest/user-guide/download/) for additional annotations
