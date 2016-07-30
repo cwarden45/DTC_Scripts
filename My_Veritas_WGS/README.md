@@ -36,11 +36,9 @@ Now, you can visualize coverage for all chromosomes simultaneously in IGV. After
 
 **Step #5**) Produce [snpEff](http://snpeff.sourceforge.net/index.html) variant summary
 
-5a) You can produce an HMTL summary of functional annotations for your variants (within the Docker container) by running `python run_SnpEff.py --input=[file.vcf]`
+5a) You can produce an HMTL summary of functional annotations for your variants (within the Docker container) by running `python run_SnpEff.py --input=[ID].vcf`.  The HTML file will be called "snpEff_summary.html".  It may take over an hour to run this script.
 
-5b)
-
-5c) If you run the scripts in the "Advanced Users" section, you can also use snpEff to add gene annotations to your structural variant calls.
+5b) If you run the scripts in the "Advanced Users" section, you can also use snpEff to add gene annotations to your structural variant calls.
 
 ### For Advanced Users ###
 
@@ -48,7 +46,7 @@ Now, you can visualize coverage for all chromosomes simultaneously in IGV. After
 
 You can download ANNOVAR [here](http://www.openbioinformatics.org/annovar/annovar_download_form.php).  It is free for private use, but you will be encouraged to buy a commerical license if you provide a .com e-mail address.  So, it would be best if you could provide an educational or non-profit e-mail address.
 
-The script assumes that the ANNOVAR code as been extracted in the same directory as your .vcf file (in a folder called "annovar").  Assuming that is the case, you can use `python run_ANNOVAR.py --vcf=[file].vcf` to annotate your variants.
+The script assumes that the ANNOVAR code as been extracted in the same directory as your .vcf file (in a folder called "annovar").  Assuming that is the case, you can use `python run_ANNOVAR.py --vcf=[ID].vcf` to annotate your variants.
 
 You can see the ANNOVAR [ClinVar](http://www.ncbi.nlm.nih.gov/clinvar/) annotations in **annovar_[file name].hg19_clinvar_20160302_dropped**.
 
