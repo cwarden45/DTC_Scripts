@@ -72,7 +72,7 @@ if caller == "Veritas":
 		line = inHandle.readline()	
 	
 	snpEffAnn = "snpEff_annotations.vcf"
-	command = "java -jar -Xmx" + javaMem + " /opt/snpEff/snpEff.jar -v " + refDb + " " + tempVcf + " > " + snpEffAnn
+	command = "java -jar -Xmx" + javaMem + " /opt/snpEff/snpEff.jar " + refDb + " " + tempVcf + " > " + snpEffAnn
 	os.system(command)
 	
 	command = "rm "+ tempVcf
