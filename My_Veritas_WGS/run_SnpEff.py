@@ -49,6 +49,9 @@ if caller == "Veritas":
 	tempVcf = "temp.vcf"
 	outHandle = open(tempVcf, 'w')
 	
+	totalVariants = 0
+	passVariants = 0
+	
 	inHandle = open(input)
 	line = inHandle.readline()
 			
@@ -64,12 +67,29 @@ if caller == "Veritas":
 			text = line + "\n"
 			outHandle.write(text)
 		else:
+			totalVariants += 1
 			lineInfo = line.split("\t")
-			lineInfo[0] = re.sub("chr","",lineInfo[0])
-			text = "\t".join(lineInfo) + "\n"
-			outHandle.write(text)
-		
+			if lineInfo[5] != ".":
+				qual = float(lineInfo[5])
+				annText = lineInfo[7]
+				if qual > 20:
+					dpResult = re.search(";DP=(\d+);",annText)
+					aoResult = re.search(";AO=(\d+);",annText)
+					if dpResult and aoResult:
+						dp = int(dpResult.group(1))
+						ao = int(aoResult.group(1))
+						obAF = float(ao)/float(dp)
+						if (dp > 10) & (obAF >= 0.3):
+							passVariants +=1
+							if lineInfo[0] == "M":
+								lineInfo[0] = "MT"
+							lineInfo[0] = re.sub("chr","",lineInfo[0])
+							text = "\t".join(lineInfo) + "\n"
+							outHandle.write(text)
 		line = inHandle.readline()	
+		
+	percentPass = 100 * float(passVariants)/float(totalVariants)
+	print str(passVariants) + " ("+ '{:.2f}'.format(percentPass) +"%) variants used for snpEff"
 	
 	snpEffAnn = "snpEff_annotations.vcf"
 	command = "java -jar -Xmx" + javaMem + " /opt/snpEff/snpEff.jar " + refDb + " " + tempVcf + " > " + snpEffAnn
