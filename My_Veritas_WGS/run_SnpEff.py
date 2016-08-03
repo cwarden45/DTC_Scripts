@@ -5,7 +5,7 @@ import csv
 
 input= ""
 caller = "Veritas"
-javaMem = "4g"
+javaMem = "4500m"
 refDb = "GRCh37.75"
 
 for arg in sys.argv:
@@ -28,7 +28,7 @@ for arg in sys.argv:
 		refDb = refDbResult.group(1)
 		
 	if helpResult:
-		print "Usage: python combine_bams.py --input=[file.vcf|file.bed] --caller=Veritas --db=CRCh37.75 --java_mem=4g\n"
+		print "Usage: python combine_bams.py --input=[file.vcf|file.bed] --caller=Veritas --db=CRCh37.75 --java_mem=4500m\n"
 		print "--caller : Algorithm used to call variants\n"
 		print "--input : File containing variants (.vcf for Veritas, .bed for SVs)\n"
 		print "--db : snpEff reference/annotation database\n"
@@ -81,9 +81,10 @@ if caller == "Veritas":
 						obAF = float(ao)/float(dp)
 						if (dp > 10) & (obAF >= 0.3):
 							passVariants +=1
+							lineInfo[0] = re.sub("chr","",lineInfo[0])
 							if lineInfo[0] == "M":
 								lineInfo[0] = "MT"
-							lineInfo[0] = re.sub("chr","",lineInfo[0])
+							lineInfo[7] = "AO=" + str(ao) + ";DP=" + str(dp)
 							text = "\t".join(lineInfo) + "\n"
 							outHandle.write(text)
 		line = inHandle.readline()	
