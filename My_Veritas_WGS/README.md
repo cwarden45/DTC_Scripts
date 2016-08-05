@@ -64,7 +64,8 @@ docker run -it -v /c/Users/Charles/Documents/DNAseq_templates/My_Veritas_WGS:/mn
 ```
 python vcf_to_bed.py --vcf=[file.vcf] --caller=[Veritas/LUMPY/DELLY_DEL/DELLY_DUP/DELLY_INS]
 ```
-
 Run `python vcf_to_bed.py --help` for more information.
+
+-You should probably also filter putative deletions based upon coverage by running `python DEL_cov_filter.py --bed=[LUMPY_DEL.bed|DELLY_DEL.bed]`, in order to reduce false positives.  Same logic would apply to duplications, but I'm focusing on deletions assuming they will be more likely to be deleterious (if they overlap a substantial portion of a genes).
 
 **3**) I've also provided scripts for analyzing 23andMe data in the `23andMe` folder, which I will compare to my WGS variants
