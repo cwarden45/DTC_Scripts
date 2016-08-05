@@ -66,7 +66,7 @@ python vcf_to_bed.py --vcf=[file.vcf] --caller=[Veritas/LUMPY/DELLY_DEL/DELLY_DU
 ```
 Run `python vcf_to_bed.py --help` for more information.
 
--You should probably also filter putative deletions based upon coverage in order to reduce false positives.  I've provided a script to accomlish this:
+- You should probably also filter putative deletions based upon coverage in order to reduce false positives.  I've provided a script to accomlish this:
 
 ```
 python DEL_cov_filter.py --bed=[LUMPY_DEL.bed|DELLY_DEL.bed]
