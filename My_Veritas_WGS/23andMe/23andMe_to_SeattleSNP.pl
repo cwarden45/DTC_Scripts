@@ -9,14 +9,13 @@
 
 use warnings;
 use strict;
-use diagnostics;
 use Cwd;
 
 my $dir = getcwd;
 
 my $os = $^O;
 my $os_name;
-if (($os eq "MacOS")||($os eq "darwin"))
+if (($os eq "MacOS")||($os eq "darwin")||($os eq "cygwin"))
 	{
 		#Mac
 		$os_name = "MAC";
