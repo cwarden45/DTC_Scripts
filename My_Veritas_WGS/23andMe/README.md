@@ -1,3 +1,5 @@
 Please see this [blog post](http://cdwscience.blogspot.com/2012/06/my-23andme-results-getting-free-second.html) to learn more about these scripts
 
-- NOTE: hg19 is no longer the latest reference sequence, but you can get hg19 annotations (which I needed for the Veritas WGS comparison anyways) from SeattleSeq here: http://snp.gs.washington.edu/SeattleSeqAnnotation138/
+NOTE:
+- hg19 is no longer the latest reference sequence, but it is what was used for my WGS sample and you can get hg19 annotationsfrom SeattleSeq here: http://snp.gs.washington.edu/SeattleSeqAnnotation138/
+- SeattleSNP didn't recognize some alleles from 23andMe (mostly deletions), so I am using the original 23andMe raw data file to compare to my WGS variants
