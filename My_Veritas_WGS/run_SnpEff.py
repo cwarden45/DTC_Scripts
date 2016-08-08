@@ -40,11 +40,11 @@ bedCheck = re.search(".bed$",input)
 		
 if caller == "Veritas":
 	if (not vcfCheck):
-		print "You must provide a vcf --input file"
+		print "You must provide a VCF --input file"
 		sys.exit()
-elif (caller == "DELLY") or (caller == "LUMPY"):
+elif (caller == "DELLY") or (caller == "LUMPY")or (caller == "GASVPro"):
 	if (not bedCheck):
-		print "You must provide a vcf --input file"
+		print "You must provide a BED --input file"
 		sys.exit()		
 else:
 	print "Need to provide valid --caller and --input combination"
@@ -105,7 +105,7 @@ if caller == "Veritas":
 	
 	command = "rm "+ tempVcf
 	os.system(command)
-elif (caller == "DELLY") or (caller == "LUMPY"):
+elif (caller == "DELLY") or (caller == "LUMPY")or (caller == "GASVPro"):
 	annotatedBED = re.sub(".bed$","_snpEff_genes.bed",input)
 
 	tempBED = "temp.bed"
