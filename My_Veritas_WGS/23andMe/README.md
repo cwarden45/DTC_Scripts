@@ -7,4 +7,4 @@ Please see this [blog post](http://cdwscience.blogspot.com/2012/06/my-23andme-re
 **New Scripts**
 - **23andMe_to_VCF.py** - converts 23andMe raw format to VCF (`python 23andMe_to_VCF.py --input=[23andMe file]`, if you've run the Vertias WGS scripts.  Type `python 23andMe_to_VCF.py --help` for more information)
 
--- You'll want to check the 23andMe data portal for variants with "D" or "I" annotations.  Sometimes, your actual genotype is counter-intuitive.  So, unless you happen to have the same genotype as me, you'll probably have to modify the python code.  Sorry about that.
+---You'll want to check the 23andMe data portal for variants with "D" or "I" annotations.  Sometimes, your actual genotype is counter-intuitive.  So, unless you happen to have the same genotype as me, you'll probably have to modify the python code.  Sorry about that.
