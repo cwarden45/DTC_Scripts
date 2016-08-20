@@ -50,7 +50,7 @@ The script assumes that the ANNOVAR code as been extracted in the same directory
 
 You can see the ANNOVAR [ClinVar](http://www.ncbi.nlm.nih.gov/clinvar/) annotations in **annovar_[file name].hg19_clinvar_20160302_dropped**.
 
-**2**) Make additional structural variant calls using [DELLY](https://github.com/tobiasrausch/delly) (via `python run_DELLY.py`), [LUMPY](https://github.com/arq5x/lumpy-sv) (via `python run_LUMPY.py`), and/or GASVPro [GASVPro](http://compbio.cs.brown.edu/projects/gasv/) (via `python run_GASVPro.py`).
+**2**) Make additional structural variant calls using [DELLY](https://github.com/tobiasrausch/delly) (via `python run_DELLY.py`), [LUMPY](https://github.com/arq5x/lumpy-sv) (via `python run_LUMPY.py`), and/or [GASVPro](http://compbio.cs.brown.edu/projects/gasv/) (via `python run_GASVPro.py`).
 
 - In order to run DELLY, you must first run `python download_ref.py`.  You will be asked to enter your e-mail address as a password.
 - Delly is [Dockerized](https://hub.docker.com/r/trausch/delly/), so you can download and run the Docker container (used with the script) with a command similar to this one:
