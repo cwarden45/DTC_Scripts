@@ -47,7 +47,7 @@ for fasta in fasta_sequences:
 		refHash[chrName] = chrSequence
 	
 outHandle = open(outputFile, 'w')
-text = "#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO\n"
+text = "#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO\tFORMAT\tGenotype\n"
 outHandle.write(text)
 
 inHandle = open(inputFile)
@@ -69,12 +69,14 @@ while line:
 			snpChr = "chrM"
 		snpPos = int(lineInfo[2])
 		genotype = lineInfo[3]
-		genotype1 = genotype[0:1]
-		genotype2 = genotype[1:2]
+		
+		if (len(genotype) == 2):
+			genotype1 = genotype[0:1]
+			genotype2 = genotype[1:2]
 		
 		flag = "PASS"
 		
-		delFlag = re.search("-",genotype)
+		delFlag = re.search("--",genotype)
 		#really, this is "no call" instead of deletion, but I can sort them out later because a flag is added
 		if delFlag:
 			refChrSeq = refHash[snpChr]
@@ -89,17 +91,10 @@ while line:
 			else:
 				flag = "nocall"
 				
-			if genotype == "--":
-				genotype = "1/1"
-				varString = refChrSeq[hg19_python_index:hg19_python_index+1]
-				text = snpChr + "\t" + str(snpPos-1) + "\t" + snpID + "\t" + refString + "\t" + varString+ "\tNA\t" + flag + "\tGT=" + genotype + "\n"
-				outHandle.write(text)
-			else:
-				print "Variant and low signal probe?"
-				print line
-				print refSnp
-				print refChrSeq[(hg19_python_index-1):(hg19_python_index+2)]
-				sys.exit()
+			genotype = "1/1"
+			varString = refChrSeq[hg19_python_index:hg19_python_index+1]
+			text = snpChr + "\t" + str(snpPos-1) + "\t" + snpID + "\t" + refString + "\t" + varString+ "\tNA\t" + flag + "\tNA\tGT\t" + genotype + "\n"
+			outHandle.write(text)
 		else:
 			#alternative deletion ID
 			delFlag2 = re.search("D",genotype)
@@ -128,7 +123,7 @@ while line:
 						insString = refString + ins
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -143,7 +138,7 @@ while line:
 						insString = "CTTGCTT"
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -159,7 +154,7 @@ while line:
 						insString = refString + ins
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -173,7 +168,7 @@ while line:
 						insString = refString + ins
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -188,7 +183,7 @@ while line:
 						insString = refString + ins
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -203,7 +198,7 @@ while line:
 						insString = refString + ins
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -218,7 +213,7 @@ while line:
 						insString = "TGG"
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -231,7 +226,7 @@ while line:
 						insString = "ACCC"
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -245,7 +240,7 @@ while line:
 						insString = refString + ins
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -259,7 +254,7 @@ while line:
 						insString = refString + ins
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -274,7 +269,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -289,7 +284,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -304,7 +299,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -319,7 +314,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -334,7 +329,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -349,7 +344,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -364,7 +359,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -380,7 +375,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:(hg19_python_index+1)]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -397,7 +392,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:(hg19_python_index+1)]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -412,7 +407,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -429,7 +424,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:hg19_python_index+homoLength]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -444,7 +439,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -461,7 +456,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:hg19_python_index+homoLength]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -478,7 +473,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:hg19_python_index+homoLength]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -495,7 +490,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:hg19_python_index+homoLength]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -511,7 +506,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:(hg19_python_index+1)]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -527,7 +522,7 @@ while line:
 						delString = refChrSeq[hg19_python_index:(hg19_python_index+1)]
 						
 						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tGT=" + genotype + "\n"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -545,40 +540,51 @@ while line:
 				if lowerFlag:
 					flag = "repeat"
 					refSnp = refSnp.upper()
-					
-				if genotype1 != genotype2:
-					varAllele = ""
-					varCount = 0
-					
-					if genotype1 != refSnp:
-						varCount += 1
-						varAllele = genotype1
 
-					if genotype2 != refSnp:
-						varCount += 1
-						varAllele = genotype2				
-					
-					if varCount == 1:
-						genotype = "0/1"			
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refSnp + "\t" + varAllele + "\tNA\t" + flag + "\tGT=" + genotype + "\n"
-						outHandle.write(text)
-					elif varCount == 2:
-						varAllele = genotype1 + "," + genotype2
-						genotype = "1/2"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refSnp + "\t" + varAllele + "\tNA\t" + flag + "\tGT=" + genotype + "\n"
-						outHandle.write(text)
-					elif varCount == 0:
-						print "Check " + line
-						print "Supposedly two alleles without variation from reference"
-						sys.exit()
-				else:
-					genotype = "0/0"
-					alt = refSnp
-					if genotype1 != refSnp:
-						genotype = "1/1"
-						alt = genotype1
-						
-					text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refSnp + "\t" + alt + "\tNA\t" + flag + "\tGT=" + genotype + "\n"
+				if (len(genotype) == 1):
+					if genotype != refSnp:
+						alt = genotype
+						genotype = "1"
+					else:
+						alt = refSnp
+						genotype = "0"
+							
+					text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refSnp + "\t" + alt + "\tNA\t" + flag + "\tNA\tGT\t" + genotype + "\n"
 					outHandle.write(text)
+				else:
+					if genotype1 != genotype2:
+						varAllele = ""
+						varCount = 0
+						
+						if genotype1 != refSnp:
+							varCount += 1
+							varAllele = genotype1
+
+						if genotype2 != refSnp:
+							varCount += 1
+							varAllele = genotype2				
+						
+						if varCount == 1:
+							genotype = "0/1"			
+							text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refSnp + "\t" + varAllele + "\tNA\t" + flag + "\tNA\tGT\t" + genotype + "\n"
+							outHandle.write(text)
+						elif varCount == 2:
+							varAllele = genotype1 + "," + genotype2
+							genotype = "1/2"
+							text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refSnp + "\t" + varAllele + "\tNA\t" + flag + "\tNA\tGT\t" + genotype + "\n"
+							outHandle.write(text)
+						elif varCount == 0:
+							print "Check " + line
+							print "Supposedly two alleles without variation from reference"
+							sys.exit()
+					else:
+						genotype = "0/0"
+						alt = refSnp
+						if genotype1 != refSnp:
+							alt = genotype1
+							genotype = "1/1"
+							
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refSnp + "\t" + alt + "\tNA\t" + flag + "\tNA\tGT\t" + genotype + "\n"
+						outHandle.write(text)
 			
 	line = inHandle.readline()
