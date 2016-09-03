@@ -62,14 +62,14 @@ docker run -it -v /c/Users/Charles/Documents/DNAseq_templates/My_Veritas_WGS:/mn
 - You will probably need to allow a few hours for these programs to run.
 - You can get an idea about how the size of the deletions/duplications/insertions compare for DELLY/LUMPY versus those provided in the Vertias .vcf file by running:
 ```
-python vcf_to_bed.py --vcf=[file.vcf] --caller=[Veritas/LUMPY/DELLY_DEL/DELLY_DUP/DELLY_INS]
+python vcf_to_bed.py --vcf=[file.vcf] --caller=[Veritas/LUMPY/DELLY_DEL/DELLY_DUP/DELLY_INS/GASVPro/Manta]
 ```
 Run `python vcf_to_bed.py --help` for more information.
 
 - You should probably also filter putative deletions based upon coverage in order to reduce false positives.  I've provided a script to accomlish this:
 
 ```
-python DEL_cov_filter.py --bed=[LUMPY_DEL.bed|DELLY_DEL.bed]
+python DEL_cov_filter.py --bed=[LUMPY_DEL.bed|DELLY_DEL.bed|GASVPro_DEL.bed]
 ```
 
 The same logic would apply to duplications, but I'm focusing on deletions on the assumption that they will be more likely to be deleterious (if they overlap a substantial portion of a genes - if you have more than a handful of filtered hits, you can use `run_SnpEff.py` to find exonic overlaps).
