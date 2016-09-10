@@ -116,7 +116,7 @@ text = "#FLAG is from small VCF\n"
 text = text + "#QUAL is from large VCF\n"
 text = text + "#"+smallID+" is genotype for small VCF (discordant or missed variants)\n"
 text = text + "#"+largeID+" is genotype for large VCF (discordant genotype in multi-sample VCF format)\n"
-text = text + "#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO\t" + smallID + "\t" + largeID + "\n"
+text = text + "#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO\tFORMAT\t" + smallID + "\t" + largeID + "\n"
 outHandle.write(text)
 
 inHandle = open(largeVCF)
@@ -207,12 +207,12 @@ for smallVarID in smallVarHash:
 		
 		smallPos2 = smallChr + "\t" + smallPos
 		smallText = smallPosHash[smallPos2]
-		varInfo2 = smallVarText.split("\t")
+		varInfo2 = smallText.split("\t")
 				
-		smallVarID = varInfo2[0]
+		smallVarID2 = varInfo2[0]
 		smallVarRef = varInfo2[1]
 		smallVar = varInfo2[2]
 		smallVarFlag = varInfo2[3]
 				
-		text = smallPos2 + "\t" + smallVarID + "\t" + smallVarRef + "\t" + smallVar + "\tNA\t" + smallVarFlag + "\tNA\tGT\t" + smallGenotype + "\t0/0\n"
+		text = smallPos2 + "\t" + smallVarID2 + "\t" + smallVarRef + "\t" + smallVar + "\tNA\t" + smallVarFlag + "\tNA\tGT\t" + smallGenotype + "\t0/0\n"
 		outHandle.write(text)		
