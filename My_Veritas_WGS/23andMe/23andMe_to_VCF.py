@@ -122,7 +122,7 @@ while line:
 						refString = refChrSeq[hg19_python_index:hg19_python_index+1]
 						insString = refString + ins
 						
-						genotype = "1/0"
+						genotype = "0/1"
 						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
@@ -137,7 +137,7 @@ while line:
 						refString = "CTT"
 						insString = "CTTGCTT"
 						
-						genotype = "1/0"
+						genotype = "0/1"
 						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
@@ -146,29 +146,30 @@ while line:
 						sys.exit()
 				elif snpID == "rs8176719":
 					#false positive insertion
-					#dbSNP entry has been removed, but I'm calling thia an insertion because no nearby C
+					#actually, this was called in my .vcf file, but format was wierd (included seq on other side of insertion)
+					#dbSNP entry has been removed, but I'm calling this an insertion because no nearby C
 					ins ="C"
 					if genotype == "DI":
-						hg19_python_index = snpPos - 1
-						refString = refChrSeq[hg19_python_index:hg19_python_index+1]
-						insString = refString + ins
+						freebayesRef = "TA"
+						freebayesVar = "TCA"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
 						print "Need to define allele for " + snpID
 						sys.exit()
 				elif snpID == "rs16626":
+					#dbSNP says insertions should be CGTGAAGTCC, but sequence below matches my sequence (for all 6 reads with insertion)
 					ins ="GGACTTCACG"
 					if genotype == "DI":
-						hg19_python_index = snpPos - 1
-						refString = refChrSeq[hg19_python_index:hg19_python_index+1]
-						insString = refString + ins
+						#ref in repeat, need to switch to uppercase
+						refString = "A" + "G"
+						insString = "A" + ins + "G"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI,repeat\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -178,12 +179,11 @@ while line:
 					ins ="C"
 					#left-aligned insertion in 23andMe and (most) WGS reads
 					if genotype == "DI":
-						hg19_python_index = snpPos - 1
-						refString = refChrSeq[hg19_python_index:hg19_python_index+1]
-						insString = refString + ins
+						freebayesRef = "TCC"
+						freebayesVar = "TCCC"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -193,12 +193,11 @@ while line:
 					#polyG insertion = left-aligned in WGS and 23andMe
 					ins ="G"
 					if genotype == "DI":
-						hg19_python_index = snpPos - 1
-						refString = refChrSeq[hg19_python_index:hg19_python_index+1]
-						insString = refString + ins
+						freebayesRef = "TGG"
+						freebayesVar = "TGGG"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -209,11 +208,11 @@ while line:
 					ins ="G"
 					if genotype == "DI":
 						snpPos = 113346251
-						refString = "TG"
-						insString = "TGG"
+						freebayesRef = "TGA"
+						freebayesVar = "TGGA"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -225,7 +224,7 @@ while line:
 						refString = "ACC"
 						insString = "ACCC"
 						
-						genotype = "1/0"
+						genotype = "0/1"
 						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
@@ -235,12 +234,11 @@ while line:
 				elif snpID == "rs3217559":
 					ins ="G"
 					if genotype == "DI":
-						hg19_python_index = snpPos - 1
-						refString = refChrSeq[hg19_python_index:hg19_python_index+1]
-						insString = refString + ins
+						freebayesRef = "TGT"
+						freebayesVar = "TGGT"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -249,12 +247,11 @@ while line:
 				elif snpID == "rs2307981":
 					ins ="CAA"
 					if genotype == "DI":
-						hg19_python_index = snpPos - 1
-						refString = refChrSeq[hg19_python_index:hg19_python_index+1]
-						insString = refString + ins
+						freebayesRef = "GCAAC"
+						freebayesVar = "GCAACAAC"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + refString + "\t" + insString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(snpPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -268,8 +265,11 @@ while line:
 						refString = refChrSeq[hg19_python_index:hg19_python_index+2]
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						freebayesRef = "CTA"
+						freebayesVar = "CA"
+						
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -282,9 +282,12 @@ while line:
 						hg19_python_index = newPos - 1
 						refString = refChrSeq[hg19_python_index:hg19_python_index+2]
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
+
+						freebayesRef = "TAG"
+						freebayesVar = "TG"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -297,9 +300,12 @@ while line:
 						hg19_python_index = newPos - 1
 						refString = refChrSeq[hg19_python_index:hg19_python_index+2]
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
+
+						freebayesRef = "AGT"
+						freebayesVar = "AT"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -312,9 +318,12 @@ while line:
 						hg19_python_index = newPos - 1
 						refString = refChrSeq[hg19_python_index:hg19_python_index+2]
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
+
+						freebayesRef = "AGA"
+						freebayesVar = "AA"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -327,9 +336,12 @@ while line:
 						hg19_python_index = newPos - 1
 						refString = refChrSeq[hg19_python_index:hg19_python_index+2]
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
+
+						freebayesRef = "AGG"
+						freebayesVar = "AG"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -342,9 +354,12 @@ while line:
 						hg19_python_index = newPos - 1
 						refString = refChrSeq[hg19_python_index:hg19_python_index+2]
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
+
+						freebayesRef = "AGG"
+						freebayesVar = "AG"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -357,9 +372,12 @@ while line:
 						hg19_python_index = newPos - 1
 						refString = refChrSeq[hg19_python_index:hg19_python_index+2]
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
+
+						freebayesRef = "ATTTTTTTTTTA"
+						freebayesVar = "ATTTTTTTTTA"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -373,9 +391,12 @@ while line:
 						delLength = 2
 						refString = refChrSeq[hg19_python_index:(hg19_python_index+1 + delLength)]
 						delString = refChrSeq[hg19_python_index:(hg19_python_index+1)]
+
+						freebayesRef = "CTTTTTA"
+						freebayesVar = "CTTTA"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -390,9 +411,12 @@ while line:
 						delLength = 2
 						refString = refChrSeq[hg19_python_index:(hg19_python_index+1 + delLength)]
 						delString = refChrSeq[hg19_python_index:(hg19_python_index+1)]
+
+						freebayesRef = "CAAAAAAAAAAAAAG"
+						freebayesVar = "CAAAAAAAAAAAAG,CAAAAAAAAAAAG"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -405,9 +429,12 @@ while line:
 						hg19_python_index = newPos - 1
 						refString = refChrSeq[hg19_python_index:hg19_python_index+2]
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
+
+						freebayesRef = "TCC"
+						freebayesVar = "TC"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -423,7 +450,7 @@ while line:
 						refString = refChrSeq[hg19_python_index:hg19_python_index+homoLength + delLength]
 						delString = refChrSeq[hg19_python_index:hg19_python_index+homoLength]
 						
-						genotype = "1/0"
+						genotype = "0/1"
 						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
@@ -437,9 +464,12 @@ while line:
 						hg19_python_index = newPos - 1
 						refString = refChrSeq[hg19_python_index:hg19_python_index+2]
 						delString = refChrSeq[hg19_python_index:hg19_python_index+1]
+
+						freebayesRef = "TAAAAAAAAG"
+						freebayesVar = "TAAAAAAAG"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -454,9 +484,12 @@ while line:
 						delLength = 2
 						refString = refChrSeq[hg19_python_index:hg19_python_index+homoLength + delLength]
 						delString = refChrSeq[hg19_python_index:hg19_python_index+homoLength]
+
+						freebayesRef = "GGTGTGTC"
+						freebayesVar = "GGTGTC"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -471,9 +504,12 @@ while line:
 						delLength = 1
 						refString = refChrSeq[hg19_python_index:hg19_python_index+homoLength + delLength]
 						delString = refChrSeq[hg19_python_index:hg19_python_index+homoLength]
+
+						freebayesRef = "TAAAAAAAAAAAAT"
+						freebayesVar = "TAAAAAAAAAAAT"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -488,9 +524,12 @@ while line:
 						delLength = 1
 						refString = refChrSeq[hg19_python_index:hg19_python_index+homoLength + delLength]
 						delString = refChrSeq[hg19_python_index:hg19_python_index+homoLength]
+
+						freebayesRef = "ATTTTTTTTTC"
+						freebayesVar = "ATTTTTTTTC"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -504,9 +543,12 @@ while line:
 						hg19_python_index = newPos - 1
 						refString = refChrSeq[hg19_python_index:(hg19_python_index+1 + delLength)]
 						delString = refChrSeq[hg19_python_index:(hg19_python_index+1)]
+
+						freebayesRef = "ACTATGC"
+						freebayesVar = "AC"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI,repeat\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
@@ -520,9 +562,12 @@ while line:
 						hg19_python_index = newPos - 1
 						refString = refChrSeq[hg19_python_index:(hg19_python_index+1 + delLength)]
 						delString = refChrSeq[hg19_python_index:(hg19_python_index+1)]
+
+						freebayesRef = "TTCT"
+						freebayesVar = "TT"
 						
-						genotype = "1/0"
-						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + refString + "\t" + delString + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
+						genotype = "0/1"
+						text = snpChr + "\t" + str(newPos) + "\t" + snpID + "\t" + freebayesRef + "\t" + freebayesVar + "\tNA\tDI\tNA\tGT\t" + genotype + "\n"
 						outHandle.write(text)
 					else:
 						print line
