@@ -75,3 +75,5 @@ python DEL_cov_filter.py --bed=[LUMPY_DEL.bed|DELLY_DEL.bed|GASVPro_DEL.bed|Mant
 The same logic would apply to duplications, but I'm focusing on deletions on the assumption that they will be more likely to be deleterious (if they overlap a substantial portion of a genes - if you have more than a handful of filtered hits, you can use `run_SnpEff.py` to find exonic overlaps).
 
 **3**) I've also provided scripts for analyzing 23andMe data in the `23andMe` folder, which I will compare to my WGS variants.  See [README.md](https://github.com/cwarden45/DNAseq_templates/tree/master/My_Veritas_WGS/23andMe) in `23andMe` folder.
+
+- You can call additional variants using [GATK](https://software.broadinstitute.org/gatk/) and/or [VarScan](http://dkoboldt.github.io/varscan/) using `python run_GATK_VarScan.py`
