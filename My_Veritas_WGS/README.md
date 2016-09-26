@@ -76,4 +76,5 @@ The same logic would apply to duplications, but I'm focusing on deletions on the
 
 **3**) I've also provided scripts for analyzing 23andMe data in the `23andMe` folder, which I will compare to my WGS variants.  See [README.md](https://github.com/cwarden45/DNAseq_templates/tree/master/My_Veritas_WGS/23andMe) in `23andMe` folder.
 
-- You can call additional variants using [GATK](https://software.broadinstitute.org/gatk/) and/or [VarScan](http://dkoboldt.github.io/varscan/) using `python run_GATK_VarScan.py`
+- You can re-align using [BWA-MEM](http://bio-bwa.sourceforge.net/bwa.shtml) using ''
+- Then, you can call additional variants using [GATK](https://software.broadinstitute.org/gatk/), [freebayes](https://github.com/ekg/freebayes), and/or [VarScan](http://dkoboldt.github.io/varscan/) using `python run_GATK_VarScan.py`.  VarScan will work on original alignment file, and original vcf was produced using freebayes.
