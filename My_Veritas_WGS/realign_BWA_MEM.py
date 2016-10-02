@@ -43,14 +43,14 @@ for arg in sys.argv:
 
 if gatkRefId == "hg19":
 	command = "wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/2.8/hg19/ucsc.hg19.fasta.gz"
-	#os.system(command)
+	os.system(command)
 	
 	refFa = "hg19.gatk.fasta"
 	command = "gunzip ucsc.hg19.fasta.gz -c > " + refFa
-	#os.system(command)
+	os.system(command)
 	
 	command = "rm ucsc.hg19.fasta.gz"
-	#os.system(command)
+	os.system(command)
 else:
 	print "Need to provide mapping to download file for " + gatkRefId
 	sys.exit()
@@ -61,18 +61,19 @@ folderResult = re.search("(.*)/",bamOut)
 if folderResult:
 	subfolder = folderResult.group(1)
 	command = "mkdir " + subfolder
-	#os.system(command)
+	os.system(command)
 
 nameBam = re.sub(".bam",".sort.bam",bamOut)
 command = "/opt/samtools-1.3/samtools sort -n " + bamIn+ " -o " + nameBam
-#os.system(command)
+os.system(command)
 
 read1 = re.sub(".bam","_R1.fastq",bamIn)
 read2 = re.sub(".bam","_R2.fastq",bamIn)
 command = "/opt/samtools-1.3/samtools bam2fq -n " + nameBam + " -1 " + read1+ " -2 " + read2
-#os.system(command)
+os.system(command)
 
 #multi-mapped reads already collapsed, so don't need to run these commands
+#code from https://www.biostars.org/p/15113/
 def unique_reads(records):
 	prevRead = ""
 	for rec in records:
