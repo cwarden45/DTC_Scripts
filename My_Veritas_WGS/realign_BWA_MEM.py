@@ -7,14 +7,14 @@ bamIn = "veritas_wgs.bam"
 bamOut = "BWA_MEM_Alignment/hg19.gatk.bam"
 gatkRefId = "hg19"
 bwaThreads = "2"
-fastqcThreads = "16"
+javaMem = "4g"
 
 for arg in sys.argv:
 	bamInResult = re.search("^--bam_in=(.*)",arg)
 	bamOutResult = re.search("^--bam_out=(.*)",arg)
 	refResult = re.search("^--ref=(.*)",arg)
 	threadsBwaResult = re.search("^--bwa_threads=(.*)",arg)
-	threadsFastqcResult = re.search("^--fastqc_threads=(.*)",arg)
+	memResult = re.search("^--java_mem=(.*)",arg)
 	helpResult = re.search("^--help",arg)
 	
 	if bamInResult:
@@ -29,8 +29,8 @@ for arg in sys.argv:
 	if threadsBwaResult:
 		bwaThreads = threadsBwaResult.group(1)
 
-	if threadsFastqcResult:
-		fastqcThreads = threadsFastqcResult.group(1)
+	if memResult:
+		javaMem = memResult.group(1)
 		
 	if helpResult:
 		print "Usage: python run_BWA_MEM.py --bam_in=veritas_wgs.bam --bam_out=BWA_MEM_Alignment/hg19.gatk.bam --ref=hg19\n"
@@ -38,7 +38,7 @@ for arg in sys.argv:
 		print "--bam_out : BWA-MEM alignment file\n"
 		print "--ref : Reference name (GATK fasta will be downloaded)\n"
 		print "--bwa_threads : Threads to be used by BWA\n"
-		print "--fastqc_threads : Threads to be used by FastQC\n"
+		print "--java_mem : Memory Allocation for Picard\n"
 		sys.exit()
 
 if gatkRefId == "hg19":
@@ -81,6 +81,7 @@ os.system(command)
 
 #better to run in parallel with GUI
 #each thread only allocated 250 MB
+#fastqcThreads = "16"
 #command = "/opt/FastQC/fastqc " + read1 + " -t " + fastqcThreads
 #os.system(command)
 #command = "/opt/FastQC/fastqc " + read2 + " -t " + fastqcThreads
