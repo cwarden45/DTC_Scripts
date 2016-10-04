@@ -69,41 +69,22 @@ os.system(command)
 
 read1 = re.sub(".bam","_R1.fastq",bamIn)
 read2 = re.sub(".bam","_R2.fastq",bamIn)
-command = "/opt/samtools-1.3/samtools bam2fq -n " + nameBam + " -1 " + read1+ " -2 " + read2
+unpaired = "unpaired.fastq"
+command = "java -jar -Xmx" + javaMem + " /opt/picard-tools-2.5.0/picard.jar SamToFastq INPUT=" + nameBam + " FASTQ=" + read1 + " SECOND_END_FASTQ=" + read2 + " UNPAIRED_FASTQ=" + unpaired
 os.system(command)
-
-#multi-mapped reads already collapsed, so don't need to run these commands
-#code from https://www.biostars.org/p/15113/
-def unique_reads(records):
-	prevRead = ""
-	for rec in records:
-		if rec.id != prevRead:
-			yield rec
-		prevRead = rec.id
-#fastq_parser = SeqIO.parse(temp1, "fastq") 
-#SeqIO.write(unique_reads(fastq_parser), read1, "fastq")
-
-#fastq_parser = SeqIO.parse(temp2, "fastq") 
-#SeqIO.write(unique_reads(fastq_parser), read2, "fastq")
 
 command = "rm " + nameBam
 os.system(command)
 
-command = "gzip " + read1
+command = "rm " + unpaired
 os.system(command)
 
-command = "gzip " + read2
-os.system(command)
-
-read1 = re.sub(".fastq",".fastq.gz",read1)
-read2 = re.sub(".fastq",".fastq.gz",read2)
-
-print "\n\nRun FastQC\n\n"
+#better to run in parallel with GUI
 #each thread only allocated 250 MB
-command = "/opt/FastQC/fastqc " + read1 + " -t " + fastqcThreads
-os.system(command)
-command = "/opt/FastQC/fastqc " + read2 + " -t " + fastqcThreads
-os.system(command)
+#command = "/opt/FastQC/fastqc " + read1 + " -t " + fastqcThreads
+#os.system(command)
+#command = "/opt/FastQC/fastqc " + read2 + " -t " + fastqcThreads
+#os.system(command)
 
 print "\n\nRun BWA-MEM\n\n"
 command = "/opt/bwa/bwa index -a bwtsw " + refFa
@@ -123,3 +104,8 @@ os.system(command)
 command = "/opt/samtools-1.3/samtools index " + bamOut
 os.system(command)
 
+command = "gzip " + read1
+os.system(command)
+
+command = "gzip " + read2
+os.system(command)
