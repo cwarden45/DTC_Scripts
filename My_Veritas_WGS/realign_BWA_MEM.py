@@ -79,6 +79,13 @@ os.system(command)
 command = "rm " + unpaired
 os.system(command)
 
+command = "gzip " + read1
+os.system(command)
+command = "gzip " + read2
+os.system(command)
+read1 = read1 + ".gz"
+read2 = read2 + ".gz"
+
 #better to run in parallel with GUI
 #each thread only allocated 250 MB
 #fastqcThreads = "16"
@@ -103,10 +110,4 @@ command = "rm " + alnSam
 os.system(command)
 
 command = "/opt/samtools-1.3/samtools index " + bamOut
-os.system(command)
-
-command = "gzip " + read1
-os.system(command)
-
-command = "gzip " + read2
 os.system(command)
