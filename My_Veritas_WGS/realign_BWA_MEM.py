@@ -102,11 +102,17 @@ alnSam = re.sub(".bam",".sam",bamOut)
 command = "/opt/bwa/bwa mem -t " + bwaThreads + " " + refFa + " " + read1 + " " + read2 + " > " + alnSam
 os.system(command)
 
-print "\n\nSort and Index Alignment\n\n"
-command = "/opt/samtools-1.3/samtools sort -O BAM " + alnSam+ " -o " + bamOut
+tempBam = "temp.bam"
+command = "/opt/samtools-1.3/samtools view -b " + alnSam+ " > " + tempBam
 os.system(command)
 
 command = "rm " + alnSam
+os.system(command)
+
+command = "/opt/samtools-1.3/samtools sort " + tempBam+ " -o " + bamOut
+os.system(command)
+
+command = "rm " + tempBam
 os.system(command)
 
 command = "/opt/samtools-1.3/samtools index " + bamOut
