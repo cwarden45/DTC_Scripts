@@ -102,6 +102,7 @@ alnSam = re.sub(".bam",".sam",bamOut)
 command = "/opt/bwa/bwa mem -t " + bwaThreads + " " + refFa + " " + read1 + " " + read2 + " > " + alnSam
 os.system(command)
 
+print "\n\nSam-to-Bam (to save space),Sort, and Index Alignment\n\n"
 tempBam = "temp.bam"
 command = "/opt/samtools-1.3/samtools view -b " + alnSam+ " > " + tempBam
 os.system(command)
