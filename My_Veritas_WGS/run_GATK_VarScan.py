@@ -43,7 +43,7 @@ for arg in sys.argv:
 
 #GATK ref order/format code
 if (bam == "veritas_wgs.filter.rg.bam") and (ref == "hg19.fasta"):
-	#FYI, it's faster to download the GATK ucsc ref: ftp://ftp.broadinstitute.org/bundle/2.8/hg19/
+	#FYI, it's faster to download the GATK ucsc hg19 ref: https://software.broadinstitute.org/gatk/download/bundle
 	print "Creating Karyotype-Sored Reference for GATK"
 
 	#can't use all chromosomes - get error that chrUn_gl000249 has different length in header versus ref (and supplemental chromosome alignmetns aren't provided)
