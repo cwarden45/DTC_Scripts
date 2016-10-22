@@ -110,11 +110,16 @@ os.system(command)
 command = "rm " + alnSam
 os.system(command)
 
-command = "/opt/samtools-1.3/samtools sort " + tempBam+ " -o " + bamOut
+rgBam = re.sub(".bam$",".rg.bam",bamOut)
+command = "java -Xmx" + javaMem + " -jar /opt/picard-tools-2.5.0/picard.jar AddOrReplaceReadGroups I=" + tempBam + " O=" + rgBam + " SO=coordinate RGID=1 RGLB=WGA RGPL=Illumina RGPU=Veritas RGSM=realign"
 os.system(command)
 
 command = "rm " + tempBam
 os.system(command)
+			
+duplicateMetrics = "MarkDuplicates_BWA_MEM_metrics.txt"
+command = "java -jar -Xmx" + javaMem + " /opt/picard-tools-2.5.0/picard.jar MarkDuplicates INPUT=" + rgBam + " OUTPUT=" + bamOut + " METRICS_FILE=" + duplicateMetrics + " REMOVE_DUPLICATES=true CREATE_INDEX=True"
+os.system(command)
 
-command = "/opt/samtools-1.3/samtools index " + bamOut
+command = "rm " + rgBam
 os.system(command)
