@@ -117,9 +117,15 @@ os.system(command)
 command = "rm " + tempBam
 os.system(command)
 			
+tempDir = "tmp"
+os.system("mkdir " + tempDir)
+
 duplicateMetrics = "MarkDuplicates_BWA_MEM_metrics.txt"
-command = "java -jar -Xmx" + javaMem + " /opt/picard-tools-2.5.0/picard.jar MarkDuplicates INPUT=" + rgBam + " OUTPUT=" + bamOut + " METRICS_FILE=" + duplicateMetrics + " REMOVE_DUPLICATES=true CREATE_INDEX=True"
+command = "java -jar -Xmx" + javaMem + " -Djava.io.tmpdir="+tempDir+" /opt/picard-tools-2.5.0/picard.jar MarkDuplicates INPUT=" + rgBam + " OUTPUT=" + bamOut + " METRICS_FILE=" + duplicateMetrics + " REMOVE_DUPLICATES=true CREATE_INDEX=True TMP_DIR="+tempDir
 os.system(command)
 
 command = "rm " + rgBam
 os.system(command)
+
+tempDir = "tmp"
+os.system("rm -R " + tempDir)
