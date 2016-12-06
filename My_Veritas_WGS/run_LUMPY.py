@@ -28,7 +28,7 @@ command = "samtools view -h " + rgBam + " | /opt/lumpy-sv/scripts/extractSplitRe
 os.system(command)
 
 print "Sorting Split Reads"
-sortedSplit = "discordant_reads.bam"
+sortedSplit = "split_reads.bam"
 command = "samtools sort -o " + sortedSplit + "  " + unsortedSplit
 os.system(command)
 
