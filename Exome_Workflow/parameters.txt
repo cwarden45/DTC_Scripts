@@ -1,0 +1,11 @@
+Parameter	Value
+Result_Folder	../Result
+Alignment_Folder	../hg19_BWA_Alignment
+Reads_Folder	../Reads
+Cluster_Email	[required]
+genome	hg19
+MEM_Limit	8G
+BWA_Ref	/path/to/BWA/hg19.fa
+Threads	4
+target_regions	/path/to/target_regions.interval_list
+PE_Reads	yes
