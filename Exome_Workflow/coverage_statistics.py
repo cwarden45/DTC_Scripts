@@ -42,7 +42,6 @@ statHandle.write(text)
 fastqcFolder = readsFolder + "/QC"
 fileResults = os.listdir(readsFolder)
 
-jobCount = 0
 for file in fileResults:
 	result = re.search("(.*)_\w{6}_L\d{3}_R1_001.fastq.gz$",file)
 	
