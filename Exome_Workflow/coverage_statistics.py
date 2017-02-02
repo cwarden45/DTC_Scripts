@@ -134,7 +134,7 @@ for file in fileResults:
 		
 		inHandle.close()
 		
-		#get coverage stats from Picard HsMetrics (could also use for total reads)
+		#get coverage stats from Picard HsMetrics
 		hsMetrics = sampleSubfolder + "/HsMetrics_coverage_stats_no_dup.txt"
 		#hsMetrics2 = sampleSubfolder + "/HsMetrics_coverage_stats_per_target_no_dup.txt"
 
