@@ -125,7 +125,7 @@ for file in fileResults:
 									
 			if (pairedStatus == "yes"):
 				read1 = readsFolder + "/" + file
-				read2 = re.sub("_R1.fastq$","_R2.fastq",read1)
+				read2 = re.sub("_R1_001.fastq$","_R2_001.fastq",read1)
 			
 				alnSam = sampleSubfolder + "/aligned.sam"
 				text = "bwa mem -t "+ str(threads) + " " + bwaRef + " " + read1 + " " + read2  + " > " + alnSam + "\n"
