@@ -56,7 +56,7 @@ for file in fileResults:
 		
 		#get total reads from FastQC
 		fastqcPrefix = re.sub(".fastq.gz","",file)
-		fastQCtext = zipReport = fastqcFolder + "/" + fastqcPrefix + "_fastqc/fastqc_data.txt"
+		fastQCtext = fastqcFolder + "/" + fastqcPrefix + "_fastqc/fastqc_data.txt"
 		
 		inHandle = open(fastQCtext)
 		line = inHandle.readline()
