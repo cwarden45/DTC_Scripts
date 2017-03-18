@@ -32,7 +32,7 @@ for arg in sys.argv:
 		ref = refResult.group(1)
 		
 	if helpResult:
-		print "Usage: python create_interval_file.py --bam_folder=chr_bam --java_mem=4g --threads=1\n"
+		print "Usage: python create_interval_file.py --input=targets.bed --output=targets.interval_list --ref=ref.fa --java_mem=4g\n"
 		print "--input : .bed file with target regions\n"
 		print "--output : name of output .interal_list for target regions\n"
 		print "--ref : Reference FASTA (must end with .fa or .fasta)\n"
