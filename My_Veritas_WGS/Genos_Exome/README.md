@@ -24,15 +24,19 @@ You can try "Exons Plus [n] bases at each end" (where the default setting of n i
 
 *Step #9*) Click "get BED" to download your file
 
+**Create Karyotype-Ordered Reference**
+
+Please note that reference should be karyotpe-ordered (starting with chrM), to match provided alignment reference (or if using GATK functions on a new alignment from the .fasta files).
+
+If you've already run the Veritas WGS scripts, the karyotype reference does not contain supplemental chromosomes because the raw data was separate chromosome alignments for the primary chromosomes (and re-alignments scriptes use reads extracted from a combined .bam file, which won't contain unaligned reads).  So, a different karyotype-sorted reference would still need to be created.
+
 **Convert .bed File to .target_intervals for Picard**
 
 I use [Picard](https://broadinstitute.github.io/picard/) for file-conversion and coverage statisics (and some down-stream steps).  You can download all the programs separately, but I'm providing instruction assuming that you are using my [dnaseq-dependencies](https://hub.docker.com/r/cwarden45/dnaseq-dependencies/) Docker image.  Please see the main  [My_Veritas_WGS](https://github.com/cwarden45/DNAseq_templates/edit/master/My_Veritas_WGS) README with some additional information about setting up Docker.
 
 *Step #1*) If you have not done so already, you'll need to have downloaded a copy of the hg19 reference genome in FASTA format.  Please see the main  [My_Veritas_WGS](https://github.com/cwarden45/DNAseq_templates/edit/master/My_Veritas_WGS) README with some additional information about setting up Docker.
 
-*Step #2*) If you have downloaded the appropriate .bed file, you can create the interval list (which also creates the .dict file for the refernece, if it doesn't already exist) by running `python create_interval_file.py --input=targets.bed --ouput=targets.interval_list --ref=hg19.fa`.  If running the script within the downloaded folder, after the Veritas WGS scripts, the RefSeq gene interval list would be created with the command `python create_interval_file.py --input=RefSeq_genes_CDS.bed --output=RefSeq_genes_CDS.interval_list --ref=../hg19.karyotype.fasta`
-
-Please note that reference should be karyotpe-ordered (starting with chrM), to match provided alignment reference (or if using GATK functions on a new alignment from the .fasta files).
+*Step #2*) If you have downloaded the appropriate .bed file, you can create the interval list (which also creates the .dict file for the refernece, if it doesn't already exist) by running `python create_interval_file.py --input=targets.bed --ouput=targets.interval_list --ref=hg19.fa`.  If running the script within the downloaded folder, after the Veritas WGS scripts, the RefSeq gene interval list would be created with the command `python create_interval_file.py --input=RefSeq_genes_CDS.bed --output=RefSeq_genes_CDS.interval_list --ref=hg19.karyotype.fasta`
 
 You can type `python create_interval_file.py --help` for more information.
 
