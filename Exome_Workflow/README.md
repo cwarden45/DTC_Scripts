@@ -27,6 +27,8 @@ FastQC: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 
 Picard: https://broadinstitute.github.io/picard/
 
+Agilent SureSelect Targets (Registration Requried): https://earray.chem.agilent.com/suredesign/
+
 *Variant Calling*
 
 GATK: https://software.broadinstitute.org/gatk/
