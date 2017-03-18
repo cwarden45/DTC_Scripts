@@ -18,7 +18,9 @@ The Genos website says that they used an [Agilent SureSelect Commercial](https:/
 
 *Step #7*) Click "get output"
 
-*Step #8*) On the next screen, select the radio button for "Exons Plus [n] bases at each end" (where the default setting of n is 0)
+*Step #8*) On the next screen, select the radio button for the desired regions.
+
+You can try "Exons Plus [n] bases at each end" (where the default setting of n is 0), but based upon visualization of the GAPDH gene, it looks like only CDS regions were covered.  So, the best representative coverage statistic will likely come from regions defined with "Coding Exons" (which I test in a table below).
 
 *Step #9*) Click "get BED" to download your file
 
@@ -36,12 +38,15 @@ You can type `python coverage_statistics.py --help` for more information.
 
 | Annotation | Flanking | Avg Cov | Percent 10x | Percent 20x |
 |---|---|---|---|---|
-|RefSeq|0 bp||||
-|RefSeq|200 bp|---|---|---|
+|RefSeq CDS|0 bp||||
+|RefSeq Exon|0 bp||||
+|RefSeq Exon|200 bp|---|---|---|
 |UCSC|0 bp|---|---|---|
 |UCSC|200 bp|---|---|---|
 |GENCODE|0 bp|---|---|---|
 |GENCODE|200 bp|---|---|---|
+
+*CDS = Coding exons
 
 **Re-Align Reads and Re-Call Variants**
 
