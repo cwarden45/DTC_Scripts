@@ -35,7 +35,8 @@ You can type `python coverage_statistics.py --help` for more information.
 **Coverage Metrics for Provided .bam Alignment File**
 
 | Annotation | Flanking | Avg Cov | Percent 10x | Percent 20x |
-|RefSeq|0 bp|---|---|---|
+|---|---|---|---|---|
+|RefSeq|0 bp||||
 |RefSeq|200 bp|---|---|---|
 |UCSC|0 bp|---|---|---|
 |UCSC|200 bp|---|---|---|
