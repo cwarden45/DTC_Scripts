@@ -36,6 +36,8 @@ You can type `python create_interval_file.py --help` for more information.
 
 **Coverage Metrics for Provided .bam Alignment File**
 
+If you've created the appropriate .interval_list file, you can calculate coverage statistics by running `python calculate_coverage_statistics.py --alignment=sample.bam --intervals=targets.interval_list --ref=hg19.fa`.  If running the script within the downloaded folder, after the Veritas WGS scripts, the RefSeq gene interval list would be created with the command `python calculate_coverage_statistics.py --alignment=[sampleID].mapped.sorted.markdup.realn.recal --intervals=RefSeq_genes_CDS.interval_list --ref=../hg19.fasta`.  By default, the prefix for the output is the concatination of the name for the .bam file and the .interval_list file, but this can be manually specified using `--output_prefix=prefix`.
+
 | Annotation | Flanking | Avg Cov | Percent 10x | Percent 20x |
 |---|---|---|---|---|
 |RefSeq CDS|0 bp||||
