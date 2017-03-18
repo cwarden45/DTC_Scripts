@@ -24,11 +24,15 @@ You can try "Exons Plus [n] bases at each end" (where the default setting of n i
 
 *Step #9*) Click "get BED" to download your file
 
-**Create Karyotype-Ordered Reference**
+**Download Karyotype-Ordered Reference**
 
 Please note that reference should be karyotpe-ordered (starting with chrM), to match provided alignment reference (or if using GATK functions on a new alignment from the .fasta files).
 
 If you've already run the Veritas WGS scripts, the karyotype reference does not contain supplemental chromosomes because the raw data was separate chromosome alignments for the primary chromosomes (and re-alignments scriptes use reads extracted from a combined .bam file, which won't contain unaligned reads).  So, a different karyotype-sorted reference would still need to be created.
+
+Currently, you can download such a file from ftp://ftp.broadinstitute.org/bundle/hg19/
+
+If the link above doesn't work, you can [click here](https://software.broadinstitute.org/gatk/download/bundle), click the link under "FTP Server Access", and then click on the "hg19" subfolder. 
 
 **Convert .bed File to .target_intervals for Picard**
 
