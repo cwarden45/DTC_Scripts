@@ -32,7 +32,7 @@ I use [Picard](https://broadinstitute.github.io/picard/) for file-conversion and
 
 *Step #2*) If you have downloaded the appropriate .bed file, you can create the interval list (which also creates the .dict file for the refernece, if it doesn't already exist) by running `python create_interval_file.py --input=targets.bed --ouput=targets.interval_list --ref=hg19.fa`.  If running the script within the downloaded folder, after the Veritas WGS scripts, the RefSeq gene interval list would be created with the command `python create_interval_file.py --input=RefSeq_genes_CDS.bed --output=RefSeq_genes_CDS.interval_list --ref=../hg19.fasta`
 
-You can type `python coverage_statistics.py --help` for more information.
+You can type `python create_interval_file.py --help` for more information.
 
 **Coverage Metrics for Provided .bam Alignment File**
 
