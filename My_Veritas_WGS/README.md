@@ -28,7 +28,7 @@ docker run -it -v /c/Users/Charles/Documents/DNAseq_templates/My_Veritas_WGS:/mn
 
 4c) If the scripts and BAM folder (named *chr_bam*) are in the same directory, run `python combine_bams.py`.  Otherwise, you can specify the full file path using `python combine_bams.py --bam_folder=chr_bam`
 
-The Java memory limit is set to 4GB (4g).  If you have more memory (and have allocated extra memory/CPU to docker), you can change this setting via `python combine_bams.py --java_mem=4g`.  You can also decrease the memory requirements, but the script already takes a few hours to run (with default settings) on my PC with 8 GB RAM and 4 CPU (with 5 GB RAM and 4 CPU allocated to the Docker VM).  Run `python combine_bams.py --help` for more information.`
+The Java memory limit is set to 4GB (4g).  If you have more memory (and have allocated extra memory/CPU to docker), you can change this setting via `python combine_bams.py --java_mem=4g`.  You can also decrease the memory requirements, but the script already takes a few hours to run (with default settings) on my PC with 8 GB RAM and 4 CPU (with 5 GB RAM and 4 CPU allocated to the Docker VM).  Run `python combine_bams.py --help` for more information.
 
 If everything works correctly, you can delete the *veritas_wgs.bam* file after the script stops running.
 
