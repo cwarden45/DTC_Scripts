@@ -32,7 +32,7 @@ If you've already run the Veritas WGS scripts, the karyotype reference does not 
 
 Currently, you can download such a file from ftp://ftp.broadinstitute.org/bundle/hg19/
 
-If the link above doesn't work, you can [click here](https://software.broadinstitute.org/gatk/download/bundle), click the link under "FTP Server Access", and then click on the "hg19" subfolder. 
+If the link above doesn't work, you can [click here](https://software.broadinstitute.org/gatk/download/bundle), click the link under "FTP Server Access", and then click on the "hg19" subfolder.  You can decompress the reference using `gunzip` in the Docker image or [7-Zip](http://www.7-zip.org/download.html) on Windows.
 
 **Convert .bed File to .target_intervals for Picard**
 
