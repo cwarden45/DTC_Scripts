@@ -24,6 +24,10 @@ The Genos website says that they used an [Agilent SureSelect Commercial](https:/
 
 **Convert .bed File to .target_intervals for Picard**
 
+**Coverage Metrics for Provided .bam Alignment File**
+
+**Re-Align Reads and Re-Call Variants**
+
 ### Other Notes ###
 
-Unless specified differently above, I used scripts described in the main  [My_Veritas_WGS](https://github.com/cwarden45/DNAseq_templates/edit/master/My_Veritas_WGS) page.
+Unless specified differently above, I used scripts / strategies described in the main  [My_Veritas_WGS](https://github.com/cwarden45/DNAseq_templates/edit/master/My_Veritas_WGS) page.
