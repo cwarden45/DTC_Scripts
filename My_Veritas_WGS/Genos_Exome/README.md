@@ -24,9 +24,29 @@ The Genos website says that they used an [Agilent SureSelect Commercial](https:/
 
 **Convert .bed File to .target_intervals for Picard**
 
+I use [Picard](https://broadinstitute.github.io/picard/) for file-conversion and coverage statisics (and some down-stream steps).  You can download all the programs separately, but I'm providing instruction assuming that you are using my [dnaseq-dependencies](https://hub.docker.com/r/cwarden45/dnaseq-dependencies/) Docker image.  Please see the main  [My_Veritas_WGS](https://github.com/cwarden45/DNAseq_templates/edit/master/My_Veritas_WGS) README with some additional information about setting up Docker.
+
+*Step #1*) If you have not done so already, you'll need to have downloaded a copy of the hg19 reference genome in FASTA format.  Please see the main  [My_Veritas_WGS](https://github.com/cwarden45/DNAseq_templates/edit/master/My_Veritas_WGS) README with some additional information about setting up Docker.
+
+*Step #2*) If you have downloaded the appropriate .bed file, you can create the interval list (which also creates the .dict file for the refernece, if it doesn't already exist) by running `python coverage_statistics.py --input=targets.bed --ouput=targets.interval_list --ref=hg19.fa`.  If running the script within the downloaded folder, after the Veritas WGS scripts, the RefSeq gene interval list would be created with the command `python coverage_statistics.py --input=RefSeq_genes_0bp_flanking.bed --ouput=../RefSeq_genes_0bp_flanking.interval_list --ref=hg19.fasta`
+
+You can type `python coverage_statistics.py --help` for more information.
+
 **Coverage Metrics for Provided .bam Alignment File**
 
+| Annotation | Flanking | Avg Cov | Percent 10x | Percent 20x |
+|RefSeq|0 bp|---|---|---|
+|RefSeq|200 bp|---|---|---|
+|UCSC|0 bp|---|---|---|
+|UCSC|200 bp|---|---|---|
+|GENCODE|0 bp|---|---|---|
+|GENCODE|200 bp|---|---|---|
+
 **Re-Align Reads and Re-Call Variants**
+
+**Filter Off-Target Variants**
+
+Shouldn't really matter for non-synonymous mutations in known genes, but you'll probably want non-coding regulatory variants within target regions. 
 
 ### Other Notes ###
 
