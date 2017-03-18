@@ -26,4 +26,4 @@ The Genos website says that they used an [Agilent SureSelect Commercial](https:/
 
 ### Other Notes ###
 
-Unless specified differently above, I used scripts in [My_Veritas_WGS](https://github.com/cwarden45/DNAseq_templates/edit/master/My_Veritas_WGS) and/or [Exome_Workflow](https://github.com/cwarden45/DNAseq_templates/tree/master/Exome_Workflow) for analysis
+Unless specified differently above, I used scripts described in the main  [My_Veritas_WGS](https://github.com/cwarden45/DNAseq_templates/edit/master/My_Veritas_WGS) page.
