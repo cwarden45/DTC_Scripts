@@ -22,6 +22,7 @@ The Genos website says that they used an [Agilent SureSelect Commercial](https:/
 
 *Step #9*) Click "get BED" to download your file
 
+**Convert .bed File to .target_intervals for Picard**
 
 ### Other Notes ###
 
