@@ -30,7 +30,7 @@ I use [Picard](https://broadinstitute.github.io/picard/) for file-conversion and
 
 *Step #1*) If you have not done so already, you'll need to have downloaded a copy of the hg19 reference genome in FASTA format.  Please see the main  [My_Veritas_WGS](https://github.com/cwarden45/DNAseq_templates/edit/master/My_Veritas_WGS) README with some additional information about setting up Docker.
 
-*Step #2*) If you have downloaded the appropriate .bed file, you can create the interval list (which also creates the .dict file for the refernece, if it doesn't already exist) by running `python coverage_statistics.py --input=targets.bed --ouput=targets.interval_list --ref=hg19.fa`.  If running the script within the downloaded folder, after the Veritas WGS scripts, the RefSeq gene interval list would be created with the command `python coverage_statistics.py --input=RefSeq_genes_0bp_flanking.bed --ouput=RefSeq_genes_0bp_flanking.interval_list --ref=../hg19.fasta`
+*Step #2*) If you have downloaded the appropriate .bed file, you can create the interval list (which also creates the .dict file for the refernece, if it doesn't already exist) by running `python coverage_statistics.py --input=targets.bed --ouput=targets.interval_list --ref=hg19.fa`.  If running the script within the downloaded folder, after the Veritas WGS scripts, the RefSeq gene interval list would be created with the command `python coverage_statistics.py --input=RefSeq_genes_CDS.bed --ouput=RefSeq_genes_CDS.interval_list --ref=../hg19.fasta`
 
 You can type `python coverage_statistics.py --help` for more information.
 
@@ -41,10 +41,12 @@ You can type `python coverage_statistics.py --help` for more information.
 |RefSeq CDS|0 bp||||
 |RefSeq Exon|0 bp||||
 |RefSeq Exon|200 bp|---|---|---|
-|UCSC|0 bp|---|---|---|
-|UCSC|200 bp|---|---|---|
-|GENCODE|0 bp|---|---|---|
-|GENCODE|200 bp|---|---|---|
+|UCSC CDS|0 bp|---|---|---|
+|UCSC Exon|0 bp|---|---|---|
+|UCSC Exon|200 bp|---|---|---|
+|GENCODE CDS|0 bp|---|---|---|
+|GENCODE Exon|0 bp|---|---|---|
+|GENCODE Exon|200 bp|---|---|---|
 
 *CDS = Coding exons
 
