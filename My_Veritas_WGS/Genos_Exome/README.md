@@ -54,8 +54,8 @@ If you've created the appropriate .interval_list file, you can calculate coverag
 |RefSeq Exon|0 bp|59.1x|43.0%|40.7%|
 |UCSC CDS|0 bp|125.5x|87.5%|84.1%|
 |UCSC Exon|0 bp|56.7x|41.8%|39.4%|
-|GENCODE CDS|0 bp|---|---|---|
-|GENCODE Exon|0 bp|---|---|---|
+|GENCODE CDS|0 bp|126.2x|87.9%|84.5%|
+|GENCODE Exon|0 bp|51.6x|38.0%|35.8%|
 
 *CDS = Coding exons
 
