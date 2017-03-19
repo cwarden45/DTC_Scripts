@@ -50,7 +50,7 @@ If you've created the appropriate .interval_list file, you can calculate coverag
 
 | Annotation | Flanking | Avg Cov | Percent 10x | Percent 20x |
 |---|---|---|---|---|
-|RefSeq CDS|0 bp||88.1%|84.7%|
+|RefSeq CDS|0 bp|126.8x|88.1%|84.7%|
 |RefSeq Exon|0 bp||||
 |RefSeq Exon|200 bp|---|---|---|
 |UCSC CDS|0 bp|---|---|---|
@@ -61,8 +61,11 @@ If you've created the appropriate .interval_list file, you can calculate coverag
 |GENCODE Exon|200 bp|---|---|---|
 
 *CDS = Coding exons
+
 *Average coverage (Avg Cov) = MEAN_TARGET_COVERAGE
+
 *Percent 10x = PCT_TARGET_BASES_10X
+
 *Percent 20x = PCT_TARGET_BASES_20X
 
 **Re-Align Reads and Re-Call Variants**
