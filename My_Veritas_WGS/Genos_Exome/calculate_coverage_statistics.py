@@ -37,7 +37,7 @@ for arg in sys.argv:
 		ref = refResult.group(1)
 		
 	if helpResult:
-		print "Usage: python create_interval_file.py --alignment=alignment.bam --intervals=targets.interval_list --ref=ref.fa--java_mem=4g\n"
+		print "Usage: python create_interval_file.py --alignment=alignment.bam --intervals=targets.interval_list --ref=ref.fa --output_prefix=[alignment]_[targets] --java_mem=4g\n"
 		print "--alignment : .bam alignment file(should be sorted and indexed)\n"
 		print "--intervals : .interal_list file for target regions\n"
 		print "--ref : Reference FASTA (must end with .fa or .fasta)\n"
