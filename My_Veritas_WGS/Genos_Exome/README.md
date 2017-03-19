@@ -69,7 +69,7 @@ If you've created the appropriate .interval_list file, you can calculate coverag
 
 **Filter Off-Target Variants**
 
-Shouldn't really matter for non-synonymous mutations in known genes, but you'll probably want non-coding regulatory variants within target regions. 
+In general, shouldn't really matter for non-synonymous mutations in known genes, but you might want restrict non-coding regulatory variants within target regions.  In this case, enrichment is for CDS regions, but you can still test the effect of filtering different mutation calling strategies and/or checking how the regions for your annotation program of choice compares to covered regions (here, gene CDS boundaries from the UCSC genome browser).
 
 ### Other Notes ###
 
