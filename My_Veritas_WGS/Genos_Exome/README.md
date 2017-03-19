@@ -65,13 +65,17 @@ If you've created the appropriate .interval_list file, you can calculate coverag
 
 *Percent 20x = PCT_TARGET_BASES_20X
 
-Just for fun, I ran calculated the target metrics for the RefSeq CDS regions on an BWA-MEM alignment of reads that I extracted from my Veritas WGS sample.  For that whole-genome sequencing file, the average coverage was, the percent 10x coverage was, and the percent 20x coverage was.
+Just for fun, I ran calculated the target metrics for the RefSeq CDS regions on an BWA-MEM alignment of reads that I extracted from my Veritas WGS sample.  For that 20x whole-genome sequencing file, the average coverage was 21.4x, the percent 10x coverage was 91.4%, and the percent 20x coverage was 69.1%.
 
 **Re-Align Reads and Re-Call Variants**
 
 **Filter Off-Target Variants**
 
 In general, shouldn't really matter for non-synonymous mutations in known genes, but you might want restrict non-coding regulatory variants within target regions.  In this case, enrichment is for CDS regions, but you can still test the effect of filtering different mutation calling strategies and/or checking how the regions for your annotation program of choice compares to covered regions (here, gene CDS boundaries from the UCSC genome browser).
+
+**Compare Genos Exome Variants to Veritas WGS Variants**
+
+The set of variants provdied by Vertias comes from freebayes.  In addition to having a different workflow, the formatting of the variant calls in the VCF file is different (freebayes will usually included adjacent bases).  So, for the Vertias WGS variants, I am 
 
 ### Other Notes ###
 
