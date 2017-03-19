@@ -51,7 +51,7 @@ If you've created the appropriate .interval_list file, you can calculate coverag
 | Annotation | Flanking | Avg Cov | Percent 10x | Percent 20x |
 |---|---|---|---|---|
 |RefSeq CDS|0 bp|126.8x|88.1%|84.7%|
-|RefSeq Exon|0 bp||||
+|RefSeq Exon|0 bp|59.1x|43.0%|40.7%|
 |RefSeq Exon|200 bp|---|---|---|
 |UCSC CDS|0 bp|---|---|---|
 |UCSC Exon|0 bp|---|---|---|
