@@ -65,6 +65,8 @@ If you've created the appropriate .interval_list file, you can calculate coverag
 
 *Percent 20x = PCT_TARGET_BASES_20X
 
+Just for fun, I ran calculated the target metrics for the RefSeq CDS regions on an BWA-MEM alignment of reads that I extracted from my Veritas WGS sample.  For that whole-genome sequencing file, the average coverage was, the percent 10x coverage was, and the percent 20x coverage was.
+
 **Re-Align Reads and Re-Call Variants**
 
 **Filter Off-Target Variants**
