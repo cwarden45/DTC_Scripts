@@ -69,6 +69,15 @@ Just for fun, I ran calculated the target metrics for the RefSeq CDS regions on 
 
 **Re-Align Reads and Re-Call Variants**
 
+*Step #1*) Align / Sort / Filter Reads (with summary statistics)
+
+Your reads should be in the format *[sampleID]_read1.fastq.gz* for the forward read and *[sampleID]_read2.fastq.gz* for the reverse read.
+
+If you've done everything in order, you should have all the necessary imput files.  You can run this set of commands with `python exome_alignment.py --read_prefix=[sampleID] --intervals==RefSeq_genes_CDS.interval_list --ref=ucsc.hg19.fasta`.  By default, the prefix for output files is `BWA-MEM_realign`, but this can be manually specified using `--output_prefix=prefix`.
+
+*Step #2*) Call Variants.
+
+
 **Filter Off-Target Variants**
 
 In general, shouldn't really matter for non-synonymous mutations in known genes, but you might want restrict non-coding regulatory variants within target regions.  In this case, enrichment is for CDS regions, but you can still test the effect of filtering different mutation calling strategies and/or checking how the regions for your annotation program of choice compares to covered regions (here, gene CDS boundaries from the UCSC genome browser).
