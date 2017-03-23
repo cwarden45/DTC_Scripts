@@ -161,16 +161,10 @@ if varscanFlag == "1":
 	os.system(command)
 
 	command = "rm " +nodupPileup
-	#os.system(command)
-	
-	#Indel-realignment
-	
-	#base-score quality re-calibration
-	
-	#re-run VarScan
+	os.system(command)
 	
 if gatkFlag == "1":
 	print "Call SNPs and Indels using GATK HaplotypeCaller"
-	nodupGATKvcf = re.sub(".bam$",".GATK.HC.vaf",bam)
+	nodupGATKvcf = re.sub(".bam$",".GATK.HC.vcf",bam)
 	command = "java -jar -Xmx" +javaMem+ " /opt/GenomeAnalysisTK.jar -T HaplotypeCaller -R "+ ref +" -I "+bam+" -o " + nodupGATKvcf
 	os.system(command)
