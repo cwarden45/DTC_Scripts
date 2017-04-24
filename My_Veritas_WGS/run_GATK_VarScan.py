@@ -168,3 +168,47 @@ if gatkFlag == "1":
 	nodupGATKvcf = re.sub(".bam$",".GATK.HC.vcf",bam)
 	command = "java -jar -Xmx" +javaMem+ " /opt/GenomeAnalysisTK.jar -T HaplotypeCaller -R "+ ref +" -I "+bam+" -o " + nodupGATKvcf
 	os.system(command)
+	
+if False:
+	#BQSR alone
+	#can either use previous set of variants for this sample or set of common variants (as intended)
+	dbSNPvcf = nodupGATKvcf
+	#dbSNPvcf = "dbsnp_138.hg19.vcf"
+	
+	print "Re-calibrate quality scores, without re-alignment"
+	recal_table = re.sub(".bam$",".recal_data.table",bam)
+	#recal_table = re.sub(".bam$","_dbSNP.recal_data.table",bam)
+	command = "java -jar -Xmx" +javaMem+ " /opt/GenomeAnalysisTK.jar -T BaseRecalibrator -R "+ ref +" -I "+bam+" -o " + recal_table + " -knownSites " + dbSNPvcf
+	os.system(command)
+	
+	recalBam = re.sub(".bam$",".recal.bam",bam)
+	#recalBam = re.sub(".bam$","_dbSNP.recal.bam",bam)
+	command = "java -jar -Xmx" +javaMem+ " /opt/GenomeAnalysisTK.jar -T PrintReads -R "+ ref +" -I "+bam+" -o " + recalBam + " -BQSR " + recal_table
+	os.system(command)
+	
+	#Indel-realignment
+	print "Identifying Regions for Realignment"
+	realignIntervals = re.sub(".bam$",".indel_realignment_regions.intervals",bam)
+	command = "java -jar -Xmx" +javaMem+ " /opt/GenomeAnalysisTK.jar -T RealignerTargetCreator -R "+ ref +" -I "+bam+" -o " + realignIntervals
+	os.system(command)
+
+	print "Indel Re-Alignment"
+	realignBam = re.sub(".bam$",".realign.bam",bam)
+	command = "java -jar -Xmx" +javaMem+ " /opt/GenomeAnalysisTK.jar -T IndelRealigner -R "+ ref +" -I "+bam+" -targetIntervals " + realignIntervals + " -o " + realignBam
+	os.system(command)
+	
+	#base-score quality re-calibration
+	print "Recalibrate Quality Scores for Re-Aligned Bam"
+	
+	recal_table = re.sub(".bam$",".recal_data.table",realignBam)
+	#recal_table = re.sub(".bam$","_dbSNP.recal_data.table",realignBam)
+	command = "java -jar -Xmx" +javaMem+ " /opt/GenomeAnalysisTK.jar -T BaseRecalibrator -R "+ ref +" -I "+realignBam+" -o " + recal_table + " -knownSites " + dbSNPvcf
+	os.system(command)
+	
+	recalBam = re.sub(".bam$",".recal.bam",realignBam)
+	#recalBam = re.sub(".bam$","_dbSNP.recal.bam",realignBam)
+	command = "java -jar -Xmx" +javaMem+ " /opt/GenomeAnalysisTK.jar -T PrintReads -R "+ ref +" -I "+realignBam+" -o " + recalBam + " -BQSR " + recal_table
+	os.system(command)
+	
+	
+	print "You now have extra .bam files for variant calling :)"
