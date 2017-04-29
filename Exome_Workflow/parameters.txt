@@ -9,3 +9,4 @@ BWA_Ref	/path/to/BWA/hg19.fa
 Threads	4
 target_regions	/path/to/target_regions.interval_list
 PE_Reads	yes
+Max_Alt_Alleles	6
