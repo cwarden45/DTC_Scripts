@@ -55,7 +55,7 @@ ANNOVAR: http://annovar.openbioinformatics.org/en/latest/
 |target_bed|Path to target regions in .bed format (most likely, used to create .interval_list file)|
 |target_regions|Path to target regions file|
 |PE_Reads|Are you using paired-end reads?  Can be 'yes' (typical for Illumina data) or 'no'|
-|variant_caller|Variant caller used to call variants (can be *GATK* or *VarScan*)|
+|variant_caller|Variant caller used to call variants (can be *GATK-HC* or *VarScan*).  *GATK-HC* stands for GATK HaplotypeCaller|
 |GATK_filter|Apply GATK hard-filters (within GATK_variant_calls.py) prior to filtering for variants within target regions?|
 |target_filter_summary|Summary of variant (SNP/ small insertion / small deletion) per-sample before and after filtering for target regions|
 |ANNOVAR_Path|Path to ANNOVAR script folder|
