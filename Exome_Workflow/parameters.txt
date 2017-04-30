@@ -14,3 +14,4 @@ Max_Alt_Alleles	6
 ANNOVAR_Path	/path/to/ANNOVAR/
 variant_caller	GATK
 GATK_filter yes
+target_filter_summary location-filtered_variant_counts.txt
