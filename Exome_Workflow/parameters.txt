@@ -7,6 +7,8 @@ genome	hg19
 MEM_Limit	8G
 BWA_Ref	/path/to/BWA/hg19.fa
 Threads	4
+target_bed  /path/to/target_regions.bed
 target_regions	/path/to/target_regions.interval_list
 PE_Reads	yes
 Max_Alt_Alleles	6
+ANNOVAR_Path	/path/to/ANNOVAR/
