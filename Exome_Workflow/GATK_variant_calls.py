@@ -70,6 +70,6 @@ for file in fileResults:
 			
 			#QD = quality score / depth
 			#so, QD > 2.0 is not a very strict filter
-			bpFilteredVCF = outputSubfolder + "/" + sample + ".GATK.HC.filtered.vcf"																			
+			bpFilteredVCF = outputSubfolder + "/" + sample + ".GATK.HC.flagged.vcf"																			
 			command = "java -Xmx" + java_mem + " -jar /opt/GenomeAnalysisTK-3.6.jar -T VariantFiltration -R " + fa_ref + " -V " + fullVCF + " -o " + bpFilteredVCF + " -window 35 -cluster 3 -filterName QC -filter \"QD < 2.0\"  -filterName FS -filter \"FS > 30.0\"" 
 			os.system(command)
