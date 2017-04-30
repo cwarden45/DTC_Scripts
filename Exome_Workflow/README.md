@@ -52,5 +52,7 @@ ANNOVAR: http://annovar.openbioinformatics.org/en/latest/
 |MEM_Limit|Memory allocated to java or job on cluster|
 |BWA_Ref| Path to BWA ref|
 |Threads|Number of Threads for BWA-MEM Alignment|
+|target_bed|Path to target regions in .bed format (most likely, used to create .interval_list file)|
 |target_regions|Path to target regions file|
 |PE_Reads|Are you using paired-end reads?  Can be 'yes' (typical for Illumina data) or 'no'|
+|ANNOVAR_Path|Path to ANNOVAR script folder|
