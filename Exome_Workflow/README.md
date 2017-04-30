@@ -8,9 +8,11 @@
 
 4) GATK_variant_calls.py or VarScan_variant_calls.py
 
-5) annotate_variants.py
+5) filter_variants.py
 
-6) variant_summary.R
+6) annotate_variants.py
+
+7) variant_summary.R
 
 
 ### Dependencies (some optional) ###
