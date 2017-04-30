@@ -57,5 +57,5 @@ ANNOVAR: http://annovar.openbioinformatics.org/en/latest/
 |PE_Reads|Are you using paired-end reads?  Can be 'yes' (typical for Illumina data) or 'no'|
 |variant_caller|Variant caller used to call variants (can be *GATK* or *VarScan*)|
 |GATK_filter|Apply GATK hard-filters (within GATK_variant_calls.py) prior to filtering for variants within target regions?|
-|target_filter_summary|Summary of variant (SNP/indel) per-sample before and after filtering for target regions|
+|target_filter_summary|Summary of variant (SNP/ small insertion / small deletion) per-sample before and after filtering for target regions|
 |ANNOVAR_Path|Path to ANNOVAR script folder|
