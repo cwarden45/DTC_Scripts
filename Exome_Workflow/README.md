@@ -43,11 +43,9 @@ ANNOVAR: http://annovar.openbioinformatics.org/en/latest/
 
 UCSC Table Browser (used to download human GWAS Catalog annotations): https://genome.ucsc.edu/cgi-bin/hgTables
 
-ORegAnno (for human genome; includes miRNA targets, and you might get some other regulatory mutations with variable UTRs): http://www.oreganno.org/dump/
-
- -link to temporary website annotation
+ORegAnno (for human genome; includes miRNA targets, and you might get some other regulatory mutations with variable UTRs): http://www.oreganno.org/dump/ -link to temporary website annotation
  
- -use [RNA-Seq mutation calling](https://github.com/cwarden45/RNAseq_templates/tree/master/Mutation_Workflow) script 'ORegAnno_tsv_to_bed.py'
+-use [RNA-Seq mutation calling](https://github.com/cwarden45/RNAseq_templates/tree/master/Mutation_Workflow) script 'ORegAnno_tsv_to_bed.py'
 
 ### Parameter Values ###
 | Parameter | Value|
