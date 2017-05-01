@@ -43,6 +43,8 @@ ANNOVAR: http://annovar.openbioinformatics.org/en/latest/
 
 UCSC Table Browser (used to download human GWAS Catalog annotations): https://genome.ucsc.edu/cgi-bin/hgTables
 
+- GWAS Catalog is under "Phenotype and Literature"
+
 ORegAnno: http://www.oreganno.org/dump/ -link to temporary website annotation
  
 - database of regulatory sequences (transcription factors, miRNA, etc.)
