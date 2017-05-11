@@ -14,3 +14,6 @@ STEP2=full_command.sh
 
 /opt/bwa.kit/run-bwamem -o $OUT_PREFIX -R '@RG\tID:genos_exome\tSM:unknown' -t $THREADS -a -d -k -H $REF $READ1 $READ2 > $STEP2
 sh $STEP2
+
+#information about interpreting the top HLA file is available here: https://www.biostars.org/p/222030/
+#there is also some additional general information about BWA HLA typing here: https://github.com/lh3/bwa/blob/master/README-alt.md
