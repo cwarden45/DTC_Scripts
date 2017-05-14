@@ -21,9 +21,10 @@ probeG4G = paste(tableG4G[,2],tableG4G[,3],sep=":")
 vennObj = list(probe23=probe23, Genes4Good=probeG4G)
 names(vennObj)=c("23andMe","Genes4Good")
 
-venn.diagram(vennObj, filename="probe_position_overlap.png", 
+venn.diagram(vennObj, filename="probe_position_overlap.png",imagetype="png",
+			height=3, width=3, units="in",
 			alpha=c(0.5, 0.5), fill=c("green","blue"),
-			cat.cex=c(0.6, 0.6), scaled=T)
+			cat.cex=c(0.35, 0.35), cex=0.5, scaled=T)
 
 #uses implementation of 'VennDiagram' function in limma.
 #mostly a reminder for an alternative code (to either VennDiagram or Vennerable), but without proporitional circles
