@@ -2,7 +2,7 @@
 
 My 23andMe sample is from several years ago, on their V3 chip.  My Genes for Good sample was collected a couple years ago.  So, I don't know exactly how the latest results would compare, but I've provided a Venn Diagram below showing the overlap of probes (based upon genomic position, which is similar but slightly better than using the probe name):
 
-![Screenshot](https://github.com/cwarden45/DNAseq_templates/blob/master/My_Veritas_WGS/Genes_for_Good/probe_position_overlap.png "SNP Chip Position Overlap")
+![Alt text](probe_position_overlap.png)
 
 Raw data is provided in a few different formats, including .vcf format and 23andMe raw data format.  So, most of the scripts for analyzing 23andMe data can also be applied to Genes for Good data.
 
