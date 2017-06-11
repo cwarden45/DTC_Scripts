@@ -21,9 +21,9 @@ So, I am going to mostly use this page for notes on HLA typing with my different
     <tr>
       <td align="center">A</td>
       <td align="center">A*01,A*02</td>
-      <td align="right">A*01,A*02</td>
-      <td align="right">A*01,A*02</td>
-      <td align="right">A*01,A*02 (BWA-MEM)<br/>A*01,A*68 (BWA)</td>
+      <td align="center">A*01,A*02</td>
+      <td align="center">A*01,A*02</td>
+      <td align="center">A*01,A*02 (BWA-MEM)<br/>A*01,A*68 (BWA)</td>
       </tr>
   </tbody>
 </table>
