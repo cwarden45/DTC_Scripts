@@ -8,9 +8,6 @@ Raw data is provided in a few different formats, including .vcf format and 23and
 
 So, I am going to mostly use this page for notes on HLA typing with my different genomics technologies.  Namely, there was a [recent study](https://www.ncbi.nlm.nih.gov/pubmed/28490672) using imputed HLA types from SNP chip data, so I would like to test how my own imputed results compare to those from Illumina DNA-Seq (mostly from Genos Exome .fastq files, since the Veritas WGS raw data was a set of bams with aligned reads for each canonical chromosome, with a noticable drop in coverage in the highly variable HLA region on chr6).
 
-| Marker | SNP2HLA | HIBAG | bwakit | HLAminer |
-|---|---|---|---|---|
-|A	| ||||
 
 <table>
   <tbody>
@@ -26,7 +23,7 @@ So, I am going to mostly use this page for notes on HLA typing with my different
       <td align="center">A*01,A*02</td>
       <td align="right">A*01,A*02</td>
       <td align="right">A*01,A*02</td>
-      <td align="right">A*01,A*02 (BWA-MEM), A*01,A*68 (BWA)</td>
+      <td align="right">A*01,A*02 (BWA-MEM)<br/>A*01,A*68 (BWA)</td>
       </tr>
   </tbody>
 </table>
