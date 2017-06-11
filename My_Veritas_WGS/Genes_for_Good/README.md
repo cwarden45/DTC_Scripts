@@ -20,48 +20,49 @@ So, I am going to mostly use this page for notes on HLA typing with my different
     </tr>
     <tr>
       <td align="center">HLA-A</td>
-      <td align="left">A*01,A*02<br/>(23andMe)<br/><br/>A*01,A*02<br/>(Genes for Good)</td>
-      <td align="left">A*01,A*02<br/>(23andMe)</td>
-      <td align="left">A*01,A*02<br/>(Genos Exome BWA-MEM)</td>
-      <td align="left">A*01,A*02<br/>(Genos Exome BWA-MEM)<br/><br/>A*01,A*68<br/>(Genos Exome BWA)</td>
+      <td align="left">A*01, A*02<br/>(23andMe)<br/><br/>A*01, A*02<br/>(Genes for Good)</td>
+      <td align="left">A*01, A*02<br/>(23andMe)</td>
+      <td align="left">A*01, A*02<br/>(Genos Exome BWA-MEM)</td>
+      <td align="left">A*01, A*02<br/>(Genos Exome BWA-MEM)<br/><br/>A*01, A*68<br/>(Genos Exome BWA)</td>
      </tr>
     <tr>
       <td align="center">HLA-B</td>
-      <td align="left">B*08,B*40<br/>(23andMe)<br/><br/>B*08,B*40<br/>(Genes for Good)</td>
-      <td align="left">B*08,B*40<br/>(23andMe)</td>
-      <td align="left">B*08,B*40<br/>(Genos Exome BWA-MEM)</td>
-      <td align="left">B*08,B*40<br/>(Genos Exome BWA-MEM)<br/><br/>B*08,B*41<br/>(Genos Exome BWA)</td>
+      <td align="left">B*08, B*40<br/>(23andMe)<br/><br/>B*08, B*40<br/>(Genes for Good)</td>
+      <td align="left">B*08, B*40<br/>(23andMe)</td>
+      <td align="left">B*08, B*40<br/>(Genos Exome BWA-MEM)</td>
+      <td align="left">B*08, B*40<br/>(Genos Exome BWA-MEM)<br/><br/>B*08, B*41<br/>(Genos Exome BWA)</td>
      </tr>
     <tr>
       <td align="center">HLA-C</td>
-      <td align="left">C*03,C*07<br/>(23andMe)<br/><br/>C*03,C*07<br/>(Genes for Good)</td>
-      <td align="left">C*03,C*07<br/>(23andMe)</td>
-      <td align="left">C*03,C*07<br/>(Genos Exome BWA-MEM)</td>
-      <td align="left">C*03,C*07<br/>(Genos Exome BWA-MEM)<br/><br/>C*03,C*07<br/>(Genos Exome BWA)</td>
+      <td align="left">C*03, C*07<br/>(23andMe)<br/><br/>C*03, C*07<br/>(Genes for Good)</td>
+      <td align="left">C*03, C*07<br/>(23andMe)</td>
+      <td align="left">C*03, C*07<br/>(Genos Exome BWA-MEM)</td>
+      <td align="left">C*03, C*07<br/>(Genos Exome BWA-MEM)<br/><br/>C*03, C*07<br/>(Genos Exome BWA)</td>
      </tr>
     <tr>
       <td align="center">HLA-DRB1</td>
-      <td align="left">DRB1*01,DRB1*03<br/>(23andMe)<br/><br/>DRB1*01,DRB1*03<br/>(Genes for Good)</td>
-      <td align="left">DRB1*03,DRB1*11<br/>(23andMe)</td>
-      <td align="left">DRB1*04,DRB1*04<br/>(Genos Exome BWA-MEM)</td>
-      <td align="left">DRB1*01,DRB1*15<br/>(Genos Exome BWA-MEM)<br/><br/>DRB1*01,DRB1*15<br/>(Genos Exome BWA)</td>
+      <td align="left">DRB1*01, DRB1*03<br/>(23andMe)<br/><br/>DRB1*01, DRB1*03<br/>(Genes for Good)</td>
+      <td align="left">DRB1*03, DRB1*11<br/>(23andMe)</td>
+      <td align="left">DRB1*04, DRB1*04<br/>(Genos Exome BWA-MEM)</td>
+      <td align="left">DRB1*01, DRB1*15<br/>(Genos Exome BWA-MEM)<br/><br/>DRB1*01, DRB1*15<br/>(Genos Exome BWA)</td>
      </tr>
      <tr>
       <td align="center">HLA-DQA1</td>
-      <td align="left">DQA1*05,DQA1*05<br/>(23andMe)<br/><br/>DQA1*01,DQA1*05<br/>(Genes for Good)</td>
-      <td align="left">DQA1*05,DQA1*05<br/>(23andMe)</td>
-      <td align="left">DQA1*03,DQA1*03<br/>(Genos Exome BWA-MEM)</td>
-      <td align="left">DQA1*02,DQA1*03<br/>(Genos Exome BWA-MEM)<br/><br/>DQA1*02,DQA1*03<br/>(Genos Exome BWA)</td>
+      <td align="left">DQA1*05, DQA1*05<br/>(23andMe)<br/><br/>DQA1*01, DQA1*05<br/>(Genes for Good)</td>
+      <td align="left">DQA1*05, DQA1*05<br/>(23andMe)</td>
+      <td align="left">DQA1*03, DQA1*03<br/>(Genos Exome BWA-MEM)</td>
+      <td align="left">DQA1*02, DQA1*03<br/>(Genos Exome BWA-MEM)<br/><br/>DQA1*02, DQA1*03<br/>(Genos Exome BWA)</td>
      </tr>
      <tr>
       <td align="center">HLA-DQB1</td>
-      <td align="left">DQB1*02,DQB1*05<br/>(23andMe)<br/><br/>DQB1*02,DQB1*02<br/>(Genes for Good)</td>
-      <td align="left">DQB1*02,DQB1*03<br/>(23andMe)</td>
-      <td align="left">DQB1*03,DQB1*03<br/>(Genos Exome BWA-MEM)</td>
-      <td align="left">DQB1*02,DQB1*03<br/>(Genos Exome BWA-MEM)<br/><br/>DQB1*02,DQB1*03<br/>(Genos Exome BWA)</td>
+      <td align="left">DQB1*02, DQB1*05<br/>(23andMe)<br/><br/>DQB1*02, DQB1*02<br/>(Genes for Good)</td>
+      <td align="left">DQB1*02, DQB1*03<br/>(23andMe)</td>
+      <td align="left">DQB1*03, DQB1*03<br/>(Genos Exome BWA-MEM)</td>
+      <td align="left">DQB1*02, DQB1*03<br/>(Genos Exome BWA-MEM)<br/><br/>DQB1*02, DQB1*03<br/>(Genos Exome BWA)</td>
      </tr>
 </tbody>
 </table>
 
+So, for the Genos Exome Alignments, HLAminer assignments were more similar to bwa kit if using BWA-MEM instead of BWA.  For HLA-A, HLA-B, and HLA-C, the imputed HLA types from the SNP chips matches the BWA-MEM HLA assignments (for either HLAtype or bwakit).
 
 For SNP chips, the [dbSNP](https://www.ncbi.nlm.nih.gov/projects/SNP/) rsIDs (or, more precisely, the snpID) rather than chromosomal position is used for HLA2SNP and HIBAG.  In the case of HIBAG, there was an error message for my Genes for Good file (which I created from the 23andMe-formated genotype file) due to duplicate snpIDs.
