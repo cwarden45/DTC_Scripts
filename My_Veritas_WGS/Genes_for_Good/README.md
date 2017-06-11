@@ -20,7 +20,7 @@ So, I am going to mostly use this page for notes on HLA typing with my different
     </tr>
     <tr>
       <td align="center">A</td>
-      <td align="left">A*01,A*02<br/>(23andMe)</td>
+      <td align="left">A*01,A*02<br/>(23andMe)<br/><br/><font color="#CCD1D1">A*01,A*02<br/>(Genes for Good)</font></td>
       <td align="left">A*01,A*02<br/>(23andMe)</td>
       <td align="left">A*01,A*02<br/>(Genos Exome BWA-MEM)</td>
       <td align="left">A*01,A*02<br/>(Genos Exome BWA-MEM)<br/><br/>A*01,A*68<br/>(Genos Exome BWA)</td>
