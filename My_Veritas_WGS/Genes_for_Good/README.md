@@ -63,6 +63,8 @@ So, I am going to mostly use this page for notes on HLA typing with my different
 </tbody>
 </table>
 
-So, for the Genos Exome Alignments, HLAminer assignments were more similar to bwakit if using BWA-MEM instead of BWA.  For HLA-A, HLA-B, and HLA-C, the imputed HLA types from the SNP chips matches the BWA-MEM HLA assignments (for either HLAtype or bwakit).
+So, for the Genos Exome Alignments, HLAminer assignments were more similar to bwakit if using BWA-MEM instead of BWA for HLA-A and HLA-B (and bwakit / HLAminer made the same assignments for HLA-C, HLA-DQA1, and HLA-DQB1), but there were discrepancies for the top DRB1 assignments (between the Exome HLA calls).
 
-For SNP chips, the [dbSNP](https://www.ncbi.nlm.nih.gov/projects/SNP/) rsIDs (or, more precisely, the snpID) rather than chromosomal position is used for HLA2SNP and HIBAG.  In the case of HIBAG, there was an error message for my Genes for Good file (which I created from the 23andMe-formated genotype file) due to duplicate snpIDs.
+For HLA-A, HLA-B, and HLA-C, the imputed HLA types from the SNP chips match the BWA-MEM HLA assignments (for either HLAtype or bwakit).
+
+For SNP chips, the [dbSNP](https://www.ncbi.nlm.nih.gov/projects/SNP/) rsIDs (or, more precisely, the snpID in the genotype file) rather than chromosomal position is used for HLA2SNP and HIBAG.  In the case of HIBAG, there was an error message for my Genes for Good file (which I created from the 23andMe-formated genotype file) due to duplicate snpIDs.
