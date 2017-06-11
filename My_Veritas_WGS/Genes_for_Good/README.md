@@ -20,10 +20,10 @@ So, I am going to mostly use this page for notes on HLA typing with my different
     </tr>
     <tr>
       <td align="center">A</td>
-      <td align="center">A*01,A*02</td>
-      <td align="center">A*01,A*02</td>
-      <td align="center">A*01,A*02</td>
-      <td align="center">A*01,A*02 (BWA-MEM)<br/>A*01,A*68 (BWA)</td>
+      <td align="left">A*01,A*02<br/>(23andMe)</td>
+      <td align="left">A*01,A*02<br/>(23andMe)</td>
+      <td align="left">A*01,A*02<br/>(Genos Exome BWA-MEM)</td>
+      <td align="left">A*01,A*02<br/>(Genos Exome BWA-MEM)<br/><br/>A*01,A*68<br/>(Genos Exome BWA)</td>
       </tr>
   </tbody>
 </table>
