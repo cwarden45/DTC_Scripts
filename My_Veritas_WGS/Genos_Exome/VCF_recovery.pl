@@ -292,7 +292,16 @@ sub create_vcf_hash{
 				my $flag = $lineInfo[6];
 				my $format_text = $lineInfo[8];
 				my $geno_text = $lineInfo[9];
-				
+
+				#make sure chromosome format matches
+				if (!($chr =~ /^chr/)){
+					$chr = "chr$chr";
+					
+					if($chr eq "chrMT"){
+						$chr = "chrM";
+					}#end if($chr eq "chrMT")
+				}#end if (!($chr =~ /^chr/)
+
 				#leave in to be compatible with 23andMe .vcf created with `vcf_recovery.py
 				#could also filter Indel_QC or SNP_QC in annotated Genos Exome .vcf
 				if(!($flag =~ "/nocall/")&&($var ne ".")&&($var ne "I")&&($var ne "D")&&($ref ne $var)){
