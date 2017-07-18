@@ -25,7 +25,7 @@ foreach my $arg (@ARGV)
 				($outputFile) = ($arg =~ /--output=(.*)/);
 			}#end if ($arg =~ /--output=/)
 			
-		if ($arg =~ /--help=/)
+		if ($arg =~ /--help/)
 			{
 				print "Usage: perl VCF_recovery.pl --smallVCF=[Genos / 23andMe / G4G].vcf --largeVCF=[Veritas_variants].vcf --output=[smallID]_in=_[largeID]_discordant.vcf\n";
 				print "--smallVCF : List of variants to recover in VCF format\n";
@@ -294,7 +294,8 @@ sub create_vcf_hash{
 				my $geno_text = $lineInfo[9];
 				
 				#leave in to be compatible with 23andMe .vcf created with `vcf_recovery.py
-				if(!($flag =~ "/nocall/")&&($var ne ".")){
+				#could also filter Indel_QC or SNP_QC in annotated Genos Exome .vcf
+				if(!($flag =~ "/nocall/")&&($var ne ".")&&($var ne "I")&&($var ne "D")&&($ref ne $var)){
 					my $genotype = "0";
 					
 					if($format_text =~ /^GT/){
