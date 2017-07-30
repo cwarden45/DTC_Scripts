@@ -6,6 +6,9 @@ import subprocess
 finishedSamples = []
 parameterFile = "parameters.txt"
 
+java = "/net/isi-dcnl/ifs/user_data/Seq/jre1.8.0_121/bin/java"
+jar_path = "/net/isi-dcnl/ifs/user_data/Seq/"
+
 threads = ""
 email = ""
 readsFolder = ""
@@ -91,7 +94,7 @@ fileResults = os.listdir(readsFolder)
 
 jobCount = 0
 for file in fileResults:
-	result = re.search("(.*)_(\w{6})_L\d{3}_R1_001.fastq$",file)
+	result = re.search("(.*)_(S\d+)_L\d{3}_R1_001.fastq.gz$",file)
 	
 	if result:
 		sample = result.group(1)
@@ -125,7 +128,7 @@ for file in fileResults:
 									
 			if (pairedStatus == "yes"):
 				read1 = readsFolder + "/" + file
-				read2 = re.sub("_R1_001.fastq$","_R2_001.fastq",read1)
+				read2 = re.sub("_R1_001.fastq.gz$","_R2_001.fastq.gz",read1)
 			
 				alnSam = sampleSubfolder + "/aligned.sam"
 				text = "bwa mem -t "+ str(threads) + " " + bwaRef + " " + read1 + " " + read2  + " > " + alnSam + "\n"
@@ -146,9 +149,13 @@ for file in fileResults:
 
 			text = "rm " + alnSam + "\n"
 			outHandle.write(text)
+
+			tempDir = sampleSubfolder + "/tmp"
+			text = "mkdir " + tempDir + "\n"
+			outHandle.write(text)
 			
 			rgBam = sampleSubfolder + "/rg.bam"
-			text = "java -Xmx" + memLimit + " -jar /opt/picard-tools-1.72/AddOrReplaceReadGroups.jar I=" + alnBam + " O=" + rgBam + " SO=coordinate RGID=1 RGLB=Exome-Seq RGPL=Illumina RGPU="+barcode+" RGCN=COH RGSM=" + sample + "\n"
+			text = java + " -Xmx" + memLimit + " -Djava.io.tmpdir="+ tempDir + " -jar "+jar_path+"picard-tools-2.5.0/picard.jar AddOrReplaceReadGroups I=" + alnBam + " O=" + rgBam + " SO=coordinate RGID=1 RGLB=Exome-Seq RGPL=Illumina RGPU="+barcode+" RGCN=COH RGSM=" + sample + "\n"
 			outHandle.write(text)
 
 			text = "rm " + alnBam + "\n"
@@ -160,7 +167,7 @@ for file in fileResults:
 
 			duplicateMetrics = sampleSubfolder + "/MarkDuplicates_metrics.txt"
 			filteredBam = bwaAlignmentFolder + "/" + sample + ".nodup.bam"
-			text = "java -Xmx" + memLimit + " -jar /opt/picard-tools-1.72/MarkDuplicates.jar I=" + rgBam + " O=" + filteredBam + " M=" + duplicateMetrics+" REMOVE_DUPLICATES=true CREATE_INDEX=true\n"
+			text = java + " -Xmx" + memLimit + " -Djava.io.tmpdir="+ tempDir + " -jar "+jar_path+"picard-tools-2.5.0/picard.jar MarkDuplicates I=" + rgBam + " O=" + filteredBam + " M=" + duplicateMetrics+" REMOVE_DUPLICATES=true CREATE_INDEX=true\n"
 			outHandle.write(text)
 			
 			text = "rm " + rgBam + "\n"
@@ -172,7 +179,7 @@ for file in fileResults:
 	
 			targetMetrics = sampleSubfolder + "/HsMetrics_coverage_stats_no_dup.txt"
 			targetMetrics2 = sampleSubfolder + "/HsMetrics_coverage_stats_per_target_no_dup.txt"
-			text = "java -Xmx" + memLimit + " -jar /opt/picard-tools-1.72/CalculateHsMetrics.jar I=" + filteredBam + " O=" + targetMetrics + " PER_TARGET_COVERAGE=" + targetMetrics2 + " R=" + bwaRef + " BAIT_INTERVALS=" + targetInterval + " TARGET_INTERVALS=" + targetInterval + "\n"
+			text = java + " -Xmx" + memLimit + " -Djava.io.tmpdir="+ tempDir + " -jar "+jar_path+"picard-tools-2.5.0/picard.jar CalculateHsMetrics I=" + filteredBam + " O=" + targetMetrics + " PER_TARGET_COVERAGE=" + targetMetrics2 + " R=" + bwaRef + " BAIT_INTERVALS=" + targetInterval + " TARGET_INTERVALS=" + targetInterval + "\n"
 			outHandle.write(text)
 			
 			if (pairedStatus == "yes"):
