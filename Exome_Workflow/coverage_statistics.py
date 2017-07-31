@@ -43,7 +43,7 @@ fastqcFolder = readsFolder + "/QC"
 fileResults = os.listdir(readsFolder)
 
 for file in fileResults:
-	result = re.search("(.*)_\w{6}_L\d{3}_R1_001.fastq.gz$",file)
+	result = re.search("(.*)_S\d+_L\d{3}_R1_001.fastq.gz$",file)
 	
 	if result:
 		sample = result.group(1)
@@ -127,7 +127,7 @@ for file in fileResults:
 			if lineCount == 8:
 				lineInfo = line.split("\t")
 				
-				percentDuplicate = 100*float(lineInfo[7])
+				percentDuplicate = 100*float(lineInfo[8])
 				percentDuplicate =  '{0:.2f}'.format(percentDuplicate) + "%"
 				
 			line = inHandle.readline()
@@ -152,20 +152,20 @@ for file in fileResults:
 			if lineCount == 8:
 				lineInfo = line.split("\t")
 				
-				percentOnTarget = 100 * float(lineInfo[17])
+				percentOnTarget = 100 * float(lineInfo[18])
 				percentOnTarget =  '{0:.2f}'.format(percentOnTarget) + "%"
 				
 				avgCov = float(lineInfo[21])
 				avgCov =  '{0:.2f}'.format(avgCov) + "x"
 				
-				Percent10x = 100 * float(lineInfo[28])
+				Percent10x = 100 * float(lineInfo[36])
 				Percent10x = '{0:.4f}'.format(Percent10x) + "%"
 				
 				#you'll need to use a later version to get 40x/100x metrics
-				Percent20x = 100 * float(lineInfo[29])
+				Percent20x = 100 * float(lineInfo[37])
 				Percent20x = '{0:.4f}'.format(Percent20x) + "%"
 				
-				Percent30x = 100 * float(lineInfo[30])
+				Percent30x = 100 * float(lineInfo[38])
 				Percent30x = '{0:.4f}'.format(Percent30x) + "%"
 			line = inHandle.readline()
 		
