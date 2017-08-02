@@ -38,7 +38,7 @@ for line in lines:
 			os.system(command)
 			
 		#you can create .vcf with --output-vcf, but then you have to parse out somatic variants and combine SNP and indel files
-		command = "java -Xmx" + java_mem+ " -jar "+varscan_jar+" somatic " + normalPileup + " " + tumorPileup + " " + varscanPrefix + " --output-vcf --min-var-freq 0.3 --min-avg-qual 20 --p-value 0.01 --somatic-p-value 0.01 --min-coverage-normal 10 --min-coverage-tumor 10 --strand-filter 1"
+		command = "java -Xmx" + java_mem+ " -jar "+varscan_jar+" somatic " + normalPileup + " " + tumorPileup + " " + varscanPrefix + " --min-var-freq 0.3 --min-avg-qual 20 --p-value 0.01 --somatic-p-value 0.01 --min-coverage-normal 10 --min-coverage-tumor 10 --strand-filter 1"
 		os.system(command)
 
 		command = "java -Xmx" + java_mem+ " -jar "+varscan_jar+" copynumber " + normalPileup + " " + tumorPileup + " " + varscanPrefix + " --p-value 0.01 --min-coverage 10 --max-segment-size 10000000"
