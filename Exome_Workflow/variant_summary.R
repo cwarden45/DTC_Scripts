@@ -56,8 +56,8 @@ for (i in 1:length(annotated.samples)){
 		kaviar.gnomAD.rare.count = c(kaviar.gnomAD.rare.count, length(rare.flag[rare.flag == 1]))
 		
 		damaging.flag = rep(0, nrow(big.table))
-		damaging.flag[(!is.na(big.table$SIFT_pred) & (big.table$SIFT_pred == "D")) | (!is.na(big.table$Polyphen2_HDIV_pred) & (big.table$Polyphen2_HDIV_pred == "D"))| (!is.na(big.table$Polyphen2_HVAR_pred) & (big.table$Polyphen2_HVAR_pred == "D"))] = 1
-		sift.polyphen.damaging.count=c(sift.polyphen.damaging.count,length(damaging.flag[damaging.flag==1]))
+		damaging.flag[(!is.na(big.table$SIFT_pred) & (big.table$SIFT_pred == "D")) | (!is.na(big.table$Polyphen2_HDIV_pred) & (big.table$Polyphen2_HDIV_pred == "D"))| (!is.na(big.table$Polyphen2_HVAR_pred) & (big.table$Polyphen2_HVAR_pred == "D")) | (!is.na(big.table$ExonicFunc.refGene)&((big.table$ExonicFunc.refGene == "frameshift insertion")|(big.table$ExonicFunc.refGene == "frameshift deletion")|(big.table$ExonicFunc.refGene == "stopgain")))] = 1
+		damaging.count=c(damaging.count,length(damaging.flag[damaging.flag==1]))
 		
 		rare.damaging.flag = rep(0, nrow(big.table))
 		rare.damaging.flag[(rare.flag == 1) & (damaging.flag == 1)] = 1
@@ -85,6 +85,6 @@ for (i in 1:length(annotated.samples)){
 summary.table = data.frame(Sample=annotated.samples, exonic.count=exonic.count, 
 							clinvar.count=clinvar.count,
 							kaviar.gnomAD.rare.count=kaviar.gnomAD.rare.count,
-							sift.polyphen.damaging.count=sift.polyphen.damaging.count, exonic.rare.damaging.count=exonic.rare.damaging.count,
+							damaging.count=damaging.count, exonic.rare.damaging.count=exonic.rare.damaging.count,
 							cosmic.count=cosmic.count, gwas.catalog.count=gwas.catalog.count, oreganno.count=oreganno.count)
 write.table(summary.table, summary.file, sep="\t", row.names=F)
