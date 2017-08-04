@@ -1,7 +1,7 @@
+annotated.folder = "../Result/Separate_GATK_Variant_Calls"
 summary.file = "ANNOVAR_variant_summary.txt"
 
 param.table = read.table("parameters.txt", header=T, sep="\t")
-annotated.folder = as.character(param.table$Value[param.table$Parameter == "Result_Folder"])
 genome = as.character(param.table$Value[param.table$Parameter == "genome"])
 
 annotated.folders = list.dirs(annotated.folder)
@@ -82,7 +82,9 @@ for (i in 1:length(annotated.samples)){
 	}#end if(file.exists(annovar.csv))
 }#end for (ann.sample in annotated.samples)
 
-summary.table = data.frame(Sample=annotated.samples, exonic.count=exonic.count, kaviar.gnomAD.rare.count=kaviar.gnomAD.rare.count,
+summary.table = data.frame(Sample=annotated.samples, exonic.count=exonic.count, 
+							clinvar.count=clinvar.count,
+							kaviar.gnomAD.rare.count=kaviar.gnomAD.rare.count,
 							sift.polyphen.damaging.count=sift.polyphen.damaging.count, exonic.rare.damaging.count=exonic.rare.damaging.count,
 							cosmic.count=cosmic.count, gwas.catalog.count=gwas.catalog.count, oreganno.count=oreganno.count)
 write.table(summary.table, summary.file, sep="\t", row.names=F)
