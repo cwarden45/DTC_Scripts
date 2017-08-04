@@ -1,4 +1,4 @@
-annotated.folder = "../Result/Separate_GATK_Variant_Calls"
+annotated.folder = "../Result/Joint_GATK_Variant_Calls"
 summary.file = "ANNOVAR_variant_summary.txt"
 
 param.table = read.table("parameters.txt", header=T, sep="\t")
