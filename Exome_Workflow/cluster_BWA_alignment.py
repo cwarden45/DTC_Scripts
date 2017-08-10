@@ -181,6 +181,9 @@ for file in fileResults:
 			targetMetrics2 = sampleSubfolder + "/HsMetrics_coverage_stats_per_target_no_dup.txt"
 			text = java + " -Xmx" + memLimit + " -Djava.io.tmpdir="+ tempDir + " -jar "+jar_path+"picard-tools-2.5.0/picard.jar CalculateHsMetrics I=" + filteredBam + " O=" + targetMetrics + " PER_TARGET_COVERAGE=" + targetMetrics2 + " R=" + bwaRef + " BAIT_INTERVALS=" + targetInterval + " TARGET_INTERVALS=" + targetInterval + "\n"
 			outHandle.write(text)
+
+			text = "rm -R " + tempDir + "\n"
+			outHandle.write(text)
 			
 			if (pairedStatus == "yes"):
 				text = "gzip "+ read1 +"\n"
