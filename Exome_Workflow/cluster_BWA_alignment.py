@@ -94,7 +94,7 @@ fileResults = os.listdir(readsFolder)
 
 jobCount = 0
 for file in fileResults:
-	result = re.search("(.*)_(S\d+)_L\d{3}_R1_001.fastq.gz$",file)
+	result = re.search("(.*)_(S\d+)_L\d{3}_R1_001.fastq$",file)
 	
 	if result:
 		sample = result.group(1)
@@ -128,7 +128,7 @@ for file in fileResults:
 									
 			if (pairedStatus == "yes"):
 				read1 = readsFolder + "/" + file
-				read2 = re.sub("_R1_001.fastq.gz$","_R2_001.fastq.gz",read1)
+				read2 = re.sub("_R1_001.fastq$","_R2_001.fastq",read1)
 			
 				alnSam = sampleSubfolder + "/aligned.sam"
 				text = "bwa mem -t "+ str(threads) + " " + bwaRef + " " + read1 + " " + read2  + " > " + alnSam + "\n"
