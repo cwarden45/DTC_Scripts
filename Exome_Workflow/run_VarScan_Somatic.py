@@ -44,4 +44,7 @@ for line in lines:
 		command = "java -Xmx" + java_mem+ " -jar "+varscan_jar+" copynumber " + normalPileup + " " + tumorPileup + " " + varscanPrefix + " --p-value 0.01 --min-coverage 10 --max-segment-size 10000000"
 		os.system(command)
 		
+		command = "java -Xmx" + java_mem+ " -jar "+varscan_jar+" copyCaller " + varscanPrefix + ".copynumber --output-file "+ varscanPrefix + ".copynumber.called " + " --output-homdel-file "  + varscanPrefix+ ".copynumber.called.homdel"
+		os.system(command)
+		
 #delete .pileup files manually - just in case you want to use the same normal / tumor sample more than once
