@@ -82,6 +82,7 @@ for (i in 1:length(sampleIDs)){
 	Hs.table = read.table(Hs.file, head=T, sep="\t")
 	Hs.table$mean_coverage[Hs.table$mean_coverage > max.cov]=max.cov
 	approx.million.total.reads = sum(Hs.table$read_count)/1000000
+	print(approx.million.total.reads)
 	
 	cov.per.million = Hs.table$mean_coverage / approx.million.total.reads
 	
