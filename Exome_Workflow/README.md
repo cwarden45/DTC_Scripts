@@ -6,13 +6,15 @@
 
 3) coverage_statistics.py
 
-4) GATK_variant_calls.py or VarScan_variant_calls.py
+4) HsMetrics_median_coverage.R
 
-5) filter_variants.py
+5) GATK_variant_calls.py or VarScan_variant_calls.py
 
-6) annotate_variants.py
+6) filter_variants.py
 
-7) variant_summary.R
+7) annotate_variants.py
+
+8) variant_summary.R
 
 
 ### Dependencies (some optional) ###
