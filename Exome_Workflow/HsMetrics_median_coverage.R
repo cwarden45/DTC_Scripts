@@ -1,5 +1,5 @@
 window.size = 5000000
-max.cov = 100
+max.cov = 200
 
 param.table = read.table("parameters.txt", header=T, sep="\t")
 alignment.folder = as.character(param.table$Value[param.table$Parameter == "Alignment_Folder"])
