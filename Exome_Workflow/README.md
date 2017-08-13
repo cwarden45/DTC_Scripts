@@ -49,7 +49,7 @@ ORegAnno: http://www.oreganno.org/dump/ -link to temporary website annotation
  
 - database of regulatory sequences (transcription factors, miRNA, etc.)
 
- -use [RNA-Seq mutation calling](https://github.com/cwarden45/RNAseq_templates/tree/master/Mutation_Workflow) script 'ORegAnno_tsv_to_bed.py'
+- use [RNA-Seq mutation calling](https://github.com/cwarden45/RNAseq_templates/tree/master/Mutation_Workflow) script 'ORegAnno_tsv_to_bed.py'
 
 ### Parameter Values ###
 | Parameter | Value|
