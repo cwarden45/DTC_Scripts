@@ -71,4 +71,5 @@ ORegAnno: http://www.oreganno.org/dump/ -link to temporary website annotation
 |GATK_filter|Apply GATK hard-filters (within GATK_variant_calls.py) prior to filtering for variants within target regions? Code removed flagged annotations either way, but file names (and presence of variant flags) will change depending upon input .vcf file|
 |target_filter_summary|Summary of variant (SNP/ small insertion / small deletion) per-sample before and after filtering for target regions|
 |ANNOVAR_Path|Path to ANNOVAR script folder|
+|CoNIFER_BED|Target .bed file with gene symbol annotations; can be created using `SureSelect_create_gene_bed.py`|
 |sample_description_file|Name of Sample Description File|
