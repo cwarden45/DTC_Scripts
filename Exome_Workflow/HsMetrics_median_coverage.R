@@ -3,6 +3,7 @@ max.cov = 400
 plot.min = -3
 plot.max = 3
 log2.rounding.value = 0.1
+cluster.distance = "Pearson_Dissimilarity"
 
 library("gplots")
 
@@ -146,6 +147,19 @@ for(i in 1:length(chr.names)){
 	colColors[col.chr==chr.names[i]]=legend.colors[i]
 }
 
+cor.dist = function(mat){
+	cor.mat = cor(as.matrix(t(mat)), use="pairwise.complete.obs")
+	dis.mat = 1 - cor.mat
+	return(as.dist(dis.mat))	
+}#end def cor.dist
+
+if (cluster.distance == "Pearson_Dissimilarity"){
+	print("Using Pearson Dissimilarity as Distance in Heatmap...")
+	dist.fun = cor.dist
+}else{
+	dist.fun=dist
+}
+
 num.breaks = 33
 plot.range = plot.max - plot.min
 heatmap.breaks = seq(plot.min, plot.max, by=plot.range/num.breaks)
@@ -154,9 +168,9 @@ heatmap.2(heatmap.mat, distfun = dist.fun, hclustfun = hclust,
 			 col=colorpanel(num.breaks, low="blue", mid="gray", high="red"),
 			 breaks = heatmap.breaks,cexCol=0.1,
 			 density.info="none",labCol=rep("",ncol(heatmap.mat)),
-			 key=TRUE, Rowv=FALSE, Colv=FALSE,
+			 key=TRUE, Colv=FALSE,
 			 ColSideColors=colColors, trace="none",
-			 margins = c(20,15), dendrogram="none")
+			 margins = c(20,15), dendrogram="row")
 legend("bottom", legend=chr.names, col=legend.colors, ncol=6,
 		pch=15, inset=0, xpd=T, cex=0.8)
 dev.off()
