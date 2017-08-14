@@ -53,6 +53,12 @@ ORegAnno: http://www.oreganno.org/dump/ -link to temporary website annotation
 
 - use [RNA-Seq mutation calling](https://github.com/cwarden45/RNAseq_templates/tree/master/Mutation_Workflow) script 'ORegAnno_tsv_to_bed.py'
 
+*Copy Number Calls*
+
+CoNIFER: http://conifer.sourceforge.net/
+
+DNAcopy: https://bioconductor.org/packages/release/bioc/html/DNAcopy.html
+
 ### Parameter Values ###
 | Parameter | Value|
 |---|---|
