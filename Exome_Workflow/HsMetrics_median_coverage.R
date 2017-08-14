@@ -1,15 +1,29 @@
 window.size = 5000000
-max.cov = 200
+max.cov = 400
+plot.min = -3
+plot.max = 3
+log2.rounding.value = 0.1
+
+library("gplots")
 
 param.table = read.table("parameters.txt", header=T, sep="\t")
 alignment.folder = as.character(param.table$Value[param.table$Parameter == "Alignment_Folder"])
 fa.file=as.character(param.table$Value[param.table$Parameter == "BWA_Ref"])
+meta.file=as.character(param.table$Value[param.table$Parameter == "sample_description_file"])
 
 fa.index = paste(fa.file, ".fai",sep="")
 
 sampleIDs = list.files(alignment.folder)
 sampleIDs = sampleIDs[grep(".nodup.bam$",sampleIDs)]
 sampleIDs = gsub(".nodup.bam$","",sampleIDs)
+
+meta.table = read.table(meta.file, head=T, sep="\t")
+sample.labels = meta.table$userID[match(sampleIDs, meta.table$sampleID)]
+if(length(sample.labels) != length(sample.labels[!is.na(sample.labels)])){
+	print("There is a problem mapping sample labels:")
+	names(sample.labels)=sampleIDs
+	print(sample.labels)
+}
 
 chr.table = read.table(fa.index, head=F, sep="\t")
 chr.lengths=chr.table$V2
@@ -82,9 +96,8 @@ for (i in 1:length(sampleIDs)){
 	Hs.table = read.table(Hs.file, head=T, sep="\t")
 	Hs.table$mean_coverage[Hs.table$mean_coverage > max.cov]=max.cov
 	approx.million.total.reads = sum(Hs.table$read_count)/1000000
-	print(approx.million.total.reads)
 	
-	cov.per.million = Hs.table$mean_coverage / approx.million.total.reads
+	cov.per.million = log2(Hs.table$mean_coverage / approx.million.total.reads + log2.rounding.value)
 	
 	Hs.window = apply(Hs.table, 1, window.map, window.size=window.size, chr.lengths=chr.lengths)
 	Hs.window = factor(Hs.window, levels=window.set)
@@ -106,11 +119,12 @@ for (i in 1:length(sampleIDs)){
 	pointCol[pointCol == 0]="gray"
 	png(plot.file)
 	plot(as.numeric(as.factor(Hs.window)), cov.per.million, cex=0.1,
-			col=pointCol, pch=16, xaxt= "n",
-			ylab="Target Coverage per Million Reads", xlab="")
+			col=pointCol, pch=16, xaxt= "n",ylim=c(plot.min,plot.max),
+			ylab=paste("log2( Target Coverage per Million Reads + ",log2.rounding.value,")",sep=""),
+			xlab="")
 	lines(1:length(window.set), median.per.window, lwd=2)
 	med.chr.pos=med.chr.pos[!is.na(med.chr.pos)]
-	text(med.chr.pos, rep(-0.3,length(med.chr.pos)),
+	text(med.chr.pos, rep(plot.min-0.5,length(med.chr.pos)),
 			labels=names(med.chr.pos), xpd=T, srt=90,col=c("tan","gray"),
 			cex=0.7)
 	dev.off()
@@ -120,4 +134,33 @@ for (i in 1:length(sampleIDs)){
 		heatmap.mat = rbind(heatmap.mat,median.per.window)
 	}
 }#end for (i in 1:length(sampleIDs))
+rownames(heatmap.mat)=sample.labels
 
+col.palette = rep(c("green","orange","purple","cyan","pink","maroon","yellow","red","blue","plum","darkgreen","thistle1","tan","orchid1"),10)
+
+col.chr = unlist(sapply(as.character(colnames(heatmap.mat)),extract.chr))
+chr.names = unique(col.chr)
+legend.colors = col.palette[1:length(chr.names)]
+colColors = rep("black",length(col.chr))
+for(i in 1:length(chr.names)){
+	colColors[col.chr==chr.names[i]]=legend.colors[i]
+}
+
+num.breaks = 33
+plot.range = plot.max - plot.min
+heatmap.breaks = seq(plot.min, plot.max, by=plot.range/num.breaks)
+pdf("HsMetrics_normalized_coverage_heatmap.pdf")
+heatmap.2(heatmap.mat, distfun = dist.fun, hclustfun = hclust,
+			 col=colorpanel(num.breaks, low="blue", mid="gray", high="red"),
+			 breaks = heatmap.breaks,cexCol=0.1,
+			 density.info="none",labCol=rep("",ncol(heatmap.mat)),
+			 key=TRUE, Rowv=FALSE, Colv=FALSE,
+			 ColSideColors=colColors, trace="none",
+			 margins = c(20,15), dendrogram="none")
+legend("bottom", legend=chr.names, col=legend.colors, ncol=6,
+		pch=15, inset=0, xpd=T, cex=0.8)
+dev.off()
+
+output.table = data.frame(Window=colnames(heatmap.mat),t(heatmap.mat))
+write.table(output.table, "HsMetrics_normalized_coverage_heatmap.txt",
+			row.names=F, quote=F, sep="\t")
