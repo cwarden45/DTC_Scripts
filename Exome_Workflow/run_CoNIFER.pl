@@ -77,6 +77,15 @@ RPKM_counts($alignment_folder, $CoNIFER_folder, $CoNIFER_bed, $CoNIFER_path, $RP
 run_CoNIFER($CoNIFER_folder, $CoNIFER_bed, $CoNIFER_path, $sv, $RPKM_folder);
 run_DNAcopy($CoNIFER_folder, $sv, $Rfile, $seg_mean_cutoff, $sample_table);
 
+##if CNA counts are within desirable range, plot events
+#my $hdf5_file = "$CoNIFER_folder/analysis_sv$sv.hdf5";
+#my $calls = "$CoNIFER_folder/calls_sv$sv.txt";
+#my $image_folder = "$CoNIFER_folder/call_plots$sv";
+#$command = "mkdir $image_folder";
+#system($command);
+#$command = "python $CoNIFER_path plotcalls --input $hdf5_file --calls $calls --output $image_folder";
+#system($command);
+
 exit;
 	
 sub run_DNAcopy
