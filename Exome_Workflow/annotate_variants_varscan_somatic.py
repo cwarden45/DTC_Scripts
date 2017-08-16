@@ -180,6 +180,11 @@ for line in lines:
 			command = annovarPath + "annotate_variation.pl " + annovarVar +" " + annovarPath + "humandb/ -buildver "+build+" -out " + annotationPrefix +" -bedfile " + bedAnn + " -dbtype bed -regionanno -colsWanted 4"
 			os.system(command)
 
+			bedAnn = build + "_RepeatMasker.bed"
+			annotationPrefix = resultSubfolder + "/" + varscanPrefix + "_annovar_RepeatMasker"
+			command = annovarPath + "annotate_variation.pl " + annovarVar +" " + annovarPath + "humandb/ -buildver "+build+" -out " + annotationPrefix +" -bedfile " + bedAnn + " -dbtype bed -regionanno -colsWanted 4"
+			os.system(command)
+			
 			#bed annotation mostly works OK, but bedtools was more accurate for ORegAnno hit (probably because it isn't sorted)
 			bedAnn = annovarPath + "/humandb/" + build + "_ORegAnno.bed"
 			bedOut = resultSubfolder + "/" + varscanPrefix + "_bedtools_ORegAnno.bed"
