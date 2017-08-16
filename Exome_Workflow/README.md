@@ -12,7 +12,7 @@
 
 6) `filter_variants.py` or `filter_variants_joint.py`
 
-7) `annotate_variants.py`
+7) `annotate_variants.py` or `annotate_variants_joint.py`
 
 8) `variant_summary.R`
 
