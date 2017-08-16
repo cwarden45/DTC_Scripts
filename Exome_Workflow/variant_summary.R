@@ -1,6 +1,9 @@
 annotated.folder = "../Result/Joint_GATK_Variant_Calls"
 summary.file = "ANNOVAR_variant_summary.txt"
 
+#annotated.folder = "../Result/VarScan_Somatic_Variant_Calls"
+#summary.file = "ANNOVAR_VarScan_Somatic_variant_summary.txt"
+
 param.table = read.table("parameters.txt", header=T, sep="\t")
 genome = as.character(param.table$Value[param.table$Parameter == "genome"])
 
@@ -14,19 +17,21 @@ annotated.samples = gsub("\\\\","",annotated.samples)
 output.samples = c()
 exonic.count = c()
 kaviar.gnomAD.rare.count = c()
-sift.polyphen.damaging.count = c()
 damaging.count = c()
+exonic.rare.damaging.count = c()
 cosmic.count = c()
 nci60.count = c()
 clinvar.count = c()
 gwas.catalog.count = c()
 oreganno.count = c()
+repeat.count = c()
 
 for (i in 1:length(annotated.samples)){
 	annotated.folder = annotated.folders[i]
 	sampleID = annotated.samples[i]
 	
 	annovar.csv = file.path(annotated.folder, paste(sampleID,".",genome,"_multianno.csv",sep=""))
+	annovar.RepeatMasker = file.path(annotated.folder, paste(sampleID,"_annovar_RepeatMasker.",genome,"_bed",sep=""))
 	annovar.gwas = file.path(annotated.folder, paste(sampleID,"_annovar_GWAS_Catalog.",genome,"_bed",sep=""))
 	bedtools.oreganno = file.path(annotated.folder, paste(sampleID,"_bedtools_ORegAnno.avinput",sep=""))
 	
@@ -62,6 +67,13 @@ for (i in 1:length(annotated.samples)){
 		rare.damaging.flag = rep(0, nrow(big.table))
 		rare.damaging.flag[(rare.flag == 1) & (damaging.flag == 1)] = 1
 		exonic.rare.damaging.count = c(exonic.rare.damaging.count, length(rare.damaging.flag[rare.damaging.flag==1]))
+
+		RepeatMasker.table = read.delim(annovar.RepeatMasker, head=F)
+		RepeatMaskerID = as.character(RepeatMasker.table[,2])
+		RepeatMaskerID = gsub("Name=","",RepeatMaskerID)
+		repeat.count = c(repeat.count, length(RepeatMaskerID))
+		RepeatMasker.annovarID = paste(RepeatMasker.table[,3],RepeatMasker.table[,4],RepeatMasker.table[,5],RepeatMasker.table[,6],RepeatMasker.table[,7],sep="\t")
+		RepeatMaskerID = RepeatMaskerID[match(annovarID,RepeatMasker.annovarID)]
 		
 		gwas.table = read.delim(annovar.gwas, head=F)
 		gwas.rsID = as.character(gwas.table[,2])
@@ -76,7 +88,9 @@ for (i in 1:length(annotated.samples)){
 		oreganno.annovarID = paste(oreganno.table[,1],oreganno.table[,2],oreganno.table[,3],oreganno.table[,4],oreganno.table[,5],sep="\t")
 		oregannoID = oregannoID[match(annovarID,oreganno.annovarID)]
 		
-		extra.table = data.frame(big.table, gwas.catalog = gwas.rsID, oreganno = oregannoID, exonic.rare.damaging.flag = rare.damaging.flag)
+		extra.table = data.frame(big.table, gwas.catalog = gwas.rsID,
+								oreganno = oregannoID, RepeatMasker=RepeatMaskerID,
+								exonic.rare.damaging.flag = rare.damaging.flag)
 		extra.file = file.path(annotated.folder, paste(sampleID,"_combined_summary.txt",sep=""))
 		write.table(extra.table, extra.file, sep="\t", row.names=F)
 	}#end if(file.exists(annovar.csv))
@@ -86,5 +100,6 @@ summary.table = data.frame(Sample=annotated.samples, exonic.count=exonic.count,
 							clinvar.count=clinvar.count,
 							kaviar.gnomAD.rare.count=kaviar.gnomAD.rare.count,
 							damaging.count=damaging.count, exonic.rare.damaging.count=exonic.rare.damaging.count,
-							cosmic.count=cosmic.count, gwas.catalog.count=gwas.catalog.count, oreganno.count=oreganno.count)
+							cosmic.count=cosmic.count, oreganno.count=oreganno.count,
+							gwas.catalog.count=gwas.catalog.count, repeat.count)
 write.table(summary.table, summary.file, sep="\t", row.names=F)
