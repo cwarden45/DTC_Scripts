@@ -47,7 +47,7 @@ if (annovarPath == "") or (annovarPath == "[required]"):
 	sys.exit()
 
 statHandle = open(countFile,"w")
-text = "pairID\tSomatic.SNP.Count\tSomatic.Del.Count\tSomatic.Ins.Count\tLOH.SNP.Count\tLOH.Del.Count\tLOH.Ins.Count\n"
+text = "pairID\tSomatic.SNP.Count\tSomatic.Ins.Count\tSomatic.Del.Count\tLOH.SNP.Count\tLOH.Ins.Count\tLOH.Del.Count\n"
 statHandle.write(text)
 
 
@@ -164,7 +164,7 @@ for line in lines:
 			
 			outHandle.close()
 			
-			text = varscanPrefix + "\t"+str(snpCountSomatic)+"\t"+str(delCountSomatic)+"\t"+str(insCountSomatic)+ "\t"+str(snpCountLOH)+"\t"+str(delCountLOH)+"\t"+str(insCountLOH)+"\n"
+			text = varscanPrefix + "\t"+str(snpCountSomatic)+"\t"+str(insCountSomatic)+"\t"+str(delCountSomatic)+ "\t"+str(snpCountLOH)+"\t"+str(insCountLOH)+"\t"+str(delCountLOH)+"\n"
 			statHandle.write(text)
 
 			annotationPrefix = resultSubfolder + "/" + varscanPrefix
