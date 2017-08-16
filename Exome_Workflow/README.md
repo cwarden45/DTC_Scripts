@@ -8,7 +8,7 @@
 
 4) `HsMetrics_median_coverage.R`
 
-5) `GATK_variant_calls.py` or `cluster_GATK_joint_variant_calls_TARGET`
+5) `GATK_variant_calls.py` or `cluster_GATK_joint_variant_calls_TARGET.py`
 
 6) `filter_variants.py`
 
