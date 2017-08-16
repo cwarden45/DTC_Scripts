@@ -10,7 +10,7 @@
 
 5) `GATK_variant_calls.py` or `cluster_GATK_joint_variant_calls_TARGET.py`
 
-6) `filter_variants.py`
+6) `filter_variants.py` or `filter_variants_joint.py`
 
 7) `annotate_variants.py`
 
