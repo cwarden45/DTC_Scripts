@@ -1,20 +1,20 @@
 ### Order to Run Scripts ###
 
-1) cluster_fastQC.py
+1) `cluster_fastQC.py`
 
-2) cluster_BWA_alignment.py
+2) `cluster_BWA_alignment.py`
 
-3) coverage_statistics.py
+3) `coverage_statistics.py`
 
-4) HsMetrics_median_coverage.R
+4) `HsMetrics_median_coverage.R`
 
-5) GATK_variant_calls.py or VarScan_variant_calls.py
+5) `GATK_variant_calls.py` or `cluster_GATK_joint_variant_calls_TARGET`
 
-6) filter_variants.py
+6) `filter_variants.py`
 
-7) annotate_variants.py
+7) `annotate_variants.py`
 
-8) variant_summary.R
+8) `variant_summary.R`
 
 
 ### Dependencies (some optional) ###
