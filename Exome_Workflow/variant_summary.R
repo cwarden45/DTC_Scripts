@@ -1,11 +1,14 @@
 annotated.folder = "../Result/Joint_GATK_Variant_Calls"
 summary.file = "ANNOVAR_variant_summary.txt"
+checkIDs = TRUE
 
 #annotated.folder = "../Result/VarScan_Somatic_Variant_Calls"
 #summary.file = "ANNOVAR_VarScan_Somatic_variant_summary.txt"
+#checkIDs = FALSE
 
 param.table = read.table("parameters.txt", header=T, sep="\t")
 genome = as.character(param.table$Value[param.table$Parameter == "genome"])
+sample.description.file = as.character(param.table$Value[param.table$Parameter == "sample_description_file"])
 
 annotated.folders = list.dirs(annotated.folder)
 annotated.folders = annotated.folders[annotated.folders != annotated.folder]
@@ -13,6 +16,19 @@ annotated.folders = annotated.folders[annotated.folders != annotated.folder]
 annotated.samples = gsub(annotated.folder,"",annotated.folders)
 annotated.samples = gsub("/","",annotated.samples)
 annotated.samples = gsub("\\\\","",annotated.samples)
+
+meta.table = read.table(sample.description.file, head=T, sep="\t")
+sample.label = meta.table$userID[match(annotated.samples,meta.table$sampleID)]
+if(!checkIDs){
+	sample.label=annotated.samples
+}else{
+	if(length(sample.label) != length(sample.label[!is.na(sample.label)])){
+		print("There is an issue with mapping some samples")
+		names(sample.label)=annotated.samples
+		print(sample.label)
+		stop()
+	}
+}#end else
 
 output.samples = c()
 exonic.count = c()
@@ -25,6 +41,8 @@ clinvar.count = c()
 gwas.catalog.count = c()
 oreganno.count = c()
 repeat.count = c()
+
+root.folder = annotated.folder
 
 for (i in 1:length(annotated.samples)){
 	annotated.folder = annotated.folders[i]
@@ -91,7 +109,7 @@ for (i in 1:length(annotated.samples)){
 		extra.table = data.frame(big.table, gwas.catalog = gwas.rsID,
 								oreganno = oregannoID, RepeatMasker=RepeatMaskerID,
 								exonic.rare.damaging.flag = rare.damaging.flag)
-		extra.file = file.path(annotated.folder, paste(sampleID,"_combined_summary.txt",sep=""))
+		extra.file = paste(root.folder, "/",sample.label[i],"_combined_summary.txt",sep="")
 		write.table(extra.table, extra.file, sep="\t", row.names=F)
 	}#end if(file.exists(annovar.csv))
 }#end for (ann.sample in annotated.samples)
