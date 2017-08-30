@@ -108,6 +108,7 @@ for (i in 1:length(annotated.samples)){
 		
 		extra.table = data.frame(big.table, gwas.catalog = gwas.rsID,
 								oreganno = oregannoID, RepeatMasker=RepeatMaskerID,
+								rare.flag, exonic.damaging.flag = damaging.flag,
 								exonic.rare.damaging.flag = rare.damaging.flag)
 		extra.file = paste(root.folder, "/",sample.label[i],"_combined_summary.txt",sep="")
 		write.table(extra.table, extra.file, sep="\t", row.names=F)
