@@ -86,21 +86,30 @@ for (i in 1:length(annotated.samples)){
 		rare.damaging.flag[(rare.flag == 1) & (damaging.flag == 1)] = 1
 		exonic.rare.damaging.count = c(exonic.rare.damaging.count, length(rare.damaging.flag[rare.damaging.flag==1]))
 
-		RepeatMasker.table = read.delim(annovar.RepeatMasker, head=F)
+		RepeatMasker.table = tryCatch({read.delim(annovar.RepeatMasker, head=F)},
+									error=function(cond){
+										return(matrix(NA,ncol=7))
+									})
 		RepeatMaskerID = as.character(RepeatMasker.table[,2])
 		RepeatMaskerID = gsub("Name=","",RepeatMaskerID)
 		repeat.count = c(repeat.count, length(RepeatMaskerID))
 		RepeatMasker.annovarID = paste(RepeatMasker.table[,3],RepeatMasker.table[,4],RepeatMasker.table[,5],RepeatMasker.table[,6],RepeatMasker.table[,7],sep="\t")
 		RepeatMaskerID = RepeatMaskerID[match(annovarID,RepeatMasker.annovarID)]
 		
-		gwas.table = read.delim(annovar.gwas, head=F)
+		gwas.table = tryCatch({read.delim(annovar.gwas, head=F)},
+									error=function(cond){
+										return(matrix(NA,ncol=7))
+									})
 		gwas.rsID = as.character(gwas.table[,2])
 		gwas.rsID = gsub("Name=","",gwas.rsID)
 		gwas.catalog.count = c(gwas.catalog.count, length(gwas.rsID))
 		gwas.annovarID = paste(gwas.table[,3],gwas.table[,4],gwas.table[,5],gwas.table[,6],gwas.table[,7],sep="\t")
 		gwas.rsID = gwas.rsID[match(annovarID,gwas.annovarID)]
 		
-		oreganno.table = read.delim(bedtools.oreganno, head=F)
+		oreganno.table = tryCatch({read.delim(bedtools.oreganno, head=F)},
+									error=function(cond){
+										return(matrix(NA,ncol=7))
+									})
 		oregannoID = oreganno.table[,8]
 		oreganno.count = c(oreganno.count, length(oregannoID))
 		oreganno.annovarID = paste(oreganno.table[,1],oreganno.table[,2],oreganno.table[,3],oreganno.table[,4],oreganno.table[,5],sep="\t")
