@@ -49,7 +49,7 @@ masterHandle.write(text)
 
 jobCount = 0
 for file in fileResults:
-	result = re.search("(.*_\w{6}_L\d{3}_R\d_001).fastq$",file)
+	result = re.search("(.*_S\d+_L\d{3}_R\d_001).fastq$",file)
 	
 	if result:
 		sample = result.group(1)
