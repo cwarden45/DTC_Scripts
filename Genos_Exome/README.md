@@ -36,7 +36,7 @@ If the link above doesn't work, you can [click here](https://software.broadinsti
 
 **Convert .bed File to .target_intervals for Picard**
 
-I use [Picard](https://broadinstitute.github.io/picard/) for file-conversion and coverage statisics (and some down-stream steps).  You can download all the programs separately, but I'm providing instruction assuming that you are using my [dnaseq-dependencies](https://hub.docker.com/r/cwarden45/dnaseq-dependencies/) Docker image.  Please see the main  [My_Veritas_WGS](https://github.com/cwarden45/DNAseq_templates/edit/master/My_Veritas_WGS) README with some additional information about setting up Docker.
+I use [Picard](https://broadinstitute.github.io/picard/) for file-conversion and coverage statisics (and some down-stream steps).  You can download all the programs separately, but I'm providing instruction assuming that you are using my [dnaseq-dependencies](https://hub.docker.com/r/cwarden45/dnaseq-dependencies/) Docker image.  Please see the [Veritas WGS](https://github.com/cwarden45/Veritas_WGS_Comparisons) README with some additional information about setting up Docker.
 
 *Step #1*) If you have not done so already, you'll need to have downloaded a copy of the hg19 reference genome in FASTA format.  Please see the main [Veritas WGS](https://github.com/cwarden45/Veritas_WGS_Comparisons) README with some additional information about setting up Docker.
 
