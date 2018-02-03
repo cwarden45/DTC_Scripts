@@ -1,5 +1,7 @@
 ### For Research Purposes Only! ###
 
+These are some scripts that I used to analyze my Veritas WGS (Whole Genome Sequencing) Data.
+
 **Step #1**) Download .bam.tgz and .vcf.gz files
 
 1a) Extract the per-chromosome .bam files (the [ID].bam.tgz file) into a folder called "chr_bam".  On Windows, you can do this using [7zip](http://www.7-zip.org/).
