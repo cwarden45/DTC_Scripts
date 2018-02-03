@@ -12,9 +12,7 @@ These are some scripts that I used to analyze my Veritas WGS (Whole Genome Seque
 
 At this point, you can already visualize your genomic alignment (separately for each chromosome)
 
-**Step #3**) Download [Docker](https://docs.docker.com/engine/installation/) and Dependencies from Docker Image: `docker pull cwarden45/dnaseq-dependencies`
-
-If you download [Docker Toolbox](https://www.docker.com/products/docker-toolbox) for your PC, you also also add Git during the installation process.
+**Step #3**) Download [Docker](https://docs.docker.com/engine/installation/) and Dependencies from Docker Image: `docker pull cwarden45/dnaseq-dependencies`.  For my version of Windows (Windows 10, Home Edition), I needed to install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/).
 
 On Windows, if you run `git clone https://github.com/cwarden45/DNAseq_templates` in your Documents folder, then you will re-create the path I use in the next step (with your own username).  Strictly speaking, you don't need git to run the next steps, but you will have to copy and paste the contents of each script you want to run (in a plain-text editor, like [Notepad++](https://notepad-plus-plus.org/)).  If you try to save the GitHub links to target files, you'll likely end up with an .html file instead of a .py or .pl file.
 
