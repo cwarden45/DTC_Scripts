@@ -1,6 +1,6 @@
 Please see this [blog post](http://cdwscience.blogspot.com/2012/06/my-23andme-results-getting-free-second.html) to learn more about the Perl scripts.
 
-There are some comparisons for HLA typing wtihin the [Genes_for_Good](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good) section (for Veritas Whole Genome Sequencing, Genos Exome Sequencing, and 23andMe / Genes for Good Genotyping), but this is mostly a way to save similar code.
+There [Genes_for_Good](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good) section had some comparisons for overlapping sites, and then HLA typing (for Veritas Whole Genome Sequencing, Genos Exome Sequencing, and 23andMe / Genes for Good Genotyping).  However, this is mostly a way to save similar code.
 
 **Perl Script Notes**
 - hg19 is no longer the latest reference sequence, but it is what was used for my WGS sample and you can get hg19 annotationsfrom SeattleSeq here: http://snp.gs.washington.edu/SeattleSeqAnnotation138/
