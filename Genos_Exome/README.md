@@ -77,7 +77,7 @@ If you've done everything in order, you should have all the necessary imput file
 
 *Step #2*) Call Variants.
 
-You should be able to use `run_GATK_VarScan.py` from the main  [My_Veritas_WGS](https://github.com/cwarden45/DNAseq_templates/edit/master/My_Veritas_WGS) page.  If you've followed the steps above, you should be able to call variants using `python ../run_GATK_VarScan.py --bam=BWA-MEM_realign.bam --ref=ucsc.hg19.fasta`
+You should be able to use `run_GATK_VarScan.py` from the main  [Veritas WGS](https://github.com/cwarden45/Veritas_WGS_Comparisons) page.  If you've followed the steps above, you should be able to call variants using `python ../run_GATK_VarScan.py --bam=BWA-MEM_realign.bam --ref=ucsc.hg19.fasta`
 
 
 **Filter Off-Target Variants**
@@ -86,8 +86,8 @@ In general, shouldn't really matter for non-synonymous mutations in known genes,
 
 **Compare Genos Exome Variants to Veritas WGS Variants**
 
-The set of variants provdied by Vertias comes from freebayes.  In addition to having a different workflow, the formatting of the variant calls in the VCF file is different (freebayes will usually included adjacent bases).  So, for the Vertias WGS variants, I am 
+The set of variants provdied by Vertias comes from freebayes.  In addition to having a different workflow, the formatting of the variant calls in the VCF file is different (freebayes will usually included adjacent bases).
 
 ### Other Notes ###
 
-Unless specified differently above, I used scripts / strategies described in the main  [My_Veritas_WGS](https://github.com/cwarden45/DNAseq_templates/edit/master/My_Veritas_WGS) page.
+Unless specified differently above, I used scripts / strategies described in the main [Veritas WGS](https://github.com/cwarden45/Veritas_WGS_Comparisons) page.
