@@ -36,9 +36,9 @@ If the link above doesn't work, you can [click here](https://software.broadinsti
 
 **Convert .bed File to .target_intervals for Picard**
 
-I use [Picard](https://broadinstitute.github.io/picard/) for file-conversion and coverage statisics (and some down-stream steps).  You can download all the programs separately, but I'm providing instruction assuming that you are using my [dnaseq-dependencies](https://hub.docker.com/r/cwarden45/dnaseq-dependencies/) Docker image.  Please see the [Veritas WGS](https://github.com/cwarden45/Veritas_WGS_Comparisons) README with some additional information about setting up Docker.
+I use [Picard](https://broadinstitute.github.io/picard/) for file-conversion and coverage statisics (and some down-stream steps).  You can download all the programs separately, but I'm providing instruction assuming that you are using my [dnaseq-dependencies](https://hub.docker.com/r/cwarden45/dnaseq-dependencies/) Docker image.  Please see the [Veritas WGS](https://github.com/cwarden45/DTC_Scripts) README with some additional information about setting up Docker.
 
-*Step #1*) If you have not done so already, you'll need to have downloaded a copy of the hg19 reference genome in FASTA format.  Please see the main [Veritas WGS](https://github.com/cwarden45/Veritas_WGS_Comparisons) README with some additional information about setting up Docker.
+*Step #1*) If you have not done so already, you'll need to have downloaded a copy of the hg19 reference genome in FASTA format.  Please see the main [Veritas WGS](https://github.com/cwarden45/DTC_Scripts) README with some additional information about setting up Docker.
 
 *Step #2*) If you have downloaded the appropriate .bed file, you can create the interval list (which also creates the .dict file for the refernece, if it doesn't already exist) by running `python create_interval_file.py --input=targets.bed --ouput=targets.interval_list --ref=hg19.fa`.  If running the script within the downloaded folder, after the Veritas WGS scripts, the RefSeq gene interval list would be created with the command `python create_interval_file.py --input=RefSeq_genes_CDS.bed --output=RefSeq_genes_CDS.interval_list --ref=hg19.karyotype.fasta`
 
@@ -77,17 +77,14 @@ If you've done everything in order, you should have all the necessary imput file
 
 *Step #2*) Call Variants.
 
-You should be able to use `run_GATK_VarScan.py` from the main  [Veritas WGS](https://github.com/cwarden45/Veritas_WGS_Comparisons) page.  If you've followed the steps above, you should be able to call variants using `python ../run_GATK_VarScan.py --bam=BWA-MEM_realign.bam --ref=ucsc.hg19.fasta`
+You should be able to use `run_GATK_VarScan.py` from the main  [Veritas WGS](https://github.com/cwarden45/DTC_Scripts) page.  If you've followed the steps above, you should be able to call variants using `python ../run_GATK_VarScan.py --bam=BWA-MEM_realign.bam --ref=ucsc.hg19.fasta`
 
 
 **Filter Off-Target Variants**
 
 In general, shouldn't really matter for non-synonymous mutations in known genes, but you might want restrict non-coding regulatory variants within target regions.  In this case, enrichment is for CDS regions, but you can still test the effect of filtering different mutation calling strategies and/or checking how the regions for your annotation program of choice compares to covered regions (here, gene CDS boundaries from the UCSC genome browser).
 
-**Compare Genos Exome Variants to Veritas WGS Variants**
-
-The set of variants provdied by Vertias comes from freebayes.  In addition to having a different workflow, the formatting of the variant calls in the VCF file is different (freebayes will usually included adjacent bases).
 
 ### Other Notes ###
 
-Unless specified differently above, I used scripts / strategies described in the main [Veritas WGS](https://github.com/cwarden45/Veritas_WGS_Comparisons) page.
+Unless specified differently above, I used scripts / strategies described in the main [Veritas WGS](https://github.com/cwarden45/DTC_Scripts) page.
