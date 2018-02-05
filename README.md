@@ -1,6 +1,6 @@
 ### For Research Purposes Only! ###
 
-These are some scripts that I used to analyze my Veritas WGS (Whole Genome Sequencing) Data.
+**These are some scripts that I used to analyze my Veritas WGS (Whole Genome Sequencing) Data.**
 
 **Step #1**) Download .bam.tgz and .vcf.gz files
 
