@@ -84,7 +84,7 @@ You should be able to use `run_GATK_VarScan.py` from the main  [Veritas WGS](htt
 
 In general, shouldn't really matter for non-synonymous mutations in known genes, but you might want restrict non-coding regulatory variants within target regions.  In this case, enrichment is for CDS regions, but you can still test the effect of filtering different mutation calling strategies and/or checking how the regions for your annotation program of choice compares to covered regions (here, gene CDS boundaries from the UCSC genome browser).
 
-Also, if you are comfortable modifying Python code, you can use 'filter_variants_GATK.py' to filter for on-target variants (such as the RefSeq CDS regions downloaded from the [UCSC Table Browser](https://genome.ucsc.edu/cgi-bin/hgTables) in the 1st step).
+Also, if you are comfortable modifying Python code, you can use `filter_variants_GATK.py` to filter for on-target variants (such as the RefSeq CDS regions downloaded from the [UCSC Table Browser](https://genome.ucsc.edu/cgi-bin/hgTables) in the 1st step).
 
 ### Other Notes ###
 
