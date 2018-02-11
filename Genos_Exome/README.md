@@ -86,6 +86,8 @@ In general, shouldn't really matter for non-synonymous mutations in known genes,
 
 Also, if you are comfortable modifying Python code, you can use `filter_variants_GATK.py` to filter for on-target variants (such as the RefSeq CDS regions downloaded from the [UCSC Table Browser](https://genome.ucsc.edu/cgi-bin/hgTables) in the 1st step).
 
+If comparing variants, please keep in mind that freebayes has a different format to represent indels.  So, if you are looking for exact matches between .vcf files, indel concordance with GATK / VarScan will be underestimated.
+
 ### Other Notes ###
 
 Unless specified differently above, I used scripts / strategies described in the main [Veritas WGS](https://github.com/cwarden45/DTC_Scripts) page.
