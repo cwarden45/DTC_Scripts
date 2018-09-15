@@ -81,7 +81,9 @@ The same logic would apply to duplications, but I'm focusing on deletions on the
   - VarScan will work on original alignment file, and (at least for me) original vcf was produced using freebayes.  You can produce an alignment that works with all variant callers (and from which you can compare structural variant calls) using `python realign_BWA_MEM.py`.  You can call [freebayes](https://github.com/ekg/freebayes) variants on the new alignment via `python run_freebayes.py`, but it is not currently installed on the Docker image.
   - Depending on your computer (and what is run for variant calling), this could potentially take a few days for WGS data.
   
-  ===================
+===================
+
+- - - - 
   
   ### Side Note #1 ###
   
