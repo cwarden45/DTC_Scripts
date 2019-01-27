@@ -16,7 +16,6 @@ You'll want to check the 23andMe data portal for variants with "D" or "I" annota
 
 **Other Notes**
 
-Independent of these scripts, you can also test uploading your raw 23andMe data into [DNA.LAND](https://dna.land/)
-
-With the caveat that the conversion isn't perfect (such as the missing indels), you can upload the .vcf file into the Variant Effect Predictor ([VEP](http://grch37.ensembl.org/Homo_sapiens/Tools/VEP))
-- Please note that it may take a little while to get your VEP result.
+* Independent of these scripts, you can also test uploading your raw 23andMe data into [DNA.LAND](https://dna.land/)
+* With the caveat that the conversion isn't perfect (such as the missing indels), you can upload the .vcf file into the Variant Effect Predictor ([VEP](http://grch37.ensembl.org/Homo_sapiens/Tools/VEP))
+ * Please note that it may take a little while to get your VEP result.
