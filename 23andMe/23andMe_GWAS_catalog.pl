@@ -1,5 +1,3 @@
-#Code written by Charles Warden (cwarden@coh.org, x60233)
-
 #This function creates an R script that can be used to create a .RData file
 
 #to run:
