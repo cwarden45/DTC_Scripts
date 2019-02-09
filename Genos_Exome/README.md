@@ -91,3 +91,9 @@ If comparing variants, please keep in mind that freebayes has a different format
 ### Other Notes ###
 
 Unless specified differently above, I used scripts / strategies described in the main [Veritas WGS](https://github.com/cwarden45/DTC_Scripts) page.
+
+### Personal Notes ###
+
+Here are coverge screenshots for two different processing strategies for my WGS (top 2) and Exome (bottom 2) genome sequences.  Since I am a male, notice that chrX coverage is lower than the autosomal chromosomes:
+
+Here is a screenshot verifying the presence of a cystic fibrosis variant idetnified by 23andMe (identified as pathogenic in ClinVar, as indicated in the [dbSNP](https://www.ncbi.nlm.nih.gov/snp/rs121908769#clinical_significance) entry).  You won't see it in my GET-Evidence reports (which you can see on my PGP page, for [https://my.pgp-hms.org/profile/hu832966](https://my.pgp-hms.org/profile/hu832966)) due to formatting errors, and it was incorrectly reported as not being a carrier in my Mayo Gene Guide report (also posted on my Personal Genome Project page) because it wasn't tested for.
