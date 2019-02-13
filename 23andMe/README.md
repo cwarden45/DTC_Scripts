@@ -21,3 +21,4 @@ You'll want to check the 23andMe data portal for variants with "D" or "I" annota
   * Please note that it may take a little while to get your VEP result (for me, it was more than 1 hour).
 * [Family Tree DNA](https://www.familytreedna.com/) allows you to upload your 23andMe data to search for matches (should be available within 24 hours), but you have to may extra for functionality ($19 for ancestry predictions, chromosome view, etc.)
   * Family Tree DNA "myOrigins" indicated I was 95% European and 3% African
+  * *However, please be aware that I got a strange match result, which I am looking into more.*
