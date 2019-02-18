@@ -4,7 +4,8 @@
 
 ```diff
 + Overall, I  would recommend Genes for Good for genotyping (with or without 23andMe testing).
-+ In addition to being free, they provided the most raw data formats to use with 3rd party software, as well as providing the most information about different pre-procesesing steps (to generate different sets of genotypes for the same sample).
++ In addition to being free, they provided the most raw data formats to use with 3rd party software
++ They also provided the most information about different pre-procesesing steps (to generate different sets of genotypes for the same sample).
 ```
 
 My 23andMe sample is from several years ago, on their V3 chip.  My Genes for Good sample was collected a couple years ago.  So, I don't know exactly how the latest results would compare, but I've provided a Venn Diagram below showing the overlap of probes (based upon genomic position, which is similar but slightly better than using the probe name):
