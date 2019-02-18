@@ -4,13 +4,16 @@ Personal Thoughts
 I got concordant results for my maternal line:
 
 **National Genographic 2.0**: L3 --> N --> R --> U --> U5 --> **U5B**
+
 **23andMe**: L --> L3 --> N --> R --> U --> **U5b** --> U5b2a2
 
 
 With the help of some [Wikipedia mappings](https://en.wikipedia.org/wiki/Human_Y-chromosome_DNA_haplogroup), I also got concordant results for my paternal line:
 
 **National Genographic 2.0**: P305 --> M42 --> M168 --> M203 --> **M96** --> P147 (E1) --> P177 (E1b) --> P2 (E1b1) --> M215 ([E1b1b](https://www.eupedia.com/europe/Haplogroup_E1b1b_Y-DNA.shtml)) --> *M123* --> M34
+
 **23andMe**: A --> DE-M145 --> **E-M96** --> *E-M123* --> E-L29
+
 --> Essentially **Haplogroup E(M96)** on Wikipedia
 
 My regional ancestry is mostly European: 72% Northwestern Europe, 19% Eastern Europe, 4% West Mediterranean, and 3% Western Africa.  Still not sure what to think about the 3% Western Africa, but I think the rest is an decent match for my expections (perhaps "West Mediterranean" captures some Spanish / Italian ancestry?)
