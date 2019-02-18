@@ -41,4 +41,4 @@ If you could convert all of the markers, there would be 200,180 positions covere
 
 I also had to sort by chromosomal order and position prior to plink file conversion, and remove non-canonical chromosomes.
 
-Plink inferred my sex was female with this smaller set of markers.  I tried to do HLA typing with SNP2HLA and HIBAG (similar to [Genes for Good](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good)), but I got an error message that all markers were excluded.
+Plink inferred my sex was female with this smaller set of markers.  I tried to do HLA typing with SNP2HLA and HIBAG (similar to [Genes for Good](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good)), but I got an error message that all relevant markers were already excluded.
