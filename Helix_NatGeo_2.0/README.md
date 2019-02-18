@@ -31,11 +31,7 @@ Raw Data File Conversion
 
 If you could convert all of the markers, there would be 200,180 positions covered by the Geno 2.0 array.
 
-Raw data has chromosomes, but not genomic position.
-
-So, I downloaded all hg19 dbSNP locations (from http://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/snp138.txt.gz).
-
-This is admittedly not the latest dbSNP (or reference), but my sample is from 2011 and this dbSNP file was a lot smaller.
+Raw data has chromosomes, but not genomic position.  So, I downloaded all hg19 dbSNP locations (from http://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/snp138.txt.gz).  This is admittedly not the latest dbSNP (or reference), but my sample is from 2011 and this dbSNP file was a lot smaller.
 
 In order to match Genes for Good code, I converted to 23andMe format (rather than creating a .vcf file) with `Geno2.0_to_23andMe_format.pl`.  Out of concerns about being able to support other people's use of these scripts, you need to modify the file (but, hopefully, you just have to change the variables towards the top of the script).  This mapping is only for markers with rsIDs, and it may take a little while (perhaps ~20 minutes?).  However, for the reasons below, I would guess this won't be very useful for most people.
 
