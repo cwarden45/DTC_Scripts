@@ -102,4 +102,5 @@ Here is a screenshot verifying the presence of a cystic fibrosis variant idetnif
 
 ![alt text](CFTR_carrier.png "Veritas WGS and Genos Exome rs121908769 Variant")
 
+**To be fair, neither Veritas nor Genos indicated I was a Cystic Fibrosis carrier in their results (even though you can see the variant in the above alignments).**  However, my overall impression wasn't highly negative because they didn't place a lot of emphasis on the reports, and I believe having the raw data that can be tested with multiple free intepretation programs is arguably what is most important.
 
