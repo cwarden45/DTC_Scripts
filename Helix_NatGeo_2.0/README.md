@@ -24,6 +24,7 @@ I am not sure what to think about the historical figure and Neanderthal results 
 
 I uploaded my Geno 2.0 data and reports to [my PGP page](https://my.pgp-hms.org/profile/hu832966), if anybody wants to look into those.
 
+***So, overall, I learned more about the mitochondrial and Y-chromosome markers.  However, I wouldn't typically recommend this to other people who already have 23andMe genotyping (and I would recommend 23andMe over Geno 2.0 overall).***
 
 Raw Data File Conversion
 -----------
