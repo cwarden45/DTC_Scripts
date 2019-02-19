@@ -98,7 +98,7 @@ Here are coverge screenshots for two different processing strategies for my WGS 
 
 ![alt text](whole_view.png "Veritas WGS and Genos Exome Coverage Plot")
 
-Here is a screenshot verifying the presence of a cystic fibrosis variant idetnified by 23andMe (identified as pathogenic in ClinVar, as indicated in the [dbSNP](https://www.ncbi.nlm.nih.gov/snp/rs121908769#clinical_significance) entry).  You won't see it in my GET-Evidence reports (which you can see on my PGP page, for [hu832966](https://my.pgp-hms.org/profile/hu832966)) due to indel formatting incompatibilities, and it was incorrectly reported as not being a carrier in my Mayo GeneGuide report (also posted on my Personal Genome Project page) because it wasn't tested for.  Again, top 2 tracks are WGS (same sample, different processing), and bottom 2 tracks are Exome (same sample, different processing):
+Here is a screenshot verifying the presence of a cystic fibrosis variant idetnified by 23andMe (identified as pathogenic in ClinVar, as indicated in the [dbSNP](https://www.ncbi.nlm.nih.gov/snp/rs121908769#clinical_significance) entry).  You won't see it in my GET-Evidence reports (which you can see on my PGP page, for [hu832966](https://my.pgp-hms.org/profile/hu832966)) due to indel formatting incompatibilities, and it was reported as **not** being a carrier in my Mayo GeneGuide report (also posted on my Personal Genome Project page) because it wasn't tested for.  Again, top 2 tracks are WGS (same sample, different processing), and bottom 2 tracks are Exome (same sample, different processing):
 
 ![alt text](CFTR_carrier.png "Veritas WGS and Genos Exome rs121908769 Variant")
 
