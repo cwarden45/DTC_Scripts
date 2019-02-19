@@ -23,7 +23,7 @@ Just in case there have been some more recent chip changes, I created a new Venn
 
 ### For Research Purposes Only! ###
 
-![alt text](probe_name_overlap.png "SNP chip Probe Name Overlap")
+![alt text](probe_name_overlap.png "SNP Chip Probe Name Overlap")
 
 I had the V3 23andMe chip for my sample.  My AncestryDNA chip had 667,884 probes.  Above overlap is by name (not position).
 
