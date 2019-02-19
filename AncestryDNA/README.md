@@ -5,7 +5,7 @@ Personal Thoughts
 
 My maternal (relatively) recent ancestry is from Arkanasas (near Memphis) and Tennessee, so the "Additional Community" result of "Northern Arkansas & Middle Tennessee Settlers" was interesting.  However, I think this would be more useful as a sort of free analysis for exported raw data (rather than purchasing another chip).
 
-I also found some additional family members that had AncestryDNA data, but not 23andMe data.  However, I think recommending people deposit their data into public databases to search for family members is preferable than having everybody purchase both 23andMe and AncestryDNA tests to search both sets of users for family members.  
+I also found some additional family members that had AncestryDNA data, but not 23andMe data.  However, I think recommending people deposit their data into public databases to search for family members is preferable than having everybody purchase both 23andMe and AncestryDNA tests to search both sets of customers for family members.  
 
 I also ordered the version of AncestryDNA that provides some trait information, and I filled out the questions for the "Personal Discoveries Project."  The Traits results are a little hard to view all at once, but I think providing the regional ancestry variation for each trait was interesting.
 
