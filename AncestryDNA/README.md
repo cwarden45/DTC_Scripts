@@ -9,7 +9,9 @@ I also ordered the version of AncestryDNA that provides some trait information, 
 
 I uploaded my AncestryDNA data and reports to [my PGP page](https://my.pgp-hms.org/profile/hu832966), if anybody wants to look into those.
 
-***So, overall, I think the relatively recent Arkanasas/Tennessee ancestry (and unique prediction of German ancestry) is interesting, but I think this would be more useful as a sort of free analysis for exported raw data.  I also found some additional family members that had AncestryDNA data but not 23andMe data, but I think recommending people deposit their data into public databases to search for family members would be preferable than having everybody purchase both 23andMe and AncestryDNA tests to search both sets of users for family members.  So, I wouldn't push too hard for people to have an additional test (and I'm not purchasing the additional Ancestry membership), but I think it provides some potentially interesting information (and I will probably check for revised results in the future).  For an extra $10, I think the extra traits were worth it (and I think a one-time cost of $10 may be acceptable instead of free in other circumstances).***
+In summary, I think the relatively recent Arkanasas/Tennessee ancestry (and unique prediction of German ancestry) is interesting, but I think this would be more useful as a sort of free analysis for exported raw data.  I also found some additional family members that had AncestryDNA data but not 23andMe data, but I think recommending people deposit their data into public databases to search for family members would be preferable than having everybody purchase both 23andMe and AncestryDNA tests to search both sets of users for family members.  
+
+***So, overall, I wouldn't push too hard for people to have an additional test (and I'm not purchasing the additional Ancestry membership), but I think it provides some potentially interesting information.  For an extra $10, I think the extra traits results are worth it.***
 
 Raw Data File Conversion
 -----------
