@@ -23,9 +23,9 @@ Just in case there have been some more recent chip changes, I created a new Venn
 
 ### For Research Purposes Only! ###
 
-![alt text](probe_name_overlap.png "SNP Chip Probe Name Overlap")
+I had the V3 23andMe chip for my sample.  My AncestryDNA chip had 667,884 probes.
 
-I had the V3 23andMe chip for my sample.  My AncestryDNA chip had 667,884 probes.  Above overlap is by name (not position).
+Below, my HLA-A, HLA-B, and HLA-C results are robust with the different genotyping and sequencing technologies, but my HLA-D type assignments change.
 
 <table>
   <tbody>
