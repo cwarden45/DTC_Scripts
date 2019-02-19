@@ -5,7 +5,7 @@ Personal Thoughts
 
 My maternal recent ancestry is from Arkanasas (near Memphis) and Tennessee, so the "Additional Community" result of "Northern Arkansas & Middle Tennessee Settlers" was interesting.
 
-I also ordered the version that provides some trait information, and I filled out the questions for the "Personal Discoveries Project" (which mostly seem like the Traits results).  The Traits results are a little hard to view all at once, but I think providing the regional ancestry variation for each trait was interesting (although a bit hard to view in terms of the overall picture)
+I also ordered the version of AncestryDNA that provides some trait information, and I filled out the questions for the "Personal Discoveries Project."  The Traits results are a little hard to view all at once, but I think providing the regional ancestry variation for each trait was interesting.
 
 I uploaded my AncestryDNA data and reports to [my PGP page](https://my.pgp-hms.org/profile/hu832966), if anybody wants to look into those.
 
