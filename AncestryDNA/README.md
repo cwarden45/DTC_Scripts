@@ -20,7 +20,7 @@ I actually had an earlier [blog post](http://cdwscience.blogspot.com/2013/12/add
 
 Just in case there have been some more recent chip changes, I created a new Venn Diagram with my own data, and (similar to my [Genes for Good](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good) data) I tested making HLA Predictions below.
 
-[Genes for Good](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good) Code Analysis Results
+[Genes for Good](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good) HLA Analysis Results
 -----------
 
 ### For Research Purposes Only! ###
