@@ -76,3 +76,17 @@ So, for the Genos Exome Alignments, HLAminer assignments were more similar to bw
 For HLA-A, HLA-B, and HLA-C, the imputed HLA types from the SNP chips match the BWA-MEM HLA assignments (for either HLAtype or bwakit).
 
 For SNP chips, the [dbSNP](https://www.ncbi.nlm.nih.gov/projects/SNP/) rsIDs (or, more precisely, the snpID in the genotype file) rather than chromosomal position is used for HLA2SNP and HIBAG.  In the case of HIBAG, there was an error message for my Genes for Good file (which I created from the 23andMe-formated genotype file) due to duplicate snpIDs.
+
+Other Notes
+-----------------
+
+I also liked that they described limitations to the ancestry predictions within Genes for Good.  For example, I copied the following warning verbatim (which I hope is OK):
+
+*Please note: it is not possible to assign correct ancestry to all locations in the genome. Thus, some short regions may have been assigned to populations that you are not descended from. Potential reasons include errors in the DNA measurements, flaws in the statistical model that assigns ancestry, or a segment of your DNA just happens to be more similar to a sequence that is more common in another population. Attempting to correct for these errors could introduce biases, so we chose to pass on the results unfiltered and encourage you to critically consider this information when attempting to understand your genetic origins.*
+
+*In particular, the Genes for Good team noticed that*
+
+- *Central and South Asian ancestry, and Native American ancestry, was often assigned to chromosomal segments of individuals who appear to actually have East Asian or European Ancestry, and vice-versa.*
+- *West Asian and North African Ancestry was often assigned to some portions of individuals who appear to actually have European ancestry and vice-versa.*
+
+I mentioned this because I would otherwise note that some chromosome painting results seemed strange (even though my pie chart was 99% European and I was clearly in the European cluster in the PCA plot).  However, with this warning, I feel very comfortable with the overall results (and, most importantly, the raw data).
