@@ -89,4 +89,4 @@ I also liked that they described limitations to the ancestry predictions within 
 - *Central and South Asian ancestry, and Native American ancestry, was often assigned to chromosomal segments of individuals who appear to actually have East Asian or European Ancestry, and vice-versa.*
 - *West Asian and North African Ancestry was often assigned to some portions of individuals who appear to actually have European ancestry and vice-versa.*
 
-I mentioned this because I would otherwise note that some chromosome painting results seemed strange (even though my pie chart was 99% European and I was clearly in the European cluster in the PCA plot).  However, with this warning, I feel very comfortable with the overall results (and, most importantly, the raw data).
+I mention this because I would otherwise note that some chromosome painting results seemed strange (even though my pie chart was 99% European and I was clearly in the European cluster in the PCA plot).  However, with this warning, I feel very comfortable with the overall results (and, most importantly, the raw data), particulary given that they were free.
