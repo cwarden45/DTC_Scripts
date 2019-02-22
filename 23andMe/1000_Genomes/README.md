@@ -42,9 +42,7 @@ Except for chrX, I highlighted the other segments that could be correct.  With t
 
 **3)** *I have a prediction of 0.1% "East Asian and Native American" that I think may be some sort of artifict.*
 
-At least when I was testing some ADMIXTURE assignments, there were usually non-zero values assigned to each category (where I would interpret low percentages as being less accurate).  Unfortuantely, I don't have a more precise explanation for this hypothesis at this time.
-
-**However, at least currently, this 23andMe ancestry assignment also goes away if I change the confidence from 50% (the default) to 90%.  So, I think increasing the confidence threshold increased the accuracy of the results, and may support my hypothesis that I don't actually have East Asian and Native American ancestry.**
+Unfortuantely, I don't have a more precise explanation for this hypothesis at this time.  **However, this 23andMe ancestry assignment also goes away if I change the confidence from 50% (the default) to 90%.  So, I think increasing the confidence threshold increased the accuracy of the results, and that supports my hypothesis that I don't actually have "East Asian and Native American" ancestry.**
 
 
 Input
