@@ -14,7 +14,7 @@ I believe 23andMe already provides some evidence to match this expectation:
 *a)* **That prediction of Scandinavian ancestry goes away if I shift from 50% confidence (the default) to 90% confidence.**<br />
 *b)* The "Recall" for this population is also lower than some other people in the [ancestry documentation](https://www.23andme.com/ancestry-composition-guide/) on the 23andMe website.  So, I think this is less accurate for most people.
 
-**So, I think increasing the confidence threshold increased the accuracy of the results, and may support my hypothesis that I don't actually have Scandinavian ancestry.**
+**So, I think increasing the confidence threshold increased the accuracy of the results, and this supports my hypothesis that I don't actually have Scandinavian ancestry.**
 
 **2)** I am predicted to have 2.5% African (Sub-Saharan African, according to 23andMe).  *While this might be correct, I wonder if there might be some Northern African / Southern European that might be mixed in there.*  For example, I expect to see some Spanish and Italian ancestry that isn't showing up.
 
