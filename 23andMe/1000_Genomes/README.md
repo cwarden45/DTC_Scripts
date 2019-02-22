@@ -11,7 +11,7 @@ If I filter for populations represented with at least 20 such individual, this l
 
 Super-Populations Sample Size (Unrelated + 1 child):
 
-AFR: 272\n
+AFR: 272<br />
 AMR: 135
 
 EAS: 445
