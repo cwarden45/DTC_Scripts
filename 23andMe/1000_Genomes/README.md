@@ -18,7 +18,7 @@ I believe 23andMe already provides some evidence to match this expectation:
 
 **2)** I am predicted to have 2.5% African (Sub-Saharan African, according to 23andMe).  *While this might be correct, I wonder if there might be some Northern African / Southern European that might be mixed in there.*  For example, I expect to see some Spanish and Italian ancestry that isn't showing up.
 
-While this was a main goal of trying to check the more specific 1000 Genomes frequencies, I don't think those results are absolutely conclusive (I don't really see extremely clear evidence for SNPs that are only high frequency in current African individuals within the 23andMe 90% confidence African ancestry segments; however, all SNPs within the segments are not informative, for example).
+While this was a main goal of trying to check the more specific 1000 Genomes frequencies, I don't think those results are absolutely conclusive (I don't really see extremely clear evidence for SNPs within the 23andMe 90% confidence African ancestry segments are only high frequency in the current African AFR population; however, all SNPs within the segments are not informative, for example).
 
 However, the *Genes For Good* results did indicate "West Asian and North African Ancestry was often assigned to some portions of individuals who appear to actually have European ancestry and vice-versa", and the part of African also varies with my [DNA.land](https://dna.land/) predictions (being North African instead of Sub-Saharan African, so I can see some evidence that the part of Africa may indeed not be precise).  On the other hand, the [GENOtation](http://genotation.stanford.edu/) Hapmap2 chromosome painting seems more limited (just European and African), but chr9 and chr14 are painted with African ancestry.
 
@@ -35,8 +35,6 @@ chr18:69836-5979832
 chrX:2700157-9188835
 
 So far, I see some indication of increasing African ancestry from other individuals on my father's side.  However, I know that the chrX prediction cannot represent that same ancestry from my paternal line (although, to be fair, 90% confidence allows for some inaccurate assignments).  Even if there is somehow psuedoautosomal-adjcent sequence carried over on my Y-chromosome, something about that segment wouldn't be precise.  However, I think my [E-M34](https://en.wikipedia.org/wiki/Haplogroup_E-M215_(Y-DNA)) ChrY Haplogroup may be more important in terms of indicating that the increasing "African" ancestry in my paternal line could in fact be from individuals who migrated from Central Africa to the North Africa and the Middle-East (and then possibly into Europe and/or the Americas).
-
-Except for chrX, I highlighted the other segments that could be correct.  With the frequencies from this script, those don't seem highly likely high AFR frequency (not to mention low frequency in other super-populations); I realize it is more complicated than this (for example, variants with high frequencies in all populations aren't as informative), but I think there is something about this result worth considering.
 
 **So, I am looking into this result more, since I am currently not 100% certain whether it is correct or not.**  My current hypothesis is that there is still something not precise about these predictions, but I think there is also a decent chance that these segments represent some different ancestry that is different than other segments (at least for the autosomal chromosomes).
 
