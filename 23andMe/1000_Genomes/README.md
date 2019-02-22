@@ -22,7 +22,7 @@ While this was a main goal of trying to check the more specific 1000 Genomes fre
 
 However, the *Genes For Good* results did indicate "West Asian and North African Ancestry was often assigned to some portions of individuals who appear to actually have European ancestry and vice-versa", and the part of African also varies with my [DNA.land](https://dna.land/) predictions (being North African instead of Sub-Saharan African, so I can see some evidence that the part of Africa may indeed not be precise).  On the other hand, the [GENOtation](http://genotation.stanford.edu/) Hapmap2 chromosome painting seems more limited (just European and African), but chr9 and chr14 are painted with African ancestry.
 
-If I export the 90% confidence predictions, these are the parts that are supposed to be of African Ancestry:
+*If I export the 90% confidence predictions, these are the parts that are supposed to be of African Ancestry*:
 
 chr14:48431057-58215840<br />
 chr14:94843083-95672943
