@@ -46,7 +46,7 @@ Unfortuantely, I don't have a more precise explanation for this hypothesis at th
 Input (*for annotating SNP population frequencies*)
 -----------
 
-I am parsing 1000 Genomes genotypes (**ALL.chip.omni_broad_sanger_combined.20140818.snps.genotypes.vcf** from *ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/release/20130502/supporting/hd_genotype_chip/*)
+I am parsing 1000 Genomes genotypes (**ALL.chip.omni_broad_sanger_combined.20140818.snps.genotypes.vcf** from *ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/release/20130502/supporting/hd_genotype_chip/*).
 
 I am curious about frequencies within more specific populations, which I am calculating if there are **unrelated** or **1 child** individuals from the pedigree file.
 
@@ -86,7 +86,7 @@ I am also using a 23andMe file converted to a VCF file (see the main [23andMe se
 Annotation
 -----------
 
-1) Reformat large 1000 Genomes genotype table into a frequency table using `calculate_vcf_frequencies.pl`
+1) Reformat large 1000 Genomes genotype table into a frequency table using `calculate_vcf_frequencies.pl`.
 
 I have saved a compressed version such a file [here](https://drive.google.com/open?id=1uqrFxW0MrqnevFcRbRHBM1WwJwzNtLdy) (for the unrelated and 1 child individuals).
 
@@ -96,7 +96,7 @@ I have saved a compressed version such a file [here](https://drive.google.com/op
 
 Accordingly, I am expecting other people to need to modify the code itself (towards the top of the file) to test application to their own sample.  I apologize for the inconvience, but I could admittedly make most of my main points above without any coding (*namely, 2 out of the 3 results that I thought seemed suspicious could be removed by choosing a higher confidence level within 23andMe*).
 
-2) Look for variants also present in your own .vcf file using `annotate_present_variants.pl`
+2) Look for variants also present in your own .vcf file using `annotate_present_variants.pl`.
 
 I am parsing the 23andMe raw data file that I converted (with limitations such as only looking at SNPs, not indels, etc.).  This type of .vcf file has some repeat annotations (as well as sites that match the reference at both alleles), but I am only considering adding the 1000 Genomes annotations to those with a "PASS" status (without being annotated as coming from a repeat) and variants actually present in my .vcf file.
 
