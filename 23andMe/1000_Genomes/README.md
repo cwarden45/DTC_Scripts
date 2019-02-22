@@ -12,32 +12,29 @@ If I filter for populations represented with at least 20 such individual, this l
 Super-Populations Sample Size (Unrelated + 1 child):
 
 AFR: 272<br />
-AMR: 135
-
-EAS: 445
-
-EUR: 364
-
-SAS: 113
+AMR: 135<br />
+EAS: 445<br />
+EUR: 364<br />
+SAS: 113<br />
 
 Specific Population Size (Unrelated + 1 child, if greater than 20):
-ACB: 55
-ASW: 43
-CDX: 100
-CHB: 108
-CHS: 51
-CLM: 35
-FIN: 100
-GBR: 101
-GIH: 113
-IBS: 50
-JPT: 105
-KHV: 80
-LWK: 116
-MXL: 30
-PEL: 35
-PUR: 35
-TSI: 112
+ACB: 55<br />
+ASW: 43<br />
+CDX: 100<br />
+CHB: 108<br />
+CHS: 51<br />
+CLM: 35<br />
+FIN: 100<br />
+GBR: 101<br />
+GIH: 113<br />
+IBS: 50<br />
+JPT: 105<br />
+KHV: 80<br />
+LWK: 116<br />
+MXL: 30<br />
+PEL: 35<br />
+PUR: 35<br />
+TSI: 112<br />
 YRI: 58
 
 I am also using a 23andMe file converted to a VCF file (see the main [23andMe section](https://github.com/cwarden45/DTC_Scripts/tree/master/23andMe))
