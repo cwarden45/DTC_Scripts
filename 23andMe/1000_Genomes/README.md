@@ -1,8 +1,7 @@
 Input
 -----------
 
-I am parsing 1000 Genomes genotypes (from <a href="ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/release/20130502/supporting/hd_genotype_chip))
-/ALL.chip.omni_broad_sanger_combined.20140818.snps.genotypes.vcf">ALL.chip.omni_broad_sanger_combined.20140818.snps.genotypes.vcf</a>)
+I am parsing 1000 Genomes genotypes (from <a href="ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/release/20130502/supporting/hd_genotype_chip/ALL.chip.omni_broad_sanger_combined.20140818.snps.genotypes.vcf">ALL.chip.omni_broad_sanger_combined.20140818.snps.genotypes.vcf</a>)
 
 I am curious about frequencies within more specific populations, which I am calculating if there are **unrelated** or **1 child** individuals from the pedigree file.
 
