@@ -38,7 +38,7 @@ So far, I see some indication of increasing African ancestry from other individu
 
 Except for chrX, I highlighted the other segments that could be correct.  With the frequencies from this script, those don't seem highly likely high AFR frequency (not to mention low frequency in other super-populations); I realize it is more complicated than this (for example, variants with high frequencies in all populations aren't as informative), but I think there is something about this result worth considering.
 
-**So, I am looking into this result more, since I am currently not certain whether it is correct or not**.
+**So, I am looking into this result more, since I am currently not 100% certain whether it is correct or not**.
 
 **3)** I have a prediction of 0.1% "East Asian and Native American" that I think may be some sort of artifict.
 
