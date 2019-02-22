@@ -1,7 +1,7 @@
 Personal Thoughts
 -----------------
 
-One thing that I think may need to be made clear is that a surprising 23andMe ancestry result may <b><u>not</b></u> necessarily be more accurate than your prior expectations.  You should consider this result as one possible piece of evidence that you combine with other information to guide you through possible interpretations of your ancestry.
+One thing that I think may need to be made clear is that a surprising 23andMe ancestry result may <b><u>not</b></u> necessarily be more accurate than your prior expectations.  You should consider ancestry predictions as one possible piece of evidence that you combine with other information to guide you through possible interpretations of your ancestry.
 
 I have my "raw" 23andMe data available on the [Personal Genome Project website](https://my.pgp-hms.org/profile/hu832966), and I have also exported and uploaded a PDF Health+Ancestry report (as well as two tables of Ancestry segments, of varying confidence).
 
