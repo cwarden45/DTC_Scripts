@@ -10,7 +10,8 @@ I am using the 1000 Genomes [Super-Populations](http://www.internationalgenome.o
 If I filter for populations represented with at least 20 such individual, this leaves me with the following counts:
 
 Super-Populations Sample Size (Unrelated + 1 child):
-AFR: 272
+
+AFR: 272\n
 AMR: 135
 
 EAS: 445
