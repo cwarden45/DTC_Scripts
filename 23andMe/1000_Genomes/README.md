@@ -11,7 +11,7 @@ More specifically, these are some hypothesis where I don't think the 23andMe ass
 
 I believe 23andMe already provides some evidence to match this expectation:
 
-a) **That prediction goes away if I shift from 50% confidence (the default) to 90% confidence**
+a) **That prediction of Scandinavian ancestry goes away if I shift from 50% confidence (the default) to 90% confidence.**<br />
 b) The "Recall" for this population is also lower than some other people in the [ancestry documentation](https://www.23andme.com/ancestry-composition-guide/) on the 23andMe website
 
 **So, I think increasing the confidence threshold increased the accuracy of the results, and may support my hypothesis that I don't actually have Scandinavian ancestry.**
