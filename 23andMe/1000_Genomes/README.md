@@ -45,7 +45,7 @@ Except for chrX, I highlighted the other segments that could be correct.  With t
 Unfortuantely, I don't have a more precise explanation for this hypothesis at this time.  **However, this 23andMe ancestry assignment also goes away if I change the confidence from 50% (the default) to 90%.  So, I think increasing the confidence threshold increased the accuracy of the results, and that supports my hypothesis that I don't actually have "East Asian and Native American" ancestry.**
 
 
-Input
+Input (*for annotating SNP population frequencies*)
 -----------
 
 I am parsing 1000 Genomes genotypes (**ALL.chip.omni_broad_sanger_combined.20140818.snps.genotypes.vcf** from *ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/release/20130502/supporting/hd_genotype_chip/*)
