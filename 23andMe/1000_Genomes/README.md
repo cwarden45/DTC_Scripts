@@ -49,7 +49,7 @@ I have saved a compressed version such a file here (for the unrelated and 1 chil
 - However, I want to make clear this is something that I created relatively quickly for my own purposes, so this is not equilvlant to something coming from the 1000 Genomes project (which has been subject to many more questions and testing).
 ```
 
-Accordingly, I am expecting other people to need to modify the code itself (towards the top of the file) to test application to their own sample.  This is because I 
+Accordingly, I am expecting other people to need to modify the code itself (towards the top of the file) to test application to their own sample.  I apologize for the inconvience, but I hope I can make my main points without any coding (*namely, 2 out of the 3 results that I thought seemed suspicious could be removed by choosing a higher confidence level within 23andMe*).
 
 2) Look for variants also present in your own .vcf file using `annotate_present_variants.pl`
 
