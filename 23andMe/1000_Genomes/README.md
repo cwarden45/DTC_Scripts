@@ -88,7 +88,7 @@ Annotation
 
 1) Reformat large 1000 Genomes genotype table into a frequency table using `calculate_vcf_frequencies.pl`
 
-I have saved a compressed version such a file here (for the unrelated and 1 child individuals).
+I have saved a compressed version such a file [here](https://drive.google.com/open?id=1uqrFxW0MrqnevFcRbRHBM1WwJwzNtLdy) (for the unrelated and 1 child individuals).
 
 ```diff
 - However, I want to make clear this is something that I created relatively quickly for my own purposes, so this is not equilvlant to something coming from the 1000 Genomes project (which has been subject to many more questions and testing).
