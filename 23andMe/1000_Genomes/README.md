@@ -7,7 +7,7 @@ I have my "raw" 23andMe data available on the [Personal Genome Project website](
 
 More specifically, these are some hypothesis where I don't think the 23andMe assignments were 100% precise:
 
-**1)** I think my Scandinavian assignment (11%) should really be non-specific European.
+**1)** *I think my Scandinavian assignment (11%) should really be non-specific European.*
 
 I believe 23andMe already provides some evidence to match this expectation:
 
@@ -18,9 +18,9 @@ b) The "Recall" for this population is also lower than some other people in the 
 
 **2)** I am predicted to have 2.5% African (Sub-Saharan African, according to 23andMe).  While this might be correct, I wonder if there might be some Northern African / Southern European that might be mixed in there.  For example, I expect to see some Spanish and Italian ancestry that isn't showing up.
 
-While this was a main goal of trying to check the more specific 1000 Genomes frequencies, I can't quite show this with that information.
+While this was a main goal of trying to check the more specific 1000 Genomes frequencies, I don't think those results are absolutely conclusive (I don't really see extremely clear evidence for SNPs that are only high frequency in current African individuals, but all SNPs within the segments are not informative, for example).
 
-However, the Genes4Good results did indicate "West Asian and North African Ancestry was often assigned to some portions of individuals who appear to actually have European ancestry and vice-versa", and the part of African also varies with my DNA.land predictions (being North African instead of Sub-Saharan African, so I can see some evidence that the part of Africa may indeed not be precise).  On the other hand, the [GENOtation](http://genotation.stanford.edu/) Hapmap2 chromosome painting seems more limited (just European and African), but chr9 and chr14 are painted with African ancestry.
+However, the Genes4Good results did indicate "West Asian and North African Ancestry was often assigned to some portions of individuals who appear to actually have European ancestry and vice-versa", and the part of African also varies with my [DNA.land](https://dna.land/) predictions (being North African instead of Sub-Saharan African, so I can see some evidence that the part of Africa may indeed not be precise).  On the other hand, the [GENOtation](http://genotation.stanford.edu/) Hapmap2 chromosome painting seems more limited (just European and African), but chr9 and chr14 are painted with African ancestry.
 
 If I export the 90% confidence predictions, these are the parts that are supposed to be of African Ancestry:
 
@@ -40,7 +40,7 @@ Except for chrX, I highlighted the other segments that could be correct.  With t
 
 **So, I am looking into this result more, since I am currently not 100% certain whether it is correct or not**.
 
-**3)** I have a prediction of 0.1% "East Asian and Native American" that I think may be some sort of artifict.
+**3)** *I have a prediction of 0.1% "East Asian and Native American" that I think may be some sort of artifict.*
 
 At least when I was testing some ADMIXTURE assignments, there were usually non-zero values assigned to each category (where I would interpret low percentages as being less accurate).  Unfortuantely, I don't have a more precise explanation for this hypothesis at this time.
 
