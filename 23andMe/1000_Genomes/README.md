@@ -83,10 +83,10 @@ However, the Genes4Good results did indicate "West Asian and North African Ances
 
 If I export the 90% confidence predictions, these are the parts that are supposed to be of African Ancestry:
 
-chr14:48431057-58215840
+chr14:48431057-58215840<br />
 chr14:94843083-95672943
 
-chr15:26636672-33061916
+chr15:26636672-33061916<br />
 chr15:47723113-49749548
 
 chr18:69836-5979832
