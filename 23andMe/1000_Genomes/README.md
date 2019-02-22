@@ -9,15 +9,14 @@ I am using the 1000 Genomes [Super-Populations](http://www.internationalgenome.o
 
 If I filter for populations represented with at least 20 such individual, this leaves me with the following counts:
 
-Super-Populations Sample Size (Unrelated + 1 child):
-
+*Super-Population Sample Size (Unrelated + 1 child)*:<br />
 AFR: 272<br />
 AMR: 135<br />
 EAS: 445<br />
 EUR: 364<br />
 SAS: 113<br />
 
-Specific Population Size (Unrelated + 1 child, if greater than 20):
+*Specific Population Size (Unrelated + 1 child, if greater than 20)*:<br />
 ACB: 55<br />
 ASW: 43<br />
 CDX: 100<br />
