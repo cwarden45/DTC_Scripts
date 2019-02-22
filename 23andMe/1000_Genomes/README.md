@@ -1,7 +1,7 @@
 Input
 -----------
 
-I am parsing 1000 Genomes genotypes (from <a href="ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/release/20130502/supporting/hd_genotype_chip/ALL.chip.omni_broad_sanger_combined.20140818.snps.genotypes.vcf">ALL.chip.omni_broad_sanger_combined.20140818.snps.genotypes.vcf</a>)
+I am parsing 1000 Genomes genotypes (ALL.chip.omni_broad_sanger_combined.20140818.snps.genotypes.vcf from ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/release/20130502/supporting/hd_genotype_chip/)
 
 I am curious about frequencies within more specific populations, which I am calculating if there are **unrelated** or **1 child** individuals from the pedigree file.
 
@@ -66,14 +66,16 @@ I have my "raw" 23andMe data available on the [Personal Genome Project website](
 
 More specifically, these are some hypothesis where I don't think the 23andMe assignments were 100% precise:
 
-1) I think my Scandinavian assignment (11%) should really be non-specific European
+**1)** I think my Scandinavian assignment (11%) should really be non-specific European.
 
 I believe 23andMe already provides some evidence to match this expectation:
 
 a) **That prediction goes away if I shift from 50% confidence (the default) to 90% confidence**
 b) The "Recall" for this population is also lower than some other people in the [ancestry documentation](https://www.23andme.com/ancestry-composition-guide/) on the 23andMe website
 
-2) I am predicted to have 2.5% African (Sub-Saharan African, according to 23andMe).  While this might be correct, I wonder if there might be some Northern African / Southern European that might be mixed in there.  For example, I expect to see some Spanish and Italian ancestry that isn't showing up.
+**So, I think increasing the confidence threshold increased the accuracy of the results, and may support my hypothesis that I don't actually have Scandinavian ancestry.**
+
+**2)** I am predicted to have 2.5% African (Sub-Saharan African, according to 23andMe).  While this might be correct, I wonder if there might be some Northern African / Southern European that might be mixed in there.  For example, I expect to see some Spanish and Italian ancestry that isn't showing up.
 
 While this was a main goal of trying to check the more specific 1000 Genomes frequencies, I can't quite show this with that information.
 
@@ -95,10 +97,10 @@ So far, I see some indication of increasing African ancestry from other individu
 
 Except for chrX, I highlighted the other segments that could be correct.  With the frequencies from this script, those don't seem highly likely high AFR frequency (not to mention low frequency in other super-populations); I realize it is more complicated than this (for example, variants with high frequencies in all populations aren't as informative), but I think there is something about this result worth considering.
 
-So, I am still not 100% sure what I am actually looking at, but I am going to look into this more (including assesssing predictions of African ancestry from my mother).
+**So, I am looking into this result more, since I am currently not certain whether it is correct or not**.
 
-3) I have a prediction of 0.1% "East Asian and Native American" that I think may be some sort of artifict.
+**3)** I have a prediction of 0.1% "East Asian and Native American" that I think may be some sort of artifict.
 
 At least when I was testing some ADMIXTURE assignments, there were usually non-zero values assigned to each category (where I would interpret low percentages as being less accurate).  Unfortuantely, I don't have a more precise explanation for this hypothesis at this time.
 
-**However, at least currently, this 23andMe ancestry assignment also goes away if I change the confidence from 50% (the default) to 90%.**
+**However, at least currently, this 23andMe ancestry assignment also goes away if I change the confidence from 50% (the default) to 90%.  So, I think increasing the confidence threshold increased the accuracy of the results, and may support my hypothesis that I don't actually have East Asian and Native American ancestry.**
