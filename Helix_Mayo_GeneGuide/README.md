@@ -16,8 +16,8 @@
 - Under "Tools --> "Breast Cancer Risk Assessment", I filled out the information for the Breast Cancer Referral Screening Tool (B-RST).  I was predicted as being **High Risk**, but that doesn't seem right to me: namely, GeneGuide knows my gender (Male), but I didn't provide that again for this particular assessment (and I would expect even a higher risk male is at lower risk than a typical woman).
   - Also, I don't believe GeneGuide provides a genetic cancer risk assessement testing, so it seems bit strange to provide this non-genetic assessment without a genetic assessment from something whose analysis is primarily meant to come from genomic sequencing (if so, I think focusing on doing a better job for a limited number of genetic assessments should be a priority, and this part probably should be removed).
 - You can get ancestry results under "Tools --> Health Ancestry", which predicted I was 95% European, 3% African, 1% Indigenous American, and 1% Other.  As mentioned X, I think the low percent ancestry results are accurate
-  - In 23andMe, the "East Asian and Native American" ancestry goes away if I increase the confidence threshold.
-  - I am still assessing the African component, but I have a feeling this may not be precise (and my Color Ancestry indicates that I am 100% European)
+  - In 23andMe, the "East Asian and Native American" ancestry [goes away](https://github.com/cwarden45/DTC_Scripts/tree/master/23andMe/Ancestry_plus_1000_Genomes) if I increase the confidence threshold.
+  - I am still assessing the African component, but I have a feeling this may not be precise (and my Color Ancestry indicates that I am 100% European).
   - Also, my pie chart is not to scale (a 5% is represented as ~25%, with equal sized segments for 1% and 3%), and it wasn't really accurate to say "Health Ancestry" since no additional health-centric information was provided.
   - So, in this situation, I think it would be better to not provide any ancestry results, than to provide these results.
 - In the "Welcome" Tutorial (under "Genetic Fundamentals"), slide #2 indicates ADHD has 70% Heritability.
