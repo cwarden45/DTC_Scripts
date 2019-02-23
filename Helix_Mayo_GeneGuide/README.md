@@ -2,8 +2,6 @@
 - At least currently, please note that I would recommend against purchasing this test, for the following reasons:
 ```
 
-More specifically, I have the following concerns:
-
 - You can download raw data (in the form of a gVCF file), but that is Exome+ data that has to be purchased and downloaded from the Helix website (for $499 + tax, which is more than twice the initial cost of $179)
 - The GeneGuide report says that I was not a Cystic Fibrosis carrier.  However, I was identified as a Cystic Fibrosis carrier by 23andMe, with a variant listed in [ClinVar](https://www.ncbi.nlm.nih.gov/snp/rs121908769#clinical_significance) as being "Pathogenic" for Cystic Fibrosis.
   - I could confirm that I had that variant with my Veritas WGS and Genos Exome [alignments](https://github.com/cwarden45/DTC_Scripts/tree/master/Genos_Exome), and Helix Exome+ data used for GeneGuide (with an [IGV](http://software.broadinstitute.org/software/igv/) gVCF screenshot shown below)
