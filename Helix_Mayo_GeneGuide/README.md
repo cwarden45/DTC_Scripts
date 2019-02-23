@@ -14,7 +14,7 @@
   - Mayo GeneGuide does provide some additional background in the web-interface, but I think access to the primary data / literature is extremely important.
   - So, if there is greater emphasis on providing information for a smaller number of diseases, I think that information should be more detailed so that patients and physicans can have a better idea about the justification of their carrier status and/or increased disease risk.
 - Under "Tools --> "Breast Cancer Risk Assessment", I filled out the information for the Breast Cancer Referral Screening Tool (B-RST).  I was predicted as being **High Risk**, but that doesn't seem right to me: namely, GeneGuide knows my gender (Male), but I didn't provide that again for this particular assessment (and I would expect even a higher risk male is at lower risk than a typical woman).
-  - Also, the GeneGuide does cancer testing that indicated I wasn't a carrier (so, I think that those results should be connected somehow)
+  - Also, the GeneGuide does cancer testing, which indicated I wasn't a carrier (so, I think that those results should be connected somehow)
 - You can get ancestry results under "Tools --> Health Ancestry", which predicted I was 95% European, 3% African, 1% Indigenous American, and 1% Other.  As mentioned X, I think the low percent ancestry results are accurate
   - In 23andMe, the "East Asian and Native American" ancestry goes away if I increase the confidence threshold.
   - I am still assessing the African component, but I have a feeling this may not be precise (and my Color Ancestry indicates that I am 100% European)
