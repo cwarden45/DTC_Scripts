@@ -87,6 +87,5 @@ Below, my HLA-A, HLA-B, and HLA-C results are robust with the different genotypi
 HLA-DQB1\*0201/0202" and **DQ8-positive** as "HLA-DQA1\*03 and
 HLA-DQB1\*0302", and indicates DQ2 (the one 23andMe says I don't have) is the more important allele.
 
-FYI, you can download HLA reference sequences from this ftp: ftp://ftp.ebi.ac.uk/pub/databases/ipd/imgt/hla/fasta/
-
+FYI, you can download HLA reference sequences from this ftp: ftp://ftp.ebi.ac.uk/pub/databases/ipd/imgt/hla/fasta/ <br />
 If I use [BLAT](https://genome.ucsc.edu/cgi-bin/hgBlat?command=start), those variant sites are still intronic / intergenic for DQA1\*05:01 and DQB1\*02:02.
