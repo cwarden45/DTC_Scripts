@@ -88,4 +88,4 @@ HLA-DQB1\*0201/0202" and **DQ8-positive** as "HLA-DQA1\*03 and
 HLA-DQB1\*0302", and indicates DQ2/DQ2.5 (the one 23andMe says I don't have) is the more important haplotype.
 
 FYI, you can download HLA reference sequences from this ftp: ftp://ftp.ebi.ac.uk/pub/databases/ipd/imgt/hla/fasta/ <br />
-With [BLAT](https://genome.ucsc.edu/cgi-bin/hgBlat?command=start), those 2 variant sites used by 23andMe are still intronic / intergenic for DQA1\*05:01 and DQB1\*02:01/\*02:02 (although it looks like it can be a coding overlap for DQA1\*05:05).
+With [BLAT](https://genome.ucsc.edu/cgi-bin/hgBlat?command=start), those 2 variant sites used by 23andMe are still intronic / intergenic for DQA1\*05:01 and DQB1\*02:01/\*02:02 (although it looks like it can be a coding overlap for DQA1\*05:05, for rs2187668, which is the most significant result in [Dubois et al. 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2847618/)).
