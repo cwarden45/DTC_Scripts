@@ -83,9 +83,11 @@ Below, my HLA-A, HLA-B, and HLA-C results are robust with the different genotypi
 </tbody>
 </table>
 
-23andMe reports that I lack the [rs2187668](https://www.ncbi.nlm.nih.gov/snp/rs2187668) variant for *HLA-DQ2.5*, but I carry *both* copies of the C [rs7454108](https://www.ncbi.nlm.nih.gov/snp/rs7454108) variant for **HLA-DQ8**. 23andMe provided [this helpful GeneReviews reference](https://www.ncbi.nlm.nih.gov/books/NBK1727/), which defines *DQ2-positive* as "HLA-DQA1\*0501/0505 and
+23andMe reports that I lack the [rs2187668](https://www.ncbi.nlm.nih.gov/snp/rs2187668) variant for *HLA-DQ2.5*, but I carry *both* copies of the C [rs7454108](https://www.ncbi.nlm.nih.gov/snp/rs7454108) variant for **HLA-DQ8**.  Unlike the methods described above, this uses with a methodology similar to [Monsuur et al. 2008](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002270) (as well a other citations provided within 23andMe).
+
+23andMe also provided [this helpful GeneReviews reference](https://www.ncbi.nlm.nih.gov/books/NBK1727/), which defines *DQ2-positive* as "HLA-DQA1\*0501/0505 and
 HLA-DQB1\*0201/0202" and **DQ8-positive** as "HLA-DQA1\*03 and
-HLA-DQB1\*0302", and indicates DQ2 (the one 23andMe says I don't have) is the more important allele (with a methodology similar to [Monsuur et al. 2008](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002270), as well a other citations provided within 23andMe.
+HLA-DQB1\*0302", and indicates DQ2 (the one 23andMe says I don't have) is the more important allele.
 
 FYI, you can download HLA reference sequences from this ftp: ftp://ftp.ebi.ac.uk/pub/databases/ipd/imgt/hla/fasta/ <br />
 If I use [BLAT](https://genome.ucsc.edu/cgi-bin/hgBlat?command=start), those variant sites are still intronic / intergenic for DQA1\*05:01 and DQB1\*02:02.
