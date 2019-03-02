@@ -18,9 +18,9 @@ Raw Data File Conversion
 
 I actually had an earlier [blog post](http://cdwscience.blogspot.com/2013/12/additional-analysis-of-ancestrydna-data.html) where I did some file conversion and analysis for somebody else.  So, that was one less thing that I had to write for my own data!
 
-Just in case there have been some more recent chip changes, I created a new Venn Diagram with my own data, and (similar to my [Genes for Good](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good) data) I tested making HLA Predictions below.
+Similar to my [Genes for Good](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good) data, I tested making HLA Predictions below.
 
-[Genes for Good](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good) HLA Analysis Results
+HLA Analysis Results
 -----------
 
 ### For Research Purposes Only! ###
