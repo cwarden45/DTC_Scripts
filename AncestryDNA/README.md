@@ -40,7 +40,7 @@ Below, my HLA-A, HLA-B, and HLA-C results are robust with the different genotypi
     </tr>
     <tr>
       <td align="center">HLA-A</td>
-      <td align="left">A*01, A*02<br/>(23andMe)<br/><br/>A*01, A*02<br/>(Genes for Good)<br/><br/>A*01, A*02<br/>(**AncestryDNA**)</td>
+      <td align="left">A*01, A*02<br/>(23andMe)<br/><br/>A*01, A*02<br/>(Genes for Good)<br/><br/>A*01, A*02<br/>(<b>AncestryDNA</b>)</td>
       <td align="left">A*01, A*02<br/>(23andMe)<br/><br/>A*01, A*02<br/>(**AncestryDNA**)</td>
       <td align="left">A*01, A*02<br/>(Genos Exome BWA-MEM)</td>
       <td align="left">A*01, A*02<br/>(Genos Exome BWA-MEM)<br/><br/>A*01, A*68<br/>(Genos Exome BWA)</td>
