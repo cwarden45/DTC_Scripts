@@ -109,4 +109,4 @@ I checked and there weren't any reads aligned at those exact position on any of 
 
 ![alt text](chr6_ssto_hap7_nearby.png "View of chr6_SSTO_hap7 Contig near rs2187668")
 
-In the screenshot above, you would expect everything from my Exome data to be covered in my WGS data.  However, Veritas provided the alignments in per-chromosome .bam files (without providing .fastq files).  So, I am guessing the reads you see on my Exome dataset (bottom) could have also been obtained if I had access to the unaligned reads (that weren't aligned to the canonical chromosomes in hg19).
+In the screenshot above, you would expect everything from my Exome data to be covered in my WGS data.  However, Veritas provided the alignments in per-chromosome .bam files (without providing .fastq files).  So, I am guessing the reads you see on my Exome dataset (bottom) could have also been obtained if I had access to the unaligned reads (that weren't aligned to the canonical chromosomes in hg19) in my Whole Genome Sequencing data (top).
