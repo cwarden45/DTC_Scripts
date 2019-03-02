@@ -101,7 +101,7 @@ There was something similar at the bottom of the page for my Cystic Fibrosis var
 
 ![alt text](Veritas_Genos_rs7454108.png "'HLA-DQB1' rs7454108 Alignment View")
 
-In contrast, the screenshots below only have 2 alignment tracks (with non-canonical HLA contigs, only in the re-processed alignments, not in the provided alignments):
+In contrast, the screenshots below only have 2 alignment tracks (with non-canonical HLA contigs, only in the re-processed alignments, not in the provided alignments; the top alignment is Veritas WGS and the bottom alignment is Genos Exome):
 
 ![alt text](chr6_cox_hap2.png "Overall View of chr6_COX_hap2 Contig")
 
