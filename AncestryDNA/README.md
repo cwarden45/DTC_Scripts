@@ -108,3 +108,5 @@ In contrast, the screenshots below only have 2 alignment tracks (with non-canoni
 I checked and there weren't any reads aligned at those exact position on any of the alternative chromosomes.  However, here is a screenshot where I thought the alignments were relatively nearby (and there had to be some alignment in those genes, using that other reference, in order to get the predictions in the table above):
 
 ![alt text](chr6_ssto_hap7_nearby.png "View of chr6_SSTO_hap7 Contig near rs2187668")
+
+In the screenshot above, you would expect everything from my Exome data to be covered in my WGS data.  However, Veritas provided the alignments in per-chromosome .bam files (without providing .fastq files).  So, I am guessing the reads you see on my Exome dataset (bottom) could have also been obtained if I had access to the unaligned reads (that weren't aligned to the canonical chromosomes in hg19).
