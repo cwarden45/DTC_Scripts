@@ -92,3 +92,9 @@ FYI, you can download HLA reference sequences from this ftp: ftp://ftp.ebi.ac.uk
 * You can also do things like a [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) search with the primers in [Table S1](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002270#s5) of the Monsuur et al. 2008 publication.  There is also a BLAST interface from [IPD-IMGT/HLA](https://www.ebi.ac.uk/ipd/imgt/hla/blast.html).
 
 In terms of the updates that I added on 2/28, I would like to thank [Susan Neuhausen](https://www.cityofhope.org/people/neuhausen-susan) for discussions that encouraged me to take more time review the literature for these results more carefully.
+
+I also thought it might be helpful to show some screenshots with my Veritas WGS and Genos Exome datasets:
+
+There was something similar at the bottom of the page for my Cystic Fibrosis variant at the bottom of the [Genos Exome](https://github.com/cwarden45/DTC_Scripts/tree/master/Genos_Exome) section.  However, to briefly review what I am showing, the 1st two tracks are Whole Genome Sequencing data (processed two different ways), and the next two tracks are Exome data (processed in two different ways).
+
+In this case, I also added a track for the 23andMe Celiac Disease variants at the bottom (which I thought was helpful when there weren't actually any reads aligned to the region (the WGS and Exome assignments from the table above align to a different reference set, not using the typical genome alignment).
