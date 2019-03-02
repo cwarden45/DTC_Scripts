@@ -97,6 +97,16 @@ In terms of the updates that I added on 2/28, I would like to thank [Susan Neuha
 
 There was something similar at the bottom of the page for my Cystic Fibrosis variant at the bottom of the [Genos Exome](https://github.com/cwarden45/DTC_Scripts/tree/master/Genos_Exome) section.  However, to briefly review what I am showing, if there is a total of 4 alignment tracks, the 1st two tracks are Whole Genome Sequencing data (processed two different ways), and the next two tracks are Exome data (processed in two different ways):
 
+![alt text](Veritas_Genos_HLA-DQA1.png "HLA-DQA1 / rs2187668 Alignment View")
+
+![alt text](Veritas_Genos_rs7454108.png "'HLA-DQB1' rs7454108 Alignment View")
+
 In contrast, the screenshots below only have 2 alignment tracks (with non-canonical HLA contigs, only in the re-processed alignments, not in the provided alignments):
+
+![alt text](chr6_cox_hap2.png "Overall View of chr6_COX_hap2 Contig")
+
+I checked and there weren't any reads aligned at those exact position on any of the alternative chromosomes.  However, here is a screenshot where I thought the alignments were relatively nearby (and there had to be some alignment in those genes, using that other reference, in order to get the predictions in the table above):
+
+![alt text](chr6_ssto_hap7_nearby.png "View of chr6_SSTO_hap7 Contig near rs2187668")
 
 In this case, I also added a track for the 23andMe Celiac Disease variants at the bottom (which I thought was helpful when there weren't actually any reads aligned to the region (the WGS and Exome assignments from the table above align to a different reference set, not using the typical genome alignment).
