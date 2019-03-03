@@ -15,6 +15,7 @@ Personal Thoughts
 *23andMe*: A --> DE-M145 --> **E-M96** --> *E-M123* --> E-L29
 
 --> Essentially **Haplogroup E(M96)** on Wikipedia
+--> I also thought comparison of the reports can be helpful in terms of getting a feel for the level of accuracy for the estimations of migration occurance.  For example, 23andMe assigns a date of 73,000 years ago for the E-M96 branch, while National Geographic Geno 2.0 assigns the M96 branch a range of 50,000-55,000 years ago.  Obviously, they can't both be precisely correct, but I think what is more important is to view those as possible values within the confidence interval among different methods (not just the confidence interval estimated for one method).  For example, no one is saying that there was a migration event associated with that branch 4,000 years ago.
 
 My regional ancestry is mostly European: 72% Northwestern Europe, 19% Eastern Europe, 4% West Mediterranean, and 3% Western Africa.  Still not sure what to think about the 3% Western Africa, but I think the rest is an decent match for my expections (perhaps "West Mediterranean" captures some Spanish / Italian ancestry?)
 
