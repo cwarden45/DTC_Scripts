@@ -36,6 +36,14 @@ chrX:2700157-9188835
 
 So far, I see some indication of increasing African ancestry from other individuals on my father's side.  I think my [E-M34](https://en.wikipedia.org/wiki/Haplogroup_E-M215_(Y-DNA)) ChrY Haplogroup may be relevant, if it indicates that the increased "African" ancestry in my paternal line could in fact be from individuals who migrated from Central Africa to the North Africa and the Middle-East (and then possibly into Europe and/or the Americas).  However, I know that the chrX prediction cannot represent that same ancestry from my paternal line (although, to be fair, 90% confidence allows for some inaccurate assignments).
 
+If it helps, here is a visualization of my chrX (with the default of 50% confidence):
+
+![alt text](cwarden_23andMe_chrX_conf50.png "Charles Warden, ChrX/Y, 50% confidence")
+
+and here is visualization of my chrX (with the confidence threshold increased to 90%):
+
+![alt text](cwarden_23andMe_chrX_conf90.png "Charles Warden, ChrX/Y, 90% confidence")
+
 **So, I am looking into this result more, since I am currently not 100% certain whether it is correct or not.**  My current hypothesis is that there is still something not precise about these predictions, but I think there is also a decent chance that these segments represent some different ancestry that is different than other segments (at least for the autosomal chromosomes).
 
 **3)** *I have a prediction of 0.1% "East Asian and Native American" that I think may be some sort of artifact.*
