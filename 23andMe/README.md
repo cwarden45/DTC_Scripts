@@ -22,3 +22,15 @@ You'll want to check the 23andMe data portal for variants with "D" or "I" annota
 * [Family Tree DNA](https://www.familytreedna.com/) allows you to upload your 23andMe data to search for matches (should be available within 24 hours), but you have to may extra for functionality ($19 for ancestry predictions, chromosome view, etc.)
   * Family Tree DNA "myOrigins" indicated I was 95% European and 3% African
   * *However, please be aware that I got a strange match result, which I am looking into more.*
+  
+**Personal Notes**
+  
+I've recently been asking family members to undergo DNA profiling, and I have **only** been asking them to do genotyping through 23andMe (unlike myself, where I have been testing / comparing different companies).  So, I think that is a relatively good endorsement for 23andMe.
+  
+However, I also have some things that I believe can be improved upon:
+
+**1)** I think they should be more conservative when reporting genetic matches.  They essentually do this with the "close match" desigation, but I think they should have you opt-in into seeing more distant matches (and not include those counts on the home page).  This may mean some people don't have any matches, but I think people's first impression of the data should focus on what is most significant (and they can then learn more about genetics subsequent times that they visit the website).
+
+**2)** The 23andMe ads that I see on TV bother me because I think they can give people a false sense of confidence in their results.  As I mention in a [subsection](https://github.com/cwarden45/DTC_Scripts/tree/master/23andMe/Ancestry_plus_1000_Genomes) of this page, 2 out of the 3 results that seemed strange to me could go away if I increase the confidence threshold.  However, kind of like the genetic matches, I think the results should start with the higher confidence results, and allow people to choose to view lower confidence results (instead of the other way around).
+
+**3)** It isn't just 23andMe, but "HLA-DQA1 and HLA-DQB1" Celiac Disease risk assessment" using 2 SNPs that are not actually within the coding genome annotations may be confusing to some people.  So, I don't think this should really be on the front-page in the "meet your genes" format.  Also, the asteric next to celiac disease, is actually a notice about the 3 SNPs for the BRCA1/2 risk assessment.
