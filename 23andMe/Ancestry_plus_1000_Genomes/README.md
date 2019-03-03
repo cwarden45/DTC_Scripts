@@ -38,11 +38,11 @@ So far, I see some indication of increasing African ancestry from other individu
 
 If it helps, here is a visualization of my chrX (with the default of 50% confidence):
 
-![alt text](cwarden_23andMe_chrX_conf50.png "Charles Warden, ChrX/Y, 50% confidence")
+![alt text](cwarden_23andMe_chrX_conf50.png "Charles Warden, chrX and chrY, 50% confidence")
 
 and here is visualization of my chrX (with the confidence threshold increased to 90%):
 
-![alt text](cwarden_23andMe_chrX_conf90.png "Charles Warden, ChrX/Y, 90% confidence")
+![alt text](cwarden_23andMe_chrX_conf90.png "Charles Warden, chrX and chrY, 90% confidence")
 
 **So, I am looking into this result more, since I am currently not 100% certain whether it is correct or not.**  My current hypothesis is that there is still something not precise about these predictions, but I think there is also a decent chance that these segments represent some different ancestry that is different than other segments (at least for the autosomal chromosomes).
 
