@@ -38,7 +38,7 @@ So far, I see some indication of increasing African ancestry from other individu
 
 If it helps, here is a visualization of my chrX (with the default of 50% confidence):
 
-![alt text](cwarden_23andMe_chrX_conf50.png "Charles Warden 50 Percent Confidence")
+![alt text](cwarden_23andMe_chrX_conf50.PNG "Charles Warden 50 Percent Confidence")
 
 and here is visualization of my chrX (with the confidence threshold increased to 90%):
 
