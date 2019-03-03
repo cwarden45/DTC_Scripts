@@ -44,6 +44,8 @@ and here is visualization of my chrX (with the confidence threshold increased to
 
 ![alt text](cwarden_23andMe_chrX_conf90.PNG "Charles Warden 90 Percent Confidence")
 
+I also noticed that [Genes for Good](https://genesforgood.sph.umich.edu/) and [GENOtation](http://genotation.stanford.edu/) don't provide ancestry painting for the sex chromosomes.
+
 **So, I am looking into this result more, since I am currently not 100% certain whether it is correct or not.**  My current hypothesis is that there is still something not precise about these predictions, but I think there is also a decent chance that these segments represent some different ancestry that is different than other segments (at least for the autosomal chromosomes).
 
 **3)** *I have a prediction of 0.1% "East Asian and Native American" that I think may be some sort of artifact.*
