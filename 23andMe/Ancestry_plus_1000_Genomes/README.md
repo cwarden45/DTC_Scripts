@@ -38,7 +38,7 @@ So far, I see some indication of increasing African ancestry from other individu
 
 **So, I am looking into this result more, since I am currently not 100% certain whether it is correct or not.**  My current hypothesis is that there is still something not precise about these predictions, but I think there is also a decent chance that these segments represent some different ancestry that is different than other segments (at least for the autosomal chromosomes).
 
-**3)** *I have a prediction of 0.1% "East Asian and Native American" that I think may be some sort of artifict.*
+**3)** *I have a prediction of 0.1% "East Asian and Native American" that I think may be some sort of artifact.*
 
 Unfortuantely, I don't have a more precise explanation for this hypothesis at this time.  **However, this 23andMe ancestry assignment also goes away if I change the confidence from 50% (the default) to 90%.  So, I think increasing the confidence threshold increased the accuracy of the results, and that supports my hypothesis that I don't actually have "East Asian and Native American" ancestry.**
 
