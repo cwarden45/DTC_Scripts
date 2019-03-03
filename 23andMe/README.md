@@ -29,7 +29,7 @@ I've recently been asking family members to undergo DNA profiling, and I have *o
   
 However, I also have some things that I believe can be improved upon:
 
-**1)** I think they should be more conservative when reporting genetic matches.  They essentually do this with the "close match" desigation, but I think they should have you opt-in into seeing more distant matches (and not include those counts on the home page).  This may mean some people don't have any matches, but I think people's first impression of the data should focus on what is most significant (and they can then learn more about genetics subsequent times that they visit the website).
+**1)** I think they should be more conservative when reporting genetic matches.  They essentually do this with the "close match" designation, but I think they should have you opt-in into seeing more distant matches (and not include those counts on the home page).  This may mean some people don't have any matches, but I think people's first impression of the data should focus on what is most significant (and they can then learn more about genetics subsequent times that they visit the website).
 
 **2)** The 23andMe ads that I see on TV bother me because I think they can give people a false sense of confidence in their results.  As I mention in a [subsection](https://github.com/cwarden45/DTC_Scripts/tree/master/23andMe/Ancestry_plus_1000_Genomes) of this page, 2 out of the 3 results that seemed strange to me could go away if I increase the confidence threshold.  However, kind of like the genetic matches, I think the results should start with the higher confidence results, and allow people to choose to view lower confidence results (instead of the other way around).
 
