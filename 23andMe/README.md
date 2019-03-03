@@ -25,7 +25,7 @@ You'll want to check the 23andMe data portal for variants with "D" or "I" annota
   
 **Personal Notes**
   
-I've recently been asking family members to undergo DNA profiling, and I have **only** been asking them to do genotyping through 23andMe (unlike myself, where I have been testing / comparing different companies).  So, I think that is a relatively good endorsement for 23andMe.
+I've recently been asking family members to undergo DNA profiling, and I have *only* been asking them to do genotyping through 23andMe (and/or [Genes_for_Good](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good), if they wanted a *free* raw dataset with limited interpretation).  In contrast, I have been testng other companies, and I haven't been recommending them.  So, I think that is a relatively good endorsement for 23andMe.
   
 However, I also have some things that I believe can be improved upon:
 
