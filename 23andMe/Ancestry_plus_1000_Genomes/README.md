@@ -20,7 +20,7 @@ I believe 23andMe already provides some evidence to match this expectation:
 
 While this was a main goal of trying to check the more specific 1000 Genomes frequencies, I don't think those results are absolutely conclusive (I don't really see extremely clear evidence for SNPs within the 23andMe 90% confidence African ancestry segments are only high frequency in the current African AFR population; however, all SNPs within the segments are not informative, for example).
 
-However, the *Genes For Good* results did indicate "West Asian and North African Ancestry was often assigned to some portions of individuals who appear to actually have European ancestry and vice-versa", and the part of African also varies with my [DNA.land](https://dna.land/) predictions (being North African instead of Sub-Saharan African, so I can see some evidence that the part of Africa may indeed not be precise).  On the other hand, the [GENOtation](http://genotation.stanford.edu/) Hapmap2 chromosome painting seems more limited (just European and African), but chr9 and chr14 are painted with African ancestry.  The [GEDmatch](https://genesis.gedmatch.com/login1.php) also has some "Admixture (heritage)" results.
+However, the *Genes For Good* results did indicate "West Asian and North African Ancestry was often assigned to some portions of individuals who appear to actually have European ancestry and vice-versa", and the part of African also varies with my [DNA.land](https://dna.land/) predictions (being North African instead of Sub-Saharan African, so I can see some evidence that the part of Africa may indeed not be precise).  On the other hand, the [GENOtation](http://genotation.stanford.edu/) Hapmap2 chromosome painting seems more limited (just European and African), but chr9 and chr14 are painted with African ancestry.
 
 *If I export the 90% confidence predictions, these are the parts that are supposed to be of African Ancestry*:
 
@@ -44,7 +44,7 @@ and here is visualization of my chrX (with the confidence threshold increased to
 
 ![alt text](cwarden_23andMe_chrX_conf90.PNG "Charles Warden 90 Percent Confidence")
 
-I also noticed that [Genes for Good](https://genesforgood.sph.umich.edu/) and [GENOtation](http://genotation.stanford.edu/) don't provide ancestry painting for the sex chromosomes.
+I also noticed that [Genes for Good](https://genesforgood.sph.umich.edu/), [GENOtation](http://genotation.stanford.edu/), and [GEDmatch](https://genesis.gedmatch.com/login1.php) (for "Admixture (heritage)" results) don't provide ancestry painting for the sex chromosomes.
 
 **So, I am looking into this result more, since I am currently not 100% certain whether it is correct or not.**  My current hypothesis is that there is still something not precise about these predictions, but I think there is also a decent chance that these segments represent some different ancestry that is different than other segments (at least for the autosomal chromosomes).
 
