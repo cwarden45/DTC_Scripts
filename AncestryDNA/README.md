@@ -85,13 +85,13 @@ Below, my HLA-A, HLA-B, and HLA-C results are robust with the different genotypi
 
 23andMe reports that I lack the [rs2187668](https://www.ncbi.nlm.nih.gov/snp/rs2187668) variant for *HLA-DQ2.5*, but I carry *both* copies of the C [rs7454108](https://www.ncbi.nlm.nih.gov/snp/rs7454108) variant for **HLA-DQ8**.  Unlike the methods described above, this uses a methodology similar to [Monsuur et al. 2008](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002270) (as well as other citations provided within 23andMe).  However, 23andMe also provided [this helpful GeneReviews reference](https://www.ncbi.nlm.nih.gov/books/NBK1727/), which defines *DQ2-positive* as "HLA-DQA1\*0501/0505 and
 HLA-DQB1\*0201/0202" and **DQ8-positive** as "HLA-DQA1\*03 and
-HLA-DQB1\*0302", and indicates DQ2/DQ2.5 (the one 23andMe says I don't have) is the more important haplotype.
+HLA-DQB1\*0302", and indicates DQ2/DQ2.5 (the one 23andMe says I don't have) is the more prevalant among those with Celiac Disease (although many people are also DQ2+ that don't have the disease).
 
 FYI, you can download HLA reference sequences from this ftp: ftp://ftp.ebi.ac.uk/pub/databases/ipd/imgt/hla/fasta/ <br />
 * With [BLAT](https://genome.ucsc.edu/cgi-bin/hgBlat?command=start), those 2 variant sites used by 23andMe are still intronic / intergenic for DQA1\*05:01 and DQB1\*02:01/\*02:02 (although it looks like it can be an exonic overlap for *DQA1\*05:05*, for *rs2187668*, which is the variant with the most significant, validated association in [Dubois et al. 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2847618/)).<br />
 * You can also do things like a [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) search with the primers in [Table S1](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002270#s5) of the Monsuur et al. 2008 publication.  There is also a BLAST interface from [IPD-IMGT/HLA](https://www.ebi.ac.uk/ipd/imgt/hla/blast.html).
 
-In terms of the updates that I added on 2/28, I would like to thank [Susan Neuhausen](https://www.cityofhope.org/people/neuhausen-susan) for discussions that encouraged me to take more time review the literature for these results more carefully.
+In terms of the updates that I added on 2/28 (mostly in the 1-2 paragraphs above), I would like to thank [Susan Neuhausen](https://www.cityofhope.org/people/neuhausen-susan) for discussions that encouraged me to take more time review the literature for these results more carefully.
 
 **I also thought it might be helpful to show some screenshots with my Veritas WGS and Genos Exome datasets**
 
