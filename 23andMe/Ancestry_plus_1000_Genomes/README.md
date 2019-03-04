@@ -46,7 +46,7 @@ and here is visualization of my chrX (with the confidence threshold increased to
 
 I also noticed that [Genes for Good](https://genesforgood.sph.umich.edu/), [GENOtation](http://genotation.stanford.edu/), and [GEDmatch](https://genesis.gedmatch.com/login1.php) don't provide ancestry painting for the sex chromosomes.
 
-**So, I am looking into this result more, since I am currently not 100% certain whether it is correct or not.**  My current hypothesis these segments represent some different type ancestry (at least for the autosomal chromosomes), but I am not sure if that should be precisely described as African ancestry.
+***So, I am looking into this result more, since I am currently not 100% certain whether it is correct or not.***  My current hypothesis these segments represent some different type ancestry (at least for the autosomal chromosomes), but I am not sure if that should be precisely described as African ancestry.
 
 **3)** *I have a prediction of 0.1% "East Asian and Native American" that I think may be some sort of artifact.*
 
