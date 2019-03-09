@@ -41,7 +41,7 @@ For point #4, I had a concern that  the HLA-DQA1 / HLA-DQB1 genes shouldn't be e
 
 **5)** I have one copy of the APOE E4 allele.  The "Scientific Details" report a >20% risk of Late-Onset AAlzheimer's Disease for individuals over 85, and there seems to be good reproducibility between gender (with a similar age range).  However, I would expect fewer individuals in that age bin, which I believe is corroborated by the [alzgene.org](http://www.alzgene.org/geneoverview.asp?geneid=85) cohort age distriution.  So, I think it would be best if we had a way to query the 23andMe database with various filtering strategies, similar to the freely available interface from [data.color.com](https://data.color.com/).
 
-That being said, perhaps I should also emphasize why I was recommending family members be genotyped with 23andMe to begin with:
+*That being said, perhaps I should also emphasize why I was recommending family members be genotyped with 23andMe to begin with*:
 
 **a)** You are provided access to a table of genotypes, which is compatible with free programs for additional analysis like [DNA.land](https://dna.land/), [GENOtatation](http://genotation.stanford.edu/), [GEDmatch](https://genesis.gedmatch.com/login1.php), etc (kind of like a 2nd opinion, if you think of it like that)
 
