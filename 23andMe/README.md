@@ -40,3 +40,15 @@ However, I also have some things that I believe can be improved upon:
 For point #4, I had a concern that  the HLA-DQA1 / HLA-DQB1 genes shouldn't be emphasized on the [front-page of the 23andMe website](https://www.23andme.com/) in the "meet your genes" format.  The website was recently changed to not highlight the 4 sets of genes, but I am concerned that the "live in the know" emphasis still has a similar general problem of representing most of the results that you would be getting from 23andMe with too much confidence (customers need to have an expectation to critically evaluate results, and realize that surprising results may be wrong).
 
 **5)** I have one copy of the APOE E4 allele.  The "Scientific Details" report a >20% risk of Late-Onset AAlzheimer's Disease for individuals over 85, and there seems to be good reproducibility between gender (with a similar age range).  However, I would expect fewer individuals in that age bin, which I believe is corroborated by the [alzgene.org](http://www.alzgene.org/geneoverview.asp?geneid=85) cohort age distriution.  So, I think it would be best if we had a way to query the 23andMe database with various filtering strategies, similar to the freely available interface from [data.color.com](https://data.color.com/).
+
+That being said, perhaps I should also emphasize why I was recommending family members be genotyped with 23andMe to begin with:
+
+**a)** You are provided access to a table of genotypes, which is compatible with free programs for additional analysis like [DNA.land](https://dna.land/), [GENOtatation](http://genotation.stanford.edu/), [GEDmatch](https://genesis.gedmatch.com/login1.php), etc (kind of like a 2nd opinion, if you think of it like that)
+
+**b)** They did a good job of connecting you to the primary literature, encouraging you to learn more about genetics / biology
+
+**c)** Overall, I think they provide a relatively good visual interface for people people to get an initial intepretation of their results, for those that don't know how to code (and providing a way to encourage more coding skills is also a useful life skill).  Plus, the 23andMe genotype file format is accepted by at least one command-line program for analysis, [plink](https://www.cog-genomics.org/plink2/input).
+
+**d)** They are helping conduct genomics research, and publish papers with their findings.  So, even if I don't think their strategy is perfect, I believe they have good intentions.
+
+**e)** No hidden charges after the initial costs
