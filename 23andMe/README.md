@@ -47,7 +47,7 @@ For point #4, I had a concern that  the HLA-DQA1 / HLA-DQB1 genes shouldn't be e
 
 **b)** They did a good job of connecting you to the primary literature, encouraging you to learn more about genetics / biology.
 
-**c)** Overall, I think they provide a relatively good visual interface for people people to get an initial intepretation of their results, for those that don't know how to code (and providing a way to encourage more coding skills is also a useful life skill).  Plus, the 23andMe genotype file format is accepted by at least one command-line program for analysis, [plink](https://www.cog-genomics.org/plink2/input).
+**c)** Overall, I think they provide a relatively good visual interface for people people to get an initial intepretation of their results, for those that don't know how to code (and providing a way to encourage learning to program is also a useful life skill).  Plus, the 23andMe genotype file format is accepted by at least one command-line program for analysis, [plink](https://www.cog-genomics.org/plink2/input).
 
 **d)** They are helping conduct genomics research, and publish papers with their findings.  So, even if I don't think their strategy is perfect, I believe they have good intentions.
 
