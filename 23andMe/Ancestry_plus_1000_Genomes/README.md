@@ -44,7 +44,7 @@ and here is visualization of my chrX (with the confidence threshold increased to
 
 ![alt text](cwarden_23andMe_chrX_conf90.PNG "Charles Warden 90 Percent Confidence")
 
-I also noticed that [Genes for Good](https://genesforgood.sph.umich.edu/), [GENOtation](http://genotation.stanford.edu/), and [GEDmatch](https://genesis.gedmatch.com/login1.php) don't provide ancestry painting for the sex chromosomes.  Perhaps [Scheet and Stephens 2006](https://www.ncbi.nlm.nih.gov/pubmed/16532393) (Table 4 versus Table 2) and [Wise et al. 2013](https://www.ncbi.nlm.nih.gov/pubmed/23643377) (Figure 1 and "Quality and Power Concerns" section) are also relevant for this discussion?
+I also noticed that [Genes for Good](https://genesforgood.sph.umich.edu/), [GENOtation](http://genotation.stanford.edu/), and [GEDmatch](https://genesis.gedmatch.com/login1.php) don't provide ancestry painting for the sex chromosomes.  Additionally, perhaps [Scheet and Stephens 2006](https://www.ncbi.nlm.nih.gov/pubmed/16532393) (Table 4 versus Table 2) and [Wise et al. 2013](https://www.ncbi.nlm.nih.gov/pubmed/23643377) (Figure 1 and "Quality and Power Concerns" section) are also relevant for this discussion?
 
 ***So, I am looking into this result more, since I am currently not 100% certain whether it is correct or not.***  My current hypothesis these segments represent some different type ancestry (at least for the autosomal chromosomes), but I am not sure if that should be precisely described as African ancestry (although that may in fact be correct - I just don't know for certain).
 
