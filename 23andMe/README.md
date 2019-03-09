@@ -45,7 +45,7 @@ For point #4, I had a concern that  the HLA-DQA1 / HLA-DQB1 genes shouldn't be e
 
 **a)** You are provided access to a table of genotypes, which is compatible with free programs for additional analysis like [DNA.land](https://dna.land/), [GENOtatation](http://genotation.stanford.edu/), [GEDmatch](https://genesis.gedmatch.com/login1.php), etc (kind of like a 2nd opinion, if you think of it like that).
 
-**b)** They do a good job of connecting you to the primary literature, encouraging you to learn more about genetics / biology.
+**b)** They do a good job of connecting you to the primary literature, encouraging you to learn more about genetics / biology / medicine.
 
 **c)** Overall, I think they provide a relatively good visual interface for people people to get an initial intepretation of their results, for those that don't know how to code (and providing a way to encourage learning to program is also a useful life skill).  Plus, the 23andMe genotype file format is accepted by at least one command-line program for analysis, [plink](https://www.cog-genomics.org/plink2/input).
 
