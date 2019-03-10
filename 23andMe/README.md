@@ -10,7 +10,7 @@ The [Genes_for_Good](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_
 
 **New Scripts**
  * **23andMe_to_VCF.py** - converts 23andMe raw format to VCF (`python 23andMe_to_VCF.py --input=[23andMe file] --genome_ref=[../hg19.fasta] --vcf=[23andMe.vcf]`.  Type `python 23andMe_to_VCF.py --help` for more information)
-
+  * ***WARNING***: I hard-coded parts of this script to compare my V3 23andMe array to my freebayes Vertias WGS file.  So, **this will not work if you were recently genotyped with a V5 array** (and the indel format is different than you might expect for some other variant callers).
  * **VCF_recovery.py** - reports discordant variants from a smaller set of variants, using two VCF files.  To identify 23andMe variants not found in Veritas WGS .vcf file run `python python VCF_recovery.py --smallVCF=[23andMe].vcf --largeVCF=../[VeritasID].vcf`.  Type `python VCF_recovery.py --help` for more information)
 
 You'll want to check the 23andMe data portal for variants with "D" or "I" annotations, since you can't tell if you have an insertion or deletion from the raw data output alone (although this is also the format for "Plus" genotypes used by Illumina's GenomeStudio).  So, unless you happen to have the same genotype as me, you'll have to modify the python code (and possibly add insertion sequences from [dbSNP](http://www.ncbi.nlm.nih.gov/snp)).  More specifically, I skip "DD" and "II" genotypes (since they usually match the reference) - so, that reduces the amount of the code that needs to be modified (and deleterious indels on autosomal chromosomes are probably more likely to be heterozygous in normal subjects anyways), but I'm not actually checking the WGS genotype for most indels on the 23andMe chip.
