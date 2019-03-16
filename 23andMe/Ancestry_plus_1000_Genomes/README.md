@@ -44,7 +44,7 @@ and here is visualization of my chrX (with the confidence threshold increased to
 
 ![alt text](cwarden_23andMe_chrX_conf90_circle.PNG "Charles Warden 90% Confidence")
 
-Interestingly, here are the ancestry assignments for ***my Mom's X-Chromosome (50% Confidence)***:
+Interestingly, here are the ancestry assignments for ***my Mom's X-Chromosome at 50% Confidence***:
 
 ![alt text](cMom_23andMe_chrX_conf50.PNG "Charles's Mom's chrX, 50% Confidence")
 
