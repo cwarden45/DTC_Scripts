@@ -44,6 +44,21 @@ and here is visualization of my chrX (with the confidence threshold increased to
 
 ![alt text](cwarden_23andMe_chrX_conf90_circle.PNG "Charles Warden 90 Percent Confidence")
 
+Interestingly, here are the ancestry assignments for ***my Mom's X-Chromosome (50% Confidence)***:
+
+![alt text](cMom_23andMe_chrX_conf50.PNG "Charles's Mom's chrX, 50 Percent Confidence")
+
+and here are ***her*** X-chromosome assignments at ***90% Confidence***
+![alt text](cMom_23andMe_chrX_conf90.PNG "Charles's Mom's chrX, 90 Percent Confidence")
+
+I'm not sure if it is germline recombination or an issue with phasing, but neither of these exactly matches my X-Chromosome.  A 23andMe representative indicated recombination as the likely explanation, but I'm not 100% certain phasing issues aren't a factor.  However, with up to the 70% confidence threshold, she does have a matching chrX segment of predicted African ancestry (matching the relatively small pseudoautosomal-adjacent segment on my X-Chromosome).
+
+![alt text](cMom_23andMe_chrX_conf90_legend.PNG.PNG "Legend for Charles's Non-European Assignments, 90% Confidence, practically all chrX")
+
+I have posted the partial legend for ***my mom's 90% confidence assignments*** above because I think it is weird she would have predictions for one copy of her X-chromosome as being a different ancestries from different continents (immediately next to each other on one chromosome), ***mostly because there are practically no predictions of that ancestry on any of her autosomal chromosomes (with the 90% confidence assignments)***. So, even with the higher confidence threshold, I think there is something strange about my mom's X-Chromosome ancestry (making me more confident about saying something seems off about the much smaller portion of African ancestry predicted on ***my*** X-chromosome, relative to the African ancestry predictions on my autosomal chromosomes).
+
+*To be clear, I asked for my mom's permission before posting these 3 images (described in the previous paragraphs).*
+
 I also noticed that [Genes for Good](https://genesforgood.sph.umich.edu/), [GENOtation](http://genotation.stanford.edu/), and [GEDmatch](https://genesis.gedmatch.com/login1.php) don't provide ancestry painting for the sex chromosomes.  Additionally, perhaps [Scheet and Stephens 2006](https://www.ncbi.nlm.nih.gov/pubmed/16532393) (Table 4 versus Table 2) and [Wise et al. 2013](https://www.ncbi.nlm.nih.gov/pubmed/23643377) (Figure 1 and "Quality and Power Concerns" section) are also relevant for this discussion?  I'm guessing they are probably less relevant, but I there are also some interesting information about repeats on chrX (and other chromosomes) in [Pandey et al. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3814197/) (and [Treangen and Salzberg 2011](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3324860/))
 
 ***So, I am looking into this result more, since I am currently not 100% certain whether it is correct or not.***  My current hypothesis these segments represent some different type ancestry (at least for the autosomal chromosomes), but I am not sure if that should be precisely described as African ancestry (although that may in fact be correct - I just don't know for certain).
