@@ -38,18 +38,18 @@ So far, I see some indication of increasing African ancestry from other individu
 
 If it helps, here is a visualization of my chrX (with the default of 50% confidence):
 
-![alt text](cwarden_23andMe_chrX_conf50.PNG "Charles Warden 50 Percent Confidence")
+![alt text](cwarden_23andMe_chrX_conf50.PNG "Charles Warden 50% Confidence")
 
 and here is visualization of my chrX (with the confidence threshold increased to 90%):
 
-![alt text](cwarden_23andMe_chrX_conf90_circle.PNG "Charles Warden 90 Percent Confidence")
+![alt text](cwarden_23andMe_chrX_conf90_circle.PNG "Charles Warden 90% Confidence")
 
 Interestingly, here are the ancestry assignments for ***my Mom's X-Chromosome (50% Confidence)***:
 
-![alt text](cMom_23andMe_chrX_conf50.PNG "Charles's Mom's chrX, 50 Percent Confidence")
+![alt text](cMom_23andMe_chrX_conf50.PNG "Charles's Mom's chrX, 50% Confidence")
 
 and here are ***her*** X-chromosome assignments at ***90% Confidence***
-![alt text](cMom_23andMe_chrX_conf90.PNG "Charles's Mom's chrX, 90 Percent Confidence")
+![alt text](cMom_23andMe_chrX_conf90.PNG "Charles's Mom's chrX, 90% Confidence")
 
 I'm not sure if it is germline recombination or an issue with phasing, but neither of these exactly matches my X-Chromosome.  A 23andMe representative indicated recombination as the likely explanation, but I'm not 100% certain phasing issues aren't a factor.  However, with up to the 70% confidence threshold, she does have a matching chrX segment of predicted African ancestry (matching the relatively small pseudoautosomal-adjacent segment on my X-Chromosome).
 
