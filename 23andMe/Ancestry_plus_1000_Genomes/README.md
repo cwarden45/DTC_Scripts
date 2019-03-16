@@ -42,7 +42,7 @@ If it helps, here is a visualization of my chrX (with the default of 50% confide
 
 and here is visualization of my chrX (with the confidence threshold increased to 90%):
 
-![alt text](cwarden_23andMe_chrX_conf90.PNG "Charles Warden 90 Percent Confidence")
+![alt text](cwarden_23andMe_chrX_conf90_circle.PNG "Charles Warden 90 Percent Confidence")
 
 I also noticed that [Genes for Good](https://genesforgood.sph.umich.edu/), [GENOtation](http://genotation.stanford.edu/), and [GEDmatch](https://genesis.gedmatch.com/login1.php) don't provide ancestry painting for the sex chromosomes.  Additionally, perhaps [Scheet and Stephens 2006](https://www.ncbi.nlm.nih.gov/pubmed/16532393) (Table 4 versus Table 2) and [Wise et al. 2013](https://www.ncbi.nlm.nih.gov/pubmed/23643377) (Figure 1 and "Quality and Power Concerns" section) are also relevant for this discussion?  I'm guessing they are probably less relevant, but I there are also some interesting information about repeats on chrX (and other chromosomes) in [Pandey et al. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3814197/) (and [Treangen and Salzberg 2011](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3324860/))
 
