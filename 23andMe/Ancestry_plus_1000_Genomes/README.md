@@ -12,11 +12,11 @@ More specifically, these are some hypothesis where I don't think the 23andMe ass
 I believe 23andMe already provides some evidence to match this expectation:
 
 *a)* **That prediction of Scandinavian ancestry goes away if I shift from 50% confidence (the default) to 90% confidence.**<br />
-*b)* The "Recall" for this population is also lower than some other people in the [ancestry documentation](https://www.23andme.com/ancestry-composition-guide/) on the 23andMe website.  So, I think this is less accurate for most people.
-
-**So, I think increasing the confidence threshold increased the accuracy of the results, and this supports my hypothesis that I don't actually have Scandinavian ancestry.**
+*b)* The "Recall" for this population is also lower than some other people in the [ancestry documentation](https://www.23andme.com/ancestry-composition-guide/) on the 23andMe website, but I would need to show that the *precision* estimates were higher than they should be (so, a previous interpretation I presented wasn't the actual reason for giving me less confidence, and I apologize to any earlier readers).
 
 **Update (3/21/2019)**: I thought it might be helpful to upload some screenshots of my chromosome painting at various confidence values.  You can see that they are already different than before, but the variation from **11%** and **3.6%** between different versions of ancestry prediction are a good match for my expectation that this assignment is not precise.  While I don't have the earlier screenshot for my full chromosomes, you can see that information in Excel format among these [previously uploaded files](https://drive.google.com/open?id=1uqrFxW0MrqnevFcRbRHBM1WwJwzNtLdy).  You can also see those percentages in [PDF format](https://my.pgp-hms.org/user_file/download/3648), from my [PGP page](https://my.pgp-hms.org/profile/hu832966); however, that may have been from yet another time point, because it lists my Scandinavian ancestry as 12.4% and my French & German ancestry as 11.9% (I do have German ancestry, but that was also missing during other intervals).
+
+**So, I think increasing the confidence threshold increased the accuracy of the results, and this supports my hypothesis that I don't actually have Scandinavian ancestry.**
 
 **2)** I am predicted to have 2.5% African (Sub-Saharan African, according to 23andMe).  *While this might be correct, I wonder if there might be some Northern African / Southern European that might be mixed in there.*  For example, I expect to see some Spanish and Italian ancestry that isn't showing up.
 
