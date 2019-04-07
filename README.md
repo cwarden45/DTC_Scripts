@@ -1,6 +1,6 @@
 ### For Research Purposes Only! ###
 
-**Note:** After attending the [COH Clinical Cancer Genomics Conference](https://guidebook.com/g/cohccg/), I discovered that I should be saying **"Patient Initiated Testing"** instead of "Direct To Consumer" (DTC, in the repository name) because there are some results that are signed off by an on-line physician (although I never talked to a medical professional before ordering/receiving any results).
+**Note:** After attending the [COH Clinical Cancer Genomics Conference](https://guidebook.com/g/cohccg/), I discovered that I should be saying **"Patient Initiated Testing"** instead of *"Direct To Consumer"* (*DTC*, in the repository name) because there are some results that are signed off by an on-line physician (although I never talked to a medical professional before ordering/receiving any results).
 
 **These are some scripts that I used to analyze my Veritas WGS (Whole Genome Sequencing) Data.**
 
