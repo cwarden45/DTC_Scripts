@@ -17,7 +17,7 @@ LOGDIR=logs
 
 ## step #1: make_examples ##
 
-sudo apt-get install time
+sudo apt-get -y install time
 sudo apt-get -y install parallel #you may have to install this before running the script
 
 mkdir -p ${OUTPUT_DIR}
