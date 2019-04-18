@@ -25,6 +25,7 @@ COMMAND="/opt/deepvariant_runner/bin/gcp_deepvariant_runner \
 # Run the pipeline.
 gcloud alpha genomics pipelines run \
     --project "${PROJECT_ID}" \
+    --regions us-west2 \
     --service-account-scopes="https://www.googleapis.com/auth/cloud-platform" \
     --logging "${OUTPUT_BUCKET}/${STAGING_FOLDER_NAME}/runner_logs_$(date +%Y%m%d_%H%M%S).log" \
 	--docker-image gcr.io/deepvariant-docker/deepvariant_runner:"${IMAGE_VERSION}" \
