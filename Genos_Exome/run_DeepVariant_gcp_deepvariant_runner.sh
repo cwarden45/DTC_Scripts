@@ -23,6 +23,7 @@ COMMAND="/opt/deepvariant_runner/bin/gcp_deepvariant_runner \
   --gcsfuse"
   
 # Run the pipeline.
+# run after 'gcloud config set compute/region ""'
 gcloud alpha genomics pipelines run \
     --project "${PROJECT_ID}" \
     --regions us-west2 \
