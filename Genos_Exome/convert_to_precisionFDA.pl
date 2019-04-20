@@ -8,7 +8,7 @@ use diagnostics;
 #my $inputVCF = "82651510240740_annotated.vcf";
 #my $outputVCF = "82651510240740_annotated_precisionFDA.vcf";
 
-#my $test_flag = "PASS";
+my $test_flag = "PASS";
 my $inputVCF = "K33YDXX.vcf";
 my $outputVCF = "K33YDXX_precisionFDA.vcf";
 
