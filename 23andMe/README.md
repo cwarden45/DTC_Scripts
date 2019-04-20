@@ -73,4 +73,4 @@ So, if I was **not** a carrier, my 23andMe raw data would look like this:
 
 While I should have gone back to my own result to double-check how my variant appeared, I think part of the confusion is how this same variant would appear in a .vcf file from sequencing data, where you can see some examples [here](https://www.biostars.org/p/361415/#366495) (and I mention other places you can look within this repository, a little higher up in that Biostars discussion).
 
-Nevertheless, if anybody read those results in between the time that I figured this out, I apologize for the confusion.
+Nevertheless, if anybody read those notes in between the time that I figured this out, I apologize for the confusion.
