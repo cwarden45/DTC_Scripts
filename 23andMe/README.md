@@ -63,17 +63,13 @@ For point #3, I had a concern that  the HLA-DQA1 / HLA-DQB1 genes shouldn't be e
 
 So, here is my cystic fibrosis variant in the "raw data":
 
-'''
-i4000313	7	117149185	DI
-'''
+`i4000313	7	117149185	DI`
 
 I am a carrier, which is why there is one "D" deletion (the cystic fibrosis variant) and one "I" insertion (the reference sequence).
 
 So, if I was **not** a carrier, my 23andMe raw data would look like this:
 
-'''
-i4000313	7	117149185	II
-'''
+`i4000313	7	117149185	II`
 
 While I should have gone back to my own result to double-check how my variant appeared, I think part of the confusion is how this same variant would appear in a .vcf file from sequencing data, where you can see some examples [here](https://www.biostars.org/p/361415/#366495) (and I mention other places you can look within this repository a little higher up in that disucssion).
 
