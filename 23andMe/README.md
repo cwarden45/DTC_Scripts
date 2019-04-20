@@ -16,6 +16,8 @@ The [Genes_for_Good](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_
 
 You'll want to check the 23andMe data portal for variants with "D" or "I" annotations, since you can't tell if you have an insertion or deletion from the raw data output alone (although this is also the format for "Plus" genotypes used by Illumina's GenomeStudio).  So, unless you happen to have the same genotype as me, you'll have to modify the python code (and possibly add insertion sequences from [dbSNP](http://www.ncbi.nlm.nih.gov/snp)).  More specifically, I skip "DD" and "II" genotypes (since they usually match the reference) - so, that reduces the amount of the code that needs to be modified (and deleterious indels on autosomal chromosomes are probably more likely to be heterozygous in normal subjects anyways), but I'm not actually checking the WGS genotype for most indels on the 23andMe chip.
 
+-----------------
+
 **Other Notes**
 
 * Independent of these scripts, you can also test uploading your raw 23andMe data into [DNA.LAND](https://dna.land/)
@@ -54,6 +56,8 @@ For point #3, I had a concern that  the HLA-DQA1 / HLA-DQB1 genes shouldn't be e
 **d)** They are helping conduct genomics research, and publish papers with their findings.  So, even though I am saying there is room for improvement, they have good intentions.
 
 **e)** No additional charges after the initial costs.
+
+-----------------
 
 **Update (4/20)** I have a V3 chip and new relatives have the V5 chip.  I was previously concerned that I couldn't find a genotype for [rs121908769](https://www.ncbi.nlm.nih.gov/snp/rs121908769#variant_details) on the V5 chip (to check other member's carrier status, if they were not provided a carrier status report).  However, at least for this site, this was an issue with formatting rather than absense of the probe on the newer chip:
 
