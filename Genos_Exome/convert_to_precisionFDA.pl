@@ -57,7 +57,8 @@ while (<INPUTFILE>){
 			print OUTPUTFILE join("\t",@lineInfo),"\n";
 
 			#if (!($var =~ /,/)){
-			#	#I think I need to remove complex variants - I got an error message when I tried to use https://platform.dnanexus.com/login?scope=%7B%22full%22%3A+true%7D&redirect_uri=https%3A%2F%2Fprecision.fda.gov%2Freturn_from_login&client_id=precision_fda_gov (with .bed file for RefSeq CDS regions)
+			#	#I thought I needed to filter out complex variants - I got an error message when I tried to use https://platform.dnanexus.com/login?scope=%7B%22full%22%3A+true%7D&redirect_uri=https%3A%2F%2Fprecision.fda.gov%2Freturn_from_login&client_id=precision_fda_gov (with .bed file for RefSeq CDS regions)
+			#	#this ended up not being the case, but I left this code so that additional filters could potentially be added (if desired)
 			#	print OUTPUTFILE join("\t",@lineInfo),"\n";
 			#}else{
 			#	print "Filter complex variant -  ref: $ref, var: $var\n";
