@@ -4,9 +4,11 @@ use diagnostics;
 
 #I compress file afterwards (so, don't put ".gz" in the output file name)
 
+#my $test_flag = "PASS";
 #my $inputVCF = "82651510240740_annotated.vcf";
 #my $outputVCF = "82651510240740_annotated_precisionFDA.vcf";
 
+#my $test_flag = "PASS";
 my $inputVCF = "K33YDXX.vcf";
 my $outputVCF = "K33YDXX_precisionFDA.vcf";
 
@@ -41,9 +43,9 @@ while (<INPUTFILE>){
 		my $format_text = $lineInfo[8];
 		my $geno_text = $lineInfo[9];
 		
-		if($flag eq "PASS"){
+		if($flag eq $test_flag){
 			#Genos provided .vcf with some other rows
-			#hopefully, this works with .vcf files from all programs: otherwise, perhaps need to modify code
+			#hopefully, this works with .vcf files from all programs: otherwise, perhaps need to modify code (or set $test_flag to ".")
 			
 			if($chr eq "chrM"){
 				$chr = "MT";
