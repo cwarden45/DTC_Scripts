@@ -65,7 +65,7 @@ So, here is my cystic fibrosis variant in the "raw data":
 
 `i4000313	7	117149185	DI`
 
-I am a carrier, which is why there is one "D" deletion (the cystic fibrosis variant) and one "I" insertion (the reference sequence).
+I am a carrier, which is why there is one "**D**" deletion (the cystic fibrosis variant) and one "**I**" insertion (the reference sequence).
 
 So, if I was **not** a carrier, my 23andMe raw data would look like this:
 
