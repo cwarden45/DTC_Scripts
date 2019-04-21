@@ -4,6 +4,16 @@
 
 - - - - 
 
+The code sections of this repository mostly focus on analysis that you can perform on your local computer.  While learning some coding to be able to extract additional information from your raw genomics data is a useful (and marketable) life skill, the comparison part (emphasized more in the subfolders) can at least partially be carried out through [precisionFDA](https://precision.fda.gov/) (possibly with some file formatting changes, [like I did for my vcf files](https://github.com/cwarden45/DTC_Scripts/blob/master/Genos_Exome/convert_to_precisionFDA.pl)).
+
+**1)**	Creating a precisionFDA account is free and you can do it with your personal G-mail address (at least if you have genomic data to upload, like myself).  The analysis run within precisionFDA is also free for users.
+
+**2)**	While there are cost and time limits to the total number of companies that I can check as an individual (for example, notice the time it took me to put together a response in this [issue thread](https://github.com/google/deepvariant/issues/165#issuecomment-485283894), admittedly needing to do a noticable portion of that outside working hours), I think there could be benefits for people to obtain raw data from at least 2 companies.  This can give you a feel for the variety of results that you can receive, and I think precisionFDA provides a way that you can get a feeling of fulfillment for contributing to on-going surveillance of genomics companies  (kind of like a civic duty, with an understanding that accuracy can sometimes be harder to define than you might expect).  My understanding is that the FDA is also working on putting together something like PatientsLikeMe with more privacy options (I have some notes on my experiences [here](http://cdwscience.blogspot.com/2019/03/updated-thoughts-on-patientslikeme.html)), and I fully support these initiatives.
+
+**3)**	Of course, this requires companies to provide raw data.  Likewise, I think it is worth noting that *I could **improve concordance** between my Veritas WGS data and my Genos Exome data **if I reprocessed the raw data*** (once you create an account, you can access my data and precisionFDA comparisons [here](https://precision.fda.gov/users/charles.warden)).  While I also applaud free interfaces to view data from companies (like [data.color.com](https://data.color.com/)), I think this is a good example of why **not providing raw data** (I think FASTQ/BAM/VCF should be provided for high-throughput sequencing data) **should be considered unacceptable**.
+
+Also, I believe certain things like using [IGV](https://software.broadinstitute.org/software/igv/) to visualize your alignments (which is very important) should be done on your local computer (instead of on the cloud in precisionFDA).
+
 - - - - 
 
 **These are some scripts that I used to analyze my Veritas WGS (Whole Genome Sequencing) Data.**
