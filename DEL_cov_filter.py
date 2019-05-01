@@ -3,7 +3,7 @@ import re
 import os
 import subprocess
 
-#NOTE: I believe you can currently do something roughly similar with the DHFFC analysis in duphold: https://github.com/brentp/duphold
+#NOTE: I believe you can currently do something roughly similar with the DHFFC analysis in duphold: https://github.com/brentp/duphold and https://academic.oup.com/gigascience/article/8/4/giz040/5477467
 #...which I believe is good for giving extra confidence in strategy (from both ends) :)
 
 bed= ""
