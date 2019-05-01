@@ -3,6 +3,9 @@ import re
 import os
 import subprocess
 
+#NOTE: I believe you can currently do something roughly similar with the DHFFC analysis in duphold: https://github.com/brentp/duphold
+#...which I believe is good for giving extra confidence in strategy (from both ends) :)
+
 bed= ""
 bam = "veritas_wgs.filter.bam"
 statOut= ""
