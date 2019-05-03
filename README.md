@@ -16,6 +16,10 @@ Also, I believe certain things like using [IGV](https://software.broadinstitute.
 
 - - - - 
 
+I'm not exactly sure what can be currently downloaded from the providers, but you could potentially test the scripts with my data in the Personal Genome Project [hu832966](https://my.pgp-hms.org/profile/hu832966).  I think the formatting is the same as I originally downloaded...
+
+- - - - 
+
 **These are some scripts that I used to analyze my Veritas WGS (Whole Genome Sequencing) Data.**
 
 **Step #1**) Download .bam.tgz and .vcf.gz files
@@ -96,15 +100,3 @@ The same logic would apply to duplications, but I'm focusing on deletions on the
 - Then, you can call additional variants using [GATK](https://software.broadinstitute.org/gatk/) (with and without an extra filter to exclude soft-clipped bases from variant calling) and/or [VarScan](http://dkoboldt.github.io/varscan/) using `python run_GATK_VarScan.py`.
   - VarScan will work on original alignment file, and (at least for me) original vcf was produced using freebayes.  You can produce an alignment that works with all variant callers (and from which you can compare structural variant calls) using `python realign_BWA_MEM.py`.  You can call [freebayes](https://github.com/ekg/freebayes) variants on the new alignment via `python run_freebayes.py`, but it is not currently installed on the Docker image.
   - Depending on your computer (and what is run for variant calling), this could potentially take a few days for WGS data.
-
-- - - - 
-  
-  ### Side Note #1 ###
-  
-I'm not exactly sure what can be currently downloaded from the providers, but you could potentially test the scripts with my data in the Personal Genome Project [hu832966](https://my.pgp-hms.org/profile/hu832966).  I think the formatting is the same as I originally downloaded...
-
-  ### Side Note #2 ###
-  
-I have been posting acknowledgements to GitHub "templates," so I thought it might be worth mentioning that modifications of the code that I wrote for my own WGS data was used for projects at the City of Hope Integrative Genomics Core (IGC).  Even though it is important to have an appropriate workload, my opinion is the path of obtaining knowledge often doesn't have clearly defined boundaries (so, I am totally OK with this).
-
-However, as indicated by the temporary notes, I think the "templates" should really be thought of as an intermediate solution to the most sustainable code-sharing strategy (which I think I still have many, many more discussions to work through).  So, this is why I didn't recreate a separate Exome "template" when I re-organized this repository, and why there are some protocols for which you cannot see public templates (such as scRNA-Seq).  That said, I am still working on clearly explaining my experiences over the past few years, so I will probably amend this note further in the future.
