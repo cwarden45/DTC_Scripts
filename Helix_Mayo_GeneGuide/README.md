@@ -1,4 +1,4 @@
-At least currently, I have some concerns about purchasing this test.  I hope this can change in the future (because I think this represents something that I would like to support, and I actually may still prefer this over some tests that I haven't tried).  However, these are my current observations:
+At least currently, I have some concerns about purchasing this test.  I hope this can change in the future (because I think this represents something that I would like to support, and *I actually may still prefer this over some tests that I haven't tried*).  However, these are my current observations:
 
 - You can download raw data (in the form of a gVCF file), but that is Exome+ data that has to be purchased and downloaded from the Helix website (for $499 + tax, which is **more than twice the initial cost of $179**)
 - The GeneGuide report says that I was not a Cystic Fibrosis carrier.  However, I was identified as a Cystic Fibrosis carrier by 23andMe, **with a variant listed in [ClinVar](https://www.ncbi.nlm.nih.gov/snp/rs121908769#clinical_significance) as being "Pathogenic" for Cystic Fibrosis**.
