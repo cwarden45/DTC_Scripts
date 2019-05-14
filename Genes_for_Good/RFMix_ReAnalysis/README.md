@@ -56,7 +56,7 @@ Getting back to my original point / question, this is what the RFMix chromosome 
 ![alt text](GFGi.png "GFG RFMix with Imputation")
 
 While there are a couple of regions that I think are more likely to be false positives (the relatively long stretch without probes on chr15 that is adjacent to a different ethnicity prediction,
-and the ~11 million base pair segment of AMR+SAS on chr3 that was previously all EUR), this was not as bad as I was expecting.  However, that would have been enough to negatively effect trait/disease associations with specific genes.
+and the ~11 million base pair segment of AMR+SAS on chr3 that was previously all EUR), this was not as bad as I was expecting.
 
 Perhaps increasing the number of categories, including some that may have substantially fewer reference samples was a factor for the chromosome painting plot provided by Genes for Good? (which would appear to have a higher false positive rate, with a lot more "Central and South Asia" predictions)
 
