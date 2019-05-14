@@ -49,7 +49,7 @@ For comparison, this is what the RFMix chromosome painting looks like for my **2
 
 ![alt text](CW23.png "23andMe RFMix")
 
-If you desired, you can also see a chromosome painting plot provided by 23andMe [here](https://github.com/cwarden45/DTC_Scripts/blob/master/23andMe/Ancestry_plus_1000_Genomes/chromosome_painting_conf50_190321.PNG)
+If you desired, you can also see a chromosome painting plot provided by 23andMe [here](https://github.com/cwarden45/DTC_Scripts/blob/master/23andMe/Ancestry_plus_1000_Genomes/chromosome_painting_conf50_190321.PNG).  For example, RFMix seems to be giving some East Asian (EAS) predictions towards the end of chr12 that I don't see in 23andMe's chromosome painting.
 
 Getting back to my original point / question, this is what the RFMix chromosome painting looks like for **Genes for Good** genotypes **with** imputation upstream of SHAPEIT phasing:
 
