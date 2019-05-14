@@ -13,7 +13,7 @@ From what I saw above, my overall impression was the chromosome painting can be 
 
 Since I was able to luckily get some pointers about the code used for chromosome painting in Genes for Good (using [RFMix](https://sites.google.com/site/rfmixlocalancestryinference/)), I thought this would be a good chance for me to gain first-hand experience with chromosome painting.
 
-My understanding is that you need to start with a phased genotype file.  This would be different than what 23andMe provides, but Genes for Good provides **both** original and imputed+phased genotypes.  Also, I actually performed phasing for both Genes for Good and 23andMe genotypes (relative to the 1000 Genomes reference samples) using [SHAPEIT](https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html).
+You need to start with a phased genotype file.  This would be different than what 23andMe provides, but Genes for Good provides **both** original and imputed+phased genotypes.  Also, I actually performed phasing for both Genes for Good and 23andMe genotypes (relative to the 1000 Genomes reference samples) using [SHAPEIT](https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html).
 
 While I very much like that they show there can be more than one genotype file defined for a given sample, I thought it was worth noting that the percent imputed sites was considerable:
 
