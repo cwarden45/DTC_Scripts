@@ -17,9 +17,9 @@ You need to start with a phased genotype file.  This would be different than wha
 
 While I very much like that they show there can be more than one genotype file defined for a given sample, I thought it was worth noting that the percent imputed sites was considerable:
 
-**GFG Lines in *Unphased* VCF **: 554,951
+**GFG Lines in *Unphased* VCF**: 554,951
 
-**GFG Lines in *Imputed* VCF **: 7,704,551 (**~93% imputed**)
+**GFG Lines in *Imputed* VCF**: 7,704,551 (**~93% imputed**)
 
 So, I set out to define a phased .vcf (with 1000 Genomes samples added for chromosome painting), with *only* sites where I actually had a genetype directly measured by the array (followed by using the imputed genotypes).
 
