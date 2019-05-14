@@ -25,9 +25,13 @@ So, I set out to define a phased .vcf (with 1000 Genomes samples added for chrom
 To review, these are the [1000 Genomes Super-Populations](http://www.internationalgenome.org/category/population/):
 
 **AFR**: African
+
 **AMR**: Ad-Mixed American
+
 **EAS**: East Asian
+
 **EUR**: European
+
 **SAS**: South Asian
 
 Here is an example of a chromosome painting with **Genes for Good Genotypes, *without* imputation**:
