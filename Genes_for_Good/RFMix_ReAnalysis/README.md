@@ -9,7 +9,7 @@ First for those that haven't seen the report uploaded on my [PGP page](https://m
 
 ![alt text](provided_chromosome_painting.PNG "GFG Ancestry Chromosome Paiting")
 
-From what I saw above, my overall impression was the chromosome painting can be less robust than some other genome-wide ancestry assignments.  However, [as I mentioned in the main section](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good), they acknowledge that there can be some non-trivial false positives (or "swapped ancestry").  So, presentation of results with inappropraitely high confidence is **not** my concern.
+From what I saw above, my overall impression was the chromosome painting can be less robust than some other genome-wide ancestry assignments.  However, [as I mentioned in the main section](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good), they acknowledge that there can be some non-trivial false positives (or "swapped ancestry").  So, I think this is fair presentation in the confidence for these results.
 
 Instead, since I was able to luckily get some pointers about the code used for chromosome painting in Genes for Good (using [RFMix](https://sites.google.com/site/rfmixlocalancestryinference/)), I thought this would be a good chance for me to gain first-hand experience with chromosome painting.
 
