@@ -9,7 +9,7 @@ First for those that haven't seen the report uploaded on my [PGP page](https://m
 
 ![alt text](provided_chromosome_painting.PNG "GFG Ancestry Chromosome Paiting")
 
-From what I saw above, my overall impression was the chromosome painting can be less robust than some other genome-wide ancestry assignments.  However, [as I mentioned in the main section](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good), they acknowledge that there can be some non-trivial false positives (or "swapped ancestry").  So, I think this is fair presentation in the confidence for these results.
+From what I saw above, my overall impression was the chromosome painting can be less robust than some other genome-wide ancestry assignments.  However, [as I mentioned in the main section](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good), they acknowledge that there can be some non-trivial false positives (or "swapped ancestry").  So, I think this is fair presentation in the confidence for these results.  In fact, I think one thing that is interesting is that the PCA plot
 
 Instead, since I was able to luckily get some pointers about the code used for chromosome painting in Genes for Good (using [RFMix](https://sites.google.com/site/rfmixlocalancestryinference/)), I thought this would be a good chance for me to gain first-hand experience with chromosome painting.
 
@@ -47,6 +47,8 @@ I bring this up because version 2 has a parameter to set the random seed, but ve
 For comparison, this is what the RFMix chromosome painting looks like for my **23andMe** data again (***without* imputation):
 
 ![alt text](CW23.png "23andMe RFMix")
+
+If you desired, you can also see a chromosome painting plot provided by 23andMe [here](https://github.com/cwarden45/DTC_Scripts/blob/master/23andMe/Ancestry_plus_1000_Genomes/chromosome_painting_conf50_190321.PNG)
 
 Getting back to my original point / question, this is what the RFMix chromosome painting looks like for **Genes for Good** genotypes **with** imputation upstream of SHAPEIT phasing:
 
