@@ -11,7 +11,7 @@ First for those that haven't seen the report uploaded on my [PGP page](https://m
 
 From what I saw above, my overall impression was the chromosome painting can be less robust than some other genome-wide ancestry assignments.  However, [as I mentioned in the main section](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good), they acknowledge that there can be some non-trivial false positives (what I would call "swapped" ancestry).  So, I think this is fair presentation in the confidence for these results.
 
-Instead, since I was able to luckily get some pointers about the code used for chromosome painting in Genes for Good (using [RFMix](https://sites.google.com/site/rfmixlocalancestryinference/)), I thought this would be a good chance for me to gain first-hand experience with chromosome painting.
+Since I was able to luckily get some pointers about the code used for chromosome painting in Genes for Good (using [RFMix](https://sites.google.com/site/rfmixlocalancestryinference/)), I thought this would be a good chance for me to gain first-hand experience with chromosome painting.
 
 My understanding is that you need to start with a phased genotype file.  This would be different than what 23andMe provides, but Genes for Good provides **both** original and imputed+phased genotypes.  Also, I actually performed phasing for both Genes for Good and 23andMe genotypes (relative to the 1000 Genomes reference samples) using [SHAPEIT](https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html).
 
