@@ -3,9 +3,11 @@ Personal Thoughts
 
 First for those that haven't seen the report uploaded on my [PGP page](https://my.pgp-hms.org/profile/hu832966), here are my ancestry visualizations provided by Genes for Good:
 
-![alt text](pie_chart.png "GFG Ancestry Pie Chart")
-![alt text](PCA.png "GFG Ancestry PCA Plot")
-![alt text](provided_chromosome_painting.png "GFG Ancestry Chromosome Paiting")
+![alt text](pie_chart.PNG "GFG Ancestry Pie Chart")
+
+![alt text](PCA.PNG "GFG Ancestry PCA Plot")
+
+![alt text](provided_chromosome_painting.PNG "GFG Ancestry Chromosome Paiting")
 
 From what I saw above, my overall impression was the chromosome painting can be less robust than some other genome-wide ancestry assignments.  However, [as I mentioned in the main section](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good), they acknowledge that there can be some non-trivial false positives (or "swapped ancestry").  So, presentation of results with inappropraitely high confidence is **not** my concern.
 
