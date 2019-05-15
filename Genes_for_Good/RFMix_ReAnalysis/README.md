@@ -21,7 +21,7 @@ While I very much like that they show there can be more than one genotype file d
 
 **GFG Lines in *Imputed* VCF**: 7,704,551 (~93% imputed)
 
-So, I set out to define a phased .vcf (with 1000 Genomes samples added for chromosome painting), with *only* sites where I actually had a genetype directly measured by the array (followed by using the imputed genotypes).
+So, I set out to define a phased .vcf (with 1000 Genomes samples added for chromosome painting), with *only* sites where I actually had a genotype directly measured by the array (followed by using the imputed genotypes).
 
 To review, these are the [1000 Genomes Super-Populations](http://www.internationalgenome.org/category/population/):
 
