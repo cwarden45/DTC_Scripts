@@ -45,7 +45,7 @@ I bring this up because version 2 has a parameter to set the random seed, but ve
 
 ![alt text](GFG_190511.png "GFG RFMix Different Random seed")
 
-For comparison, this is what the RFMix chromosome painting looks like for my **23andMe** data again (*without* imputation):
+For comparison, this is what the RFMix chromosome painting looks like for my **23andMe** data (again, *without* imputation):
 
 ![alt text](CW23.png "23andMe RFMix")
 
