@@ -20,7 +20,7 @@ I believe 23andMe already provides some evidence to match this expectation:
 
 **2)** I am predicted to have 2.5% African (Sub-Saharan African, according to 23andMe).  23andMe also predicts that I had relatives living in "Kingston Parish" less than 200 years ago.
 
-I believe my Great-Great-Grandfather (my Grandfather's Grandfather, Thomas Buck-Warden) was supposed to be from family that moved from the Carribean to the US.  For some reason, I also thought I had a similarly distant relative of Spainish ancestry with an olive-skin complexion, but maybe there is some confusion on my part.  Either way, I am not actually certain whether Thomas Buck-Warden's more distant relatives moved to the Carribean moved there from Africa (versus moving there from Europe with a more gradual jourey from Africa to Europe to the Americas).
+I believe my Great-Great-Grandfather (my Grandfather's Grandfather, Thomas Buck-Warden) was supposed to be from family that moved from the Carribean to the US.  For some reason, I also thought I had a similarly distant relative of Spainish ancestry with an olive-skin complexion, but maybe there is some confusion on my part.  Either way, I am not actually certain whether Thomas Buck-Warden's more distant relatives moved to the Carribean directly from Africa (versus moving there from Europe with a more gradual jourey from Africa to Europe to the Americas).
 
 *So, this is a plausible match for what I have heard, but I think there may still be some value in walking through how I tried to troubleshoot this prediction of African Ancestry.*
 
