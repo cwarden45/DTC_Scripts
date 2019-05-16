@@ -71,7 +71,7 @@ I also noticed that [Genes for Good](https://genesforgood.sph.umich.edu/), [GENO
 
 **Update (3/21/2019)**: I contacted Genes for Good, and they explained that the lack of sex chromosome ancestry painting was due to *theoretical* complications with having one versus two alleles in different individuals and a desire to conduct additional testing before providing such results in their interface.  So, to be fair and clear, the lack of sex chromosome ancestry painting was **not** due to having encountered evidence that chrX has substantially more large, inaccurate ancestry predictions (and I provided this update to make sure I didn't give readers the impression that was the case).
 
-*So, my current hypothesis is that the African ancestry segments from my **paternal line on my autosomal chromosomes** are either **accurate** or at least reference some ancestry of individuals who migriated out from Africa later than some of my other ancestors, but I think the African ancestry prediction on my **mom's X-Chromosome is a false positive**.*
+*So, my current hypothesis is that the African ancestry segments from my **paternal line on my autosomal chromosomes** are either **accurate** or at least reference some ancestry of individuals who migriated out from Africa later than some of my other ancestors, **but** I think the African ancestry prediction on my **mom's X-Chromosome is a false positive**.*
 
 **3)** *I have a prediction of 0.1% "East Asian and Native American" that I think may be some sort of artifact.*
 
