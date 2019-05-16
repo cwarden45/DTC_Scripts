@@ -40,7 +40,7 @@ chr18:69836-5979832
 
 chrX:2700157-9188835
 
-So far, I see some indication of increasing African ancestry from other individuals on my father's side.  I think my [E-M34](https://en.wikipedia.org/wiki/Haplogroup_E-M215_(Y-DNA)) ChrY Haplogroup may be relevant, if it indicates that the increased "African" ancestry in my paternal line could in fact be from individuals who migrated from Central Africa to the North Africa and the Middle-East (and then possibly into Europe and/or the Americas).  Moreover, if I re-analyze my 23andMe and Genes for Good data with RFMix, I can robustly [re-identify](https://github.com/cwarden45/DTC_Scripts/blob/master/Genes_for_Good/RFMix_ReAnalysis/README.md) some of the segments I outline below.
+So far, I see some indication of increasing African ancestry from other individuals on my father's side.  I think my [E-M34](https://en.wikipedia.org/wiki/Haplogroup_E-M215_(Y-DNA)) ChrY Haplogroup may be relevant, if it indicates that the increased "African" ancestry in my paternal line could in fact be from individuals who migrated from Central Africa to the North Africa and the Middle-East (and then possibly into Europe and/or the Americas).  Moreover, if I re-analyze my 23andMe and Genes for Good data with RFMix, I can robustly [re-identify](https://github.com/cwarden45/DTC_Scripts/blob/master/Genes_for_Good/RFMix_ReAnalysis/README.md) some of the segments I described above.
 
 However, I know that the chrX prediction cannot represent that same ancestry from my paternal line (although, to be fair, 90% confidence allows for some inaccurate assignments).
 
