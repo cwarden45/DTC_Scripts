@@ -62,6 +62,8 @@ Perhaps increasing the number of categories, including some that may have substa
 
 Either way, what I think is most important is that a pie chart, PCA plot, and chromosome painting was provided to help critically assess the more specific results.  **So, I definitely applaud them for that!**
 
+Also, what I think other people may find more interesting is the use of RFMix to predict ancestry on my Mom's X-chromosome, which I think has some more noticable false positives.  I think [this](https://github.com/cwarden45/DTC_Scripts/blob/master/23andMe/Ancestry_plus_1000_Genomes/MOM_chrX_SUBSAMPLE.png) is probably the most relevant plot, but I more broadly describe thoughts of [my own 23andMe ancestry results](https://github.com/cwarden45/DTC_Scripts/tree/master/23andMe/Ancestry_plus_1000_Genomes) (using my Mom's results to look into a result that I thought was probably a false positive on my own chrX).
+
 Running the Code
 -----------------
 
