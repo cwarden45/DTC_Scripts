@@ -65,7 +65,25 @@ I'm not sure if it is germline recombination or an issue with phasing, but neith
 
 Second, I also have posted the partial legend for ***my mom's 90% confidence assignments*** above because I think it is weird she would have predictions for one copy of her X-chromosome as being a different ancestries from different continents (immediately next to each other on one chromosome), **mostly because there are practically no predictions of that ancestry on *any* of her autosomal chromosomes with the 90% confidence assignments**. So, even with the higher confidence threshold, I think there is something strange about my mom's X-Chromosome ancestry (making me more confident about saying something seems off about the much smaller portion of African ancestry predicted on *my* X-chromosome, relative to the African ancestry predictions on my autosomal chromosomes).
 
-*To be clear, I asked for my mom's permission before posting these 3 images (described in the previous paragraphs).*
+If I use [RFMix](https://github.com/slowkoni/rfmix) for chromosome painting, I can see some similar characteristics, but I can also change at least one entire segment of super-population assignments by re-running the program on a different day (to change the random seed, not shown).  For example, there was a stretch of 35 markers (meant to represent >600,000 bp) that changed from Ad-Mixed American (AMR) to East-Asian (EAS), just by waiting 2 days to run the same command.
+
+However, to be fair, the chromosome with all European ancestry (the one what doesn’t have the unexpected mixing of assignments from different continents that aren’t on the autosomal chromosomes) is robustly predicted, regardless of the day the program was run.
+I was curious if over-fitting could be a factor (in which case, using fewer samples may actually be more robust), so I tested re-running SHAPEIT / RFMix with subsets of reference samples.  In the plot below, the “chromosome” number is the fraction of original reference samples used (so, 2 = 1/2, 3=1/3, etc.):
+
+![alt text](MOM_chrX_SUBSAMPLE.PNG "Showing the effect of reducing the reference population on chromosome painting results")
+
+Using fewer samples didn’t really help resolve a possible over-fitting issue, but I thought this did provide some interesting results: the plot is supposed to be like the 23andMe chrX plot (the all-European chromosome on top, and the mixed ancestry chromosome on the bottom).  First, using subsets of samples can reveal inaccurate segments on the top chromosome (in subsets 3, 4, 5, and 7), and you also seem to have issues with robustness of segments towards the 2nd of the second chrX copy (after ~100 cM).  Finally, notice a swap between AMR (Ad-Mixed American) and EAS (East Asian) at <50 cM with subset 5 on the mixed ancestry chrX copy, and that the mixed chromosome for subset 2 is actually more similar to the 23andMe result than the full set of reference samples.
+
+The plot above makes it seem like the EAS+AFR segments (between approximately 32Mb / 45 cM and 110 Mb / 100 cM) could be relatively more robust, but my mom doesn’t have practically any segments for that ancestry on her autosomal chromosomes and we are not aware of family history that would explain that ancestry.  I could get an [~10 Mb AMR+SAS segment](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good/RFMix_ReAnalysis) (on my own chr3) that was likely a false positive from adding imputed values (and an ~16 Mb segment on chr12 whose assignments seem to noticeably vary depending upon the genotyping platform), but my mom’s ~80 Mb EAS+AMR segment is considerably larger.
+
+Based upon the [Genes for Good whole-genome results](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good/RFMix_ReAnalysis) (for myself), I thought it might help to check regular ADMIXTURE (for just chrX).  However, if only run ADMIXTURE for Chromosome-X among unrelated females, it looks like those results were even less accurate:
+
+![alt text](MOM_chrX_SUBSAMPLE.PNG "ChrX-Only ADMIXTURE Analysis for my Mom")
+ 
+In a way, **this would make the 23andMe chromosome painting results relatively good** (even if I still think they may still not be 100% accurate), since they at least predict >50% European (EUR) ancestry for my Mom’s X chromosomes.
+
+
+*To be clear, I asked for my mom's permission before posting these 5 images (described in the previous paragraphs).*
 
 I also noticed that [Genes for Good](https://genesforgood.sph.umich.edu/), [GENOtation](http://genotation.stanford.edu/), and [GEDmatch](https://genesis.gedmatch.com/login1.php) don't provide ancestry painting for the sex chromosomes.  Additionally, perhaps [Scheet and Stephens 2006](https://www.ncbi.nlm.nih.gov/pubmed/16532393) (Table 4 versus Table 2) and [Wise et al. 2013](https://www.ncbi.nlm.nih.gov/pubmed/23643377) (Figure 1 and "Quality and Power Concerns" section) are also relevant for this discussion?  I'm guessing they are probably less relevant, but I there are also some interesting information about repeats on chrX (and other chromosomes) in [Pandey et al. 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3814197/) (and [Treangen and Salzberg 2011](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3324860/)).
 
