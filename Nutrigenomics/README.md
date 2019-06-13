@@ -21,6 +21,8 @@ But this picture is also on [the Food Sensitvity+ Test website](https://www.heli
 
 **So, please note that there is no spit kit for the Food Sensitivity (and it looks like *they no longer use the OrageneDx spit kit for Metabolism+ Test* - I just had a generic conical tube with some barcode stickers on it).**
 
+I think part of the confusion may be that I was ordering this kit through Helix, since they already have DNA for me.  For example, what I recieved does match the [EverlyWell Food Sensitivity Test](https://www.everlywell.com/products/food-sensitivity/).  I'm still a little confused about that screenshot on the Helix website (which actually matches what I saw, without a "Saliva Collection Tube" in the listing of kit materials).  However, I was initially sufficiently concerned that I posted a reply to the Twitter discussion thread.  However, I proptly deleted that as soon as I saw this alternative explanation.  While this still leaves me some concerns, they are not as urgent as I intially thought.  So, I apologize if anybody saw that response in the brief time that it was posted.
+
 Also, as a matter of personal preference, I like getting my blood drawn by somebody else (you can't look away when you are using a lancet on yourself).  However, that may just be me :)
 
 GenoPalate:
@@ -51,5 +53,3 @@ Acids
 Extra charge if you want to see customized menus.
 
 When asked how to determine details for risk assessment (such as SNP IDs, primary literature citations / databases, etc.), I was told *[we] are not able to share with you specific studies and SNP's that we review because we keep our scientific process private*".
-
-So, I currently believe that you should not purchase a kit from this company.
