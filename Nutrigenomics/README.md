@@ -5,11 +5,11 @@ In other words, that is a little different than the results being inaccurate, wh
 EverlyWell:
 -----------------
 
-There were 3 "Genomics Tests" tests on the EverlyWell website.  I ordered two of them.
+There were 3 "Genomics Tests" tests on the EverlyWell website.  I ordered two of them (the **Food Sensitivity Test+** and **Metabolism Test+**).
 
 While I will describe the results when I get them, I did want to mention one thing before I forget:
 
-The "**Food Sensitivity**" test is a blood test (testing for **IgG reactivity**).  While I was initially confused because I had saliva collection tube for the "**Metabolism+ Test**" but not the "Food Sensitivity" test (and that saliva collection tube was *not* an OrageneDx spit kit - it was just had a generic conical tube with some barcode stickers on it), **I think this is because I already have my Exome sequenced from Helix**.
+The "*Food Sensitivity*" test is a blood test (testing for **IgG reactivity**).  While I was initially confused because I had saliva collection tube for the "*Metabolism Test*" but not the "Food Sensitivity" test (and that saliva collection tube was *not* an OrageneDx spit kit - it was just had a generic conical tube with some barcode stickers on it), **I think this is because I already have my Exome sequenced from Helix**.
 
  For example, what I recieved does match the [EverlyWell Food Sensitivity Test](https://www.everlywell.com/products/food-sensitivity/).  I'm still a little confused about [a product picture](https://dxkmbl8uwuv9p.cloudfront.net/myhelix/1556831649426/562cb0c0-de4d-43d8-944b-98ebbf3adf78/FS_WhatYoullGet_Img.png) on the Helix website (which actually matches what I saw, without a "Saliva Collection Tube" in the listing of kit materials).  However, I was initially sufficiently concerned that I posted a reply to the Twitter discussion thread.  **Accordingly, I promptly deleted that as soon as I saw this alternative explanation.**  While this still leaves me some concerns, they are not as urgent as I intially thought.  ***So, I apologize if anybody saw that response in the brief time that it was posted.***
 
