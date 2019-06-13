@@ -19,7 +19,7 @@ But this picture is also on [the Food Sensitvity+ Test website](https://www.heli
 
 ![picture on Food Sensitivity website](https://dxkmbl8uwuv9p.cloudfront.net/helix-dev/1531422609260/617687ad-1bf7-4c0c-8ef3-fef3e1761e7e/2.-collection-tube-desktop.png)
 
-**So, please note that there is no spit kit for the Food Sensitivity (and it looks like they no longer use the OrageneDx spit kit for Metabolism+ Test - I just had a generic conical tube with some barcode stickers on it).**
+**So, please note that there is no spit kit for the Food Sensitivity (and it looks like *they no longer use the OrageneDx spit kit for Metabolism+ Test* - I just had a generic conical tube with some barcode stickers on it).**
 
 Also, as a matter of personal preference, I like getting my blood drawn by somebody else (you can't look away when you are using a lancet on yourself).  However, that may just be me :)
 
