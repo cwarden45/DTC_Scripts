@@ -9,7 +9,7 @@ While I will describe the results when I get them, I did want to mention one thi
 
 The "**Food Sensitivity**" test is just a blood test (testing for **IgG reactivity**).  So, I'll double-check if I can get raw DNA data, but I don't think that part is accurate (I think they just test reactivity of your protein from the blood test).
 
-Unlike the "Metabolism+ Test" there isn't even a spit kit.
+**Unlike the "Metabolism+ Test" there isn't even a spit kit for the Food Sensitivity test.**
 
 In other words, is is what the materials look like for the Food Sensitivity test:
 
