@@ -1,4 +1,4 @@
-To be fair, I am starting with a [negative bias](https://twitter.com/cwarden45/status/1134864619552378880).  However, I will be very happy if I can convience people that the companies / organizations need to *i)* share your raw data with you, *ii)* share all the details for coming to their conclusions, and *iii)* have some way of publically sharing trends in their own data, with fair representations in limitations in confidence.  
+To be fair, I am starting with a [negative bias](https://twitter.com/cwarden45/status/1134864619552378880).  However, I will be very happy if I can convince people that the companies / organizations need to *i)* share your raw data with you, *ii)* share all the details for coming to their conclusions, and *iii)* have some way of publically sharing trends in their own data, with fair representations in limitations in confidence.  
 
 In other words, that is a little different than the results being inaccurate, which is harder to show (and I have to be mindful of my prior expectations, since that can cause me to be overly harsh).
 
