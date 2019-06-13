@@ -30,17 +30,17 @@ Uploaded 23andMe data at same time as AncestryDNA data.
 
 "SNP not detected" doesn't explain all differences:
 
-Carbohydrates:
+*Carbohydrates*:
 23andMe: ZBED3 --> AA - 64.9% --> Your Recommendation: High Fiber
 
 AncestryDNA: [ZBED3 missing]
 
-Carbohydrates:
+*Carbohydrates*:
 23andMe: [NOTCH2 missing]
 
 AncestryDNA: NOTCH2 --> GG - 67.3%--> Your Recommendation: High Fiber
 
-Fats (**Inconsistent**):
+*Fats* (**Inconsistent**):
 
 23andMe: ADIPOQ --> AG - 4.5% --> Your Recommendation: High Monounsaturated Fatty Acids
 
