@@ -17,6 +17,8 @@ For example, what I recieved does match the [EverlyWell Food Sensitivity Test](h
 
 Also, as a matter of personal preference, I like getting my blood drawn by somebody else (you can't look away when you are using a lancet on yourself, and I got light-headed the one / first time that I donated a large amount of blood).  However, I realize that people with diabetes unfortunately have to do something similar every day (although I thought the volume of blood was less: I have to wait to produce enough blood for 5 large spots for each of these tests).  Nevertheless, this may be less of an issue for other people.
 
+Also, I think the other parts of the test are being done by more specialized laboratories.  For example, I mailed my Food Sensitivity test to *Alletess Medicial Laboratory*, and I mailed my Metabolism test to *Ayumetrix LLC*.  I support having a centralized system to find more specialized labs / information.  However, if the analysis is really being done by different entities, I think that should be made more clear (if they deserve a non-trivial amount of credit / responsiblity).
+
 GenoPalate:
 -----------------
 
