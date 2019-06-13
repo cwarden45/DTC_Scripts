@@ -2,7 +2,7 @@ To be fair, I am starting with a [negative bias](https://twitter.com/cwarden45/s
 
 In other words, that is a little different than the results being inaccurate, which is harder to show (and I have to be mindful of my prior expectations, since that can cause me to be overly harsh).
 
-EverlyWell:
+EverlyWell (Helix for DNA Sequencing):
 -----------------
 
 There were 3 "Genomics Tests" tests on the EverlyWell website.  I ordered two of them (the **Food Sensitivity Test+** and **Metabolism Test+**).
@@ -13,7 +13,7 @@ The "*Food Sensitivity*" test is a blood test (testing for **IgG reactivity**). 
 
 For example, what I recieved does match the [EverlyWell Food Sensitivity Test](https://www.everlywell.com/products/food-sensitivity/).  I'm still a little confused about [a product picture](https://dxkmbl8uwuv9p.cloudfront.net/myhelix/1556831649426/562cb0c0-de4d-43d8-944b-98ebbf3adf78/FS_WhatYoullGet_Img.png) on the Helix website (which actually matches what I saw, without a "Saliva Collection Tube" in the listing of kit materials).  However, I was initially sufficiently concerned that I posted a reply to the Twitter discussion thread.  **Accordingly, I promptly deleted that as soon as I saw this alternative explanation.**  While this still leaves me some concerns, they are not as urgent as I intially thought.  ***So, I apologize if anybody saw that response in the brief time that it was posted.***
 
-Also, as a matter of personal preference, I like getting my blood drawn by somebody else (you can't look away when you are using a lancet on yourself).  However, that may just be me :)
+Also, as a matter of personal preference, I like getting my blood drawn by somebody else (you can't look away when you are using a lancet on yourself).  However, I realize that people with diabetes have to do something similar every day (although I thought the volume of blood was less: I have to wait to produce enough blood for 5 large spots for these tests).
 
 GenoPalate:
 -----------------
