@@ -26,7 +26,7 @@ As I note in the orignial Twitter discussion that I referenced, I purchased two 
 
 Vitagene:
 -----------------
-Just so that I don't forget, I am noting a swab (instead of a spit-kit) was used for DNA collection (so, Orig3n isn't the only one to do this).
+Just so that I don't forget, I am noting a swab (instead of a spit-kit) was used for DNA collection (so, Orig3n isn't the only one to do this, although Vitagene used two swabs for one kit, both of which were stored in solution to be mailed).
 
 GenoPalate:
 -----------------
