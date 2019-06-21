@@ -22,7 +22,9 @@ Also, I think the other parts of the test are being done by more specialized lab
 Orig3n:
 -----------------
 
-As I note in the original Twitter discussion that I referenced, I purchased two kits that used swabs (**Metabolism** and **Hunger & Weight**)
+As I note in the original Twitter discussion that I referenced, I purchased two kits that used swabs (**Metabolism** and **Hunger & Weight**).
+
+"**Hunger & Weight**" provides genotypes for 7 SNPs / genes (for $49).  Citations are provided, but genomic position / rsID not shown in web-interface.
 
 Vitagene:
 -----------------
