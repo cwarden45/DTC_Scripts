@@ -22,7 +22,7 @@ Also, I think the other parts of the test are being done by more specialized lab
 Orig3n:
 -----------------
 
-As I note in the orignial Twitter discussion that I referenced, I purchased two kits that used swabs (**Metabolism** and **Hunger & Weight**)
+As I note in the original Twitter discussion that I referenced, I purchased two kits that used swabs (**Metabolism** and **Hunger & Weight**)
 
 Vitagene:
 -----------------
