@@ -19,6 +19,12 @@ Also, as a matter of personal preference, I like getting my blood drawn by someb
 
 Also, I think the other parts of the test are being done by more specialized laboratories.  For example, I mailed my *Food Sensitivity* test to ***Alletess Medicial Laboratory***, and I mailed my *Metabolism* test to ***Ayumetrix LLC***.  I support having a centralized system to find more specialized labs / information.  However, if the analysis is really being done by different entities, I think that should be made more clear (if they deserve a non-trivial amount of credit / responsiblity).
 
+One thing that I thought was interesting was that EverlyWell provides a way to share a hyperlink for your results:
+
+**Food Sensitivity Test+**: https://my.everlywell.com/share/bb7b19955a388aa6292a8236
+**Metabolism Test+**: https://my.everlywell.com/share/d0290a346aa6994e4fb5ad4e
+
+
 Orig3n:
 -----------------
 
