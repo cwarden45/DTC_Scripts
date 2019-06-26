@@ -22,6 +22,7 @@ Also, I think the other parts of the test are being done by more specialized lab
 One thing that I thought was interesting was that EverlyWell provides a way to share a hyperlink for your results:
 
 **Food Sensitivity Test+**: https://my.everlywell.com/share/bb7b19955a388aa6292a8236
+
 **Metabolism Test+**: https://my.everlywell.com/share/d0290a346aa6994e4fb5ad4e
 
 
