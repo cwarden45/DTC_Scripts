@@ -25,6 +25,17 @@ One thing that I thought was interesting was that EverlyWell provides a way to s
 
 **Metabolism Test+**: https://my.everlywell.com/share/d0290a346aa6994e4fb5ad4e
 
+The individual PDF that you can download contains both the blood test and the DNA test data for the **Metabolism+ Test**, but only the blood results for the **Food Sensitivity Test+** (so, I uploaded a PDF with screenshots for DNA part, even though the above link is probably preferable).
+
+I also uploaded the Doctor versions.  At least for the *Food Sensitivity* test, I think the patient version is better: I only had "Mild" and "Low" reactivity (no "Moderate" or "High" results).  With the possible exception of a "Mild" reactivity to cow milk, none of the reactivity was severe enough to impact my diet.  In other words, I think the doctor would probably get unnecessary alarm if they only saw an "ABNORMAL" result.
+
+For the DNA part, I don't think this is the best way to survey your genome.  If a group has some markers that they think are intesting, some *free* interpretation of your genotypes (perhaps offered from a non-profit) seems more appropriate than charging to cover a 4-6 SNPs (particularly, if they also would have used Exome+, and would have [charged extra](https://github.com/cwarden45/DTC_Scripts/tree/master/Helix_Mayo_GeneGuide) to get access to your full raw data).  However, they do provided the rsID for [dbSNP](https://www.ncbi.nlm.nih.gov/snp/), which is good.
+
+Also, for the DNA *Food Sensitivity Test+*, most of the markers are risk associations for metabolites commonly checked in blood tests for a routine check-up (which I would imagine would be free to most people with insurance).  So, if I were a doctor, I would never prescribe the DNA part (I would just check your metabolites).  It also seems concievable to me that people may more frequently have free genome sequences with programs like [All of US](https://allofus.nih.gov/).
+
+The blood *Metabolism test* measured 3 metabolites, so I entered them into my [Patients Like Me](https://www.patientslikeme.com/members/818028) profile.  I had been previously tested for TSH, so I could compare these measurements with an earlier test that was covered through insurance.  I'm not sure how much it matters (and it is probably about time for my next check-up), but the EverlyWell TSH level was a little higher than 2 of my previous measurements:
+
+![PatientsLikeMe TSH](PatientsLikeMe_TSH.PNG "PatientsLikeMe TSH")
 
 Orig3n:
 -----------------
