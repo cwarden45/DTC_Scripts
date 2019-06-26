@@ -37,6 +37,8 @@ The blood *Metabolism test* measured 3 metabolites, so I entered them into my [P
 
 ![PatientsLikeMe TSH](PatientsLikeMe_TSH.PNG "PatientsLikeMe TSH")
 
+Because I already had Helix Exome+ data, the cost for these tests was a little lower than me.  However, the Metabolism Test then cost *$149.99* and the Food Sensitivity then cost *$209.99*.  So, if these are things that you can get through your insurance, that may be worth considering.
+
 Orig3n:
 -----------------
 
