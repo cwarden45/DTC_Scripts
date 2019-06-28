@@ -15,4 +15,6 @@ I'm not sure if these were manually entered.  However, if it is possible to lear
 
 The "*Medication Response*" results also allow you to schedule an appointment with a clinical pharmacist at no additional cost.  So, I will also check that out and post some notes here.
 
-The "*Medication Response*" portion also covers 14 genes, but 2 genes (CYP2C19 and CYP2D6) were provided at the same time as the other results whereas there was a total wait time of ~6 months for the other 12 genes (CYP1A2, CYP2C9, CYP3A4, CYP3A5, CYP4F2, DPYD, NUDT15 rs116855232, TPMT, F5 rs6025, IFNL3 rs12979860, SLCO1B1 rs4149056, and VKORC1 rs9923231).
+The "*Medication Response*" portion also covers 14 genes, but 2 genes (CYP2C19 and CYP2D6) were provided at the same time as the other results whereas there was a total wait time of ~6 months for the other 12 genes (CYP1A2, CYP2C9, CYP3A4, CYP3A5, CYP4F2, DPYD, NUDT15 rs116855232, TPMT, F5 rs6025, IFNL3 rs12979860, SLCO1B1 rs4149056, and VKORC1 rs9923231).  I think the "*Medications and your genetic results*" note is the reason that I have Mental Health Medication Insights in the 2-gene report but not the 14-gene report.
+
+I also thought I saw a warning that medication predictions can be less accurate if you take multiple medications, but I am having a hard time finding such a communciation from Color (so, perhaps I am remembering something incorrectly, or I possibly misread one of the bold notes above).
