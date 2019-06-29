@@ -8,7 +8,7 @@ I didn't immediately recognize that I had the F5 Leiden mutation (increased risk
 
 I should also be able to verify that with my HIPPA-released data (and then I will post an update).
 
-More importantly, I actually did have a [23andMe report](https://you.23andme.com/reports/ghr.vte/) indicating increased risk for "*Hereditary Thrombophila*", but I had to recognize the different name (even though it was a report for the exact same variant, and "*Factor V Leiden variant*" was mentioned in the 23andMe report).  Also, the "variant present" designation in Color made me think the predictive power may be higher than a typical risk association (more like a carrier status).  However, the 23andMe report better matches my previous expectation:
+More importantly, I actually did have a [23andMe report](https://you.23andme.com/reports/ghr.vte/) indicating increased risk for "*Hereditary Thrombophila*", but I had to recognize the different name (even though it was a report for the exact same variant, and "*Factor V Leiden variant*" was mentioned in the 23andMe report).  Also, the "variant present" designation in Color made me think the predictive power may be higher than a typical risk association (more like a carrier status).  However, the ***23andMe Report*** better matches my previous expectation:
 
 ***General population***: 1 in 1,000 (1-year risk)
 
