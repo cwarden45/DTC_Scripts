@@ -19,7 +19,7 @@ More importantly, I actually did have a [23andMe report](https://you.23andme.com
 For example, I have had major surgeries without having blot clots (assuming things like removal of wisdom teeth counts).
 
 
-Some reports are also up there, but I also encounted some issues uploading PDF files recently.  So, I decided to go ahead and post all of that information here.
+Some reports are also up on my PGP page, but I also encounted some issues uploading PDF files recently.  So, I decided to go ahead and post all of that information here.
 
 I also though the following notes from the ordering physican were interesting:
 
