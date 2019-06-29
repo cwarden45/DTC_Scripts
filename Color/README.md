@@ -2,6 +2,21 @@ I purchased a kit from Color because I really liked their [public portal](https:
 
 While the return of data was not automated, I was allowed to fill out a HIPPA authorization form for Protected Health Information (PHI), which included a box to check for "Raw Genetic Data."  Once I get that, I will upload it to my [Personal Genome Project page](https://my.pgp-hms.org/profile/hu832966).
 
+I didn't previously realize that I had the F5 Leiden mutation (increased risk of blood clots, [rs6025](), chr: on hg19), but I could 
+
+I should also be able to verify that with my HIPPA-released data (and then I will post an update).
+
+Also, I actually did have [23andMe report](https://you.23andme.com/reports/ghr.vte/) indicating increased risk for "*Hereditary Thrombophila*", but I had to recognize the different name (even though it was a report for the exact same variant, and "*Factor V Leiden variant*" was mentioned in the 23andMe report).  Also, the "variant present" designation in Color made me think the predictive power may be higher than a typical risk association (more like a carrier status).  However, the 23andMe report better matches my previous expectation:
+
+*General population*: 1 in 1,000 (1-year risk)
+
+*One copy of Factor V Leiden variant*:	2 in 1,000 (1-year risk)
+
+*Two copies of Factor V Leiden variant*:	15 in 1,000 (1-year risk)
+
+For example, I have had major surgeries without having blot clots (assuming things like removal of wisdom teeth counts).
+
+
 Some reports are also up there, but I also encounted some issues uploading PDF files recently.  So, I decided to go ahead and post all of that information here.
 
 I also though the following notes from the ordering physican were interesting:
