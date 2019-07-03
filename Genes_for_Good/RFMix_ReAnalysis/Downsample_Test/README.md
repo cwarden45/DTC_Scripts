@@ -1,4 +1,4 @@
-I previously tested the effect of down-sampling [my mom's X-chromosome](https://github.com/cwarden45/DTC_Scripts/tree/master/23andMe/Ancestry_plus_1000_Genomes), so I thought it would be good to do something similar with my entire genome with my Genes for Good dataset.
+I previously tested the effect of down-sampling [my mom's X-chromosome](https://github.com/cwarden45/DTC_Scripts/blob/master/23andMe/Ancestry_plus_1000_Genomes/README.md), so I thought it would be good to do something similar with my entire genome with my Genes for Good dataset.
 
 10x Reduction in Reference Set (**133 Reference Samples**):
 
