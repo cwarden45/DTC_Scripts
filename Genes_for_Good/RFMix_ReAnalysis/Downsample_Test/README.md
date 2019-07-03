@@ -33,3 +33,7 @@ Now with that for perspective, I testing using the full reference set (of unrela
 *10x Reduction in Probes (**1,329 Reference Samples, 28,664 Probes**)*:
 
 ![10x-down probe](GFG_Probe-10x.png "10x-down probe")
+
+*5x Reduction in Probes (**1,329 Reference Samples, 57,328 Probes**)*:
+
+![5x-down probe](GFG_Probe-5x.png "5x-down probe")
