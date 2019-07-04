@@ -41,3 +41,5 @@ Now with that for perspective, I testing using the full reference set (of unrela
 *2x Reduction in Probes (**1,329 Reference Samples, 143,320 Probes**)*:
 
 ![2x-down probe](GFG_Probe-2x.png "2x-down probe")
+
+While this still isn't perfect, I think it looks roughtly like the full set of probes (and 23andMe results) [one level up](https://github.com/cwarden45/DTC_Scripts/blob/master/Genes_for_Good/RFMix_ReAnalysis/README.md).  So, whether the remaining (relatively) small results that are inconsistent are due to a limitation in the methods versus reference set is a little hard for me to say for certain.  However, with >10x down-sampling we could clearly see large segments of inaccurate assignments, which could clearly be improved by increasing probes (and reference samples).
