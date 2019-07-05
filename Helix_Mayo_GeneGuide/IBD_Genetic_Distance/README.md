@@ -18,11 +18,11 @@ As described in the [plink2 manual](https://www.cog-genomics.org/plink/2.0/dista
 
 **3)** Filter file and plot new sample kinship value using `plot-and-filter_king_values.R`
 
-An example with just two SNP chips (with 93,939 positions):
+An example with just two SNP chips (*with 93,939 positions*):
 
 ![2 SNP Chip kinship estimates](plink_kinship_2-SNP-chip.png "2 SNP Chip kinship estimates")
 
-Similar plot with 2 SNP chips and the Mayo GeneGuide Exome+ (with 26,134 positions):
+Similar plot with 2 SNP chips and the Mayo GeneGuide Exome+ (*with 26,134 positions*):
 
 ![2 SNP Chip + Exome+](plink_kinship_2-SNP-chip_plus_Mayo-GeneGuide.png "2 SNP Chip + Exome+")
 
