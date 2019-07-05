@@ -8,7 +8,7 @@ These scripts won't be very useful if you don't have multiple samples for yourse
 
 You might want to run `wc -l` on the combined files, to check the number of variants kept at each step.
 
-Also, the gVCF that I got for my Helix Exome+ sample (which is who produced the raw Mayo GeneGuide data) was for hg38 when everything else was for hg19.  So, I converted that gVCF back to hg19 using [CrossMaphttp://crossmap.sourceforge.net/#convert-vcf-format-files]() in the script ``.
+Also, the gVCF that I got for my Helix Exome+ sample (which is who produced the raw Mayo GeneGuide data) was for hg38 when everything else was for hg19.  So, I converted that gVCF back to hg19 using [CrossMap](http://crossmap.sourceforge.net/#convert-vcf-format-files) in the script `CrossMap_liftOver_VCF.sh`.
 
 I also needed to download the chain for hg38-to-hg19, which is available [here](http://hgdownload.cse.ucsc.edu/goldenpath/hg38/liftOver/).
 
