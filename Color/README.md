@@ -18,6 +18,8 @@ More importantly, I actually did have a [23andMe report](https://you.23andme.com
 
 For example, I have had a major surgery without having blot clots (assuming things like removal of wisdom teeth counts).  Nevertheless, I think I need to take some additional time to assess the the data used to produce this risk association (although the best starting place may be to see if it could be validated with multiple large cohorts).
 
+**That said, taking some time to search through the primary literature helped me understand the results better.**  For example, *Figure 1* in [Rosendaal et al. 1995](https://www.ncbi.nlm.nih.gov/pubmed/7888671) shows the much greater effect of the homozygous variant, specifically in the age group 50-69 (even though there were only **7** total AA individuals).  However, [Genetics Home Reference](https://ghr.nlm.nih.gov/condition/factor-v-leiden-thrombophilia) cites an even higher risk of incidence (up to 80 in 1000) for *Factor V Leiden thrombophilia*.  A review by [Kujovich 2011](https://www.ncbi.nlm.nih.gov/pubmed/21116184) also says "*Factor V Leiden is the most common genetic risk factor for [Venous thromboembolism], found in 20–25% of patients with VTE and 50% of patients with familial thrombophilia*".  So, if I had a homozygous variant, this may be something worth considering later in life (even though my wisdom tooth removal went smoothly when I was a teenager).
+
 Some reports are also up on my PGP page, but I also encounted some issues uploading PDF files recently.  So, I decided to go ahead and post all of that information here.
 
 I also though the following notes from the ordering physican were interesting:
