@@ -1,6 +1,6 @@
 I recieved a result that caused me some anxiety for a couple hours (even though I realized it rationaly couldn't be true).
 
-Namely, you can upload your 23andMe data to search the database of Family Tree DNA members (or other people who have uploaded data).  I was told that there was someone within the range of "Father/Son", who was also an X-chromosome match (and "X-match").  This is not possible: I am a male, so a father or son would have to have a Y-chromosome match (and not an X-chromosome match).
+Namely, you can upload your 23andMe data to search the database of Family Tree DNA members (or other people who have uploaded data).  *I was told that there was someone within the range of "Father/Son", who was also an X-chromosome match (and "X-match").*  **This is not possible**: I am a male, so a father or son would have to have a Y-chromosome match (and not an X-chromosome match).
 
 I e-mailed the contact (you can see the e-mail address for your predicted relatives), but I never heard back.  One possiblity is that someone could have created a false account that was based upon my [public genome data](https://my.pgp-hms.org/profile/hu832966), but I don't know that for certain.  For example, there are a lot of people listed within the range of "2nd Cousin - 4th Cousin," and I don't recognize any of them.  I also don't have a access to the raw data for this individual.  ***In other words, all I know is that this result can't be precise.***
 
