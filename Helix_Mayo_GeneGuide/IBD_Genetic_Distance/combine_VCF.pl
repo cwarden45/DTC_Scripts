@@ -12,15 +12,27 @@ use diagnostics;
 #my $VCF_Combined = "1000_genomes_20140502_plus_GFG.vcf";
 #my $prev_ped = "../RFMix_Ancestry/20140502_all_samples.ped";#from ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/working/20140502_sample_summary_info/
 #my $updated_ped = "1000_genomes_20140502_plus_GFG.ped";
+#my $GATK4_flag = 0;
+
+#my $individual_ID = "CDW";
+#my $individual_gender = 1;#male
+#my $sample_name = "CW23";
+#my $VCF_Individual = "23andMe.vcf";
+#my $VCF_prev = "1000_genomes_20140502_plus_GFG.vcf";
+#my $VCF_Combined = "1000_genomes_20140502_plus_2-SNP-chip.vcf";
+#my $prev_ped = "1000_genomes_20140502_plus_GFG.ped";
+#my $updated_ped = "1000_genomes_20140502_plus_2-SNP-chip.ped";
+#my $GATK4_flag = 0;
 
 my $individual_ID = "CDW";
 my $individual_gender = 1;#male
-my $sample_name = "CW23";
-my $VCF_Individual = "23andMe.vcf";
-my $VCF_prev = "1000_genomes_20140502_plus_GFG.vcf";
-my $VCF_Combined = "1000_genomes_20140502_plus_2-SNP-chip.vcf";
-my $prev_ped = "1000_genomes_20140502_plus_GFG.ped";
-my $updated_ped = "1000_genomes_20140502_plus_2-SNP-chip.ped";
+my $sample_name = "Veritas.BWA";
+my $VCF_Individual = "../BWA_MEM_Alignment/hg19.gatk.flagged.gVCF";
+my $VCF_prev = "1000_genomes_20140502_plus_2-SNP-chip.vcf";
+my $VCF_Combined = "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas.vcf";
+my $prev_ped = "1000_genomes_20140502_plus_2-SNP-chip.ped";
+my $updated_ped = "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas.ped";
+my $GATK4_flag = 1;
 
 #add row at bottom of .ped file
 
@@ -81,6 +93,10 @@ while (<INPUTFILE>){
 		my $geno = $line_info[9];
 		
 		$chr =~ s/^chr//;
+		
+		if(($GATK4_flag == 1)&($alt eq "<NON_REF>")){
+			$geno = substr($line_info[9],0,3);
+		}#end if(($GATK4_flag == 1)&($alt eq "<NON_REF>"))
 		
 		if($filter eq "PASS"){
 			my $varID = "$chr:$pos:$ref:$alt";
