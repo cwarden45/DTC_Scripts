@@ -23,9 +23,6 @@ You'll want to check the 23andMe data portal for variants with "D" or "I" annota
 * Independent of these scripts, you can also test uploading your raw 23andMe data into [DNA.LAND](https://dna.land/)
 * With the caveat that the conversion isn't perfect (such as the missing indels), you can upload the .vcf file into the Variant Effect Predictor ([VEP](http://grch37.ensembl.org/Homo_sapiens/Tools/VEP))
   * Please note that it may take a little while to get your VEP result (for me, it was more than 1 hour).
-* [Family Tree DNA](https://www.familytreedna.com/) allows you to upload your 23andMe data to search for matches (should be available within 24 hours), but you have to may extra for functionality ($19 for ancestry predictions, chromosome view, etc.)
-  * Family Tree DNA "myOrigins" indicated I was 95% European and 3% African
-  * *However, please be aware that I got a strange match result, which I am looking into more.*
   
 **Personal Notes**
   
