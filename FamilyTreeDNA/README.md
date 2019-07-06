@@ -1,3 +1,11 @@
+* [Family Tree DNA](https://www.familytreedna.com/) allows you to upload your 23andMe data to search for matches (should be available within 24 hours), but you have to may extra for functionality ($19 for ancestry predictions, chromosome view, etc.)
+  * Family Tree DNA "myOrigins" indicated I was 95% European and 3% African
+  * *However, please be aware that I got a strange match result, which I am looking into more (and I describe in greater detail below)*
+
+-----------------
+
+**Notes about Results that Cause Anxiety**
+
 I recieved a result that caused me some anxiety for a couple hours (even though I realized it rationaly couldn't be true).
 
 Namely, you can upload your 23andMe data to search the database of Family Tree DNA members (or other people who have uploaded data).  *I was told that there was someone within the range of "Father/Son", who was also an X-chromosome match (and "X-match").*  **This is not possible**: I am a male, so a father or son would have to have a Y-chromosome match (and not an X-chromosome match).
