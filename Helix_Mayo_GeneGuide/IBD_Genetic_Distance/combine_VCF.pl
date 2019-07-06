@@ -94,7 +94,14 @@ while (<INPUTFILE>){
 		
 		$chr =~ s/^chr//;
 		
-		if(($GATK4_flag == 1)&($alt eq "<NON_REF>")){
+		if($GATK4_flag == 1){
+		
+			if($alt eq "<NON_REF>"){
+				$alt = $ref;
+			}else{
+				$alt =~ s/,<NON_REF>//;
+			}
+			
 			$geno = substr($line_info[9],0,3);
 		}#end if(($GATK4_flag == 1)&($alt eq "<NON_REF>"))
 		
