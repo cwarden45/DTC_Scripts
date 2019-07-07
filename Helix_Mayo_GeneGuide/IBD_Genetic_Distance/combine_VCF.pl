@@ -29,7 +29,7 @@ use diagnostics;
 my $individual_ID = "CDW";
 my $individual_gender = 1;#male
 my $sample_name = "Veritas.BWA";
-my $VCF_Individual = "Veritas_WGS_BWA-MEM_FILTERED.gVCF";
+my $VCF_Individual = "../BWA_MEM_Alignment/hg19.gatk.flagged.gVCF";
 my $VCF_prev = "1000_genomes_20140502_plus_2-SNP-chip.vcf";
 my $VCF_Combined = "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas.vcf";
 my $prev_ped = "1000_genomes_20140502_plus_2-SNP-chip.ped";
