@@ -13,6 +13,7 @@ use diagnostics;
 #my $prev_ped = "../RFMix_Ancestry/20140502_all_samples.ped";#from ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/working/20140502_sample_summary_info/
 #my $updated_ped = "1000_genomes_20140502_plus_GFG.ped";
 #my $GATK4_flag = 0;
+#my $large_flag = 0;
 
 #my $individual_ID = "CDW";
 #my $individual_gender = 1;#male
@@ -23,16 +24,18 @@ use diagnostics;
 #my $prev_ped = "1000_genomes_20140502_plus_GFG.ped";
 #my $updated_ped = "1000_genomes_20140502_plus_2-SNP-chip.ped";
 #my $GATK4_flag = 0;
+#my $large_flag = 0;
 
 my $individual_ID = "CDW";
 my $individual_gender = 1;#male
 my $sample_name = "Veritas.BWA";
-my $VCF_Individual = "../BWA_MEM_Alignment/hg19.gatk.flagged.gVCF";
+my $VCF_Individual = "Veritas_WGS_BWA-MEM_FILTERED.gVCF";
 my $VCF_prev = "1000_genomes_20140502_plus_2-SNP-chip.vcf";
 my $VCF_Combined = "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas.vcf";
 my $prev_ped = "1000_genomes_20140502_plus_2-SNP-chip.ped";
 my $updated_ped = "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas.ped";
 my $GATK4_flag = 1;
+my $large_flag = 1;
 
 #add row at bottom of .ped file
 
@@ -66,6 +69,33 @@ close(OUTPUTFILE);
 
 #define positions to combine
 my %individual_hash;
+
+if($large_flag == 1){
+	print "Only save lines already in larger file\n";
+	
+	open(INPUTFILE, $VCF_prev) || die("Could not open $VCF_prev!");
+	while (<INPUTFILE>){
+		$line_count++;
+		my $line = $_;
+		chomp $line;
+		if (!($line =~ /^##/)){
+			my @line_info = split("\t",$line);
+			my $chr = $line_info[0];
+			my $pos = $line_info[1];
+			my $ref = $line_info[3];	
+			my $alt = $line_info[4];
+
+			$chr =~ s/^chr//;
+
+			if(!($line =~ /^#/)){			
+				my $varID = "$chr:$pos:$ref:$alt";
+				$individual_hash{$varID}="";
+			}#end else
+		}#end if (!($line =~ /^##/))
+	}#end while (<INPUTFILE>)
+				
+	close(INPUTFILE);	
+}#end if($large_flag == 1)
 
 print "Reading individual VCF...\n";
 
@@ -104,10 +134,17 @@ while (<INPUTFILE>){
 			
 			$geno = substr($line_info[9],0,3);
 		}#end if(($GATK4_flag == 1)&($alt eq "<NON_REF>"))
+
+		my $varID = "$chr:$pos:$ref:$alt";
+		#print "$varID\n";
+		
+		if($large_flag == 1){
+			unless(exists($individual_hash{$varID})){
+				$filter = "FAIL";
+			}#end unless(exists($individual_hash{$varID}))
+		}#end if($large_flag == 1)
 		
 		if($filter eq "PASS"){
-			my $varID = "$chr:$pos:$ref:$alt";
-			#print "$varID\n";
 			$individual_hash{$varID}=$geno;
 		}#end if($filter eq "PASS")
 	}#end if(!($line =~ /^#/))
