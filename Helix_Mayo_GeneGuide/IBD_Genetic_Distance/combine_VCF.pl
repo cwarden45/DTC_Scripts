@@ -26,14 +26,36 @@ use diagnostics;
 #my $GATK4_flag = 0;
 #my $large_flag = 0;
 
+#my $individual_ID = "CDW";
+#my $individual_gender = 1;#male
+#my $sample_name = "Mayo";
+#my $VCF_Individual = "../Helix_ExomePlus_variants_1550345278_hg19.vcf";
+#my $VCF_prev = "1000_genomes_20140502_plus_2-SNP-chip.vcf";
+#my $VCF_Combined = "1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome.vcf";
+#my $prev_ped = "1000_genomes_20140502_plus_2-SNP-chip.ped";
+#my $updated_ped = "1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome.ped";
+#my $GATK4_flag = 1;
+#my $large_flag = 1;
+
+#my $individual_ID = "CDW";
+#my $individual_gender = 1;#male
+#my $sample_name = "Genos.BWA";
+#my $VCF_Individual = "../../Genos_Exome/BWA-MEM_realign.flagged.gVCF";
+#my $VCF_prev = "1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome.vcf";
+#my $VCF_Combined = "1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome_plus_Genos-BWA-MEM-Exome.vcf";
+#my $prev_ped = "1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome.ped";
+#my $updated_ped = "1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome_plus_Genos-BWA-MEM-Exome.ped";
+#my $GATK4_flag = 1;
+#my $large_flag = 1;
+
 my $individual_ID = "CDW";
 my $individual_gender = 1;#male
-my $sample_name = "Veritas.BWA";
-my $VCF_Individual = "../BWA_MEM_Alignment/hg19.gatk.flagged.gVCF";
-my $VCF_prev = "1000_genomes_20140502_plus_2-SNP-chip.vcf";
-my $VCF_Combined = "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas.vcf";
-my $prev_ped = "1000_genomes_20140502_plus_2-SNP-chip.ped";
-my $updated_ped = "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas.ped";
+my $sample_name = "Veritas";
+my $VCF_Individual = "../../BWA_MEM_Alignment/hg19.gatk.flagged.gVCF";
+my $VCF_prev = "1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome_plus_Genos-BWA-MEM-Exome.vcf";
+my $VCF_Combined = "1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome_plus_Genos-BWA-MEM-Exome_plus_Veritas_WGS.vcf";
+my $prev_ped = "1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome_plus_Genos-BWA-MEM-Exome.ped";
+my $updated_ped = "1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome_plus_Genos-BWA-MEM-Exome_plus_Veritas_WGS.ped";
 my $GATK4_flag = 1;
 my $large_flag = 1;
 
@@ -133,6 +155,14 @@ while (<INPUTFILE>){
 			}
 			
 			$geno = substr($line_info[9],0,3);
+			
+			if(($geno eq "")|($geno eq "   ")){
+				$geno="./.";
+				print "Corrected empty geno value\n";
+			}elsif(!$geno =~ /\//){
+				print "Wrong formatting for |$geno|\n";
+				exit;
+			}
 		}#end if(($GATK4_flag == 1)&($alt eq "<NON_REF>"))
 
 		my $varID = "$chr:$pos:$ref:$alt";
@@ -160,9 +190,9 @@ open(OUTPUTFILE, ">$VCF_Combined") || die("Could not open $VCF_Combined!");
 
 my @output_indices;
 
+
 open(INPUTFILE, $VCF_prev) || die("Could not open $VCF_prev!");
 while (<INPUTFILE>){
-	$line_count++;
 	my $line = $_;
 	chomp $line;
 	if (!($line =~ /^##/)){
@@ -183,8 +213,10 @@ while (<INPUTFILE>){
 			my $varID = "$chr:$pos:$ref:$alt";
 			
 			if(exists($individual_hash{$varID})){
-				my $extra_geno = $individual_hash{$varID};
-				print OUTPUTFILE "$line\t$extra_geno\n";
+				if($individual_hash{$varID} ne ""){
+					my $extra_geno = $individual_hash{$varID};
+					print OUTPUTFILE "$line\t$extra_geno\n";
+				}#end if($individual_hash{$varID} ne "")
 			}#end if(exists($sample_hash{$sample}))		
 		}else{
 			print OUTPUTFILE "$line\t$sample_name\n";
