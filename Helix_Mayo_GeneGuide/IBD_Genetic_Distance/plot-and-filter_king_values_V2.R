@@ -1,12 +1,10 @@
-#setwd("E:\\WGS_Exome_Analysis\\My_Veritas_WGS\\Mayo_GeneGuide\\plink_IBD_Genetic_Distance")
-
 #26,134 variants
 new.sampleIDs =  c("GFG","CW23","Mayo")
 K1G.ped.ref =  "../../23andMe/1000_Genomes/20140502_all_samples.ped"
 input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome.kin0"
 output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Mayo-Exome"
 
-#17,943 variants
+#17,943 variants --> will do some extra testing with on-target variants
 #new.sampleIDs =  c("GFG","CW23","Genos.BWA")
 #K1G.ped.ref =  "../../23andMe/1000_Genomes/20140502_all_samples.ped"
 #input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Genos-BWA-MEM-Exome.kin0"
