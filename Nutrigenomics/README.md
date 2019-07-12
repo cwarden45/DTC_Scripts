@@ -54,6 +54,8 @@ Raw data was provide to download (comma-separate text file with genotypes).
 
 While you can't tell from the exported PDF, they do provide the specific genotypes and a citation for associations described in the report.
 
+While traits and ancestry would have similar benefits / concerns as other companies, I was a little more worried about the recommended supplements.  **While I do sometimes take probiotics, I would not make a decision to take that (or any other supplements) based upon what was provided to me from Vitagene.**  However, if you do have issues related to what Vitagene is proposing, I think it is probably a good idea to check with your general physican (and I especially wonder about the value in adding 6+ supplements).  That said, there is an electronic Nutritionist that you can contact for free, so I am going to confirm if I have correctly understood that part.
+
 GenoPalate:
 -----------------
 
