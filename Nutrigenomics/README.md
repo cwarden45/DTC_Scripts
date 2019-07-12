@@ -52,6 +52,8 @@ Just so that I don't forget, I am noting a swab (instead of a spit-kit) was used
 
 Raw data was provide to download (comma-separate text file with genotypes).
 
+While you can't tell from the exported PDF, they do provide the specific genotypes and a citation for associations described in the report.
+
 GenoPalate:
 -----------------
 
