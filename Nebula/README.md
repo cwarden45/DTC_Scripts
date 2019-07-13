@@ -6,10 +6,12 @@ So, one of the first things that I did was visualize the alignments for some of 
 
 ![CFTR visualization](IGV_CFTR.png "Read with CF variant")
 
-*My APOE Alzhiemer's risk variant ([rs429358](https://www.ncbi.nlm.nih.gov/snp/rs429358), Nebula alignment in middle)*:
+*My APOE Alzhiemer's risk variant ([rs429358](https://www.ncbi.nlm.nih.gov/snp/rs429358), Nebula alignment in middle, varinat is red-blue bar in the right-most exon)*:
 ![APOE visualization](IGV_APOE.png "APOE False Negative")
 
 For the two alignments above, the Genos Exome is the top alignment, **the Nebula low-coverage alignment is in the middle**, and the Veritas Whole Genome Sequencing (WGS, regular-coverage) is at the bottom.
+
+For APOE, I zoomed out from the screenshot so that you could get a better persective of the error rate per-read at other positions around the gene.
 
 You could see my cystic fibrosis variant in the 1 read covered at that position, but you can't see any reads with the APOE variant.  The jusitification for the low-coverage sequencing is the use of imputation (at least for traits).  However, even thought this APOE variant is somewhat common (I believe ~15% of the population), the imputation failed to identify me as having that variant.  You see that from the .vcf files
 
