@@ -6,7 +6,7 @@ So, one of the first things that I did was visualize the alignments for some of 
 
 ![CFTR visualization](IGV_CFTR.png "Read with CF variant")
 
-*My APOE Alzhiemer's risk variant ([rs429358](https://www.ncbi.nlm.nih.gov/snp/rs429358), Nebula alignment in middle, varinat is red-blue bar in the right-most exon)*:
+*My APOE Alzhiemer's risk variant ([rs429358](https://www.ncbi.nlm.nih.gov/snp/rs429358), Nebula alignment in middle, variant is red-blue bar in the right-most exon)*:
 ![APOE visualization](IGV_APOE.png "APOE False Negative")
 
 For the two alignments above, the Genos Exome is the top alignment, **the Nebula low-coverage alignment is in the middle**, and the Veritas Whole Genome Sequencing (WGS, regular-coverage) is at the bottom.
