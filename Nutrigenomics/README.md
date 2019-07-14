@@ -61,17 +61,17 @@ Also, I think the other parts of the test are being done by more specialized lab
     <tr>
       <td align="center">Hemoglobin A1C</td>
       <td align="center">$74.25</td>
-      <td align="center">$0.00</td>
+      <td align="center"><b>$0.00</b></td>
     </tr>
     <tr>
-      <td align="center">TSH</td>
+      <td align="center"><b>TSH</b></td>
       <td align="center">$130.49</td>
       <td align="center">$13.82</td>
     </tr>
     <tr>
       <td align="center">UA, Complete</td>
       <td align="center">$47.59</td>
-      <td align="center">$2.65</td>
+      <td align="center"><b>$2.65</b></td>
     </tr>
     <tr>
       <td align="center">Chem Test 14</td>
