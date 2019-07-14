@@ -81,7 +81,7 @@ Also, I think the other parts of the test are being done by more specialized lab
 </tbody>
 </table>
 
-So, again TSH is one of the 3 metabolites covered in the **Metabolism** EverlyWell test (along with Cortisol and Free Testosterone), which cost me (the consumer $149.99).  For Quest, the cost of TSH alone (**for Aetna**) was a little less than that ($130.49), but the cost to me (**the patient**) was an order of magnitude less ($13.82).  Among the blood tests, TSH had the highest Out-of-Pocket Responsibility (maximum, I could end up being charged less).  So, there is probably something important about that, but I don't currently know the explanation.
+So, again, TSH is one of the 3 metabolites covered in the **Metabolism** EverlyWell test (along with Cortisol and Free Testosterone), which cost me (the consumer $149.99).  For Quest, the cost of TSH alone (**for Aetna**) was a little less than that ($130.49), but the cost to me (**the patient**) was an order of magnitude less ($13.82).  Among the blood tests, TSH had the highest Out-of-Pocket Responsibility (maximum, I could end up being charged less).  So, there is probably something important about that, but I don't currently know the explanation.
 
 Orig3n:
 -----------------
