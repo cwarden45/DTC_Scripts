@@ -51,32 +51,32 @@ Also, I think the other parts of the test are being done by more specialized lab
     <tr>
       <td align="center">Lipid Panel, Standa</td>
       <td align="center">$155.22</td>
-      <td align="left">$8.43</td>
+      <td align="center">$8.43</td>
     </tr>
     <tr>
       <td align="center">CBC(H/H,RBC,WBC,PLT)</td>
       <td align="center">$33.67</td>
-      <td align="left">$4.85</td>
+      <td align="center">$4.85</td>
     </tr>
     <tr>
       <td align="center">Hemoglobin A1C</td>
       <td align="center">$74.25</td>
-      <td align="left">**$0.00**</td>
+      <td align="center">$0.00</td>
     </tr>
     <tr>
       <td align="center">TSH</td>
       <td align="center">130.49</td>
-      <td align="left">$13.82</td>
+      <td align="center">$13.82</td>
     </tr>
     <tr>
       <td align="center">UA, Complete</td>
       <td align="center">$47.59</td>
-      <td align="left">**$2.65**</td>
+      <td align="center">$2.65</td>
     </tr>
     <tr>
       <td align="center">Chem Test 14</td>
       <td align="center">$88.07</td>
-      <td align="left">$7.91</td>
+      <td align="center">$7.91</td>
     </tr>
 </tbody>
 </table>
