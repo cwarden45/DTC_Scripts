@@ -90,7 +90,7 @@ As I note in the original Twitter discussion that I referenced, I purchased two 
 
 "**Hunger & Weight**" provides genotypes for 7 SNPs / genes (for $49).  Citations are provided, but genomic position / rsID not shown in web-interface.
 
-The **Metabolism** result was not ready at the same time.  I was notified that the **Metabolism** result would be ready about 4 weeks after the lab recieves the sample.  However, I currently still do not have that result.
+The **Metabolism** result was not ready at the same time.  I was notified that the **Metabolism** result would be ready about 4 weeks after the lab recieves the sample.  However, I currently still do not have that result (meaning this will be the last result that I recieve on this page, even though these were the two test that I ordered first, and purchased in-store at a CVS).
 
 Vitagene:
 -----------------
