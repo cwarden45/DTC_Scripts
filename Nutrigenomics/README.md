@@ -46,7 +46,7 @@ Also, I think the other parts of the test are being done by more specialized lab
     <tr>
       <th align="center">Description</th>
       <th align="center">Price<br/>(for Insurance)</th>
-      <th align="center">Maximum Out-of-Pocket Responsiblity<br/>(Patient)</th>
+      <th align="center">Maximum Out-of-Pocket Responsiblity<br/>(for Patient)</th>
     </tr>
     <tr>
       <td align="center">Lipid Panel, Standa</td>
