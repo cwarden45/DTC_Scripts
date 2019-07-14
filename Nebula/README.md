@@ -27,6 +27,22 @@ The "0/0" (for genotype/GT in the last column) means that **low-coverage imputat
 
 Even though I think they should only provide continental ancestry results (kind of like the 1000 Genomes "[super-populations](http://www.internationalgenome.org/category/population/)"), the ancestry was roughly similar to my other results (indicating that I am mostly European, which is accurate).  Plus, I don't believe the country-level assignments are actually confident enough to justify confidence in suggesting travel distinations (so, in that sense, this is a problem even when the genotypes can be called with higher confidence).
 
+Similar to the IBD estimates that I calculated in [a different section](https://github.com/cwarden45/DTC_Scripts/tree/master/Helix_Mayo_GeneGuide/IBD_Genetic_Distance), I can test overall similarity between the imputed Nebula genotypes, 23andMe (**CW23**), Genes for Good (**GFG**), Veritas WGS (BWA-MEM Re-Aligned) *with 77,072 genomic positions* (plotting 1000 Genomes reference samples for comparison):
+
+![Genetic Distance](plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula.png	 "IBD/KING Genetic Distance")
+
+By this measure, you can also clearly see which samples come from the same individual (me).  However, there is a slight drop in the accuracy for the Nebula imputed values (with kinship values between 0.489181 and 0.489226, instead of between 0.499859 and 0.499962):
+
+```
+FAM1	ID1	FAM2	ID2	nsnp	hethet	ibs0	kinship
+0	CW23	0	GFG	77072	0.605148	0	0.499962
+0	Veritas.BWA	0	GFG	76310	0.605032	0	0.499865
+0	Veritas.BWA	0	CW23	76310	0.605032	0	0.499859
+0	Nebula	0	GFG	77072	0.584596	7.78493e-05	0.489209
+0	Nebula	0	CW23	77072	0.584596	7.78493e-05	0.489181
+0	Nebula	0	Veritas.BWA	76310	0.58472	6.55222e-05	0.489226
+```
+
 Because I believe most people are recieving low-coverage sequencing from [basepaws](https://github.com/cwarden45/Bastu_Cat_Genome) for $95 (while I ordered ~15x sequencing for $1000), I thought it might be good to have plots similar to sections of that repository.
 
 For example, here are the FastQC Plots (similar to the [Read_QC](https://github.com/cwarden45/Bastu_Cat_Genome/blob/master/Basepaws_Notes/Read_QC/README.md) section):
