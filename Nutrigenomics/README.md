@@ -39,12 +39,58 @@ Also, as a matter of personal preference, I like getting my blood drawn by someb
 
 Also, I think the other parts of the test are being done by more specialized laboratories.  For example, I mailed my *Food Sensitivity* test to ***Alletess Medicial Laboratory***, and I mailed my *Metabolism* test to ***Ayumetrix LLC***.  I support having a centralized system to find more specialized labs / information.  However, if the analysis is really being done by different entities, I think that should be made more clear (if they deserve a non-trivial amount of credit / responsiblity).
 
+**In contrast, I recently had my yearly-check up, and these are the maximum costs that I might be charged for my blood tests from *Quest Diagnostics* (using an Aetna PPO):**
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Description</th>
+      <th align="center">Price<br/>(for Insurance)</th>
+      <th align="center">Maximum Out-of-Pocket Responsiblity<br/>(Patient)</th>
+    </tr>
+    <tr>
+      <td align="center">Lipid Panel, Standa</td>
+      <td align="center">$155.22</td>
+      <td align="left">$8.43</td>
+    </tr>
+    <tr>
+      <td align="center">CBC(H/H,RBC,WBC,PLT)</td>
+      <td align="center">$33.67</td>
+      <td align="left">$4.85</td>
+    </tr>
+    <tr>
+      <td align="center">Hemoglobin A1C</td>
+      <td align="center">$74.25</td>
+      <td align="left">**$0.00**</td>
+    </tr>
+    <tr>
+      <td align="center">TSH</td>
+      <td align="center">130.49</td>
+      <td align="left">$13.82</td>
+    </tr>
+    <tr>
+      <td align="center">UA, Complete</td>
+      <td align="center">$47.59</td>
+      <td align="left">**$2.65**</td>
+    </tr>
+    <tr>
+      <td align="center">Chem Test 14</td>
+      <td align="center">$88.07</td>
+      <td align="left">$7.91</td>
+    </tr>
+</tbody>
+</table>
+
+So, again TSH is one of the 3 metabolites covered in the **Metabolism** EverlyWell test (along with Cortisol and Free Testosterone), which cost me (the consumer $149.99).  For Quest, the cost of TSH alone (**for Aetna**) was a little less than that ($130.49), but the cost to me (**the patient**) was an order of magnitude less ($13.82).  Among the blood tests, TSH had the highest Out-of-Pocket Responsibility (maximum, I could end up being charged less).  So, there is probably something important about that, but I don't currently know the explanation.
+
 Orig3n:
 -----------------
 
 As I note in the original Twitter discussion that I referenced, I purchased two kits that used swabs (**Metabolism** and **Hunger & Weight**).
 
 "**Hunger & Weight**" provides genotypes for 7 SNPs / genes (for $49).  Citations are provided, but genomic position / rsID not shown in web-interface.
+
+The **Metabolism** result was not ready at the same time.  I was notified that the **Metabolism** result would be ready about 4 weeks after the lab recieves the sample.  However, I currently still do not have that result.
 
 Vitagene:
 -----------------
