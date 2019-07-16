@@ -100,7 +100,35 @@ Raw data was provide to download (comma-separate text file with genotypes).
 
 While you can't tell from the exported PDF, they do provide the specific genotypes and a citation for associations described in the report.
 
-While traits and ancestry would have similar benefits / concerns as other companies, I was a little more worried about the recommended supplements.  **While I do sometimes take probiotics, I would not make a decision to take that (or any other supplements) based upon what was provided to me from Vitagene.**  However, if you do have issues related to what Vitagene is proposing, I think it is probably a good idea to check with your general physican (and I especially wonder about the value in adding 6+ supplements).  That said, there is an electronic Nutritionist that you can contact for free, so I am going to confirm if I have correctly understood that part.
+While traits and ancestry would have similar benefits / concerns as other companies, I was a little more worried about the recommended supplements.  **While I do sometimes take probiotics, I would not make a decision to take that (or any other supplements) based upon what was provided to me from Vitagene.**  However, if you do have issues related to what Vitagene is proposing, I think it is probably a good idea to check with your general physican (and I especially wonder about the value in adding 6+ supplements).
+
+That said, there is an electronic Nutritionist that you can contact for free, so I am going to confirm if I have correctly understood that part.  They explained that there is a "premium" plan that recommends 8 supplements and an "essential" plan that recommends 4-8 supplements.  They also mentioned that if you order a "premium" plan and "there are less than 8 are listed, there are likely contraindications with other medications/health conditions and the essentials plan may only be available to you"; so,you will then get less than 8 recommended supplements.  I was recommended to take 7 supplements, but they could not tell me if 1 of those 7 supplmentments might be more useful than the others.
+
+I ordered "Premium Health + Ancestry Reports" for $119.00 (plus $9.95 shipping), so I am guessing there was a reason why I got 7 recommendations (instead of 8).
+
+I also checked the reasons for each supplement:
+
+*[Bromelain Quercetin Complex](https://vitagene.com/supplements/plants/bromelain) (500 mg)*: Lifestyle (Joint health and Digestive health)
+
+In the additional information, it mentions this supplement can interact with Indomethacin (which I take for migraines, as needed).  With this information alone, I might be surprised that it wasn't flagged.  However, I've taken sleep aids with Bromelain added without any problems (although sleep / stress is not one of the reasons given to recommend this supplement).
+
+*[Probiotics](https://vitagene.com/supplements/bacteria/probiotics) (40 billion CFU)*: **Genes (31%, *risk of Overweight, Hormonal support, Eczema, Allergies and Blood pressure health*)**, Lifesytle (Everyday stress and Digestive health), and Goals (Everyday stress and Overweight)
+
+*[Vitamin D](https://vitagene.com/supplements/vitamins/vitamin-d) (2000 IU)*: **Genetics (59% *Vitamin D Levels, Eczema and Joint health*)**, Lifesytle (Everyday stress), and Goals (Everyday stress)
+
+*[Theanine](https://vitagene.com/supplements/amino-acids/theanine) (200 mg)*: Lifesytle (Everyday stress), and Goals (Everyday stress)
+
+*Iron Free Multivitamin (10 Multi)*: Lifestyle (Energy and Nutrient intake levels)
+
+*[Zinc](https://vitagene.com/supplements/minerals/zinc) (15 mg)*: **Genetics (50% *Overweight*)** and Goals (Overweight)
+
+*[Chromium](https://vitagene.com/supplements/minerals/chromium) (200 mcg)*:**Genetics (83% *Hormonal support, Overweight and Blood sugar health*)** and Goals (Overweight)
+
+Lifestyle and goals count as one category for percentages (so, genetics + lifestyle/goals adds to 100%).
+
+I don't actually believe I have joint health issues, so I'm not sure where that is comming from.  For the probiotics, I do sometimes take those for digestive health, but I think my yearly check-up with a physican superseeds the genetic information being reported (for example, I know that I **don't** have Eczema, blood pressure problems, or abnormal vitamin D levels).  I think I have found some sleep aid supplments to be useful, so I might consider the Theanine recommendation (however, that had nothing to do with my genetics).
+
+In other words, my impression was that the most potentially useful supplement (the probiotics) would be to help a self-reported symptom (even though there are genetic causes listed, if those are not valid, then that is not a good reason to take probiotics).  In other words, I believe this indicates the genotype information wasn't really providing information for making nutritional decisions (and, if I didn't understand the need to critically evaluate my results, might have even possibly caused me to take unneccessary supplements).  I am particularly concerned that the Vitamin D result had a >50% genetic component for the recommendation (all for symptoms that I don't have).  Given that my insulin levels are checked at my routine check-up, I am also guessing the justification for the Chromium supplement is over-emphasized.  While I am not currently planning to add any supplements to my diet, I might look into why/if zinc is supposed to help with weight loss due to immune modulation (the extra weight is mild in my case in that I believe I have a normal BMI, and I am mostly trying to exercise more right now; so, my guess is that ab exercises may be more important than a zinc supplement).
 
 GenoPalate:
 -----------------
