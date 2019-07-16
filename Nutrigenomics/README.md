@@ -112,7 +112,7 @@ I also checked the reasons for each supplement:
 
 In the additional information, it mentions this supplement can interact with Indomethacin (which I take for migraines, as needed).  With this information alone, I might be surprised that it wasn't flagged.  However, I've taken sleep aids with Bromelain added without any problems (although sleep / stress is not one of the reasons given to recommend this supplement).
 
-*[Probiotics](https://vitagene.com/supplements/bacteria/probiotics) (40 billion CFU)*: **Genes (31%, *risk of Overweight, Hormonal support, Eczema, Allergies and Blood pressure health*, based upon 103 variants, all reported to have "Fair" research quality)**, Lifesytle (Everyday stress and Digestive health), and Goals (Everyday stress and Overweight)
+*[Probiotics](https://vitagene.com/supplements/bacteria/probiotics) (40 billion CFU)*: **Genetics (31%, *risk of Overweight, Hormonal support, Eczema, Allergies and Blood pressure health*, based upon 103 variants, all reported to have "Fair" research quality)**, Lifesytle (Everyday stress and Digestive health), and Goals (Everyday stress and Overweight)
 
 *[Vitamin D](https://vitagene.com/supplements/vitamins/vitamin-d) (2000 IU)*: **Genetics (59% *Vitamin D Levels, Eczema and Joint health*, based upon 36 variants, all reported to have "Fair" research quality)**, Lifesytle (Everyday stress), and Goals (Everyday stress)
 
