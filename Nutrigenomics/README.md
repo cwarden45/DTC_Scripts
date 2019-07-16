@@ -112,21 +112,21 @@ I also checked the reasons for each supplement:
 
 In the additional information, it mentions this supplement can interact with Indomethacin (which I take for migraines, as needed).  With this information alone, I might be surprised that it wasn't flagged.  However, I've taken sleep aids with Bromelain added without any problems (although sleep / stress is not one of the reasons given to recommend this supplement).
 
-*[Probiotics](https://vitagene.com/supplements/bacteria/probiotics) (40 billion CFU)*: **Genes (31%, *risk of Overweight, Hormonal support, Eczema, Allergies and Blood pressure health*)**, Lifesytle (Everyday stress and Digestive health), and Goals (Everyday stress and Overweight)
+*[Probiotics](https://vitagene.com/supplements/bacteria/probiotics) (40 billion CFU)*: **Genes (31%, *risk of Overweight, Hormonal support, Eczema, Allergies and Blood pressure health*, based upon 103 variants, all reported to have "Fair" research quality)**, Lifesytle (Everyday stress and Digestive health), and Goals (Everyday stress and Overweight)
 
-*[Vitamin D](https://vitagene.com/supplements/vitamins/vitamin-d) (2000 IU)*: **Genetics (59% *Vitamin D Levels, Eczema and Joint health*)**, Lifesytle (Everyday stress), and Goals (Everyday stress)
+*[Vitamin D](https://vitagene.com/supplements/vitamins/vitamin-d) (2000 IU)*: **Genetics (59% *Vitamin D Levels, Eczema and Joint health*, based upon 36 variants, all reported to have "Fair" research quality)**, Lifesytle (Everyday stress), and Goals (Everyday stress)
 
 *[Theanine](https://vitagene.com/supplements/amino-acids/theanine) (200 mg)*: Lifesytle (Everyday stress), and Goals (Everyday stress)
 
 *Iron Free Multivitamin (10 Multi)*: Lifestyle (Energy and Nutrient intake levels)
 
-*[Zinc](https://vitagene.com/supplements/minerals/zinc) (15 mg)*: **Genetics (50% *Overweight*)** and Goals (Overweight)
+*[Zinc](https://vitagene.com/supplements/minerals/zinc) (15 mg)*: **Genetics (50% *Overweight*, based upon 52 variants, all reported to have "Fair" research quality)** and Goals (Overweight)
 
 I liked that they said zinc was *effective* for "Zinc deficiency" but *likely effective* / *likely ineffective* / *ineffective* for everything else (in that it lowers the confidence of being helpful).  However, I had to look into the additional information to see this.  In other words, if I didn't take the time to do that and automatically ordered all of these supplements, I would be taking action for something where effectiveness is not maximal (as I understand it).
 
 That said, "weight loss" is listed as a symptom of zinc difficiency, and there is no mention of "weight" or "weight gain" for any of those categories.  So, I would probably want to do some more research before repeating that zinc can be helpful if you are overweight.  Also, I am actually within the "normal" BMI range, so the extra weight is mild (and my guess is that ab exercises are probably more important than a zinc supplement anyways).
 
-*[Chromium](https://vitagene.com/supplements/minerals/chromium) (200 mcg)*:**Genetics (83% *Hormonal support, Overweight and Blood sugar health*)** and Goals (Overweight)
+*[Chromium](https://vitagene.com/supplements/minerals/chromium) (200 mcg)*:**Genetics (83% *Hormonal support, Overweight and Blood sugar health*, based upon 203 variants, all reported to have "Fair" research quality)** and Goals (Overweight)
 
 Lifestyle and goals count as one category for percentages (so, genetics + lifestyle/goals adds to 100%).
 
