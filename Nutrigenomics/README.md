@@ -124,7 +124,7 @@ In the additional information, it mentions this supplement can interact with Ind
 
 I liked that they said zinc was *effective* for "Zinc deficiency" but *likely effective* / *likely ineffective* / *ineffective* for everything else (in that it lowers the confidence of being helpful).  However, I had to look into the additional information to see this.  In other words, if I didn't take the time to do that and automatically ordered all of these supplements, I would be taking action for something where effectiveness is not maximal (as I understand it).
 
-That said, "weight loss" is listed as a symptom of zinc difficiency, and there is no mention of "weight" or "weight gain" for any of those categories.  So, I would probably want to do some more research before repeating that zinc can be helpful if you are overweight.
+That said, "weight loss" is listed as a symptom of zinc difficiency, and there is no mention of "weight" or "weight gain" for any of those categories.  So, I would probably want to do some more research before repeating that zinc can be helpful if you are overweight.  Also, I am actually within the "normal" BMI range, so the extra weight is mild (and my guess is that ab exercises are probably more important than a zinc supplement anyways).
 
 *[Chromium](https://vitagene.com/supplements/minerals/chromium) (200 mcg)*:**Genetics (83% *Hormonal support, Overweight and Blood sugar health*)** and Goals (Overweight)
 
