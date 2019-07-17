@@ -54,3 +54,5 @@ For example, here are the FastQC Plots (similar to the [Read_QC](https://github.
 The plots above show that the insert size is probably larger for my Nebula dataset than Bastu's basepaws dataset (since I see fewer adapters in the sequences).  This is confirmed below:
 
 ![Insert Size Distribution](picard_insert_size.png "Insert Size Distribution")
+
+While there are considerably fewer genomic sequences smaller than the Illumina read length (relative to my basepaws sample), I can still use the scripts to parse the reads to determine that my sample had dual-barcode GTAGAGGA(i712)+TACTCCTT(i507), sequenced by machine MG01HX02 in the 5th lane of flowcell H2GF3CCX2 (although that information is on all of the reads).  There were 21,327 reads that had those barcodes in roughly the right spot (without any other valid official Illumina barcode combinations), and there were 6,051 reads with the adapter sequences immediately adjacent to the barcodes.
