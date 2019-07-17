@@ -51,4 +51,6 @@ For example, here are the FastQC Plots (similar to the [Read_QC](https://github.
 
 ![R2 adapter content](FastQC_adapter_content_R2.png "R2 adapter content")
 
-The plots above show that the insert size is probably larger for my Nebula dataset than Bastu's basepaws dataset (since I see fewer adapters in the sequences).
+The plots above show that the insert size is probably larger for my Nebula dataset than Bastu's basepaws dataset (since I see fewer adapters in the sequences).  This is confirmed below:
+
+![Insert Size Distribution](picard_insert_size.PNG "Insert Size Distribution")
