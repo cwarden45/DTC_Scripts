@@ -90,7 +90,9 @@ As I note in the original Twitter discussion that I referenced, I purchased two 
 
 "**Hunger & Weight**" provides genotypes for 7 SNPs / genes (for $49).  Citations are provided, but genomic position / rsID not shown in web-interface.
 
-The **Metabolism** result was not ready at the same time.  I was notified that the **Metabolism** result would be ready about 4 weeks after the lab recieves the sample.  However, I currently still do not have that result (meaning this will be the last result that I recieve on this page, even though these were the two test that I ordered first, and purchased in-store at a CVS).
+The **Metabolism** result was not ready at the same time (I am not sure why).  I was notified that the **Metabolism** result would be ready about 4 weeks after the lab recieves the sample (and I recieved it 5-6 weeks after the sample was confirmed to have arrived in the lab).  This test also cost $49, and provided 8 SNPs for 7 genes.  I was also a little confused when my APOa2 status was "Adapt" (instead of "Normal") when 60% of the population was supposed to have this genotype.
+
+So, even among the tests presented here, I think being sold at CVS may increase sales, but not actually be in the best interests of the consumer (among Direct-to-Consumer tests).  So, I would not recommend anybody purchases these tests.  Among the DNA results on this page, I think Vitagene would be preferable (and my personal preference is that I would probably recommend 23andMe / Genes for Good / All of US over any of these).
 
 Vitagene:
 -----------------
