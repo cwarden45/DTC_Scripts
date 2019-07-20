@@ -27,7 +27,7 @@ The "0/0" (for genotype/GT in the last column) means that **low-coverage imputat
 
 Even though I think they should only provide continental ancestry results (kind of like the 1000 Genomes "[super-populations](http://www.internationalgenome.org/category/population/)"), the ancestry was roughly similar to my other results (indicating that I am mostly European, which is accurate).  Plus, I don't believe the country-level assignments are actually confident enough to justify confidence in suggesting travel distinations (so, in that sense, this is a problem even when the genotypes can be called with higher confidence).
 
-Nevertheless, if I use my imputed genotypes for RFMix chromosome painting, I get results that look roughly like my [SNP chip analysis](https://github.com/cwarden45/DTC_Scripts/blob/master/Genes_for_Good/RFMix_ReAnalysis/README.md):
+Nevertheless, if I use my imputed genotypes for RFMix chromosome painting, I get results that look roughly like my [SNP chip analysis](https://github.com/cwarden45/DTC_Scripts/blob/master/Genes_for_Good/RFMix_ReAnalysis/README.md) (which would be an improvement over the Genes for Good imputed SNPs, but compariable to the much smaller number of Genes for Good observed SNPs):
 
 ![RFMix Chromosome Painting](Nebula_RFMix.png "RFMix Chromosome Painting")
 
