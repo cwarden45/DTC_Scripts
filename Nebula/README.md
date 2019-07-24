@@ -25,10 +25,10 @@ As described in the gVCF header:
 
 ```
 GT = Genotype
-RC =  Count of Reads with Ref Allele
+RC = Count of Reads with Ref Allele
 AC = Count of reads with Alt Allele
-GP =  Genotype Probability: Pr(0/0), Pr(1/0), Pr(1/1)
-DS =  Estimated Alternate Allele Dosage
+GP = Genotype Probability: Pr(0/0), Pr(1/0), Pr(1/1)
+DS = Estimated Alternate Allele Dosage
 ```
 
 The "0/0" (for genotype/GT in the last column) means that **low-coverage imputation couldn't detect my APOE variant**.  In other words, I believe Nebula ***incorrectly*** estimates my genotype to be 0/0 with a probability of **93%**, and the probably for the **true** genotype was **7.7%**.  I also see a [blog post](https://blog.nebula.org/introducing-the-nebula-research-library/?utm_source=Nebula+Genomics&utm_campaign=c7d72b7914-EMAIL_CAMPAIGN_2018_12_19_12_41_COPY_01&utm_medium=email&utm_term=0_d00198de1b-c7d72b7914-78594575) mentioning that these probabilities are provided, although I am having difficulity in finding them without the gVCF (and you won't see them in the PDFs that I have uploaded in this section).  In some sense, I think having coverage for your variant may be more important than the probability (which, for individual variants, it may be good to assume is an over-estimation of accuracy).
