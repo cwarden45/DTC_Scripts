@@ -31,7 +31,7 @@ I also though the following notes from the ordering physican were interesting:
 
 There was also the following general note (as of 6/27/2019) under "**Medications and your genetic results**": You may notice that there is no information about specific medications in your report. The FDA recently issued a safety communication about genetic tests that claim to predict patients’ responses to specific medications. In response to the FDA’s communication and out of an overabundance of caution, our reports and clinical pharmacists are not currently providing information about specific medications. We continue to explore ways to add information about medication in accordance with FDA guidance and will update you when any new information is added.
 
-I'm not sure if these were manually entered.  However, if it is possible to learn more about the primary evidence for those notes (even though they don't involve any genetic information).
+I'm not sure if these were manually entered.  However, I talked to the Clinical Pharmacist (free), and I learned that the drug interaction was reported from 3rd party software (from PWN Health).  So, I will follow-up on that to see if I can find the primary evidence for those notes (even though that doesn't involve any genetic information).
 
 The "*Medication Response*" results also allow you to schedule an appointment with a clinical pharmacist at no additional cost.  So, I will also check that out and post some notes here.
 
