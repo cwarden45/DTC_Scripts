@@ -21,7 +21,19 @@ You could see my cystic fibrosis variant in the 1 read covered at that position,
 19      45411941        rs429358        T       C       .       PASS    .       GT:RC:AC:GP:DS  0/0:0:0:0.923102,0.0768962,1.71523e-06:0.0768996
 ```
 
-The "0/0" (for genotype/GT in the last column) means that **low-coverage imputation couldn't detect my APOE variant**.  Likewise, there was no delTT variant in the VCF, so my cystic fibrosis carrier status would also be a false negative (if that was used in the report), even though you could actually see that deletion in the 1 read aligned at that position (because 1 read wasn't sufficient to have confidence in that variant).
+As described in the gVCF header:
+
+```
+GT = Genotype
+RC =  Count of Reads with Ref Allele
+AC = Count of reads with Alt Allele
+GP =  Genotype Probability: Pr(0/0), Pr(1/0), Pr(1/1)
+DS =  Estimated Alternate Allele Dosage
+```
+
+The "0/0" (for genotype/GT in the last column) means that **low-coverage imputation couldn't detect my APOE variant**.  In other words, I believe Nebula ***incorrectly*** estimates my genotype to be 0/0 with a probability of **93%**, and the probably for the **true** genotype was **7.7%**.  I also see a [blog post](https://blog.nebula.org/introducing-the-nebula-research-library/?utm_source=Nebula+Genomics&utm_campaign=c7d72b7914-EMAIL_CAMPAIGN_2018_12_19_12_41_COPY_01&utm_medium=email&utm_term=0_d00198de1b-c7d72b7914-78594575) mentioning that these probabilities are provided, although I am having difficulity in finding them without the gVCF (and you won't see them in the PDFs that I have uploaded in this section).  In some sense, I think having coverage for your variant may be more important than the probability (which, for individual variants, it may be good to assume is an over-estimation of accuracy).
+
+Likewise, there was no delTT variant in the VCF, so my cystic fibrosis carrier status would also be a false negative (if that was used in the report), even though you could actually see that deletion in the 1 read aligned at that position (because 1 read wasn't sufficient to have confidence in that variant).
 
 **So, I  disagree with the use of low-coverage sequencing for traits, and I would consider removing this section (or only made available to those with higher-coverage sequencing).**
 
