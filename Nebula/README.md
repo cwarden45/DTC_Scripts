@@ -48,10 +48,18 @@ If you compare SNPs, then the accuracy is noticably lower than GATK (and even lo
 The indels are harder to compare (becuase of the freebayes indel format).  So, in the interests of fairness, I am omiting them here (as I did for comparing the provided [Genos Exome versus Veritas WGS](http://cdwscience.blogspot.com/2019/05/precisionfda-and-custom-scripts-for.html) variants).  However, instead of comparing the provided Veritas WGS .vcf file, I can try comparing the BWA-MEM re-aligned GATK Veritas WGS .vcf (which also had higher concordance between my Exome and WGS datasets:
 
 ```
-[fill in]
+3133635 / 3419611 (91.6%) full SNP recovery
+3248277 / 3419611 (95.0%) partial SNP recovery
+164140 / 217959 (75.3%) full insertion recovery
+180736 / 217959 (82.9%) partial insertion recovery
+190452 / 266479 (71.5%) full deletion recovery
+213131 / 266479 (80.0%) partial deletion recovery
+
 ```
 
-**So, I  disagree with the use of low-coverage sequencing for traits, and I would consider removing this section (or only made available to those with higher-coverage sequencing).**  It is very important to emphasize that the gVCF variants **do not have 99% accuracy** (even for average accuracy, or even for SNPs).  I think whatever benchmark was used for that calculation was probably over-fit on some training data.
+The GATK recovery is a little better.  ***However, it is very important to emphasize that the gVCF variants do not have 99% accuracy*** (even for average accuracy, or even for SNPs).  I think whatever benchmark was used for that calculation was probably over-fit on some training data.
+
+**So, I  disagree with the use of low-coverage sequencing for traits, and I would consider removing this section (or only made available to those with higher-coverage sequencing).**
 
 When I was trying to upload my raw data to my Personal Genome Project page, I noticed that they had an option called "**genetic data - [Gencove](https://gencove.com/) low pass (e.g. Nebula Genomics)**".  *This makes me think discouraging low-coverage sequencing is something that needs to be done more broadly (at least for health traits).*
 
