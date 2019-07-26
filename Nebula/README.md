@@ -35,7 +35,23 @@ The "0/0" (for genotype/GT in the last column) means that **low-coverage imputat
 
 Likewise, there was no delTT variant in the VCF, so my cystic fibrosis carrier status would also be a false negative (if that was used in the report), even though you could actually see that deletion in the 1 read aligned at that position (because 1 read wasn't sufficient to have confidence in that variant).
 
-**So, I  disagree with the use of low-coverage sequencing for traits, and I would consider removing this section (or only made available to those with higher-coverage sequencing).**
+While my precisionFDA account is currently locked, I can use my [VCF_recovery.pl](https://github.com/cwarden45/DTC_Scripts/blob/master/Genos_Exome/VCF_recovery.pl) to compare recovery of my Veritas WGS variants in my Nebula gVCF.
+
+If you compare SNPs, then the accuracy is noticably lower than GATK (and even lower than DeepVariant):
+
+```
+3071596 / 3419611 (89.8%) full SNP recovery
+3184641 / 3419611 (93.1%) partial SNP recovery
+
+```
+
+The indels are harder to compare (becuase of the freebayes indel format).  So, in the interests of fairness, I am omiting them here (as I did for comparing the provided Genos Exome versus Veritas WGS variants.  However, instead of comparing the provided Veritas WGS .vcf file, I can try comparing the BWA-MEM re-aligned GATK Veritas WGS .vcf (which also had higher concordance between my Exome and WGS datasets:
+
+```
+[fill in]
+```
+
+**So, I  disagree with the use of low-coverage sequencing for traits, and I would consider removing this section (or only made available to those with higher-coverage sequencing).**  It is very important to emphasize that the gVCF variants **do not have 99% accuracy** (even for average accuracy, or even for SNPs).  I think whatever benchmark was used for that calculation was probably over-fit on some training data.
 
 When I was trying to upload my raw data to my Personal Genome Project page, I noticed that they had an option called "**genetic data - [Gencove](https://gencove.com/) low pass (e.g. Nebula Genomics)**".  *This makes me think discouraging low-coverage sequencing is something that needs to be done more broadly (at least for health traits).*
 
