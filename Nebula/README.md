@@ -45,7 +45,7 @@ If you compare SNPs, then the accuracy is noticably lower than GATK (and even lo
 
 ```
 
-The indels are harder to compare (becuase of the freebayes indel format).  So, in the interests of fairness, I am omiting them here (as I did for comparing the provided Genos Exome versus Veritas WGS variants.  However, instead of comparing the provided Veritas WGS .vcf file, I can try comparing the BWA-MEM re-aligned GATK Veritas WGS .vcf (which also had higher concordance between my Exome and WGS datasets:
+The indels are harder to compare (becuase of the freebayes indel format).  So, in the interests of fairness, I am omiting them here (as I did for comparing the provided [Genos Exome versus Veritas WGS](http://cdwscience.blogspot.com/2019/05/precisionfda-and-custom-scripts-for.html) variants).  However, instead of comparing the provided Veritas WGS .vcf file, I can try comparing the BWA-MEM re-aligned GATK Veritas WGS .vcf (which also had higher concordance between my Exome and WGS datasets:
 
 ```
 [fill in]
