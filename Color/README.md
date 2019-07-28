@@ -2,6 +2,14 @@ I purchased a kit from Color because I really liked their [public portal](https:
 
 While the return of data was not automated, I was allowed to fill out a HIPPA authorization form for Protected Health Information (PHI), which included a box to check for "Raw Genetic Data."  Once I get that, I will upload it to my [Personal Genome Project page](https://my.pgp-hms.org/profile/hu832966).
 
+**Update (7/28)**: I am still encountering some issues uploading my data to the PGP (even though the Color raw data is very small).  Nevertheless, if you wanted to access the 2 genotype tables and low-coverage FASTQ file, those can be downloaded from my Google Cloud account:
+
+https://storage.googleapis.com/bastu-cat-genome/temp_human_forCharles/Color/38721806153623_discovery_genotypes.csv
+
+https://storage.googleapis.com/bastu-cat-genome/temp_human_forCharles/Color/38721806153623_variant_set.csv
+
+https://storage.googleapis.com/bastu-cat-genome/temp_human_forCharles/Color/38721806153623_lcWGS.fastq.gz
+
 I didn't immediately recognize that I had the F5 Leiden mutation (increased risk of blood clots, [rs6025](https://www.ncbi.nlm.nih.gov/snp/rs6025), chr1:169519049 on hg19), but I could verify the status of that variant with my sequencing alignment from Veritas and Genos:
 
 ![F5 alignment verification](F5_variant.png "Veritas and Genos F5 verification")
