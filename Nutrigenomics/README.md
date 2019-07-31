@@ -122,7 +122,7 @@ In the additional information, it mentions this supplement can interact with Ind
 
 *[Theanine](https://vitagene.com/supplements/amino-acids/theanine) (200 mg)*: Lifesytle (Everyday stress), and Goals (Everyday stress)
 
-**Update (7/30)**: I did test taking Theanine (specifically, [Nature's Trove L-Theanine](https://www.amazon.com/L-Theanine-200mg-Natures-Trove-Vegetarian/dp/B01D1YQBOK)), but I encountered some minor side effects both times that I took it.  There was a warning on the container (but not from Vitagene): "*If you are currently taking prescription antidepressants such as MAOIs or SSRIs, consult yoru physican before taking this project*".  So, I would currently keep my original impression that users should frequently not take all of the recommended supplements (and they may be better off not taking any of the supplements).
+**Update (7/30)**: I did test taking Theanine (specifically, [Nature's Trove L-Theanine](https://www.amazon.com/L-Theanine-200mg-Natures-Trove-Vegetarian/dp/B01D1YQBOK)), but I encountered some minor side effects both times that I took it (as I recorded in my [PatientsLikeMe](https://www.patientslikeme.com/members/818028/treatment_histories/2275460) profile).  There was a warning on the container (but not from Vitagene): "*If you are currently taking prescription antidepressants such as MAOIs or SSRIs, consult yoru physican before taking this project*".  So, I would currently keep my original impression that users should frequently not take all of the recommended supplements (and they may be better off not taking any of the supplements).
 
 *Iron Free Multivitamin (10 Multi)*: Lifestyle (Energy and Nutrient intake levels)
 
