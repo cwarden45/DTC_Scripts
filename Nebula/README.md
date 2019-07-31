@@ -59,6 +59,16 @@ The indels are harder to compare (becuase of the freebayes indel format).  So, i
 
 The GATK recovery is a little better.  ***However, it is very important to emphasize that the gVCF variants do not have 99% accuracy*** (even for average accuracy, or even for SNPs).  I think whatever benchmark was used for that calculation was probably over-fit on some training data.
 
+You can also show similar results with precisonFDA (using the BWA-MEM realigned GATK gVCF, which we expect to have better concordance than the provided gVCF).
+
+For example, the overall file shows noticably low recall when comparing the [Nebula imputed gVCF versus the Veritas WGS BWA-MEM re-aligned gVCF](https://precision.fda.gov/comparisons/3517):
+
+![precisionFDA all Veritas WGS comparison](precisionFDA_all.png "precisionFDA all Veritas WGS comparison")
+
+and, to be more fair for the Exome versus WGS comparison in the blog post, the trend is similar within [RefSeq CDS](https://precision.fda.gov/comparisons/3518) regions:
+
+![precisionFDA RefSeq CDS Veritas WGS comparison](precisionFDA_RefSeq-CDS.png "precisionFDA RefSeq CDS Veritas WGS comparison")
+
 **So, I  disagree with the use of low-coverage sequencing for traits, and I would consider removing this section (or only made available to those with higher-coverage sequencing).**
 
 When I was trying to upload my raw data to my Personal Genome Project page, I noticed that they had an option called "**genetic data - [Gencove](https://gencove.com/) low pass (e.g. Nebula Genomics)**".  *This makes me think discouraging low-coverage sequencing is something that needs to be done more broadly (at least for health traits).*
