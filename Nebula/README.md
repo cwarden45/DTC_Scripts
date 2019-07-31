@@ -69,6 +69,8 @@ and, to be more fair for the Exome versus WGS comparison in the blog post, the t
 
 ![precisionFDA RefSeq CDS Veritas WGS comparison](precisionFDA_RefSeq-CDS.PNG "precisionFDA RefSeq CDS Veritas WGS comparison")
 
+The screenshots are smaller than in the blog post because there was no precision-recall plot for the Imputed Nebula gVCF comparisons.
+
 **So, I  disagree with the use of low-coverage sequencing for traits, and I would consider removing this section (or only made available to those with higher-coverage sequencing).**
 
 When I was trying to upload my raw data to my Personal Genome Project page, I noticed that they had an option called "**genetic data - [Gencove](https://gencove.com/) low pass (e.g. Nebula Genomics)**".  *This makes me think discouraging low-coverage sequencing is something that needs to be done more broadly (at least for health traits).*
