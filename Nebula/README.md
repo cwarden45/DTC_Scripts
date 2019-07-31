@@ -63,11 +63,11 @@ You can also show similar results with precisonFDA (using the BWA-MEM realigned 
 
 For example, the overall file shows noticably low recall when comparing the [Nebula imputed gVCF versus the Veritas WGS BWA-MEM re-aligned gVCF](https://precision.fda.gov/comparisons/3517):
 
-![precisionFDA all Veritas WGS comparison](precisionFDA_all.png "precisionFDA all Veritas WGS comparison")
+![precisionFDA all Veritas WGS comparison](precisionFDA_all.PNG "precisionFDA all Veritas WGS comparison")
 
 and, to be more fair for the Exome versus WGS comparison in the blog post, the trend is similar within [RefSeq CDS](https://precision.fda.gov/comparisons/3518) regions:
 
-![precisionFDA RefSeq CDS Veritas WGS comparison](precisionFDA_RefSeq-CDS.png "precisionFDA RefSeq CDS Veritas WGS comparison")
+![precisionFDA RefSeq CDS Veritas WGS comparison](precisionFDA_RefSeq-CDS.PNG "precisionFDA RefSeq CDS Veritas WGS comparison")
 
 **So, I  disagree with the use of low-coverage sequencing for traits, and I would consider removing this section (or only made available to those with higher-coverage sequencing).**
 
