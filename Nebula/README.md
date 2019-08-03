@@ -35,7 +35,7 @@ The "0/0" (for genotype/GT in the last column) means that **low-coverage imputat
 
 Likewise, there was no delTT variant in the VCF, so my cystic fibrosis carrier status would also be a false negative (if that was used in the report), even though you could actually see that deletion in the 1 read aligned at that position (because 1 read wasn't sufficient to have confidence in that variant).
 
-While my precisionFDA account is currently locked, I can use my [VCF_recovery.pl](https://github.com/cwarden45/DTC_Scripts/blob/master/Genos_Exome/VCF_recovery.pl) to compare recovery of my Veritas WGS variants in my Nebula gVCF.
+I can use my [VCF_recovery.pl](https://github.com/cwarden45/DTC_Scripts/blob/master/Genos_Exome/VCF_recovery.pl) to compare recovery of my Veritas WGS variants in my Nebula gVCF.
 
 If you compare SNPs, then the accuracy is noticably lower than GATK (and even lower than DeepVariant):
 
