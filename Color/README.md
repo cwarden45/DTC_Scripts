@@ -1,18 +1,10 @@
 I purchased a kit from Color because I really liked their [public portal](https://data.color.com/) to browse variant information.
 
-While the return of data was not automated, I was allowed to fill out a HIPPA authorization form for Protected Health Information (PHI), which included a box to check for "Raw Genetic Data."  Once I get that, I will upload it to my [Personal Genome Project page](https://my.pgp-hms.org/profile/hu832966).
-
-**Update (7/28)**: I am still encountering some issues uploading my data to the PGP (even though the Color raw data is very small).  Nevertheless, if you wanted to access the 2 genotype tables and low-coverage FASTQ file, those can be downloaded from my Google Cloud account:
-
-https://storage.googleapis.com/bastu-cat-genome/temp_human_forCharles/Color/38721806153623_discovery_genotypes.csv
-
-https://storage.googleapis.com/bastu-cat-genome/temp_human_forCharles/Color/38721806153623_variant_set.csv
-
-https://storage.googleapis.com/bastu-cat-genome/temp_human_forCharles/Color/38721806153623_lcWGS.fastq.gz
-
-Likewise, you can access the FASTQ files in [precisionFDA](https://precision.fda.gov/files/file-Fb12qyj0Vjj1yqJ3J1yzk7zx-1) as well.
+While the return of data was not automated, I was allowed to fill out a HIPPA authorization form for Protected Health Information (PHI), which included a box to check for "Raw Genetic Data."
 
 **Update (7/29)**: While the higher-coverage FASTQ and/or BAM files weren't among the raw data provided, it was confirmed that such sequencing was performed: "*We do low coverage sequencing on top of the next generation sequencing that we use for the analysis of the genes on our panel.  Every gene on our panels is sequenced using next generation sequencing with a minimum coverage of 20X (compared to the coverage obtained with the low coverage sequencing). The median read depth for the genes analyzed is 250X.  Secondary confirmation is part of our process as well and in some cases can add additional time to our turnaround time of 3-4 weeks.*"
+
+Nevertheless, I have uploaded the data that I have so far to my [Personal Genome Project page](https://my.pgp-hms.org/profile/hu832966), and you can access the FASTQ files in [precisionFDA](https://precision.fda.gov/files/file-Fb12qyj0Vjj1yqJ3J1yzk7zx-1) as well.
 
 I didn't immediately recognize that I had the F5 Leiden mutation (increased risk of blood clots, [rs6025](https://www.ncbi.nlm.nih.gov/snp/rs6025), chr1:169519049 on hg19), but I could verify the status of that variant with my sequencing alignment from Veritas and Genos:
 
