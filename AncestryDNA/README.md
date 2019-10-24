@@ -3,6 +3,8 @@ Personal Thoughts
 
 ***My regional ancestry is mostly European***: 42% England / Wales / Northwestern Europe, 22% Germanic Europe, 21% Ireland & Scotland, 8% Norway, 3% Sweden, 2% Benin/Togo, 2% Ivory Coast / Ghana, and 1% European Jewish.
 
+**Update(10/23/2019)**: I think clicking for more information about the region is interesting.  For example, the lower limit for "Germanic Europe" and "Ireland & Scotland" was ***0%*** (as well as everything except "England / Wales / Northwestern Europe" which had a range of 42-61%).
+
 My maternal (relatively) recent ancestry is from Arkanasas (near Memphis) and Tennessee, so the "Additional Community" result of "Northern Arkansas & Middle Tennessee Settlers" was interesting.  However, I think this would be more useful as a sort of free analysis for exported raw data (rather than purchasing another chip).
 
 I also found some additional family members that had AncestryDNA data, but not 23andMe data.  However, I think recommending people deposit their data into public databases to search for family members is preferable than having everybody purchase both 23andMe and AncestryDNA tests to search both sets of customers for family members.  
