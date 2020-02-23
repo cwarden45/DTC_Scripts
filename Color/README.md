@@ -1,6 +1,6 @@
 I purchased a kit from Color because I really liked their [public portal](https://data.color.com/) to browse variant information.
 
-While the return of data was not automated, I was allowed to fill out a HIPPA authorization form for Protected Health Information (PHI), which included a box to check for "Raw Genetic Data."
+While the return of data was not automated, I was allowed to fill out a HIPAA authorization form for Protected Health Information (PHI), which included a box to check for "Raw Genetic Data."
 
 **Update (7/29)**: While the higher-coverage FASTQ and/or BAM files weren't among the raw data provided, it was confirmed that such sequencing was performed: "*We do low coverage sequencing on top of the next generation sequencing that we use for the analysis of the genes on our panel.  Every gene on our panels is sequenced using next generation sequencing with a minimum coverage of 20X (compared to the coverage obtained with the low coverage sequencing). The median read depth for the genes analyzed is 250X.  Secondary confirmation is part of our process as well and in some cases can add additional time to our turnaround time of 3-4 weeks.*"
 
