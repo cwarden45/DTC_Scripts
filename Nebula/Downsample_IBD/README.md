@@ -14,41 +14,13 @@ FAM1	ID1	FAM2	ID2	nsnp	hethet	ibs0	kinship
 ## Kinship estimates with 7,707 variants
 ![Kinship for 2 SNP chip, Veritas WGA, and Nebula lcWGS](plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down10.png "Kinship estimates with 7,707 variants")
 
-```
-FAM1	ID1	FAM2	ID2	nsnp	hethet	ibs0	kinship
-0	CW23	0	GFG	7707	0.5966	0	0.499946
-0	Veritas.BWA	0	GFG	7627	0.596565	0	0.499945
-0	Veritas.BWA	0	CW23	7627	0.596565	0	0.499945
-0	Nebula	0	GFG	7707	0.574672	0.000129752	0.489047
-0	Nebula	0	CW23	7707	0.574672	0.000129752	0.488991
-0	Nebula	0	Veritas.BWA	7627	0.574669	0.000131113	0.48899
-```
 
 ## Kinship estimates with 3,853 variants
 ![Kinship for 2 SNP chip, Veritas WGA, and Nebula lcWGS](plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down20.png "Kinship estimates with 3,853 variants")
 
-```
-FAM1	ID1	FAM2	ID2	nsnp	hethet	ibs0	kinship
-0	CW23	0	GFG	3853	0.603945	0	0.499893
-0	Veritas.BWA	0	GFG	3814	0.60409	0	0.5
-0	Veritas.BWA	0	CW23	3814	0.60409	0	0.5
-0	Nebula	0	GFG	3853	0.581625	0	0.489126
-0	Nebula	0	CW23	3853	0.581625	0	0.489015
-0	Nebula	0	Veritas.BWA	3814	0.581542	0	0.489013
-```
 
 ## Kinship estimates with 1,541 variants
 ![Kinship for 2 SNP chip, Veritas WGA, and Nebula lcWGS](plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down50.png "Kinship estimates with 1,541 variants")
-
-```
-FAM1	ID1	FAM2	ID2	nsnp	hethet	ibs0	kinship
-0	CW23	0	GFG	1541	0.600909	0	0.5
-0	Veritas.BWA	0	GFG	1525	0.601967	0	0.5
-0	Veritas.BWA	0	CW23	1525	0.601967	0	0.5
-0	Nebula	0	GFG	1541	0.585334	0	0.49174
-0	Nebula	0	CW23	1541	0.585334	0	0.49174
-0	Nebula	0	Veritas.BWA	1525	0.586885	0	0.491953
-```
 
 While not as bad as the lower variant counts, I think this is approximately where I notice greater variaibilty in the **1000 Genomes parent-to-child** relatedness estimates.
 
@@ -68,54 +40,17 @@ FAM1	ID1	FAM2	ID2	nsnp	hethet	ibs0	kinship
 ## Kinship estimates with 256 variants
 ![Kinship for 2 SNP chip, Veritas WGA, and Nebula lcWGS](plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down300.png "Kinship estimates with 256 variants")
 
-```
-FAM1	ID1	FAM2	ID2	nsnp	hethet	ibs0	kinship
-0	CW23	0	GFG	256	0.550781	0	0.5
-0	Veritas.BWA	0	GFG	253	0.549407	0	0.5
-0	Veritas.BWA	0	CW23	253	0.549407	0	0.5
-0	Nebula	0	GFG	256	0.539062	0	0.492806
-0	Nebula	0	CW23	256	0.539062	0	0.492806
-0	Nebula	0	Veritas.BWA	253	0.537549	0	0.492701
-```
 
 ## Kinship estimates with 154 variants
 ![Kinship for 2 SNP chip, Veritas WGA, and Nebula lcWGS](plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down500.png "Kinship estimates with 154 variants")
 
-```
-FAM1	ID1	FAM2	ID2	nsnp	hethet	ibs0	kinship
-0	CW23	0	GFG	154	0.558442	0	0.5
-0	Veritas.BWA	0	GFG	153	0.562092	0	0.5
-0	Veritas.BWA	0	CW23	153	0.562092	0	0.5
-0	Nebula	0	GFG	154	0.525974	0	0.484568
-0	Nebula	0	CW23	154	0.525974	0	0.484568
-0	Nebula	0	Veritas.BWA	153	0.529412	0	0.484568
-```
 
 ## Kinship estimates with 77 variants
 ![Kinship for 2 SNP chip, Veritas WGA, and Nebula lcWGS](plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down1000.png "Kinship estimates with 77 variants")
 
-```
-FAM1	ID1	FAM2	ID2	nsnp	hethet	ibs0	kinship
-0	CW23	0	GFG	77	0.571429	0	0.5
-0	Veritas.BWA	0	GFG	76	0.578947	0	0.5
-0	Veritas.BWA	0	CW23	76	0.578947	0	0.5
-0	Nebula	0	GFG	77	0.532468	0	0.481707
-0	Nebula	0	CW23	77	0.532468	0	0.481707
-0	Nebula	0	Veritas.BWA	76	0.539474	0	0.481707
-```
 
 ## Kinship estimates with 38 variants
 ![Kinship for 2 SNP chip, Veritas WGA, and Nebula lcWGS](plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down2000.png "Kinship estimates with 38 variants")
-
-```
-FAM1	ID1	FAM2	ID2	nsnp	hethet	ibs0	kinship
-0	CW23	0	GFG	38	0.684211	0	0.5
-0	Veritas.BWA	0	GFG	38	0.684211	0	0.5
-0	Veritas.BWA	0	CW23	38	0.684211	0	0.5
-0	Nebula	0	GFG	38	0.631579	0	0.479167
-0	Nebula	0	CW23	38	0.631579	0	0.479167
-0	Nebula	0	Veritas.BWA	38	0.631579	0	0.479167
-```
 
 
 ## Kinship estimates with 19 variants
