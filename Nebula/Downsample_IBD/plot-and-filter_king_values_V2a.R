@@ -1,17 +1,40 @@
 #setwd("C:\\Users\\Charles\\Documents\\Nebula")
 
-#77,072 variants
+##77,072 variants
 #new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
 #K1G.ped.ref =  "../20140502_all_samples.ped"
 #input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula.kin0"
 #output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula"
 
-#7,707 variants
+##7,707 variants
+#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+#K1G.ped.ref =  "../20140502_all_samples.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down10.kin0"
+#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down10"
+
+##3,853 variants
+#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+#K1G.ped.ref =  "../20140502_all_samples.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down20.kin0"
+#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down20"
+
+## 770 variants
+#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+#K1G.ped.ref =  "../20140502_all_samples.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down100.kin0"
+#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down100"
+
+## 385 variants
+#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+#K1G.ped.ref =  "../20140502_all_samples.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down200.kin0"
+#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down200"
+
+## 256 variants
 new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
 K1G.ped.ref =  "../20140502_all_samples.ped"
-input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down10.kin0"
-output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down10"
-
+input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down300.kin0"
+output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down300"
 
 kin.table = read.table(input.king, head=F, sep="\t")
 names(kin.table) = c("FAM1","ID1","FAM2","ID2","nsnp","hethet","ibs0","kinship")

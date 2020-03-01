@@ -2,8 +2,13 @@ import sys
 import re
 import os
 
+#down_fraction = 10
+#down_fraction = 20
+#down_fraction = 100
+#down_fraction = 200
+down_fraction = 300
+
 inputfile="1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula.vcf"
-down_fraction = 10
 
 pedIn = re.sub(".vcf",".ped",inputfile)
 
