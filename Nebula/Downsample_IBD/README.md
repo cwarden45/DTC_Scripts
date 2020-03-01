@@ -79,7 +79,7 @@ FAM1	ID1	FAM2	ID2	nsnp	hethet	ibs0	kinship
 0	Nebula	0	Veritas.BWA	9	0.666667	0	0.458333
 ```
 
-Even with ~0.5x lcWGS, it looks like a relatedness estimate of ~0.45 is as low as I might get.  However, notice that the 2 SNP chips and Vertias WGS estimates **remained higher with a relatedness estimate of 0.50".
+Even with ~0.5x lcWGS, it looks like a relatedness estimate of ~0.45 is as low as I might get.  However, notice that the 2 SNP chips and Vertias WGS estimates **remained higher with a relatedness estimate of 0.50**.
 
 This may be useful for having an absolute threshold for lcWGS with fewer reads.  **However, the extra variability of the other relatedness estimates became more of an issue more quickly, so I am not actually saying I recommend making these estimates with 9 variants.**
 
