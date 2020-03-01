@@ -1,1 +1,1 @@
-Nebula_full_nodup	../Nebula/BWA_MEM.nodup.bam
+Nebula_full_nodup

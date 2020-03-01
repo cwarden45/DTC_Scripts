@@ -1,5 +1,4 @@
 sampleID = "Nebula_full_nodup"
-input_bam = "../Nebula/BWA_MEM.nodup.bam"
 
 ### Hopefully, edit above this point?
 
@@ -23,7 +22,7 @@ human_matched_to_reference_reference_haplotype_file = "STITCH_human_reference_ex
 #try to follow human example 3: https://github.com/rwdavies/STITCH/blob/master/examples/examples.R
 
 STITCH(
-  bamlist = input_bam,
+  bamlist = paste(sampleID,"-bams.txt",sep=""),#I think this is supposed to be file with a list of .bams, not 1 bam file (or a "list" of .bam files)
   sampleNames_file = paste(sampleID,"-names.txt",sep=""),
   outputdir = sampleID,
   method = "diploid",
