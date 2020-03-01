@@ -1,10 +1,10 @@
 #setwd("C:\\Users\\Charles\\Documents\\Nebula")
 
 ##77,072 variants
-#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
-#K1G.ped.ref =  "../20140502_all_samples.ped"
-#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula.kin0"
-#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula"
+new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+K1G.ped.ref =  "../20140502_all_samples.ped"
+input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula.kin0"
+output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula"
 
 ##7,707 variants
 #new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
@@ -19,10 +19,10 @@
 #output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down20"
 
 ## 1,541 variants
-new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
-K1G.ped.ref =  "../20140502_all_samples.ped"
-input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down50.kin0"
-output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down50"
+#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+#K1G.ped.ref =  "../20140502_all_samples.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down50.kin0"
+#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down50"
 
 ## 770 variants
 #new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
@@ -330,7 +330,7 @@ relationship.category = factor(relationship.category,
 
 #require(graphics)
 png(barplot.file)
-par(mar=c(15,5,3,2))
+par(mar=c(18,5,3,2))
 plot(relationship.category, kin.table$kinship, col="gray40",
 	ylab="plink kinship estimate", las=2, ylim=c(-0.6,0.6))
 points(jitter(as.numeric(relationship.category)), kin.table$kinship, pch=16, col=rgb(red=0.5,blue=.5,green=.5,alpha=0.05))
