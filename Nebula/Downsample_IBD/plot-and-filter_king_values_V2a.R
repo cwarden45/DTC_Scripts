@@ -18,6 +18,12 @@
 #input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down20.kin0"
 #output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down20"
 
+## 1,541 variants
+new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+K1G.ped.ref =  "../20140502_all_samples.ped"
+input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down50.kin0"
+output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down50"
+
 ## 770 variants
 #new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
 #K1G.ped.ref =  "../20140502_all_samples.ped"
@@ -31,10 +37,52 @@
 #output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down200"
 
 ## 256 variants
-new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
-K1G.ped.ref =  "../20140502_all_samples.ped"
-input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down300.kin0"
-output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down300"
+#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+#K1G.ped.ref =  "../20140502_all_samples.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down300.kin0"
+#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down300"
+
+## 192 variants
+#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+#K1G.ped.ref =  "../20140502_all_samples.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down400.kin0"
+#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down400"
+
+## 154 variants
+#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+#K1G.ped.ref =  "../20140502_all_samples.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down500.kin0"
+#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down500"
+
+## 77 variants
+#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+#K1G.ped.ref =  "../20140502_all_samples.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down1000.kin0"
+#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down1000"
+
+## 38 variants
+#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+#K1G.ped.ref =  "../20140502_all_samples.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down2000.kin0"
+#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down2000"
+
+## 25 variants
+#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+#K1G.ped.ref =  "../20140502_all_samples.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down3000.kin0"
+#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down3000"
+
+## 19 variants
+#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+#K1G.ped.ref =  "../20140502_all_samples.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down4000.kin0"
+#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down4000"
+
+## 9 variants
+#new.sampleIDs =  c("GFG","CW23","Veritas.BWA","Nebula")
+#K1G.ped.ref =  "../20140502_all_samples.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down8000.kin0"
+#output.prefix = "plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down8000"
 
 kin.table = read.table(input.king, head=F, sep="\t")
 names(kin.table) = c("FAM1","ID1","FAM2","ID2","nsnp","hethet","ibs0","kinship")

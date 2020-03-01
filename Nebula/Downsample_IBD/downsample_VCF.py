@@ -4,9 +4,18 @@ import os
 
 #down_fraction = 10
 #down_fraction = 20
+down_fraction = 50
 #down_fraction = 100
 #down_fraction = 200
-down_fraction = 300
+#down_fraction = 300
+#down_fraction = 400
+#down_fraction = 500
+#down_fraction = 1000
+#down_fraction = 2000
+#down_fraction = 3000
+#down_fraction = 2000
+#down_fraction = 4000
+#down_fraction = 8000
 
 inputfile="1000_genomes_20140502_plus_2-SNP-chip_plus_Veritas_plus_Nebula.vcf"
 
