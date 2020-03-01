@@ -9,12 +9,12 @@ library("STITCH")
 human_K = 10
 human_nGen = 4 * 20000 / human_K
 
-human_posfile = "STITCH_human_example_2016_10_18/pos.txt"
+human_posfile = "STITCH_human_example_2016_10_18/pos-ALT.txt"
 human_reference_sample_file = "1000GP_Phase3.sample"
 human_reference_legend_file =  "1000GP_Phase3_chr20.legend.gz"
 human_reference_haplotype_file = "1000GP_Phase3_chr20.hap.gz"
 
-human_matched_to_reference_genfile = "STITCH_human_reference_example_2018_07_11/gen_sequencing.intersect.txt"
+human_matched_to_reference_genfile = "STITCH_human_reference_example_2018_07_11/gen_sequencing.intersect.txt"#also optional?
 human_matched_to_reference_posfile = "STITCH_human_reference_example_2018_07_11/pos.intersect.txt"
 human_matched_to_reference_reference_legend_file = "STITCH_human_reference_example_2018_07_11/1000GP_Phase3_20.1000000.1100000.legend.gz"
 human_matched_to_reference_reference_haplotype_file = "STITCH_human_reference_example_2018_07_11/1000GP_Phase3_20.1000000.1100000.hap.gz"
@@ -23,12 +23,13 @@ human_matched_to_reference_reference_haplotype_file = "STITCH_human_reference_ex
 #try to follow human example 3: https://github.com/rwdavies/STITCH/blob/master/examples/examples.R
 
 STITCH(
-  bamlist = list(input_bam),
+  #bamlist = list(input_bam),
+  bamlist = input_bam,
   sampleNames_file = paste(sampleID,"-names.txt",sep=""),
   outputdir = sampleID,
   method = "diploid",
   originalRegionName = "20.1000000.1100000",
-  regenerateInput = FALSE,
+  regenerateInput = TRUE,
   regionStart = 1000000,
   regionEnd = 1100000,
   buffer = 10000,
