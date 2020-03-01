@@ -23,7 +23,6 @@ human_matched_to_reference_reference_haplotype_file = "STITCH_human_reference_ex
 #try to follow human example 3: https://github.com/rwdavies/STITCH/blob/master/examples/examples.R
 
 STITCH(
-  #bamlist = list(input_bam),
   bamlist = input_bam,
   sampleNames_file = paste(sampleID,"-names.txt",sep=""),
   outputdir = sampleID,
