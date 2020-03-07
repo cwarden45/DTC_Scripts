@@ -22,7 +22,7 @@ FAM1	ID1	FAM2	ID2	nsnp	hethet	ibs0	kinship
 ## Kinship estimates with 1,541 variants
 ![Kinship for 2 SNP chip, Veritas WGA, and Nebula lcWGS](plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down50.png "Kinship estimates with 1,541 variants")
 
-While not as bad as the lower variant counts, I think this is approximately where I notice greater variaibilty in the **1000 Genomes parent-to-child** relatedness estimates.
+While not as bad as the lower variant counts, I think this is approximately where I notice greater variability in the **1000 Genomes parent-to-child** relatedness estimates.
 
 ## Kinship estimates with 770 variants
 ![Kinship for 2 SNP chip, Veritas WGA, and Nebula lcWGS](plink_kinship_2-SNP-chip_plus_2-SNP-chip_plus_Veritas_plus_Nebula_down100.png "Kinship estimates with 770 variants")
