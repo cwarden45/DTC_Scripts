@@ -26,27 +26,27 @@ A slight increase or decrease should probably be thought of as a flat line.  In 
     </tr>
     <tr>
 	<th align="center">Nebula-Provided</br>(human)</th>
-      	<th align="left">95.5% full recovery</br>(96.9% partial recovery)</th>
-	<th align="left">79.6% full recovery</br>(83.7% partial recovery)</th>
-	<th align="left">77.6% full recovery</br>(83.8% partial recovery)</th>
+      	<th align="center">95.5% full recovery</br>(96.9% partial recovery)</th>
+	<th align="center">79.6% full recovery</br>(83.7% partial recovery)</th>
+	<th align="center">77.6% full recovery</br>(83.8% partial recovery)</th>
     </tr>
     <tr>
 	<th align="center">Nebula-Downsample-2x</br>(human)</th>
-      	<th align="left">% full recovery</br>(% partial recovery)</th>
-	<th align="left">% full recovery</br>(% partial recovery)</th>
-	<th align="left">% full recovery</br>(% partial recovery)</th>
+      	<th align="center">% full recovery</br>(% partial recovery)</th>
+	<th align="center">% full recovery</br>(% partial recovery)</th>
+	<th align="center">% full recovery</br>(% partial recovery)</th>
     </tr>
       <tr>
 	<th align="center">basepaws-Downsample-50x</br>(cat)</th>
-      	<th align="left">% full recovery</br>(% partial recovery)</th>
-	<th align="left">% full recovery</br>(% partial recovery)</th>
-	<th align="left">% full recovery </br>(% partial recovery)</th>
+      	<th align="center">% full recovery</br>(% partial recovery)</th>
+	<th align="center">% full recovery</br>(% partial recovery)</th>
+	<th align="center">% full recovery </br>(% partial recovery)</th>
     </tr>
     <tr>
 	<th align="center">basepaws-Downsample-100x</br>(cat)</th>
-      	<th align="left">% full recovery</br>(% partial recovery)</th>
-	<th align="left">% full recovery</br>(% partial recovery)</th>
-	<th align="left">% full recovery</br>(% partial recovery)</th>
+      	<th align="center">% full recovery</br>(% partial recovery)</th>
+	<th align="center">% full recovery</br>(% partial recovery)</th>
+	<th align="center">% full recovery</br>(% partial recovery)</th>
     </tr>
 </tbody>
 </table>
