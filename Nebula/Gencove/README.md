@@ -32,9 +32,9 @@ A slight increase or decrease should probably be thought of as a flat line.  In 
     </tr>
     <tr>
 	<th align="center">Nebula-Downsample-2x</br>(human)</th>
-      	<th align="center">% full recovery</br>(% partial recovery)</th>
-	<th align="center">% full recovery</br>(% partial recovery)</th>
-	<th align="center">% full recovery</br>(% partial recovery)</th>
+      	<th align="center">94.9% full recovery</br>(96.8% partial recovery)</th>
+	<th align="center">80.0% full recovery</br>(84.3% partial recovery)</th>
+	<th align="center">77.7% full recovery</br>(84.3% partial recovery)</th>
     </tr>
       <tr>
 	<th align="center">basepaws-Downsample-50x</br>(cat)</th>
