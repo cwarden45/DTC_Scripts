@@ -1,4 +1,4 @@
-![estimated genotype recovery](low_coverage_self_recovery.png "estimated genotype recovery")
+![estimated genotype recovery](low_coverage_self_recovery-n5.png "estimated genotype recovery")
 
 I have uploaded the imputed .vcf files for myself to my [Personal Genome Project page](https://my.pgp-hms.org/profile/hu832966).
 
