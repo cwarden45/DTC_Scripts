@@ -13,3 +13,25 @@ At least currently, I have uploaded the imputed .vcf files for my cat (Bastu) on
 [Gencove_basepaws-cat_downsample_100x_impute-vcf.vcf.gz](https://storage.googleapis.com/bastu-cat-genome/Gencove_basepaws-cat_downsample_100x_impute-vcf.vcf.gz)
 
 There is also more information about the original data for my cat [here](https://github.com/cwarden45/Bastu_Cat_Genome).
+
+A slight increase or decrease should probably be thought of as a flat line.  In terms of possibly more intuitive numbers, here is the variant recovery with a custom script (described in [this blog post](http://cdwscience.blogspot.com/2019/05/precisionfda-and-custom-scripts-for.html)):
+
+<table>
+  <tbody>
+    <tr>
+	<th align="center">Gencove Input</th>
+	<th align="center">SNP WGS Recovery</th>
+	<th align="center">Insertion WGS Recovery</th>
+	<th align="center">Deletion WGS Recovery</th>
+    </tr>
+    <tr>
+	<th align="center">Nebula-Provided</th>
+      <th align="left">% full recovery </br>(% partial recovery)</th>
+	<th align="left">% full recovery </br>(% partial recovery</th>
+	<th align="left">% full recovery </br>(% partial recovery</th>
+    </tr>
+
+</tbody>
+</table>
+
+Please note that the relatedness/kinship calculation uses the 1000 Genomes overlapping sites for human, whereas the custom script compares my WGS data to my Gencove imputated data (considering a larger number of sites).
