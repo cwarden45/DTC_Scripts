@@ -51,6 +51,6 @@ A slight increase or decrease should probably be thought of as a flat line.  In 
 </tbody>
 </table>
 
-Please note that the relatedness/kinship calculation uses the 1000 Genomes overlapping sites for human, whereas the custom script compares my WGS data to my Gencove imputated data (considering a larger number of sites).
+Please note that the relatedness/kinship calculation uses the 1000 Genomes overlapping sites for human, whereas the custom script compares my WGS data to my Gencove imputated data (considering a larger number of sites, although the statistics in the table above are only for positions that vary from the reference sequence).
 
 You can also see similar results for the imputed .gVCF provided from Nebula in [this blog post](http://cdwscience.blogspot.com/2019/08/low-coverage-sequencing-is-not.html).
