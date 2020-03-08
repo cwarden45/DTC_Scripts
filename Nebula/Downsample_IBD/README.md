@@ -86,3 +86,10 @@ This may be useful for having an absolute threshold for lcWGS with fewer reads. 
 For example, back at **~100 variants**, the parent-to-child and more distant relationships had overlap, and you started getting parent-to-child and/or more distant 1000 Genomes estimates that were artifically high (~0.40) with **~40 variants**.
 
 So, if I need to prioritize quality over number of variants (and it is possible to accurately estimate that), I think the parent-to-child variation most noticably increased ~1,000 variants.  So, if you had >2,000 variants, maybe I would be more concerned about the accuracy of the variant calls than the number of variants (for self-identification)?
+
+## Recovery of 2 SNP lists with support from at least 1 read
+
+![1-read SNP recovery](1read_SNP_recovery.png "1-read SNP recovery")
+
+
+While recovery of informative SNPs was noticably higher (notciably lower, but perhaps more in line with the 0.1x limit on uploading files to Gencove), but the abilty to recover 1000 SNPs from my regular WGS data was close to the 15,000 estimate from the Color lcWGS data)
