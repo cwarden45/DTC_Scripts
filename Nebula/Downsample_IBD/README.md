@@ -92,3 +92,5 @@ So, if I need to prioritize quality over number of variants (and it is possible 
 ![1-read SNP recovery](1read_SNP_recovery.png "1-read SNP recovery")
 
 While recovery of potentially informative SNPs was noticably higher (noticeably lower at roughly 100,000 to 300,000 reads, but perhaps more in line with the 0.1x limit on uploading files to Gencove), but the abilty to recover ~1000 SNPs (with any variant frequency, in any population) from my regular WGS data was close to the 15,000 estimate from the Color lcWGS data).
+
+**So, if you consider rare SNPs (instead of calculating a relatedness estimate), perhaps you could identify yourself with less than 50,000 reads?**
