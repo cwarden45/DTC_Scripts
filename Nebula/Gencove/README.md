@@ -44,9 +44,9 @@ A slight increase or decrease should probably be thought of as a flat line.  In 
     </tr>
     <tr>
 	<th align="center">basepaws-Downsample-100x</br>(cat)</th>
-      	<th align="center">% full recovery</br>(% partial recovery)</th>
-	<th align="center">% full recovery</br>(% partial recovery)</th>
-	<th align="center">% full recovery</br>(% partial recovery)</th>
+      	<th align="center">83.6% full recovery</br>(88.4% partial recovery)</th>
+	<th align="center">51.4% full recovery</br>(56.6% partial recovery)</th>
+	<th align="center">46.4% full recovery</br>(51.3% partial recovery)</th>
     </tr>
 </tbody>
 </table>
