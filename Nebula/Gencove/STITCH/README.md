@@ -1,6 +1,6 @@
 ### Downloading reference low-coverage Whole Genome Sequencing .bam data
 
-*1)* Searching for "human low-coverage Whole Genome Sequencing" in the [SRA](https://www.ncbi.nlm.nih.gov/sra/?term=human+low-coverage+whole+genome+sequencing), and then filtering for runs with **.bam** files available
+*1)* I searched for "human low-coverage Whole Genome Sequencing" in the [SRA](https://www.ncbi.nlm.nih.gov/sra/?term=human+low-coverage+whole+genome+sequencing), and then filtering for runs with **.bam** files available
 
 *2)* I then clicked "Send results to Run selector" to view those results in the [SRA Run Selector](https://www.ncbi.nlm.nih.gov/Traces/study/?)
 
