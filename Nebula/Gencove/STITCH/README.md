@@ -1,4 +1,4 @@
-**I found low-coverage Whole Genome Sequencing .bam data by**:
+### Downloading reference low-coverage Whole Genome Sequencing .bam data
 
 *1)* Searching for "human low-coverage Whole Genome Sequencing" in the [SRA](https://www.ncbi.nlm.nih.gov/sra/?term=human+low-coverage+whole+genome+sequencing), and then filtering for runs with **.bam** files available
 
