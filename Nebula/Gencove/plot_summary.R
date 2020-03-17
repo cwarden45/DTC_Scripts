@@ -1,7 +1,7 @@
 IBD_cat   = c("assume-het",
 				"Gencove-human","Gencove-human",
 				"Gencove-cat","Gencove-cat",
-				"STITCH-refVCF","STITCH-ref27BAM")
+				"STITCH-ref27BAM")
 num_reads = c(4563716,
 				4563716, 4563716/2,
 				166490724/50,166490724/100,
