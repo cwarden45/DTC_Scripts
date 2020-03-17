@@ -1,17 +1,19 @@
-#setwd("E:\\WGS_Exome_Analysis\\My_Veritas_WGS\\Nebula\\Gencove")
-
 IBD_cat   = c("assume-het",
 				"Gencove-human","Gencove-human",
-				"Gencove-cat","Gencove-cat")
+				"Gencove-cat","Gencove-cat",
+				"STITCH-refVCF","STITCH-ref27BAM")
 num_reads = c(4563716,
 				4563716, 4563716/2,
-				166490724/50,166490724/100)
+				166490724/50,166490724/100,
+				4563716)
 IBD_value = c(0.237397,
 				0.489226, 0.499961,
-				0.448409,0.426991)
+				0.448409,0.426991,
+				-0.6)
 dot_col   = c("black",
 				"blue","blue",
-				"cyan","cyan")
+				"cyan","cyan",
+				"maroon")
 
 png("low_coverage_self_recovery.png")
 plot(num_reads, IBD_value,
@@ -27,8 +29,11 @@ box()
 lines(num_reads[IBD_cat == "Gencove-human"],IBD_value[IBD_cat == "Gencove-human"], col="blue", lwd=1)
 lines(num_reads[IBD_cat == "Gencove-cat"],IBD_value[IBD_cat == "Gencove-cat"], col="cyan", lwd=1)
 
-legend("bottom",
-		legend = c("assume-het","Gencove-human","Gencove-cat","STITCH-human"),
-		col=c("black","blue","cyan","purple"),
-		inset = 0.02, pch=16, ncol=4, cex=0.8)
+legend("top",
+		legend = c("assume-het","STITCH-refVCF",
+					"Gencove-human","STITCH-ref27BAM",
+					"Gencove-cat"),
+		col=c("black","purple","blue","maroon","cyan"),
+		pch=16, ncol=3, cex=0.8,
+		xpd=T, inset = -0.12)
 dev.off()
