@@ -2,7 +2,7 @@
 
 Please note that the kinship estimate that I produced with a very small number of low coverage .bam files for STITCH (**STITCH-ref27BAM**) was actually less than -0.6.  However, it set it to that value to make the rest of the plot easier to visualize.  I expect that there are other ways to run STITCH that will result in better performance.
 
-When I get it working, the code for running **STITCH-ref27BAM** will be located [here](https://github.com/cwarden45/DTC_Scripts/tree/master/Color/lcWGS_Genotype_Estimations).
+When I get it working, the code for running **STITCH-refVCF** will be located [here](https://github.com/cwarden45/DTC_Scripts/tree/master/Color/lcWGS_Genotype_Estimations).
 
 I have uploaded the imputed .vcf files for myself to my [Personal Genome Project page](https://my.pgp-hms.org/profile/hu832966).
 
