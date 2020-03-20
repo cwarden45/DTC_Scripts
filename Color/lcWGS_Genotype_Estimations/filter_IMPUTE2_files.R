@@ -1,5 +1,3 @@
-#NOTE: I need to either figure out why "NA" values are being introduced, or I need to reate a new position file
-
 autosomal_chr = 1:22
 
 for (chr in autosomal_chr){
@@ -16,8 +14,11 @@ for (chr in autosomal_chr){
 		print(paste("Generating full position file for chromosome ",chr,"...",sep=""))
 		#use code modified from STITCH troubleshooting suggestion: https://github.com/rwdavies/STITCH/issues/29#issuecomment-601192607
 		library("data.table")
+		temp.legend = fread(cmd = paste0("gunzip -c ", input_legend), sep = " ", head=T)
+		#even though I can extract the informaton from the above file, I think it is faster to just use the following (provided) command
 		pos2 = fread(cmd = paste0("gunzip -c ", input_legend), data.table = FALSE)
 		pos = cbind(chr, pos2[, 2], pos2[, 3], pos2[, 4])
+		matchableID = apply(pos,1,paste,collapse=":")#some values start with rsID instead of chromosome (so, I need this to compare the original legend file)
 		pos.counts =  table(pos2[, 2])
 		print(table(pos.counts))
 		pos.counts = pos.counts[pos.counts == 1]
@@ -43,6 +44,10 @@ for (chr in autosomal_chr){
 		
 		pos = pos[(refNucLen == 1)&(varNucLen == 1),]
 		print(dim(pos))
+		
+		kept.pos = apply(pos,1,paste,collapse=":")
+		kept_rows = match(kept.pos, matchableID)
+		
 		write.table(pos,
 					human_posfile,
 					sep = "\t",
@@ -54,16 +59,13 @@ for (chr in autosomal_chr){
 		rm(refNucLen)
 		rm(varNuc)
 		rm(varNucLen)
-		kept.pos = apply(pos,1,paste,collapse=":")
 		rm(pos)
 		rm(pos2)
 		#######################################################
 		### create matched / filtered STITCH legend file	###
 		#######################################################
 		print(paste("Generating matched, filtered legend file for chromosome ",chr,"...",sep=""))
-		temp.legend = fread(cmd = paste0("gunzip -c ", input_legend), sep = " ", head=T)
 		print(dim(temp.legend))
-		kept_rows = match(kept.pos, temp.legend$id)#I am not sure why there are some "NA" values
 		kept_rows = kept_rows[!is.na(kept_rows)]#I am not sure why there are missing values, but this is still a lot more than I planned on using
 		temp.legend = temp.legend[kept_rows, ]
 		print(dim(temp.legend))
