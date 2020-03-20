@@ -81,7 +81,29 @@ for (chr in autosomal_chr){
 	STITCH_end = chr_length-shift
 
 	if((STITCH_end - STITCH_start) > 20 * buffer){
-		print("Add Code")
-		stop()
+		print(paste("Running STITCH for right-side of ",chr,"...",sep=""))
+		output_folder = paste(output_prefix,"_",chr,"_right",sep="")
+
+		STITCH(
+			bamlist = bam_list,
+			sampleNames_file = name_list,
+			outputdir = output_folder,
+			method = "diploid",
+			regenerateInput = TRUE,
+			regionStart = STITCH_start,
+			regionEnd = STITCH_end,
+			buffer = buffer,
+			niterations = 1,
+			chr = chr,
+	#		reference_populations = c("CEU", "GBR", "ACB"),#this is a reference set of 286 samples
+			reference_populations = c("CEU"),#this is a reference set of 99 samples		
+			reference_haplotype_file = human_reference_haplotype_file,
+			reference_sample_file = human_reference_sample_file,
+			reference_legend_file = human_reference_legend_file,
+			posfile = human_posfile,
+			shuffleHaplotypeIterations = NA,
+			refillIterations = NA,
+			K = human_K, tempdir = temp_folder, nCores = 1, nGen = human_nGen)
+		}#end if((STITCH_end - STITCH_start) > 20 * buffer)
 	}#end if((STITCH_end - STITCH_start) > 20 * buffer)	
 }#end for (chr in autosomal_chr)
