@@ -1,11 +1,12 @@
 bam_list = "Nebula_full_nodup-bams.txt"
 name_list = "Nebula_full_nodup-names.txt"
 output_prefix = "1KG_IMPUTE2-Nebula_full_nodup"
-shift  = 40000000
+shift  = 10000000#I think this can be smaller, but I am trying to get something other than the demo window to work
 buffer =  1000000#looking at the output, I think the buffer is more like the shift rather than the window size
 
 library("STITCH")
-pos_folder = "human_g1k_v37-pos_files"
+#pos_folder = "human_g1k_v37-pos_files"
+pos_folder = "../1000_Genomes_BAMs/IMPUTE2_Files/1000GP_Phase3"#change to this to match reference set (with more SNPs)
 
 autosomal_chr = 1:22
 fa_index =  "../1000_Genomes_BAMs/Ref/human_g1k_v37.fasta.fai"
@@ -33,6 +34,15 @@ for (chr in autosomal_chr){
 	
 	chr_length = fa_index.table$V2[fa_index.table$V1 == chr]
 
+	human_posfile = paste(pos_folder,"/",chr,"_pos.txt",sep="")
+	human_reference_sample_file = "../1000_Genomes_BAMs/IMPUTE2_Files/1000GP_Phase3/1000GP_Phase3.sample"
+	
+	##swith to using filtered files (with rows matching position file), created using https://github.com/cwarden45/DTC_Scripts/tree/master/Color/lcWGS_Genotype_Estimations/filter_IMPUTE2_files.R ( + extract_desired_rows.pl)
+	#human_reference_legend_file = paste("../1000_Genomes_BAMs/IMPUTE2_Files/1000GP_Phase3/1000GP_Phase3_chr",chr,".legend.gz",sep="")
+	#human_reference_haplotype_file = paste("../1000_Genomes_BAMs/IMPUTE2_Files/1000GP_Phase3/1000GP_Phase3_chr",chr,".hap.gz",sep="")
+	human_reference_legend_file = paste(pos_folder,"/",chr,"_legend.txt.gz",sep="")
+	human_reference_haplotype_file = paste(pos_folder,"/",chr,"_hap.txt.gz",sep="")
+
 	######################################
 	### sequence "left" of centromere ###
 	######################################
@@ -40,12 +50,7 @@ for (chr in autosomal_chr){
 	STITCH_end = centromere.start-shift
 	if((STITCH_end - STITCH_start) > 20 * buffer){
 		print(paste("Running STITCH for left-side of ",chr,"...",sep=""))
-		human_posfile = paste(pos_folder,"/",chr,"_pos.txt",sep="")
 		output_folder = paste(output_prefix,"_",chr,"_left",sep="")
-
-		human_reference_sample_file = "../1000_Genomes_BAMs/IMPUTE2_Files/1000GP_Phase3/1000GP_Phase3.sample"
-		human_reference_legend_file = paste("../1000_Genomes_BAMs/IMPUTE2_Files/1000GP_Phase3/1000GP_Phase3_chr",chr,".legend.gz",sep="")
-		human_reference_haplotype_file = paste("../1000_Genomes_BAMs/IMPUTE2_Files/1000GP_Phase3/1000GP_Phase3_chr",chr,".hap.gz",sep="")
 
 		STITCH(
 			bamlist = bam_list,
@@ -56,7 +61,7 @@ for (chr in autosomal_chr){
 			regionStart = STITCH_start,
 			regionEnd = STITCH_end,
 			buffer = buffer,
-			niterations = 20,
+			niterations = 1,
 			chr = chr,
 	#		reference_populations = c("CEU", "GBR", "ACB"),#this is a reference set of 286 samples
 			reference_populations = c("CEU"),#this is a reference set of 99 samples		
