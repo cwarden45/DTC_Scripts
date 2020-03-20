@@ -104,6 +104,4 @@ for (chr in autosomal_chr){
 		command = paste("gzip ",output_hap,sep="")
 		system(command)
 	}#end def if(!(file.exists(human_posfile)))
-	
-	stop()
 }#end 
