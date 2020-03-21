@@ -1,4 +1,4 @@
-***NOTE*: I get an error message if I try to run the reference-based imputation with the smaller number of sites.  So, I am re-running this analysis with the much larger number of sites from the [IMPUTE2 reference set](https://mathgen.stats.ox.ac.uk/impute/impute_v2.html#reference), as recommended by the [developer](https://github.com/rwdavies/STITCH/issues/29).  I think this should improve performance.**
+***NOTE*: I get an error message if I try to run the reference-based imputation with the smaller number of sites.  On my computer, using the recommended set of variants caused an error message due to insufficient memory.**  However, for others running this analysis with the much larger number of sites from the [IMPUTE2 reference set](https://mathgen.stats.ox.ac.uk/impute/impute_v2.html#reference), as recommended by the [developer](https://github.com/rwdavies/STITCH/issues/29), I think there can probably be improvements in performance.
 
 ### Downloading reference low-coverage Whole Genome Sequencing .bam data
 
