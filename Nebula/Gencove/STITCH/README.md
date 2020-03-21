@@ -1,5 +1,7 @@
 ***NOTE*: I get an error message if I try to run the reference-based imputation with the smaller number of sites.  On my computer, using the recommended set of variants caused an error message due to insufficient memory.**  However, for others running this analysis with the much larger number of sites from the [IMPUTE2 reference set](https://mathgen.stats.ox.ac.uk/impute/impute_v2.html#reference), as recommended by the [developer](https://github.com/rwdavies/STITCH/issues/29), I think there can probably be improvements in performance.
 
+***If I run STITCH with substantially fewer variants, it completes running but the results were not very good.***  So, I am focusing more on the reference-guided implementation of STITCH, whose code can be seen [here](https://github.com/cwarden45/DTC_Scripts/tree/master/Color/lcWGS_Genotype_Estimations).
+
 ### Downloading reference low-coverage Whole Genome Sequencing .bam data
 
 ***1)*** I searched for "human low-coverage Whole Genome Sequencing" in the [SRA](https://www.ncbi.nlm.nih.gov/sra/?term=human+low-coverage+whole+genome+sequencing), and then filtering for runs with **.bam** files available
