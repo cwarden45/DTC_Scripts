@@ -1,6 +1,6 @@
 ![estimated genotype recovery](low_coverage_self_recovery-n6.png "estimated genotype recovery")
 
-Please note that the kinship estimate that I produced with a very small number of low coverage .bam files for STITCH (**STITCH-ref27BAM**) was actually less than -0.6.  However, it set it to that value to make the rest of the plot easier to visualize.  I expect that there are other ways to run STITCH that will result in better performance.
+Please note that the kinship estimate that I produced with a very small number of low coverage .bam files for STITCH (**STITCH-ref27BAM**) was actually less than -0.6.  However, it set it to that value to make the rest of the plot easier to visualize.  I expect that there are other ways to run STITCH that will result in better performance.  ***NOTE*: I get an error message if I try to run the reference-based imputation with the smaller number of sites.  So, I am re-running this analysis with the much larger number of sites from the [IMPUTE2 reference set](https://mathgen.stats.ox.ac.uk/impute/impute_v2.html#reference), as recommended by the [developer](https://github.com/rwdavies/STITCH/issues/29).  I think this should improve performance.**
 
 When I get it working, the code for running **STITCH-refVCF** will be located [here](https://github.com/cwarden45/DTC_Scripts/tree/master/Color/lcWGS_Genotype_Estimations).
 
