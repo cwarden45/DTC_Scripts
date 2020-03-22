@@ -6,7 +6,7 @@ I first tested a very simple strategy (looking for the presence of a variant or 
 
 ### Calculating Relatedness using STITCH (for Nebula, NOT Color reads)
 
-**0a)** The [IMPUTE2 reference files](https://mathgen.stats.ox.ac.uk/impute/impute_v2.html#reference) need to be reformatted to work with STITCH (with `niterations = 1`).  To create the approproate position, legend, and hapotype files, you can use `filter_IMPUTE2_files.R`.
+**0a)** The [IMPUTE2 reference files](https://mathgen.stats.ox.ac.uk/impute/impute_v2.html#reference) need to be reformatted to work with STITCH (with `niterations = 1`, solely based upon using the higher confidence reference genotypes).  To create the approproate position, legend, and hapotype files, you can use `filter_IMPUTE2_files.R`.
 
 **0b)** I wrote code to be extra careful to avoid sequence in or near telomeres and centromeres.  You can download the centromere posistions that I used with `download_centromere.sh`
 
