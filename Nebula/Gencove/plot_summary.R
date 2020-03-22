@@ -1,7 +1,7 @@
 IBD_cat   = c("assume-het",
 				"Gencove-human","Gencove-human",
 				"Gencove-cat","Gencove-cat",
-				"STITCH-ref27BAM")
+				"STITCH-ref99")
 num_reads = c(4563716,
 				4563716, 4563716/2,
 				166490724/50,166490724/100,
@@ -9,7 +9,7 @@ num_reads = c(4563716,
 IBD_value = c(0.237397,
 				0.489226, 0.499961,
 				0.448409,0.426991,
-				-0.6)
+				0.483088)
 dot_col   = c("black",
 				"blue","blue",
 				"cyan","cyan",
@@ -30,8 +30,8 @@ lines(num_reads[IBD_cat == "Gencove-human"],IBD_value[IBD_cat == "Gencove-human"
 lines(num_reads[IBD_cat == "Gencove-cat"],IBD_value[IBD_cat == "Gencove-cat"], col="cyan", lwd=1)
 
 legend("top",
-		legend = c("assume-het","STITCH-refVCF",
-					"Gencove-human","STITCH-ref27BAM",
+		legend = c("assume-het","STITCH-ref286",
+					"Gencove-human","STITCH-ref99",
 					"Gencove-cat"),
 		col=c("black","purple","blue","maroon","cyan"),
 		pch=16, ncol=3, cex=0.8,
