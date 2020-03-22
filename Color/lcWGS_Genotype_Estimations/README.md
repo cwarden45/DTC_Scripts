@@ -20,4 +20,4 @@ I first tested a very simple strategy (looking for the presence of a variant or 
 
 **4)** plink file conversion and kinship/relatedness estimate calculated using  using `plink_VCF_IBD.sh`
 
-**5)** result reformatted using `plot-and-filter_king_values_V2.R`
+**5)** Result reformatted using `plot-and-filter_king_values_V2.R`
