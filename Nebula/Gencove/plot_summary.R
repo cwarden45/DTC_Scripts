@@ -28,6 +28,8 @@ box()
 
 lines(num_reads[IBD_cat == "Gencove-human"],IBD_value[IBD_cat == "Gencove-human"], col="blue", lwd=1)
 lines(num_reads[IBD_cat == "Gencove-cat"],IBD_value[IBD_cat == "Gencove-cat"], col="cyan", lwd=1)
+lines(num_reads[IBD_cat == "STITCH-ref99"],IBD_value[IBD_cat == "STITCH-ref99"], col="maroon", lwd=1)
+lines(num_reads[IBD_cat == "STITCH-ref286"],IBD_value[IBD_cat == "STITCH-ref286"], col="purple", lwd=1)
 
 legend("top",
 		legend = c("assume-het","STITCH-ref286",
