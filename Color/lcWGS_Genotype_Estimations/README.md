@@ -3,3 +3,15 @@ I first tested a very simple strategy (looking for the presence of a variant or 
 **So, I thought I needed to instead see what I could accomplish with some imputation strategies.**  Since the strategy above wasn't very good at defining a starting set of genotypes, I needed to find strategies that start with FASTQ or BAM input files (and/or provide an alternative way to start with a small set of more accurate genotypes, upstream of imputation).  For example, you can see much better accuracy for my [imputed Nebula lcWGS genotypes](https://github.com/cwarden45/DTC_Scripts/blob/master/Nebula/Downsample_IBD/README.md), although that was also unacceptable in some [other ways](http://cdwscience.blogspot.com/2019/08/low-coverage-sequencing-is-not.html).
 
 **NOTE:** I learned that Gencove has a [minimum threshold](https://github.com/cwarden45/DTC_Scripts/tree/master/Nebula/Gencove) to process samples, so I can't actually test processing my Color reads with Gencove.  However, I am trying to a better feel for *how much* worse the self-identification is as you go below 0.1x sequencing.
+
+### Calculating Relatedness using STITCH (for Nebula, NOT Color reads)
+
+**1)** STITCH imputations calcualted from reference sets using code like `run_STITCH.R` (*with 99 CEU reference samples*) or `run_STITCH-REF286.R` (*with 286 CEU+GBR+ACB reference samples*)
+
+**2)** A combined imputed .vcf file is created using `extract_selected_genotypes-ref_segments.py`
+
+**3)** Imputed genotypes are combined with SNP chip genotypes (for myself and 1000 Genomes) using `combine_VCF.pl`
+
+**4)** plink file conversion and kinship/relatedness estimate calculated using  using `plink_VCF_IBD.sh`
+
+**5)** result reformatted using `plot-and-filter_king_values_V2.R`
