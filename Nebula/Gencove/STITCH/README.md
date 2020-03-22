@@ -18,6 +18,8 @@ However, I had to use a slightly different link to download that file: ftp://ftp
 
 ### Calculating Relatedness (with reference set, NOT bams alone)
 
+The code is actually within [this subfolder](https://github.com/cwarden45/DTC_Scripts/tree/master/Color/lcWGS_Genotype_Estimations)
+
 **1)** STITCH imputations calcualted from reference sets using code like `run_STITCH.R` (*with 99 CEU reference samples*) or `run_STITCH-REF286.R` (*with 286 CEU+GBR+ACB reference samples*)
 
 **2)** A combined imputed .vcf file is created using `extract_selected_genotypes-ref_segments.py`
