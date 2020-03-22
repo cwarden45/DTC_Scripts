@@ -6,6 +6,12 @@ I first tested a very simple strategy (looking for the presence of a variant or 
 
 ### Calculating Relatedness using STITCH (for Nebula, NOT Color reads)
 
+**0a)** The [IMPUTE2 reference files](https://mathgen.stats.ox.ac.uk/impute/impute_v2.html#reference) need to be reformatted to work with STITCH (with `niterations = 1`).  To create the approproate position, legend, and hapotype files, you can use `filter_IMPUTE2_files.R`.
+
+**0b)** I wrote code to be extra careful to avoid sequence in or near telomeres and centromeres.  You can download the centromere posistions that I used with `download_centromere.sh`
+
+**0c)** I downloaded the same reference as the 1000 Genomes samples to make things as similar as possible.  While it was not as effective, you can see the code for the all-bams version of STITCH to see how I aligned and processed the alignment in `download_and_index_BWAref.sh` and `align_BWA_MEM.py` (within [this subfolder](https://github.com/cwarden45/DTC_Scripts/tree/master/Nebula/Gencove/STITCH)).  That also mentions that I downloaded the reference sequence from here: ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/
+
 **1)** STITCH imputations calcualted from reference sets using code like `run_STITCH.R` (*with 99 CEU reference samples*) or `run_STITCH-REF286.R` (*with 286 CEU+GBR+ACB reference samples*)
 
 **2)** A combined imputed .vcf file is created using `extract_selected_genotypes-ref_segments.py`
