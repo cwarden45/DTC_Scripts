@@ -16,9 +16,9 @@ As described on [this website](https://www.internationalgenome.org/category/refe
 
 However, I had to use a slightly different link to download that file: ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/
 
-### Calculating Relatedness
+### Calculating Relatedness (with reference set, NOT bams alone)
 
-**1)** STITCH imputations calcualted from reference sets using code like `run_STITCH.R` (with 99 CEU reference samples) or `run_STITCH-REF286.R` (with 286 CEU+GBR+ACB reference samples)
+**1)** STITCH imputations calcualted from reference sets using code like `run_STITCH.R` (*with 99 CEU reference samples*) or `run_STITCH-REF286.R` (*with 286 CEU+GBR+ACB reference samples*)
 
 **2)** A combined imputed .vcf file is created using `extract_selected_genotypes-ref_segments.py`
 
