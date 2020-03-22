@@ -1,9 +1,34 @@
 #Nebula: Simply check if exact variant is present in read (with .pileup file, created with the C50 option)
+#24,159 variants
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.pileup")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-BWA-MEM-lcWGS-pileup.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-BWA-MEM-lcWGS-pileup.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-BWA-MEM-lcWGS-pileup"
+
+#78,833 variants
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.Gencove")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-Gencove-re.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-Gencove-re.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-Gencove-re"
+
+#66,897 variants
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.down2")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-Gencove-down2.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-Gencove-down2.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-Gencove-down2"
+
+#Nebula: Simply check if exact variant is present in read (with .pileup file, created with the C50 option)
 # 24,159 variants
-new.sampleIDs =  c("GFG","CW23","Nebula.full.pileup")
-K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-BWA-MEM-lcWGS-pileup.ped"
-input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-BWA-MEM-lcWGS-pileup.kin0"
-output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-BWA-MEM-lcWGS-pileup"
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.pileup")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-BWA-MEM-lcWGS-pileup.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-BWA-MEM-lcWGS-pileup.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-BWA-MEM-lcWGS-pileup"
+
+# 42,331 variants
+new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref99")
+K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99.ped"
+input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99.kin0"
+output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref99-pileup"
 
 kin.table = read.table(input.king, head=F, sep="\t")
 names(kin.table) = c("FAM1","ID1","FAM2","ID2","nsnp","hethet","ibs0","kinship")
