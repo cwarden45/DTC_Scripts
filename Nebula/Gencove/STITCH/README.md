@@ -15,3 +15,15 @@
 As described on [this website](https://www.internationalgenome.org/category/reference/), I downloaded a matching hg19 reference (without "chr" in the chromosome names, and the extra sequences for a more similar alignment) in order to align my own sample using BWA-MEM.  
 
 However, I had to use a slightly different link to download that file: ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/
+
+### Calculating Relatedness
+
+**1)** STITCH imputations calcualted from reference sets using code like `run_STITCH.R` (with 99 CEU reference samples) or `run_STITCH-REF286.R` (with 286 CEU+GBR+ACB reference samples)
+
+**2)** A combined imputed .vcf file is created using `extract_selected_genotypes-ref_segments.py`
+
+**3)** Imputed genotypes are combined with SNP chip genotypes (for myself and 1000 Genomes) using `combine_VCF.pl`
+
+**4)** plink file conversion and kinship/relatedness estimate calculated using  using `plink_VCF_IBD.sh`
+
+**5)** result reformatted using `plot-and-filter_king_values_V2.R`
