@@ -8,7 +8,8 @@ library("STITCH")
 #pos_folder = "human_g1k_v37-pos_files"
 pos_folder = "../1000_Genomes_BAMs/IMPUTE2_Files/1000GP_Phase3"#change to this to match reference set (with more SNPs)
 
-autosomal_chr = 1:22
+#autosomal_chr = 1:22
+autosomal_chr = 8:22#pick up where I left off
 fa_index =  "../1000_Genomes_BAMs/Ref/human_g1k_v37.fasta.fai"
 fa_index.table = read.table(fa_index, head=F, sep="\t")
 
@@ -72,7 +73,7 @@ for (chr in autosomal_chr){
 			shuffleHaplotypeIterations = NA,
 			refillIterations = NA,
 			K = human_K, tempdir = temp_folder, nCores = 1, nGen = human_nGen)
-		}#end if((STITCH_end - STITCH_start) > 20 * buffer)
+	}#end if((STITCH_end - STITCH_start) > 20 * buffer)
 	
 	######################################
 	### sequence "right" of centromere ###
@@ -104,6 +105,5 @@ for (chr in autosomal_chr){
 			shuffleHaplotypeIterations = NA,
 			refillIterations = NA,
 			K = human_K, tempdir = temp_folder, nCores = 1, nGen = human_nGen)
-		}#end if((STITCH_end - STITCH_start) > 20 * buffer)
-	}#end if((STITCH_end - STITCH_start) > 20 * buffer)	
+	}#end if((STITCH_end - STITCH_start) > 20 * buffer)
 }#end for (chr in autosomal_chr)
