@@ -58,7 +58,7 @@ for i in range(0,len(segment_names)):
 				outHandle.write(text)
 			else:	
 				if filter == "PASS":
-					geno_text = lineInfo[sampleIndex]
+					geno_text = lineInfo[9]
 					#print line
 					#print geno_text
 					geno = geno_text[0:3]
