@@ -64,11 +64,11 @@ for i in range(0,len(segment_names)):
 					geno = geno_text[0:3]
 					
 					if (geno == "0/0") or (geno == "1/1") or (geno == "0/1") or (geno == "1/0"):
-						text = line+ "\n"
+						text = chr + "\t" + pos + "\t" + varID + "\t" +  ref + "\t"  +  alt + "\t" + qual + "\t" + filter + "\t" + info + "\tGT\t" +geno+ "\n"
 						outHandle.write(text)					
 					elif geno != "./.":
 						print "Update code to decide whether to keep genotype: |" + geno + "|"
-						sys.exit()	
+						sys.exit()
 			
 		line = inHandle.readline()
 		
