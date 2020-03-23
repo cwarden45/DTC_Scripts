@@ -8,8 +8,7 @@ library("STITCH")
 #pos_folder = "human_g1k_v37-pos_files"
 pos_folder = "../1000_Genomes_BAMs/IMPUTE2_Files/1000GP_Phase3"#change to this to match reference set (with more SNPs)
 
-#autosomal_chr = 1:22
-autosomal_chr = 8:22#pick up where I left off
+autosomal_chr = 1:22
 fa_index =  "../1000_Genomes_BAMs/Ref/human_g1k_v37.fasta.fai"
 fa_index.table = read.table(fa_index, head=F, sep="\t")
 
