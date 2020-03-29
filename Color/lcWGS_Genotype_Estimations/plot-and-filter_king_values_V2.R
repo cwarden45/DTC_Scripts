@@ -24,11 +24,65 @@
 #input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-BWA-MEM-lcWGS-pileup.kin0"
 #output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-BWA-MEM-lcWGS-pileup"
 
-# 42,331 variants
-new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref99")
-K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99.ped"
-input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99.kin0"
-output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref99-pileup"
+# 44,692 variants
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref99")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref99-pileup"
+
+# 34,060 variants
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref99.down2")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99-down2.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99-down2.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref99-down2"
+
+# 21,439 variants
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref99.down4")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99-down4.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99-down4.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref99-down4"
+
+# 9,185 variants
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref99.down10")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99-down10.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99-down10.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref99-down10"
+
+# 4,767 variants
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref99.down20")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99-down20.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99-down20.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref99-down20"
+
+# 41,040 variants
+new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref286")
+K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286.ped"
+input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286.kin0"
+output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref286"
+
+# X variants
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref286.down2")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down2.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down2.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref286-down2"
+
+# X variants
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref286.down4")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down4.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down4.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref286-down4"
+
+# X variants
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref286.down10")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down10.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down10.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref286-down10"
+
+# X variants
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref286.down20")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down20.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down20.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref286-down20"
 
 kin.table = read.table(input.king, head=F, sep="\t")
 names(kin.table) = c("FAM1","ID1","FAM2","ID2","nsnp","hethet","ibs0","kinship")
