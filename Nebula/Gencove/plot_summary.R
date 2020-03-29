@@ -1,19 +1,23 @@
 IBD_cat   = c("assume-het",
 				"Gencove-human","Gencove-human",
 				"Gencove-cat","Gencove-cat",
-				"STITCH-ref99","STITCH-ref99","STITCH-ref99","STITCH-ref99")
+				"STITCH-ref99","STITCH-ref99","STITCH-ref99","STITCH-ref99","STITCH-ref99",
+				"STITCH-ref286","STITCH-ref286","STITCH-ref286","STITCH-ref286","STITCH-ref286")
 num_reads = c(4563716,
 				4563716, 4563716/2,
 				166490724/50,166490724/100,
-				4563716, 4563716/2, 4563716/4, 4563716/10)
+				4563716, 4563716/2, 4563716/4, 4563716/10, 4563716/20,
+				4563716, 4563716/2, 4563716/4, 4563716/10, 4563716/20)
 IBD_value = c(0.237397,
 				0.489226, 0.499961,
 				0.448409,0.426991,
-				0.483088,0.471976, 0.449369, 0.370823)
+				0.483088,0.471976, 0.449369, 0.370823,0.179748,
+				NA, NA, NA, NA, NA)
 dot_col   = c("black",
 				"blue","blue",
 				"cyan","cyan",
-				"maroon","maroon","maroon","maroon")
+				"maroon","maroon","maroon","maroon","maroon",
+				"purple","purple","purple","purple","purple")
 
 png("low_coverage_self_recovery.png")
 plot(num_reads, IBD_value,
@@ -29,7 +33,7 @@ box()
 lines(num_reads[IBD_cat == "Gencove-human"],IBD_value[IBD_cat == "Gencove-human"], col="blue", lwd=1)
 lines(num_reads[IBD_cat == "Gencove-cat"],IBD_value[IBD_cat == "Gencove-cat"], col="cyan", lwd=1)
 lines(num_reads[IBD_cat == "STITCH-ref99"],IBD_value[IBD_cat == "STITCH-ref99"], col="maroon", lwd=1)
-lines(num_reads[IBD_cat == "STITCH-ref286"],IBD_value[IBD_cat == "STITCH-ref286"], col="purple", lwd=1)
+#lines(num_reads[IBD_cat == "STITCH-ref286"],IBD_value[IBD_cat == "STITCH-ref286"], col="purple", lwd=1)
 
 legend("top",
 		legend = c("assume-het","STITCH-ref286",
