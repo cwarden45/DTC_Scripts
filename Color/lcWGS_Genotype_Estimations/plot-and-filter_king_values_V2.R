@@ -31,10 +31,10 @@
 #output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref99-pileup"
 
 # 34,060 variants
-#new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref99.down2")
-#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99-down2.ped"
-#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99-down2.kin0"
-#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref99-down2"
+new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref99.down2")
+K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99-down2.ped"
+input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref99-down2.kin0"
+output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref99-down2"
 
 # 21,439 variants
 #new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref99.down4")
@@ -60,17 +60,17 @@
 #input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286.kin0"
 #output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref286"
 
-# X variants
+# 28,727 variants
 #new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref286.down2")
 #K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down2.ped"
 #input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down2.kin0"
 #output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref286-down2"
 
 # 15,605 variants
-new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref286.down4")
-K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down4.ped"
-input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down4.kin0"
-output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref286-down4"
+#new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref286.down4")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down4.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-STITCH-full-ref286-down4.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-STITCH-full-ref286-down4"
 
 # 5,039 variants
 #new.sampleIDs =  c("GFG","CW23","Nebula.full.STITCH.ref286.down10")
