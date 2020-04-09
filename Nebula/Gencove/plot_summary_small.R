@@ -1,4 +1,3 @@
-#setwd("E:\\WGS_Exome_Analysis\\My_Veritas_WGS\\STITCH")
 #created an alternative plot to provide on Twitter
 
 IBD_cat   = c("assume-het",
