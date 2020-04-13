@@ -23,4 +23,11 @@ More specifically, I tested uploading the following files for at least 1 of the 
   
  **So, I am not actually suggesting others purchase any of these reports, if they already have a 23andMe or similar report.**  In general, my opinion is that this is either the type of re-analysis that would be provided for free, or where the evidence and or level of risk may or may not be high.
  
+By eye, these are the differerences that I can find between the 23andMe and AncestryDNA uploaded files:
+
+**1) Nutrigenomics & Lifestyle:** *Predisposition to the deficiency of pantothenic acid (page 3)*: 23andMe upload says "People with your genetic profile are likely to have a predisposition for pantothenic acid
+deficiency." while AncestryDNA upload says "People with your genetic profile are likely to have regular pantothenic acid levels.".  I believe this is due to a difference in the genotype for the [rs13141016](https://www.ncbi.nlm.nih.gov/snp/rs13141016) variant in the IGFBP7 gene (GG for 23andMe on page 38; AA for Ancestry DNA on page 36)
+
+There may exist issues, but this is what I could fine.  When the uploaded .vcf report is complete, then I can add that for 1 report.
+ 
  I was also a little concerned that the link to upload my "Wellness & Lifestyle" 23andMe data actually said "AncestryDNA: Fitness (Kit ID: TPD16382842155959)" as well as "Upload Your Genetic Data from 23andMe".  However, the report I recieved was in fact different than the other reports (so, I would consider this a minor typo.)
