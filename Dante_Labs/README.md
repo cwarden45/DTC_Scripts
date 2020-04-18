@@ -87,9 +87,9 @@ I checked my raw AncestryDNA data, and I couldn't find a genotype for rs12906126
 
 **11) Fitness:** *Rotator cuff disease (page 5)*: 23andMe upload says "People with your genetic profile are likely to have a **higher** susceptibility to rotator cuff disease" while AncestryDNA upload says "People with your genetic profile are likely to have **regular** susceptibility to rotator cuff disease".  I believe this is due to a difference in the genotype for the [rs1800972](https://www.ncbi.nlm.nih.gov/snp/rs1800972) variant in the DEFB1 gene (GG for 23andMe on page 102; CC for AncestryDNA on page 102)
 
-I checked my raw 23andMe data, the genotype was in fact "GG".  ***So, this may be a truely inaccurate genotype, but this only makes up 1 out of the 11 discordant genotypes that I found.***
-
 I checked my Veritas WGS and Genos Exome alignments, and this matches the genotype in my 23andMe report ([GG](IGV_F.rs1800972.png)).
+
+I checked my raw 23andMe data, the genotype was in fact "GG".  ***So, this may be a truely inaccurate genotype, but this only makes up 1 out of the 11 discordant genotypes that I found.***
 
 There may exist issues, but this is what I could find.  When the uploaded .vcf report is complete, then I can add that for 1 report.
 
