@@ -69,7 +69,7 @@ I checked my Veritas WGS alignments, and this matches the genotype in my 23andMe
 
 I checked my Veritas WGS and Genos Exome alignments, and this matches the genotype in my 23andMe report ([GG](IGV_F.rs1800972.png)).
 
-There may exist issues, but this is what I could fine.  When the uploaded .vcf report is complete, then I can add that for 1 report.
+There may exist issues, but this is what I could find.  When the uploaded .vcf report is complete, then I can add that for 1 report.
 
 Also, for the 11 discordant genotypes described above, only 2 ([rs2304795](https://www.ncbi.nlm.nih.gov/snp/rs2304795) and [rs956868](https://www.ncbi.nlm.nih.gov/snp/rs956868)) were listed in ClinVar.  This would be consistent with questioning if these were actionable, robust, and highly predictive results.
 
