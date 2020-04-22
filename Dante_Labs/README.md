@@ -77,7 +77,7 @@ I checked my raw 23andMe data, and I couldn't find a genotype for rs2304795.  I 
 
 I checked my Veritas WGS and Genos Exome alignments, and this matches the genotype in my AncestryDNA report ([AC](IGV_F.rs956868.png)).
 
-I checked my raw 23andMe data, and I couldn't find a genotype for "No Call" (--).  So, perhaps this genotype was **imputed**, and that was the cause of the problem?  This would be consistent with it being very good that 23andMe does not return imputed variants.
+I checked my raw 23andMe data, and I couldn't find a genotype for "No Call" (--). I contacted the company and they said that they don't **impute** genotypes, although I am not sure what is the alternative explanation.  If the issues did come from imputed genotypes, then would be consistent with it being very good that 23andMe does not return imputed variants.
 
 **10) Fitness:** *Zinc balance (Zn) (page 5)*: 23andMe upload says "People with your genetic profile are likely to have a **low** zinc level" while AncestryDNA upload says "People with your genetic profile are likely to have a **regular** zinc level".  I believe this is due to a difference in the genotype for the [rs12906126](https://www.ncbi.nlm.nih.gov/snp/rs12906126) variant in the SCAMP5 gene (GT for 23andMe on page 88; GG for AncestryDNA on page 88)
 
