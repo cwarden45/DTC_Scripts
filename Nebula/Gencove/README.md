@@ -14,7 +14,7 @@ At least currently, I have uploaded the imputed .vcf files for my cat (Bastu) on
 
 [Gencove_basepaws-cat_downsample_100x_impute-vcf.vcf.gz](https://storage.googleapis.com/bastu-cat-genome/Gencove_basepaws-cat_downsample_100x_impute-vcf.vcf.gz)
 
-There is also more information about the original data for my cat [here](https://github.com/cwarden45/Bastu_Cat_Genome).
+There is also more information about the original data for my cat [here](https://github.com/cwarden45/Bastu_Cat_Genome).  To be fair, it might be worth taking into consideration that [~30% of the fragments](https://github.com/cwarden45/Bastu_Cat_Genome/tree/master/Basepaws_Notes/Read_QC) were smaller than the insert size for the higher coverage sequencing data for my cat: this causes the adapters to be seqeunced, and it drops the true amount of genomic coverage.  As mentioned in [this blog post](https://google.github.io/deepvariant/posts/2019-09-10-twenty-is-the-new-thirty-comparing-current-and-historical-wgs-accuracy-across-coverage/) having 15x coverage instead of 20x coverage may have some effect on the results.
 
 A slight increase or decrease should probably be thought of as a flat line.  In terms of possibly more intuitive numbers, here is the variant recovery with a custom script (described in [this blog post](http://cdwscience.blogspot.com/2019/05/precisionfda-and-custom-scripts-for.html)):
 
