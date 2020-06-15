@@ -10,7 +10,7 @@ You can see the drafts and idenfifiers (if available) for the FDA MedWatch repor
 
 I am currently waiting for those additional MedWatch identifiers to submit a negative review on TrustPilot, but I already have ethnical concerns with offering a product worth $499 only if a **positive 5 star review** is provided:
 
-![paying for positive review](require_5star_review_for_500dollars.png)
+![paying for positive review](require_5star_review_for_500dollars.PNG)
 
 For example, I think that could be intrepreted as a bribe by some.
 
