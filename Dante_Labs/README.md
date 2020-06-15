@@ -12,7 +12,7 @@ I am currently waiting for those additional MedWatch identifiers to submit a neg
 
 ![paying for positive review](require_5star_review_for_500dollars.PNG)
 
-For example, I think that could be intrepreted as a bribe by some.
+For example, I think that could be interpreted as a bribe by some.
 
 **In terms of the sciencific problems**:
 
