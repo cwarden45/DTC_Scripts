@@ -8,6 +8,14 @@ More specifically, I tested uploading the following files for at least 1 of the 
  
 You can see the drafts and idenfifiers (if available) for the FDA MedWatch reports that I submitted [here](https://drive.google.com/file/d/1xigiaFiCRX_aKqyuypMnw-9B4Z8IxQrX/view?usp=sharing).  You can also see additional details below.
 
+I am currently waiting for those additional MedWatch identifiers to submit a negative review on TrustPilot, but I already have ethnical concerns with offering a product worth $499 only if a **positive 5 star review** is provided:
+
+![paying for positive review](require_5star_review_for_500dollars.png)
+
+For example, I think that could be intrepreted as a bribe by some.
+
+**In terms of the sciencific problems**:
+
 Even with the discount of $4.99 instead of $49.99, I decided not to further test other .vcf files (even though I could have done so for other data types, such as my Genos Exome VCF, my Helix Exome+ gVCF from Mayo GeneGuide, my Nebula imputed gVCF, etc.).
  
  Uploading a .vcf cost $19.99 instead of $4.99, so that is why I only generated one type of report for that.
