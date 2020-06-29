@@ -2,7 +2,7 @@
 
 **Step 1)** plink_VCF_IBD.sh
 
-**Step 3)** ped-to-pop.py (create .pop file for ADMIXTURE, for "supervised" mode)
+**Step 3)** ped-to-pop.py (create .pop file for [ADMIXTURE](http://software.genetics.ucla.edu/admixture/), for "supervised" mode)
 
 **Step 4)** run_ADMIXTURE.bash
 
