@@ -4,7 +4,7 @@ I started using the RefSeq CDS regions.
 
 Another option would be to use **add_flank.py**.
 
-**Step 1)** bedtools_filter-Picard_FASTQ.sh
+**Step 1)** **bedtools_filter-Picard_FASTQ.sh**
 
 Extract off-target reads and convert to FASTQ (to align for STITCH reference sequence).
 
