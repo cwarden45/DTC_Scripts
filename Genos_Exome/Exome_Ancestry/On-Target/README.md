@@ -1,6 +1,6 @@
-**Step 1)** plink_VCF_IBD.bash (after manually editing file)
+**Step 1)** filter_ped-and-vcf_file.py (sample counts did not previously match; also filters "X", "Y" and "M" chromosomes)
 
-**Step 2)** filter_ped_file.py (sample counts did not previously match)
+**Step 1)** plink_VCF_IBD.sh
 
 **Step 3)** ped-to-pop.py (create .pop file for ADMIXTURE, for "supervised" mode)
 

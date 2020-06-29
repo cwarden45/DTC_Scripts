@@ -1,8 +1,13 @@
 import re
 import sys
 
-ped_file = "../../../Mayo_GeneGuide/plink_IBD_Genetic_Distance/1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome_plus_Genos-BWA-MEM-Exome_plus_Veritas_WGS.ped"
-pop_file = "../../../Mayo_GeneGuide/plink_IBD_Genetic_Distance/1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome_plus_Genos-BWA-MEM-Exome_plus_Veritas_WGS.pop"
+#ped_file = "../../../Mayo_GeneGuide/plink_IBD_Genetic_Distance/1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome_plus_Genos-BWA-MEM-Exome_plus_Veritas_WGS.ped"
+#pop_file = "../../../Mayo_GeneGuide/plink_IBD_Genetic_Distance/1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome_plus_Genos-BWA-MEM-Exome_plus_Veritas_WGS.pop"
+
+#filter for only autosomal chromosomes
+ped_file = "../1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome_plus_Genos-BWA-MEM-Exome_plus_Veritas_WGS.ped"
+pop_file = "../1000_genomes_20140502_plus_2-SNP-chip_plus_Mayo-Exome_plus_Genos-BWA-MEM-Exome_plus_Veritas_WGS.pop"
+
 
 #from ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/working/20140502_sample_summary_info/
 family_mapping = "../../../23andMe/1000_Genomes/20140502_all_samples.ped";
