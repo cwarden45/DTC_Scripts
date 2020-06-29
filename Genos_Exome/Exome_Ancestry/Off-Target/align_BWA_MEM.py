@@ -6,10 +6,9 @@ import os
 
 read1 = "BWA-MEM_realign_NOT-CDS-flank_50000_R1.fastq"
 read2 = "BWA-MEM_realign_NOT-CDS-flank_50000_R2.fastq"
-
 bamOut = "../../1000_Genomes_BAMs/Genos-Exome_BWA-MEM_realign_NOT-CDS-flank_50000.bam"
-refFa = "../../1000_Genomes_BAMs/Ref/human_g1k_v37.fasta"
 
+refFa = "../../1000_Genomes_BAMs/Ref/human_g1k_v37.fasta"
 bwaThreads = "4"
 javaMem = "24g"
 
