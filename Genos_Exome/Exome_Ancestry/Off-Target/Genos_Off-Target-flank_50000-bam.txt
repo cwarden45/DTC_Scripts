@@ -1,0 +1,1 @@
+../../1000_Genomes_BAMs/Genos-Exome_BWA-MEM_realign_NOT-CDS-flank_50000.bam
