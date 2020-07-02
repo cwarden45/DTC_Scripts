@@ -34,11 +34,17 @@ This is from the [STITCH lcWGS subfolder](https://github.com/cwarden45/DTC_Scrip
 
 This is from the [STITCH lcWGS subfolder](https://github.com/cwarden45/DTC_Scripts/tree/master/Color/lcWGS_Genotype_Estimations). 
 
-**Step 8)** **ped-to-pop.py** (create .pop file for [ADMIXTURE](http://software.genetics.ucla.edu/admixture/), for "supervised" mode)
+**Step 8)** **filter_ped-and-vcf_file.py** (sample counts did not previously match)
 
 This is from the [On-Target Exome Ancestry subfolder](https://github.com/cwarden45/DTC_Scripts/tree/master/Genos_Exome/Exome_Ancestry/On-Target). 
 
-**Step 9)** **run_ADMIXTURE.bash**
+**Step 9)** Re-run **plink_VCF_IBD.sh**
+
+**Step 10)** **ped-to-pop.py** (create .pop file for [ADMIXTURE](http://software.genetics.ucla.edu/admixture/), for "supervised" mode)
+
+This is from the [On-Target Exome Ancestry subfolder](https://github.com/cwarden45/DTC_Scripts/tree/master/Genos_Exome/Exome_Ancestry/On-Target). 
+
+**Step 11)** **run_ADMIXTURE.bash**
 
 After running ADMIXTURE, I converted the file to Excel, and I determined which columns would best match which super-population.
 
