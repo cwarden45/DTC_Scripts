@@ -61,9 +61,6 @@ mkdir $OUTFOLDER/GLIMPSE_imputed
 while read id chrC irg org c5 c6
 do
 	#can add leading 0s for a total of 2-3 digits in ID when converting code (above)
-	echo $id
-	echo $irg
-	echo $org
 	OUT=$OUTFOLDER/GLIMPSE_imputed/NA12878.chr22.1x.$id.bcf
 	/opt/GLIMPSE/phase/bin/GLIMPSE_phase --input ${VCF} --reference ${REF} --map ${MAP} --input-region $irg --output-region $org --output ${OUT} --thread $THREADS
 	/opt/bcftools-1.10.2/bcftools index -f ${OUT}
