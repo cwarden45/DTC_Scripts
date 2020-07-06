@@ -6,7 +6,7 @@ If you look towards the bottom of the documentation, [this link](https://www.int
 
 ***If you use those files, then you need to re-name the chromosomes in the 1000 Genomes genotype (and site) files.***  The [demo code](https://odelaneau.github.io/GLIMPSE/tutorial.html#run_reference_panel) shows how this can be done in sections **2.2** and **3.1**.
 
-I modified this slightly (skipping the removal of the test sample) to create **rename_reference_chr.sh**.
+I modified this slightly (skipping the removal of the test sample) to create ``rename_reference_chr.sh`` (starting with sequences downloaded using `download_ref.sh`, and indexed using `index_BWAref.sh`).
 
 **Step 1)** Re-align reads
 
