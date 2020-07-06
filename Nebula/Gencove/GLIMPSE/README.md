@@ -16,6 +16,8 @@ This worked, but it took longer than I was expecting.
 
 **However, I think this is still not exactly the reference used.**  If you look towards the bottom of the documentation, [this link](https://www.internationalgenome.org/data-portal/data-collection/30x-grch38) is referenced.  That refers to a reference sequence that can be downloaded from ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa
 
+***If you use those files, then you need to re-name the chromosomes in the 1000 Genomes genotype (and site) files.***  The [demo code](https://odelaneau.github.io/GLIMPSE/tutorial.html#run_reference_panel) shows how this can be done in sections **2.2** and **3.1**, and can skip the removal of the test sample using **rename_reference_chr.sh**.
+
 **Step 1)** Re-align reads
 
 I slightly modified the code for the STITCH analysis to add `-K 100000000` for the BWA-MEM alignment.
