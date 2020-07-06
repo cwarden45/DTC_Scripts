@@ -17,7 +17,7 @@ While the strategy here is inhertently different (since the goal is to impute ge
 
 ------
 
-## Other Notes
+** Other Notes**
 
 I noticed that the hg38 UCSC chromosomes (with the "chr" in their name) were different than in the example .bam file.
 
