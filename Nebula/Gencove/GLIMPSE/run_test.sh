@@ -10,11 +10,12 @@ THREADS=4
 
 SITES=$K1G_FOLDER/ALL.chr$CHR\_GRCh38_sites.20170504.rename.vcf.gz
 TSV=$K1G_FOLDER/ALL.chr$CHR\_GRCh38_sites.20170504.rename.tsv.gz
-GENOREF=$K1G_FOLDER/ALL.chr$CHR\_GRCh38.genotypes.20170504.vcf.gz
+GENOREF=$K1G_FOLDER/ALL.chr$CHR\_GRCh38.genotypes.20170504.rename.vcf.gz
 MAP=/opt/GLIMPSE/maps/genetic_maps.b38/chr$CHR.b38.gmap.gz
 
 mkdir $OUTFOLDER
 mkdir $OUTFOLDER/GLIMPSE_imputed
+mkdir $OUTFOLDER/GLIMPSE_ligated
 VCF=$OUTFOLDER/NA12878.chr22.1x.vcf.gz
 
 #convert 1st part of code to `rename_reference_chr.sh`, without removing test sample
@@ -40,17 +41,23 @@ mkdir temp_folder
 ##https://odelaneau.github.io/GLIMPSE/tutorial.html#run_phase
 
 #follow https://www.unix.com/homework-and-coursework-questions/210357-shell-script-read-tab-delimited-file-perform-simple-tasks.html
-while read id chrC irg org c5 c6
-do
-	#can add leading 0s for a total of 2-3 digits in ID when converting code (above)
-	echo $id
-	echo $irg
-	echo $org
-	OUT=$OUTFOLDER/GLIMPSE_imputed/NA12878.chr22.1x.$id.bcf
-	/opt/GLIMPSE/phase/bin/GLIMPSE_phase --input ${VCF} --reference $GENOREF --map ${MAP} --input-region $irg --output-region $org --output ${OUT} --thread $THREADS
-	/opt/bcftools-1.10.2/bcftools index -f ${OUT}
-done < $OUTFOLDER/chunks.chr22.txt
+#while read id chrC irg org c5 c6
+#do
+#	#can add leading 0s for a total of 2-3 digits in ID when converting code (above)
+#	echo $id
+#	echo $irg
+#	echo $org
+#	OUT=$OUTFOLDER/GLIMPSE_imputed/NA12878.chr22.1x.$id.bcf
+#	/opt/GLIMPSE/phase/bin/GLIMPSE_phase --input ${VCF} --reference $GENOREF --map ${MAP} --input-region $irg --output-region $org --output ${OUT} --thread $THREADS
+#	/opt/bcftools-1.10.2/bcftools index -f ${OUT}
+#done < $OUTFOLDER/chunks.chr22.txt
 
 ##https://odelaneau.github.io/GLIMPSE/tutorial.html#run_ligate
+
+LST=$OUTFOLDER/GLIMPSE_ligated/list.chr22.txt
+ls $OUTFOLDER/GLIMPSE_imputed/NA12878.chr22.imputed.*.bcf > ${LST}
+OUT=$OUTFOLDER/GLIMPSE_ligated/NA12878.chr22.merged.bcf
+/opt/GLIMPSE/ligate/bin/GLIMPSE_ligate --input ${LST} --output $OUT
+/opt/bcftools-1.10.2/bcftools index -f ${OUT}
 
 ##https://odelaneau.github.io/GLIMPSE/tutorial.html#run_sample
