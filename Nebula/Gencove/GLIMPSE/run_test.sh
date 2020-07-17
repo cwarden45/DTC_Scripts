@@ -16,6 +16,7 @@ MAP=/opt/GLIMPSE/maps/genetic_maps.b38/chr$CHR.b38.gmap.gz
 mkdir $OUTFOLDER
 mkdir $OUTFOLDER/GLIMPSE_imputed
 mkdir $OUTFOLDER/GLIMPSE_ligated
+mkdir $OUTFOLDER/GLIMPSE_phased
 VCF=$OUTFOLDER/NA12878.chr22.1x.vcf.gz
 
 #convert 1st part of code to `rename_reference_chr.sh`, without removing test sample
@@ -54,10 +55,17 @@ mkdir temp_folder
 
 ##https://odelaneau.github.io/GLIMPSE/tutorial.html#run_ligate
 
-LST=$OUTFOLDER/GLIMPSE_ligated/list.chr22.txt
-ls $OUTFOLDER/GLIMPSE_imputed/NA12878.chr22.imputed.*.bcf > ${LST}
-OUT=$OUTFOLDER/GLIMPSE_ligated/NA12878.chr22.merged.bcf
-/opt/GLIMPSE/ligate/bin/GLIMPSE_ligate --input ${LST} --output $OUT
-/opt/bcftools-1.10.2/bcftools index -f ${OUT}
+#LST=$OUTFOLDER/GLIMPSE_ligated/list.chr22.txt
+#ls $OUTFOLDER/GLIMPSE_imputed/NA12878.chr22.*.bcf > ${LST}
+#OUT=$OUTFOLDER/GLIMPSE_ligated/NA12878.chr22.merged.bcf
+#/opt/GLIMPSE/ligate/bin/GLIMPSE_ligate --input ${LST} --output $OUT
+#/opt/bcftools-1.10.2/bcftools index -f ${OUT}
 
 ##https://odelaneau.github.io/GLIMPSE/tutorial.html#run_sample
+
+VCF=$OUTFOLDER/GLIMPSE_ligated/NA12878.chr22.merged.bcf
+OUT=$OUTFOLDER/GLIMPSE_phased/NA12878.chr22.phased.bcf
+RESULT=$OUTFOLDER/GLIMPSE_phased/NA12878.chr22.phased.vcf
+#/opt/GLIMPSE/sample/bin/GLIMPSE_sample --input ${VCF} --solve --output ${OUT}
+#/opt/bcftools-1.10.2/bcftools index -f ${OUT}
+/opt/bcftools-1.10.2/bcftools view $OUT > $RESULT
