@@ -18,7 +18,7 @@ While the strategy here is inhertently different (since the goal is to impute ge
 
 **Step 3)** Combine genotypes between chromosomes
 
-**Step 4)** LiftOver genotypes to compare
+**Step 4)** LiftOver genotypes to compare reference/observed genotypes
 
 Use [CrossMap](http://crossmap.sourceforge.net/#convert-vcf-format-files), as described in [Helix/Mayo GeneGuide IBD/kinship section](https://github.com/cwarden45/DTC_Scripts/tree/master/Helix_Mayo_GeneGuide/IBD_Genetic_Distance).
 
