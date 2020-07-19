@@ -8,7 +8,7 @@ If you look towards the bottom of the documentation, [this link](https://www.int
 
 I modified this slightly (skipping the removal of the test sample) to create ``rename_reference_chr.sh`` (starting with sequences downloaded using `download_ref.sh`, and indexed using `index_BWAref.sh`).
 
-**Step 1)** Re-align reads
+**Step 1)** Re-align reads using `align_BWA_MEM.py`
 
 I slightly modified the code for the STITCH analysis to add `-Y` for the BWA-MEM alignment, as well as add a step for the [Picard](https://gatk.broadinstitute.org/hc/en-us/articles/360036713471-FixMateInformation-Picard-) `FixMateInformation` command.
 
