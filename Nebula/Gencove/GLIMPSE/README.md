@@ -24,9 +24,13 @@ Use [CrossMap](http://crossmap.sourceforge.net/#convert-vcf-format-files), as de
 
 **Step 5)** Create combined .vcf with imputed genotypes as well as reference/observed genotypes
 
-**Step 6)** plink file conversion and kinship/relatedness estimate calculated using using plink_VCF_IBD.sh
+**Step 6)** plink file conversion and kinship/relatedness estimate calculated using `using plink_VCF_IBD.sh`
 
-**Step 7)** result reformatted using plot-and-filter_king_values_V2.R
+This matches the [STITCH analysis](https://github.com/cwarden45/DTC_Scripts/tree/master/Nebula/Gencove/STITCH).
+
+**Step 7)** result reformatted using `plot-and-filter_king_values_V2.R`
+
+This matches the [STITCH analysis](https://github.com/cwarden45/DTC_Scripts/tree/master/Nebula/Gencove/STITCH).
 
 ------
 
