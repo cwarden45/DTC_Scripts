@@ -5,9 +5,9 @@ do
    echo $i chr$i
 done >> chr_names.txt
 
-for i in 22
+for i in $(seq 1 1 22) X Y
 do
-	echo $i
+	echo "Working on chr$i ..."
 	/opt/bcftools-1.10.2/bcftools annotate --rename-chrs chr_names.txt  -O z ALL.chr$i\_GRCh38.genotypes.20170504.vcf.gz > ALL.chr$i\_GRCh38.genotypes.20170504.rename.vcf.gz
 	/opt/bcftools-1.10.2/bcftools index -f ALL.chr$i\_GRCh38.genotypes.20170504.rename.vcf.gz
 	
