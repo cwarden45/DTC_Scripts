@@ -14,8 +14,19 @@ I slightly modified the code for the STITCH analysis to add `-Y` for the BWA-MEM
 
 While the strategy here is inhertently different (since the goal is to impute genotypes with lcWGS, rather than call variangs with 30x WGS), I checked the pre-processing steps described [here](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000G_2504_high_coverage/20190405_NYGC_b38_pipeline_description.pdf).
 
-**Step 2)** Run GLIMPSE
+**Step 2)** Run GLIMPSE using `run_GLIMPSE.sh`
 
+**Step 3)** Combine genotypes between chromosomes
+
+**Step 4)** LiftOver genotypes to compare
+
+Use [CrossMap](http://crossmap.sourceforge.net/#convert-vcf-format-files), as described in [Helix/Mayo GeneGuide IBD/kinship section](https://github.com/cwarden45/DTC_Scripts/tree/master/Helix_Mayo_GeneGuide/IBD_Genetic_Distance).
+
+**Step 5)** Create combined .vcf with imputed genotypes as well as reference/observed genotypes
+
+**Step 6)** plink file conversion and kinship/relatedness estimate calculated using using plink_VCF_IBD.sh
+
+**Step 7)** result reformatted using plot-and-filter_king_values_V2.R
 
 ------
 
