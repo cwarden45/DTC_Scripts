@@ -16,7 +16,9 @@ While the strategy here is inhertently different (since the goal is to impute ge
 
 **Step 2)** Run GLIMPSE using `run_GLIMPSE.sh`
 
-**Step 3)** Combine genotypes between chromosomes
+**Step 3)** Combine genotypes between chromosomes using `combine_chr_vcf.py`
+
+This is similar to *extract_selected_genotypes.py* for the [STITCH analysis](https://github.com/cwarden45/DTC_Scripts/tree/master/Nebula/Gencove/STITCH).
 
 **Step 4)** LiftOver genotypes to compare reference/observed genotypes
 
