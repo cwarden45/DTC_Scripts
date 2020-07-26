@@ -1,4 +1,4 @@
-**Step 0)** Step up reference files
+**Step 0a)** Step up reference files
 
 I mostly followed the instructions [here](https://odelaneau.github.io/GLIMPSE/installation.html).
 
@@ -7,6 +7,10 @@ If you look towards the bottom of the documentation, [this link](https://www.int
 ***If you use those files, then you need to re-name the chromosomes in the 1000 Genomes genotype (and site) files.***  The [demo code](https://odelaneau.github.io/GLIMPSE/tutorial.html#run_reference_panel) shows how this can be done in sections **2.2** and **3.1**.
 
 I modified this slightly (skipping the removal of the test sample) to create ``rename_reference_chr.sh`` (starting with sequences downloaded using `download_ref.sh`, and indexed using `index_BWAref.sh`).
+
+**Step 0b)** LiftOver genotypes to compare reference/observed genotypes
+
+Use [CrossMap](http://crossmap.sourceforge.net/#convert-vcf-format-files), as described in [Helix/Mayo GeneGuide IBD/kinship section](https://github.com/cwarden45/DTC_Scripts/tree/master/Helix_Mayo_GeneGuide/IBD_Genetic_Distance).
 
 **Step 1)** Re-align reads using `align_BWA_MEM.py`
 
@@ -20,17 +24,13 @@ While the strategy here is inhertently different (since the goal is to impute ge
 
 This is similar to *extract_selected_genotypes.py* for the [STITCH analysis](https://github.com/cwarden45/DTC_Scripts/tree/master/Nebula/Gencove/STITCH).
 
-**Step 4)** LiftOver genotypes to compare reference/observed genotypes
+**Step 4)** Create combined .vcf with imputed genotypes as well as reference/observed genotypes
 
-Use [CrossMap](http://crossmap.sourceforge.net/#convert-vcf-format-files), as described in [Helix/Mayo GeneGuide IBD/kinship section](https://github.com/cwarden45/DTC_Scripts/tree/master/Helix_Mayo_GeneGuide/IBD_Genetic_Distance).
-
-**Step 5)** Create combined .vcf with imputed genotypes as well as reference/observed genotypes
-
-**Step 6)** plink file conversion and kinship/relatedness estimate calculated using `using plink_VCF_IBD.sh`
+**Step 5)** plink file conversion and kinship/relatedness estimate calculated using `using plink_VCF_IBD.sh`
 
 This matches the [STITCH analysis](https://github.com/cwarden45/DTC_Scripts/tree/master/Nebula/Gencove/STITCH).
 
-**Step 7)** result reformatted using `plot-and-filter_king_values_V2.R`
+**Step 6)** result reformatted using `plot-and-filter_king_values_V2.R`
 
 This matches the [STITCH analysis](https://github.com/cwarden45/DTC_Scripts/tree/master/Nebula/Gencove/STITCH).
 
