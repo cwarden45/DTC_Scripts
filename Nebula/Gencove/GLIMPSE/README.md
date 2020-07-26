@@ -26,7 +26,7 @@ This is similar to *extract_selected_genotypes.py* for the [STITCH analysis](htt
 
 **Step 4)** Create combined .vcf with imputed genotypes as well as reference/observed genotypes using `combine_VCF.pl`
 
-This matches the [STITCH analysis](https://github.com/cwarden45/DTC_Scripts/tree/master/Nebula/Gencove/STITCH).
+This is similar to the script with the same name from the [STITCH analysis](https://github.com/cwarden45/DTC_Scripts/tree/master/Nebula/Gencove/STITCH).
 
 **Step 5)** plink file conversion and kinship/relatedness estimate calculated using `using plink_VCF_IBD.sh`
 
