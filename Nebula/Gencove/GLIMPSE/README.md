@@ -8,7 +8,7 @@ If you look towards the bottom of the documentation, [this link](https://www.int
 
 I modified this slightly (skipping the removal of the test sample) to create ``rename_reference_chr.sh`` (starting with sequences downloaded using `download_ref.sh`, and indexed using `index_BWAref.sh`).
 
-**Step 0b)** LiftOver genotypes to compare reference/observed genotypes
+**Step 0b)** LiftOver genotypes to compare reference/observed genotypes using `CrossMap_liftOver_VCF.sh`
 
 Use [CrossMap](http://crossmap.sourceforge.net/#convert-vcf-format-files), as described in [Helix/Mayo GeneGuide IBD/kinship section](https://github.com/cwarden45/DTC_Scripts/tree/master/Helix_Mayo_GeneGuide/IBD_Genetic_Distance).
 
