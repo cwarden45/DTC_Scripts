@@ -1,23 +1,29 @@
+#setwd("E:\\WGS_Exome_Analysis\\My_Veritas_WGS\\STITCH")
+
 IBD_cat   = c("assume-het",
 				"Gencove-human","Gencove-human",
 				"Gencove-cat","Gencove-cat",
 				"STITCH-ref99","STITCH-ref99","STITCH-ref99","STITCH-ref99","STITCH-ref99",
-				"STITCH-ref286","STITCH-ref286","STITCH-ref286","STITCH-ref286","STITCH-ref286")
+				"STITCH-ref286","STITCH-ref286","STITCH-ref286","STITCH-ref286","STITCH-ref286",
+				"GLIMPSE")
 num_reads = c(4563716,
 				4563716, 4563716/2,
 				166490724/50,166490724/100,
 				4563716, 4563716/2, 4563716/4, 4563716/10, 4563716/20,
-				4563716, 4563716/2, 4563716/4, 4563716/10, 4563716/20)
+				4563716, 4563716/2, 4563716/4, 4563716/10, 4563716/20,
+				4563716/10)
 IBD_value = c(0.237397,
 				0.489226, 0.499961,
 				0.448409, 0.426991,
 				0.483219, 0.472075, 0.449329, 0.372013, 0.179748,
-				0.485009, 0.474148, 0.452603, 0.370261, 0.157386)
+				0.485009, 0.474148, 0.452603, 0.370261, 0.157386,
+				0.34055)
 dot_col   = c("black",
 				"blue","blue",
 				"cyan","cyan",
 				"maroon","maroon","maroon","maroon","maroon",
-				"purple","purple","purple","purple","purple")
+				"purple","purple","purple","purple","purple",
+				"orange")
 
 png("low_coverage_self_recovery.png")
 plot(num_reads, IBD_value,
@@ -34,12 +40,13 @@ lines(num_reads[IBD_cat == "Gencove-human"],IBD_value[IBD_cat == "Gencove-human"
 lines(num_reads[IBD_cat == "Gencove-cat"],IBD_value[IBD_cat == "Gencove-cat"], col="cyan", lwd=1)
 lines(num_reads[IBD_cat == "STITCH-ref99"],IBD_value[IBD_cat == "STITCH-ref99"], col="maroon", lwd=1)
 lines(num_reads[IBD_cat == "STITCH-ref286"],IBD_value[IBD_cat == "STITCH-ref286"], col="purple", lwd=1)
+lines(num_reads[IBD_cat == "GLIMPSE"],IBD_value[IBD_cat == "GLIMPSE"], col="orange", lwd=1)
 
 legend("top",
 		legend = c("assume-het","STITCH-ref286",
 					"Gencove-human","STITCH-ref99",
-					"Gencove-cat"),
-		col=c("black","purple","blue","maroon","cyan"),
+					"Gencove-cat","GLIMPSE"),
+		col=c("black","purple","blue","maroon","cyan","orange"),
 		pch=16, ncol=3, cex=0.8,
 		xpd=T, inset = -0.12)
 dev.off()
