@@ -36,6 +36,8 @@ This matches the [STITCH analysis](https://github.com/cwarden45/DTC_Scripts/tree
 
 This matches the [STITCH analysis](https://github.com/cwarden45/DTC_Scripts/tree/master/Nebula/Gencove/STITCH).
 
+You can see a comparison with other strategies [here](https://github.com/cwarden45/DTC_Scripts/blob/master/Nebula/Gencove/low_coverage_self_recovery.png).
+
 ------
 
 **Other Notes**
