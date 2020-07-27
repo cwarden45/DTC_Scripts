@@ -28,7 +28,7 @@ This is similar to *extract_selected_genotypes.py* for the [STITCH analysis](htt
 
 This is similar to the script with the same name from the [STITCH analysis](https://github.com/cwarden45/DTC_Scripts/tree/master/Nebula/Gencove/STITCH).
 
-**Step 5)** plink file conversion and kinship/relatedness estimate calculated using `using plink_VCF_IBD.sh`
+**Step 5)** plink file conversion and kinship/relatedness estimate calculated using `plink_VCF_IBD.sh`
 
 This matches the [STITCH analysis](https://github.com/cwarden45/DTC_Scripts/tree/master/Nebula/Gencove/STITCH).
 
