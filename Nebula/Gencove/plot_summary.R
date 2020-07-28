@@ -5,25 +5,25 @@ IBD_cat   = c("assume-het",
 				"Gencove-cat","Gencove-cat",
 				"STITCH-ref99","STITCH-ref99","STITCH-ref99","STITCH-ref99","STITCH-ref99",
 				"STITCH-ref286","STITCH-ref286","STITCH-ref286","STITCH-ref286","STITCH-ref286",
-				"GLIMPSE","GLIMPSE")
+				"GLIMPSE","GLIMPSE","GLIMPSE")
 num_reads = c(4563716,
 				4563716, 4563716/2,
 				166490724/50,166490724/100,
 				4563716, 4563716/2, 4563716/4, 4563716/10, 4563716/20,
 				4563716, 4563716/2, 4563716/4, 4563716/10, 4563716/20,
-				4563716/4,4563716/10)
+				4563716/2, 4563716/4, 4563716/10)
 IBD_value = c(0.237397,
 				0.489226, 0.499961,
 				0.448409, 0.426991,
 				0.483219, 0.472075, 0.449329, 0.372013, 0.179748,
 				0.485009, 0.474148, 0.452603, 0.370261, 0.157386,
-				0.415296, 0.34055)
+				0.45373, 0.415296, 0.34055)
 dot_col   = c("black",
 				"blue","blue",
 				"cyan","cyan",
 				"maroon","maroon","maroon","maroon","maroon",
 				"purple","purple","purple","purple","purple",
-				"orange")
+				"orange","orange","orange")
 
 png("low_coverage_self_recovery.png")
 plot(num_reads, IBD_value,
