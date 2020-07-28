@@ -40,6 +40,14 @@ You can see a comparison with other strategies [here](https://github.com/cwarden
 
 ------
 
+**Exome Off-Target Analysis**
+
+Similar to what I did for [STITCH](https://github.com/cwarden45/DTC_Scripts/tree/master/Genos_Exome/Exome_Ancestry/Off-Target), I tested using GLIMPSE with off-target exome reads.
+
+I created the filtered  .bam file for analysis using `bedtools_filter-Exome_Off-Target.sh`
+
+------
+
 **Other Notes**
 
 I noticed that the hg38 UCSC chromosomes (with the "chr" in their name) were different than in the example .bam file.
