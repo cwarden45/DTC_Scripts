@@ -1,8 +1,14 @@
 #91,296 variants
-new.sampleIDs =  c("GFG","CW23","GLIMPSE.down4.STITCH")
-K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-GLIMPSE-down4.ped"
-input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-GLIMPSE-down4.kin0"
-output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-GLIMPSE-down4"
+new.sampleIDs =  c("GFG","CW23","GLIMPSE.down2.STITCH")
+K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-GLIMPSE-down2.ped"
+input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-GLIMPSE-down2.kin0"
+output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-GLIMPSE-down2"
+
+##91,296 variants
+#new.sampleIDs =  c("GFG","CW23","GLIMPSE.down4.STITCH")
+#K1G.ped.ref =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-GLIMPSE-down4.ped"
+#input.king =  "1000_genomes_20140502_plus_2-SNP-chip_plus_Nebula-GLIMPSE-down4.kin0"
+#output.prefix = "plink_kinship_1000_genomes_plus_2-SNP_plus_Nebula-GLIMPSE-down4"
 
 ##89,996 variants
 #new.sampleIDs =  c("GFG","CW23","GLIMPSE.down10.STITCH")
