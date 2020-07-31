@@ -46,6 +46,8 @@ Similar to what I did for [STITCH](https://github.com/cwarden45/DTC_Scripts/tree
 
 I created the filtered  .bam file for analysis using `bedtools_filter-Exome_Off-Target.sh`
 
+After running the steps above, I  am running **steps 8 - 11** for the STITCH [off-target Exome ancestry analysis](https://github.com/cwarden45/DTC_Scripts/tree/master/Genos_Exome/Exome_Ancestry/Off-Target).
+
 ------
 
 **Other Notes**
