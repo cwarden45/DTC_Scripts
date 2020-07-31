@@ -48,6 +48,8 @@ I created the filtered  .bam file for analysis using `bedtools_filter-Exome_Off-
 
 After running the steps above, I  am running **steps 8 - 11** for the STITCH [Off-Target Exome ancestry analysis](https://github.com/cwarden45/DTC_Scripts/tree/master/Genos_Exome/Exome_Ancestry/Off-Target).
 
+If the self-identification was reasonable, then I uploaded the ADMIXTURE results in this subfolder (**FILTERED-1000_genomes_20140502_plus_2-SNP-chip_plus_Genos-GLIMPSE-flank_10000.5.Q.xlsx**)
+
 ------
 
 **Other Notes**
