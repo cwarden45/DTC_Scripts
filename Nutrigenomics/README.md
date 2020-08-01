@@ -2,12 +2,12 @@ To be fair, I am starting with a [negative bias](https://twitter.com/cwarden45/s
 
 In other words, that is a little different than the results being inaccurate, which is harder to show (and I have to be mindful of my prior expectations, since that can cause me to be overly harsh).
 
-EverlyWell (Helix for DNA Sequencing):
+Everlywell (Helix for DNA Sequencing):
 -----------------
 
-There were 3 "Genomics Tests" tests on the EverlyWell website.  I ordered two of them (the **Food Sensitivity Test+** and **Metabolism Test+**).
+There were 3 "Genomics Tests" tests on the Everlywell website.  I ordered two of them (the **Food Sensitivity Test+** and **Metabolism Test+**).
 
-One thing that I thought was interesting was that EverlyWell provides a way to share a hyperlink for your results:
+One thing that I thought was interesting was that Everlywell provides a way to share a hyperlink for your results:
 
 **Food Sensitivity Test+**: https://my.everlywell.com/share/bb7b19955a388aa6292a8236
 
