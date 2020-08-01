@@ -21,7 +21,7 @@ For the DNA part, I don't think this is the best way to survey your genome.  If 
 
 Also, for the DNA *Food Sensitivity Test+*, most of the markers are risk associations for metabolites commonly checked in blood tests for a routine check-up (which I would imagine would be free to most people with insurance).  So, if I were a doctor, I would never prescribe the DNA part (I would just check your metabolites).  It also seems concievable to me that people may more frequently have free genome sequences with programs like [All of US](https://allofus.nih.gov/).
 
-The blood *Metabolism test* measured 3 metabolites, so I entered them into my [Patients Like Me](https://www.patientslikeme.com/members/818028) profile.  I had been previously tested for TSH, so I could compare these measurements with an earlier test that was covered through insurance.  I'm not sure how much it matters (and it is probably about time for my next check-up), but the EverlyWell TSH level was a little higher than 2 of my previous measurements (as well as 1 newer measurement):
+The blood *Metabolism test* measured 3 metabolites, so I entered them into my [Patients Like Me](https://www.patientslikeme.com/members/818028) profile.  I had been previously tested for TSH, so I could compare these measurements with an earlier test that was covered through insurance.  I'm not sure how much it matters (and it is probably about time for my next check-up), but the Everlywell TSH level was a little higher than 2 of my previous measurements (as well as 1 newer measurement):
 
 ![PatientsLikeMe TSH](PatientsLikeMe_TSH.PNG "PatientsLikeMe TSH")
 
