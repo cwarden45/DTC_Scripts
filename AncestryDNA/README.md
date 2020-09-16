@@ -5,7 +5,7 @@ Personal Thoughts
 
 **Update(10/23/2019)**: I think clicking for more information about the region is interesting.  For example, the lower limit for "Germanic Europe" and "Ireland & Scotland" was ***0%*** (as well as everything except "England / Wales / Northwestern Europe" which had a range of 42-61%).
 
-**Update(9/15/2020)**: I think the increase in Scottish ancestry might not be correct.  However, even though it now has the largest individual assignment, the lower limit for "Scotland" was ***0%***.  So, I would say that is consistent with my general thought that there should be greater focus on [broad ancestry](http://cdwscience.blogspot.com/2019/08/genome-wide-broad-level-super.html) and more false positives for some of the specific country-level assignments.
+**Update(9/15/2020)**: I think the increase in Scottish ancestry might not be correct.  However, even though it now has the largest individual assignment, the lower limit for "Scotland" was ***0%***.  So, I would say that is consistent with my general thought that there should be greater focus on [broad ancestry](http://cdwscience.blogspot.com/2019/08/genome-wide-broad-level-super.html) and more false positives for some of the specific country-level assignments.  The only category with a non-zero lower limite was "England & Northwestern Europe," whose absolute value decreased to 16%, but there was a range from 15-29%.
 
 My maternal (relatively) recent ancestry is from Arkanasas (near Memphis) and Tennessee, so the "Additional Community" result of "Northern Arkansas & Middle Tennessee Settlers" was interesting.  However, I think this would be more useful as a sort of free analysis for exported raw data (rather than purchasing another chip).
 
