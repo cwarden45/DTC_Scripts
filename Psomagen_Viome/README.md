@@ -10,11 +10,11 @@ I very much hope that I can get raw data, but this does provide something that c
 
 To help me remember (and  perhaps make more clear to others) here is the content related to the blood collection:
 
-***Fasting: Viome requires fasting before collecting your Human Gene Expression™ (blood) sample.** The simplest way to do this is to collect your sample right after you wake, before eating any food or drinking anything other than water (Note—your kit instructions may not contain this step, please disregard and follow the directions here).*
+"***Fasting: Viome requires fasting before collecting your Human Gene Expression™ (blood) sample.** The simplest way to do this is to collect your sample right after you wake, before eating any food or drinking anything other than water (Note—your kit instructions may not contain this step, please disregard and follow the directions here).*
 
 *Watch our [step-by-step instruction video here](https://www.viome.com/stepstotest/health-intelligence/collect-hi) for the best techniques for easy collection.*
 
-*We recommend **collecting both your blood and stool samples within the same day** (if this is too difficult for you, a few days in between samples will not impact your results).*
+*We recommend **collecting both your blood and stool samples within the same day** (if this is too difficult for you, a few days in between samples will not impact your results).*"
 
 My experiences with my [nutrigenomics](https://github.com/cwarden45/DTC_Scripts/tree/master/Nutrigenomics) testing (which included some metabolite measurements) was that I don't think I prefer the at-home collection (if it can be avoided).  However, I will note my experiences with these specific kits.
 
