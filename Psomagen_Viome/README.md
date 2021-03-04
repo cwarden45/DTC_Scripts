@@ -1,8 +1,8 @@
 I ordered 2 kits from 2 companies (on 3/3/2021):
 
-**Psomagen**: [Gene & GutBiome Combo](https://psomagen.com/gene-gutbiome-combo/) and [GutBiome+](https://psomagen.com/gutbiome/)
+***Psomagen***: [Gene & GutBiome Combo](https://psomagen.com/gene-gutbiome-combo/) and [GutBiome+](https://psomagen.com/gutbiome/)
 
-**Viome**: [Health Intelligence Test](https://www.viome.com/products/health-intelligence) and [Gut Intelligence Test](https://www.viome.com/products/gut-intelligence)
+***Viome***: [Health Intelligence Test](https://www.viome.com/products/health-intelligence) and [Gut Intelligence Test](https://www.viome.com/products/gut-intelligence)
 
 I very much hope that I can get raw data, but this does provide something that can be compared (even if I can't).
 
