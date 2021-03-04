@@ -6,7 +6,7 @@ I ordered 2 kits from 2 companies (on 3/3/2021):
 
 I very much hope that I can get raw data, but this does provide something that can be compared (even if I can't).
 
-- I did not realize it at the time of ordering, but one of the Viome kits (including Viome Health Intelligence) requires a blood sample.  To be fair, this is listed on the [description](https://www.viome.com/products/health-intelligence) for the product, if you scroll down or find the word "Collection Method"
+- I did not realize it at the time of ordering, but one of the Viome kits (including Viome Health Intelligence) requires a **blood** sample.  To be fair, this is listed on the [description](https://www.viome.com/products/health-intelligence) for the product, if you scroll down or find the word "Collection Method"
 
 To help me remember (and  perhaps make more clear to others) here is the content related to the blood collection:
 
