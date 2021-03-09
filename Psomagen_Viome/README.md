@@ -10,7 +10,7 @@ The 2 Psomagen kits arrived on 3/8/2021, and the 2 Viome kits arrived on 3/5/202
 
 ## Other Notes
 
-- I did not realize it at the time of ordering, but one of the Viome kits (including Viome Health Intelligence) requires a **blood** sample.  To be fair, this is listed on the [description](https://www.viome.com/products/health-intelligence) for the product, if you scroll down or find the word "Collection Method"
+**1)** I did not realize it at the time of ordering, but one of the Viome kits (including Viome Health Intelligence) requires a **blood** sample.  To be fair, this is listed on the [description](https://www.viome.com/products/health-intelligence) for the product, if you scroll down or find the word "Collection Method"
 
 To help me remember (and  perhaps make more clear to others) here is the content related to the blood collection:
 
@@ -22,4 +22,4 @@ To help me remember (and  perhaps make more clear to others) here is the content
 
 My experiences with my [nutrigenomics](https://github.com/cwarden45/DTC_Scripts/tree/master/Nutrigenomics) testing (which included some metabolite measurements) was that I don't think I prefer the at-home collection (if it can be avoided).  However, I will note my experiences with these specific kits.
 
-- It might also be worth noting that [Psomagen](https://psomagen.com/) provides other genomics services, but I believe the others are not Direct-To-Consumer.
+**2)** It might also be worth noting that [Psomagen](https://psomagen.com/) provides other genomics services, but I believe the others are not Direct-To-Consumer.
