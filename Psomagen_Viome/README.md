@@ -20,6 +20,6 @@ To help me remember (and  perhaps make more clear to others) here is the content
 
 *We recommend **collecting both your blood and stool samples within the same day** (if this is too difficult for you, a few days in between samples will not impact your results).*"
 
-My experiences with my [nutrigenomics](https://github.com/cwarden45/DTC_Scripts/tree/master/Nutrigenomics) testing (which included some metabolite measurements) was that I don't think I prefer the at-home collection (if it can be avoided).  However, I will note my experiences with these specific kits.
+My experiences with my [nutrigenomics](https://github.com/cwarden45/DTC_Scripts/tree/master/Nutrigenomics) testing (which included some metabolite measurements) was that I don't think I prefer the at-home collection (if it can be avoided).  In fact, if you watch that video, you will see that you need ***4 Minivettes*** of blood (each of which appears to require multiple drops of blood).  For this reason, I am asking the company if I can just submit the stool sample.
 
 **2)** It might also be worth noting that [Psomagen](https://psomagen.com/) provides other genomics services, but I believe the others are not Direct-To-Consumer.
