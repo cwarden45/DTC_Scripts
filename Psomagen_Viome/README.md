@@ -20,7 +20,7 @@ To help me remember (and  perhaps make more clear to others) here is the content
 
 *We recommend **collecting both your blood and stool samples within the same day** (if this is too difficult for you, a few days in between samples will not impact your results).*"
 
-My experiences with my [nutrigenomics](https://github.com/cwarden45/DTC_Scripts/tree/master/Nutrigenomics) testing (which included some metabolite measurements) was that I don't think I prefer the at-home collection (if it can be avoided).  In fact, if you watch that video, you will see that you need ***4 Minivettes*** of blood (each of which appears to require multiple drops of blood).  For this reason, I am asking the company if I can just submit the stool sample (converting my kit type, without requiring blood collection).
+My experiences with my [nutrigenomics](https://github.com/cwarden45/DTC_Scripts/tree/master/Nutrigenomics) testing (which included some metabolite measurements) was that I don't think I prefer the at-home collection (if it can be avoided).  In fact, if you watch that video, you will see that you need ***4 Minivettes*** of blood (each of which appears to require multiple drops of blood, from about 2:30 to 2:55 in the video).  For this reason, I am asking the company if I can just submit the stool sample (converting my kit type, without requiring blood collection).
 
 I am not concerned about the extra costs for the part that I do not want to collect (the blood samples).  However, others might want to know that a partial refund is not possible (if they find themselves in a similar situation).  For me, this was only an extra $100 with the sale price.  However, I think the regular price difference is $300 (as of 3/10/2021).
 
