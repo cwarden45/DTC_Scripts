@@ -22,6 +22,6 @@ To help me remember (and  perhaps make more clear to others) here is the content
 
 My experiences with my [nutrigenomics](https://github.com/cwarden45/DTC_Scripts/tree/master/Nutrigenomics) testing (which included some metabolite measurements) was that I don't think I prefer the at-home collection (if it can be avoided).  In fact, if you watch that video, you will see that you need ***4 Minivettes*** of blood (each of which appears to require multiple drops of blood).  For this reason, I am asking the company if I can just submit the stool sample (converting my kit type, without requiring blood collection).
 
-I am not concerned about the extra costs for the part that I do not want to collect (the blood samples).  However, others might want to know that a partial refund is not possible (if they find themselves in a similar situation).  For me, this was only and extra $100 with the sale price.  However, I think the regular price difference is $300 (as of 3/10/2021).
+I am not concerned about the extra costs for the part that I do not want to collect (the blood samples).  However, others might want to know that a partial refund is not possible (if they find themselves in a similar situation).  For me, this was only an extra $100 with the sale price.  However, I think the regular price difference is $300 (as of 3/10/2021).
 
 **2)** It might also be worth noting that [Psomagen](https://psomagen.com/) provides other genomics services, but I believe the others are not Direct-To-Consumer.
