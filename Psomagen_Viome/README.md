@@ -8,7 +8,7 @@ I very much hope that I can get raw data, but this does provide something that c
 
 The 2 Psomagen kits arrived on 3/8/2021, and the 2 Viome kits arrived on 3/5/2021.
 
-All 4 samples were collected and mailed on 3/11/2021.
+All 4 samples were collected and mailed on 3/11/2021.  Please note that you may need to use 2 different e-mail addresses in order to compare 2 samples at the same time from Viome.
 
 ## Other Notes
 
