@@ -8,6 +8,8 @@ I very much hope that I can get raw data, but this does provide something that c
 
 The 2 Psomagen kits arrived on 3/8/2021, and the 2 Viome kits arrived on 3/5/2021.
 
+All 4 samples were collected and mailed on 3/11/2021.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
