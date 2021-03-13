@@ -14,6 +14,8 @@ All 4 samples were collected and mailed on 3/11/2021.  Please note that you may 
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
 
+Post-collection bacterial growth includes things like the "[blooms](https://msystems.asm.org/content/3/3/e00031-18)" discussed in the American Gut project paper.
+
 **2)** I did not realize it at the time of ordering, but one of the Viome kits (including Viome Health Intelligence) requires a **blood** sample.  To be fair, this is listed on the [description](https://www.viome.com/products/health-intelligence) for the product, if you scroll down or find the word "Collection Method"
 
 To help me remember (and  perhaps make more clear to others) here is the content related to the blood collection:
@@ -29,3 +31,5 @@ My experiences with my [nutrigenomics](https://github.com/cwarden45/DTC_Scripts/
 I am not concerned about the extra costs for the part that I do not want to collect (the blood samples).  However, others might want to know that a partial refund is not possible (if they find themselves in a similar situation).  For me, this was only an extra $100 with the sale price.  However, I think the regular price difference is $300 (as of 3/10/2021).
 
 **3)** It might also be worth noting that [Psomagen](https://psomagen.com/) provides other genomics services, but I believe the others are not Direct-To-Consumer.
+
+**4)** I have not tried it myself, but I believe [thryve](https://www.thryveinside.com/products/thryves-gut-health-test) is another option for gut microbiome analysis.
