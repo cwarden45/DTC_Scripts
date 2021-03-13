@@ -16,6 +16,8 @@ All 4 samples were collected and mailed on 3/11/2021.  Please note that you may 
 
 Post-collection bacterial growth includes things like the "[blooms](https://msystems.asm.org/content/3/3/e00031-18)" discussed in the American Gut project paper.
 
+It looks like the blog post that caused me to design this experiement with newer metagenomics samples is [now private](https://twitter.com/UseqMiseq/status/466559572069453825).  However, I believe that also tested technical replicates submitted to multiple companies.
+
 **2)** I did not realize it at the time of ordering, but one of the Viome kits (including Viome Health Intelligence) requires a **blood** sample.  To be fair, this is listed on the [description](https://www.viome.com/products/health-intelligence) for the product, if you scroll down or find the word "Collection Method"
 
 To help me remember (and  perhaps make more clear to others) here is the content related to the blood collection:
