@@ -20,7 +20,7 @@ In terms of predicting my traits:
 
 I was simply not reading my 23andMe report close enough, but I didn't realize this specifically related to the presence of phenylthiocarbamide (PTC) in the food.  I don't currently see the full name, but both 23andMe and All of Us report my [rs713598](https://www.ncbi.nlm.nih.gov/snp/rs713598) genotype as C/C.  For example, one of the sentences mentioning "PTC" in the 23andMe report is "*PTC isn't usually found in the human diet, but it is similar to chemicals present in vegetables like broccoli and brussels sprouts. *".
 
-**Cilantro preference**: I don't a strong cilantro report (so, does *not* match report, ***but*** report says that this association is not very predictive - almost like this is not supposed to match for a lot of people?)
+**Cilantro preference**: I don't a strong cilantro preference, good or bad (so, does *not* match report, ***but*** report says that this association is not very predictive - almost like this is not supposed to match for a lot of people?)
 
 **Earwax type**: I think my earwax is fairly wet (**does** match report)
 
