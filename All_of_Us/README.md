@@ -1,6 +1,6 @@
 My Biosample collection was on **2/21/2019**
 
-I am not exactly sure when my sample was sequenced, but I recieved a notification that I could recieve my ancestry and trait results on 3/26/2021
+I am not exactly sure when my sample was sequenced, but I recieved a notification that I could recieve my ancestry and trait results on 3/26/2021.
 
 ## Ancestry
 
