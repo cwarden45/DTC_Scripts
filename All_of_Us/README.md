@@ -2,7 +2,7 @@ I will see if I can look up the more exact date for Biosample collection.  Howev
 
 I am not exactly sure when my sample was sequenced, but I recieved a notification that I could recieve my ancestry and trait results on 3/26/2021
 
-**Ancestry:**
+### Ancestry
 
 I very much like that the emphasis in on the broad continential assignments.
 
@@ -12,7 +12,7 @@ Strictly speaking, I believe I really do have some African ancestry (or at least
 
 Also, given that these results were free, I think that this is excellent!
 
-**Traits:**
+### Traits
 
 In terms of predicting my traits:
 
