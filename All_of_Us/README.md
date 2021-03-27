@@ -26,6 +26,8 @@ I was simply not reading my 23andMe report close enough, but I didn't realize th
 
 **Lactose intolerance**: As an adult, I would say I have mild lactose intolerance (does *not* match report), and that is why I drink almond milk instead of dairy milk at home.  However, it is not so bad that I cut out dairy products altogether.
 
-I think it is worth keeping in mind that this is free.  So, even though everything doesn't match, and I did learn some things.  I am also guessing that there will be future reports, if there might be more of a sense of confidence in the results communicated (preferably with what is most clear, but some negative results might also be informative).
+I think it is worth keeping in mind that this is free.  So, even though everything doesn't match, and I did learn some things.  I am also guessing that there will be future reports.
+
+I think it might help if there was more of a sense of confidence in the results communicated.  My preference would be to focus on what is most clear, but some negative results can also be informative (particularly if it might clear up a common misconception).
 
 In terms of predictive limitations, I am glad that the subtitle for the cilantro report is "***Your DNA isn’t the key to cilantro preference***."  I wish this was even more clear, but I think this is the right idea.
