@@ -10,7 +10,9 @@ I believe that the 100% European result matches my [Genes for Good](https://gith
 
 Strictly speaking, I believe I really do have some African ancestry (or at least something a little different than the rest of my European ancestry).  However, if there is at least some voice about the limitations to the ancestry, then I think that is a good start.  If it helps, you can see more detailed information about what I am trying to say in [this blog post](http://cdwscience.blogspot.com/2019/08/genome-wide-broad-level-super.html).
 
-Also, given that these results were free, I think that this is very good!
+Also, I believe this is the same as [my separately ordered Color results](https://github.com/cwarden45/DTC_Scripts/blob/master/Color/Ancestry.PNG).  In terms of the broad ancestry, this is OK.  However, that is based upon low coverage sequecning data, which I have other concerns about.  So, I hope some of the other parts of the Color reports are not used (and I have other notes [here](https://github.com/cwarden45/DTC_Scripts/tree/master/Color)).
+
+However, given that these results were free, I think that this is good.
 
 ## Traits
 
