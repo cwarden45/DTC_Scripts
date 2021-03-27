@@ -1,4 +1,4 @@
-I will see if I can look up the more exact date for Biosample collection.  However, I think the 1st agreement that I see is from 1/26/2019.
+My Biosample collection was on **2/21/2019**
 
 I am not exactly sure when my sample was sequenced, but I recieved a notification that I could recieve my ancestry and trait results on 3/26/2021
 
