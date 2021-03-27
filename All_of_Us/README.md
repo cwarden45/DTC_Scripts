@@ -30,4 +30,4 @@ Because this is all free, I am not really complaining.
 
 However, I was hoping that the focus was going to be different than 23andMe (if anything, helping emphasize what is really well known and predictive, and when there are limits to what you can predict from genomics).
 
-For the later, I am glad that the subtitle for the cilantro report is "**Your DNA isn’t the key to cilantro preference.**"  I wish this was even more clear, but I think this is the right idea.
+For the later, I am glad that the subtitle for the cilantro report is "***Your DNA isn’t the key to cilantro preference***."  I wish this was even more clear, but I think this is the right idea.
