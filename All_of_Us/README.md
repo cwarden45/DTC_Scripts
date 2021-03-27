@@ -24,7 +24,7 @@ I was simply not reading my 23andMe report close enough, but I didn't realize th
 
 **Earwax type**: I think my earwax is fairly wet (**does** match report)
 
-**Lactose intolerance**: As an adult, I would say I have mild lactose intolerance (does *not* match report)
+**Lactose intolerance**: As an adult, I would say I have mild lactose intolerance (does *not* match report), and that is why I drink almond milk instead of dairy milk.  However, it is not so bad that I cut out dairy products altogether.
 
 Because this is all free, I am not really complaining.
 
