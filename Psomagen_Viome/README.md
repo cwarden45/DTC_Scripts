@@ -1,3 +1,5 @@
+## Sample #1
+
 I ordered 2 kits from 2 companies (on 3/3/2021):
 
 ***Psomagen***: [Gene & GutBiome Combo](https://psomagen.com/gene-gutbiome-combo/) and [GutBiome+](https://psomagen.com/gutbiome/)
@@ -10,7 +12,7 @@ The 2 Psomagen kits arrived on 3/8/2021, and the 2 Viome kits arrived on 3/5/202
 
 All 4 samples were collected and mailed on 3/11/2021.  Please note that you may need to use 2 different e-mail addresses in order to compare 2 samples at the same time from Viome.
 
-I recieved my Psomagen *Gene & GutBiome* report on 3/31/2021.
+I recieved my ***Psomagen*** *Gene & GutBiome* report on 3/31/2021.
 
 ## Other Notes
 
