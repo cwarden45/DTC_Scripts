@@ -38,4 +38,4 @@ I am not concerned about the extra costs for the part that I do not want to coll
 
 **3)** It might also be worth noting that [Psomagen](https://psomagen.com/) provides other genomics services, but I believe the others are not Direct-To-Consumer.
 
-**4)** I have not tried it myself, but I believe [thryve](https://www.thryveinside.com/products/thryves-gut-health-test) is another option for gut microbiome analysis.
+**4)** I have not tried it myself (yet), but I believe [thryve](https://www.thryveinside.com/products/thryves-gut-health-test) is another option for gut microbiome analysis.
