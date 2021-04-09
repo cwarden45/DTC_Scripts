@@ -80,7 +80,7 @@ The details are also a little different:.
 
 I think this seems like expected varation (where I would usually want replicates for metagenomics), but I hope that is made clear (and "high" and "low" are different enough to to be less likely for even biological replicates, if these had some from different stool samples - in this case, everything submitted was from ***the same stool sample***).
 
-This matches what I would expect for 16S biological replicates (even if these are from the same sample, rather than different samples).  So, this doesn't surprise me, but I hope this is made clear to most customers.  For example, perhaps I would look for highly abnormal genera, with **greater than 5%** (or maybe even greater than 10% or 15%) frequency.
+This matches what I would expect for 16S biological replicates (even if these are from the same sample, rather than different samples).  So, this doesn't surprise me, but I hope this is made clear to most customers.  For example, perhaps I would look for **uncommon genera**, with **greater than 5%** (or maybe even greater than 10% or 15%) frequency.
 
 ## Other Notes
 
