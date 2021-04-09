@@ -82,7 +82,7 @@ I think this seems like expected varation (where I would usually want replicates
 
 **This matches what I would expect for 16S biological replicates (even if these are from the same sample, rather than different samples).**  So, this doesn't surprise me, but I hope this is made clear to most customers.  For example, perhaps I would look for **uncommon genera**, with **greater than 5%** (or maybe even greater than 10% or 15%) frequency.
 
-The Psomagen Gene&GutBiome and Viome (downgraded) Health Intelligence Test come from the same location in the 1 stool.  The Psomagen GutBiome+ and Viome Gut Intelligence Test come from the same location in the stool sample, but it is different than the other 2 samples (even though those also came from the same stool sample).
+The Psomagen Gene&GutBiome and Viome (downgraded) Health Intelligence Test come from the same location in the 1 stool.  The Psomagen GutBiome+ and Viome Gut Intelligence Test come from the same location in the stool sample, but it is different than the other 2 samples (even though all 4 came from the same stool sample).
 
 ## Other Notes
 
