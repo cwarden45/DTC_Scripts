@@ -61,17 +61,17 @@ The details are also a little different:.
       <td align="left">?</td>
      </tr>
       <tr>
-      <td align="center"><i>Parasutterella excrementihominis</i>/td>
+      <td align="center"><i>Parasutterella excrementihominis</i></td>
       <td align="left">2.0%</td>
       <td align="left">0.6%</td>
      </tr>
       <tr>
-      <td align="center"><i>Ruminococcus bicirculans</i>/td>
+      <td align="center"><i>Ruminococcus bicirculans</i></td>
       <td align="left">2.5%</td>
       <td align="left">0.8%</td>
      </tr>
       <tr>
-      <td align="center"><i>Ruminococcus bicirculans</i>/td>
+      <td align="center"><i>Ruminococcus bicirculans</i></td>
       <td align="left">2.1%</td>
       <td align="left">?</td>
      </tr>
