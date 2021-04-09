@@ -71,7 +71,7 @@ The details are also a little different:.
       <td align="left">0.8%</td>
      </tr>
       <tr>
-      <td align="center"><i>Ruminococcus bicirculans</i></td>
+      <td align="center"><i>Ruminococcus bromii</i></td>
       <td align="left">2.1%</td>
       <td align="left">?</td>
      </tr>
