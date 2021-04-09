@@ -26,37 +26,37 @@ The details are also a little different:.
       <th align="center">Psomagen<br>GutBiome+</th>
     </tr>
     <tr>
-      <td align="center"><i>Agathobacter rectalis</i>/td>
+      <td align="center"><i>Agathobacter rectalis</i></td>
       <td align="left">7.6%</td>
       <td align="left">2.3%</td>
      </tr>
     <tr>
-      <td align="center"><i>Akkermansia muciniphila</i>/td>
+      <td align="center"><i>Akkermansia muciniphila</i></td>
       <td align="left">3.0%</td>
       <td align="left">1.0%<br>(<i>Akkermansia sp</i>)</td>
      </tr>
     <tr>
-      <td align="center"><i>Faecalibacterium prausnitzii</i>/td>
+      <td align="center"><i>Faecalibacterium prausnitzii</i></td>
       <td align="left">9.2%</td>
       <td align="left">1.9%</td>
      </tr>
     <tr>
-      <td align="center"><i>Bacteroides stercoris</i>/td>
+      <td align="center"><i>Bacteroides stercoris</i></td>
       <td align="left">19%</td>
       <td align="left">24.3%</td>
      </tr>
     <tr>
-      <td align="center"><i>Bacteroides uniformis</i>/td>
+      <td align="center"><i>Bacteroides uniformis</i></td>
       <td align="left">5.5%</td>
       <td align="left">8.2%</td>
      </tr>
       <tr>
-      <td align="center"><i>Bacteroides vulgatus</i>/td>
+      <td align="center"><i>Bacteroides vulgatus</i></td>
       <td align="left">17%</td>
       <td align="left">13.8%</td>
      </tr>
       <tr>
-      <td align="center"><i>Lachnospira eligens</i>/td>
+      <td align="center"><i>Lachnospira eligens</i></td>
       <td align="left">1.5%</td>
       <td align="left">?</td>
      </tr>
