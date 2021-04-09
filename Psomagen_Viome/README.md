@@ -14,6 +14,72 @@ All 4 samples were collected and mailed on 3/11/2021.  Please note that you may 
 
 I recieved my ***Psomagen*** *Gene & GutBiome* report on 3/31/2021.
 
+I recieved my ***Psomagen*** *GutBiome+* report on 4/9/2021.  I think this is a different report than the GutBiome portion of the other report, including diversity scores that are on different scales?  For the same sample, I had a diversity value of 77 for *Gene & GutBiome* and 52 for *GutBiome+*.
+
+The details are also a little different:.
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Genus</th>
+      <th align="center">Psomagen<br>Gene & GutBiome</th>
+      <th align="center">Psomagen<br>GutBiome+</th>
+    </tr>
+    <tr>
+      <td align="center"><i>Agathobacter rectalis</i>/td>
+      <td align="left">7.6%</td>
+      <td align="left">2.3%</td>
+     </tr>
+    <tr>
+      <td align="center"><i>Akkermansia muciniphila</i>/td>
+      <td align="left">3.0%</td>
+      <td align="left">1.0%<br>(<i>Akkermansia sp</i>)</td>
+     </tr>
+    <tr>
+      <td align="center"><i>Faecalibacterium prausnitzii</i>/td>
+      <td align="left">9.2%</td>
+      <td align="left">1.9%</td>
+     </tr>
+    <tr>
+      <td align="center"><i>Bacteroides stercoris</i>/td>
+      <td align="left">19%</td>
+      <td align="left">24.3%</td>
+     </tr>
+    <tr>
+      <td align="center"><i>Bacteroides uniformis</i>/td>
+      <td align="left">5.5%</td>
+      <td align="left">8.2%</td>
+     </tr>
+      <tr>
+      <td align="center"><i>Bacteroides vulgatus</i>/td>
+      <td align="left">17%</td>
+      <td align="left">13.8%</td>
+     </tr>
+      <tr>
+      <td align="center"><i>Lachnospira eligens</i>/td>
+      <td align="left">1.5%</td>
+      <td align="left">?</td>
+     </tr>
+      <tr>
+      <td align="center"><i>Parasutterella excrementihominis</i>/td>
+      <td align="left">2.0%</td>
+      <td align="left">0.6%</td>
+     </tr>
+      <tr>
+      <td align="center"><i>Ruminococcus bicirculans</i>/td>
+      <td align="left">2.5%</td>
+      <td align="left">0.8%</td>
+     </tr>
+      <tr>
+      <td align="center"><i>Ruminococcus bicirculans</i>/td>
+      <td align="left">2.1%</td>
+      <td align="left">?</td>
+     </tr>
+</tbody>
+</table>
+
+I think this seems like expected varation (where I would usually want replicates for metagenomics), but I hope that is made clear (and "high" and "low" are different enough to to be less likely for even biological replicates (if these had some from different stool samples).
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
