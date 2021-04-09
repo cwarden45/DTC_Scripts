@@ -80,7 +80,7 @@ The details are also somewhat different:
 
 I think this seems like expected varation (where I would usually want replicates for metagenomics), but I hope that is made clear (and "high" and "low" are different enough to to be less likely for even biological replicates, if these had some from different stool samples - in this case, everything submitted was from ***the same stool sample***).
 
-**This matches what I would expect for 16S biological replicates (even if these are from the same sample, rather than different samples).**  So, this doesn't surprise me, but I hope this is made clear to most customers.  For example, I might check for for **uncommon genera**, and/or changes with **greater than 5%** (or maybe even greater than 10% or 15%) absolute frequency.
+**This matches what I would expect for 16S biological replicates (even if these are from the same sample, rather than different samples).**  So, this doesn't surprise me, but I hope this is made clear to most customers.  For example, I might check for for **uncommon genera**, and/or changes of **greater than 5%** (or maybe even greater than 10% or 15%) in absolute frequency.
 
 The Psomagen Gene&GutBiome and Viome (downgraded) Health Intelligence Test come from the same location in the 1 stool.  The Psomagen GutBiome+ and Viome Gut Intelligence Test come from the same location in the stool sample, but it is different than the other 2 samples (even though all 4 came from the same stool sample).
 
