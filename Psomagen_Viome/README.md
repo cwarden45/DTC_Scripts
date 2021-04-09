@@ -80,6 +80,8 @@ The details are also a little different:.
 
 I think this seems like expected varation (where I would usually want replicates for metagenomics), but I hope that is made clear (and "high" and "low" are different enough to to be less likely for even biological replicates, if these had some from different stool samples - in this case, everything submitted was from ***the same stool sample***).
 
+This matches what I would expect for 16S biological replicates (even if these are from the same sample, rather than different samples).  So, this doesn't surprise me, but I hope this is made clear to most customers.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
