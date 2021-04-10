@@ -27,6 +27,8 @@ The blood *Metabolism test* measured 3 metabolites, so I entered them into my [P
 
 In the interests of fairness, I believe all PatientsLikeMe members have access to lab results from other members.  So, you can see the variability for other results (which are all otherwise from labs prescribed by doctors).
 
+Also, on 4/6/2021, I had a regular Quest TSH blood test with a more similar measurement.  So, I will keep an eye on this to see if more than 3 control replicates might be helpful.
+
 That said, since I noticed that Everywell offered a [COVID-19 Test](https://www.everlywell.com/products/covid-19-test/), I did submit an [FDA MedWatch report](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/detail.cfm?mdrfoi__id=9910473&pc=PTA) in order to make sure the FDA was aware of what I had encountered.
 
 Because I already had Helix Exome+ data, the cost for these tests was a little lower than me.  However, the Metabolism Test then cost *$149.99* and the Food Sensitivity then cost *$209.99*.  So, if these are things that you can get through your insurance, that may be worth considering.
