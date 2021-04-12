@@ -87,14 +87,17 @@ The Psomagen Gene&GutBiome and Viome (downgraded) Health Intelligence Test come 
 After sending an e-mail request, Psomagen provided me with my raw data on 4/12/2021:
 
 **GutBiome+**:
+
 [http://ngs2.macrogenlab.com/~customer/2104/2103DNHX-0611/C229-J888-E267_R1.fastq.gz](http://ngs2.macrogenlab.com/~customer/2104/2103DNHX-0611/C229-J888-E267_R1.fastq.gz)
 [http://ngs2.macrogenlab.com/~customer/2104/2103DNHX-0611/C229-J888-E267_R2.fastq.gz](http://ngs2.macrogenlab.com/~customer/2104/2103DNHX-0611/C229-J888-E267_R2.fastq.gz)
 
 **Gene & GutBiome (*GutBiome*)**:
+
 [http://ngs2.macrogenlab.com/~customer/2104/2103DNMI-0598/B374-R052-T972_R1.fastq.gz](http://ngs2.macrogenlab.com/~customer/2104/2103DNMI-0598/B374-R052-T972_R1.fastq.gz)
 [http://ngs2.macrogenlab.com/~customer/2104/2103DNMI-0598/B374-R052-T972_R2.fastq.gz](http://ngs2.macrogenlab.com/~customer/2104/2103DNMI-0598/B374-R052-T972_R2.fastq.gz)
 
 **Gene & GutBiome (*Gene*)**:
+
 [http://ngs2.macrogenlab.com/~customer/2104/2103DNSC-0599/A374-R052-T972.zip](http://ngs2.macrogenlab.com/~customer/2104/2103DNSC-0599/A374-R052-T972.zip)
 
 Viome said that they do not currently provide raw data.
