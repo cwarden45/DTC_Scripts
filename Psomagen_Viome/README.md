@@ -102,7 +102,9 @@ After sending an e-mail request, Psomagen provided me with my raw data on 4/12/2
 
 Viome said that they do not currently provide raw data.
 
-I don't believe that I recieved an e-mail, but I noticed my results were available for my downgraded Viome Health Intelligence Test on 4/15/2021 (and I believe the sample information says that this was available on 4/14/2021).
+I don't believe that I recieved an e-mail, but I noticed my results were available for my downgraded Viome Health Intelligence Test on 4/15/2021 (and I believe the sample information says that this was available on 4/14/2021).  My regular Gut Intelligence was not ready, as of 4/15/2021.
+
+I can tell that I am not going to avoid a lot of the Viome recommendations to "Avoid" (such as Almonds) or take any of the recommended supplements.
 
 ## Other Notes
 
