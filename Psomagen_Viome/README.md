@@ -102,6 +102,8 @@ After sending an e-mail request, Psomagen provided me with my raw data on 4/12/2
 
 Viome said that they do not currently provide raw data.
 
+I don't believe that I recieved an e-mail, but I noticed my results were available for my downgraded Viome Health Intelligence Test on 4/15/2021 (and I believe the sample information says that this was available on 4/14/2021).
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
