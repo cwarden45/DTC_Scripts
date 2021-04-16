@@ -66,7 +66,7 @@ The details are also somewhat different:
       <td align="center"><i>Lachnospira eligens</i></td>
       <td align="left">1.5%</td>
       <td align="left">?</td>
-      <td align="left">Active<br>(Lachnospiraceae bacterium?)</td>
+      <td align="left">Active?<br>(Lachnospiraceae bacterium?)</td>
       <td align="left"></td>
     </tr>
     <tr>
