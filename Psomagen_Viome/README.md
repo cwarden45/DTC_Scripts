@@ -24,7 +24,7 @@ The details are also somewhat different:
       <th align="center">Genus</th>
       <th align="center">Psomagen<br>Gene & GutBiome</th>
       <th align="center">Psomagen<br>GutBiome+</th>
-      <th align="center">Viome<br>Gut Intelligence<br>(down-graded)</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(downgraded)</th>
       <th align="center">Viome<br>Gut Intelligence<br>(as purchased)</th>
     </tr>
     <tr>
