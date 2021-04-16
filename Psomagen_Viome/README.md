@@ -128,6 +128,8 @@ I don't believe that I recieved an e-mail, but I noticed my results were availab
 
 I can tell that I am not going to avoid a lot of the Viome recommendations to "Avoid" (such as Almonds) or take any of the recommended supplements.
 
+I also added some notes in the table with the Psomagen samples above.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
