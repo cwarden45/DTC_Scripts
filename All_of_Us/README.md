@@ -2,6 +2,8 @@ My Biosample collection was on **2/21/2019**
 
 I am not exactly sure when my sample was sequenced, but I recieved a notification that I could recieve my ancestry and trait results on 3/26/2021.
 
+If you are not already aware of the program for free genome sequencing, you can learn more about **All of Us** [here](https://allofus.nih.gov/).
+
 ## Ancestry
 
 I very much like that the emphasis in on the broad continential assignments.
