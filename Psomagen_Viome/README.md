@@ -32,70 +32,70 @@ The details are also somewhat different:
       <td align="left">7.6%</td>
       <td align="left">2.3%</td>
       <td align="left">Not Active?</td>
-      <td align="left"></td>
+      <td align="left">Not Active?</td>
      </tr>
     <tr>
       <td align="center"><i>Akkermansia muciniphila</i></td>
       <td align="left">3.0%</td>
       <td align="left">1.0%<br>(<i>Akkermansia sp</i>)</td>
       <td align="left">Active</td>
-      <td align="left"></td>
+      <td align="left">Active</td>
     </tr>
     <tr>
       <td align="center"><i>Bacteroides stercoris</i></td>
       <td align="left">19%</td>
       <td align="left">24.3%</td>
-      <td align="left">Active<br>(ATCC 43183)</td>
-      <td align="left"></td>
+      <td align="left">Active<br>(ATCC 43183)<br>(ATCC CC31F)<br>(ATCC CL09T03C01)<br>(ATCC DSM)</td>
+      <td align="left">Active<br>(ATCC 43183)<br>(ATCC CC31F)<br>(ATCC CL09T03C01)<br>(ATCC DSM)</td>
     </tr>
     <tr>
       <td align="center"><i>Bacteroides uniformis</i></td>
       <td align="left">5.5%</td>
       <td align="left">8.2%</td>
       <td align="left">Active</td>
-      <td align="left"></td>
+      <td align="left">Active</td>
       </tr>
       <tr>
       <td align="center"><i>Bacteroides vulgatus</i></td>
       <td align="left">17%</td>
       <td align="left">13.8%</td>
       <td align="left">Active<br>(ATCC 8482)</td>
-      <td align="left"></td>
+      <td align="left">Active<br>(ATCC 8482)</td>
       </tr>
       <tr>
       <td align="center"><i>Lachnospira eligens</i></td>
       <td align="left">1.5%</td>
       <td align="left">?</td>
       <td align="left">Active?<br>(Lachnospiraceae bacterium?)</td>
-      <td align="left"></td>
+      <td align="left">Active?<br>(Lachnospiraceae bacterium?)</td>
     </tr>
     <tr>
       <td align="center"><i>Faecalibacterium prausnitzii</i></td>
       <td align="left">9.2%</td>
       <td align="left">1.9%</td>
       <td align="left">Active</td>
-      <td align="left"></td>
+      <td align="left">Active</td>
     </tr>
     <tr>
       <td align="center"><i>Parasutterella excrementihominis</i></td>
       <td align="left">2.0%</td>
       <td align="left">0.6%</td>
       <td align="left">Active<br>(YIT 11859)</td>
-      <td align="left"></td>
+      <td align="left">Active<br>(YIT 11859)</td>
       </tr>
       <tr>
       <td align="center"><i>Ruminococcus bicirculans</i></td>
       <td align="left">2.5%</td>
       <td align="left">0.8%</td>
       <td align="left">Active</td>
-      <td align="left"></td>
+      <td align="left">Active</td>
       </tr>
       <tr>
       <td align="center"><i>Ruminococcus bromii</i></td>
       <td align="left">2.1%</td>
       <td align="left">?</td>
       <td align="left">Not Active?</td>
-      <td align="left"></td>
+      <td align="left">Not Active?</td>
       </tr>
 </tbody>
 </table>
@@ -129,6 +129,8 @@ I don't believe that I recieved an e-mail, but I noticed my results were availab
 I can tell that I am not going to avoid a lot of the Viome recommendations to "Avoid" (such as Almonds) or take any of the recommended supplements.
 
 I also added some notes in the table with the Psomagen samples above.
+
+I was able to download my reports for my 2nd Viome sample on 4/26/2021.
 
 ## Other Notes
 
