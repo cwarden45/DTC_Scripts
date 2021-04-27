@@ -210,6 +210,15 @@ So, I think it is fair to say that you should probably **hesitate to take any ac
 
 ## Sample #2
 
+I ordered 3 kits from 3 companies on 4/26/2021 (1 for each program):
+
+***Psomagen***: [GutBiome+](https://psomagen.com/gutbiome/)
+
+***Viome***: [Gut Intelligence Test](https://www.viome.com/products/gut-intelligence)
+
+***thryve***: [Gut Health Test](https://www.thryveinside.com/products/thryves-gut-health-test)
+
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
