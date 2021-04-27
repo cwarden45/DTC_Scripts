@@ -206,6 +206,8 @@ However, for the 1st sample, this also provides the opporunity to compare the sc
 </tbody>
 </table>
 
+So, I think it is fair to say that you should probably **hesitate to take any action based upon these results**.  I expected this for most values with thresholds that I would guess were within a normal distribution.  However, I was a bit surprised by the 1st to 12th percentile difference, even though the absolute difference is perhaps comparible to other categories (where I would guess I should probably be "average" for most or all of them).
+
 ## Sample #2
 
 ## Other Notes
