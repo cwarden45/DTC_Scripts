@@ -132,6 +132,82 @@ I also added some notes in the table with the Psomagen samples above.
 
 I was able to download my reports for my 2nd Viome sample on 4/26/2021.
 
+I am not currently planning on ordering 2 of each kit for each subsequent sample.
+
+However, for the 1st sample, this also provides the opporunity to compare the scores for the 2 Viome samples **for the same sample**:
+
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Genus</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(downgraded)</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(as purchased)</th>
+    </tr>
+    <tr>
+      <td align="center">Gut Microbiome Health</td>
+      <td align="left">41<br><b>Not Optimal</b></td>
+      <td align="left">49<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Inflammatory Activity</td>
+      <td align="left">41<br>Average</td>
+      <td align="left">36<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Metabolic Fitness</td>
+      <td align="left">28<br>Average</td>
+      <td align="left">29<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Digestive Efficiency</td>
+      <td align="left">56<br>Average</td>
+      <td align="left">71<br><i>Good</i></td>
+     </tr>
+    <tr>
+      <td align="center">Gut Lining Health</td>
+      <td align="left">67<br>Average</td>
+      <td align="left">68<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Protein Fermentation</td>
+      <td align="left">42<br>Average</td>
+      <td align="left">28<br><i>Good</i></td>
+     </tr>
+    <tr>
+      <td align="center">Gas Production</td>
+      <td align="left">46<br>Average</td>
+      <td align="left">30<br><i>Good</i></td>
+     </tr>
+    <tr>
+      <td align="center">Active Microbial Diversity</td>
+      <td align="left">1st Percentile<br><b>Not Optimal</b></td>
+      <td align="left">12th Percentile<br>Average</td>
+     </tr>
+      <td align="center">Vegetables to Avoid</td>
+      <td align="left">Bell Pepper<br>Broccoli<br>Brussels Sprouts<br>Cabbage<br>Mustard Greens<br>Tomato</td>
+      <td align="left">Bell Pepper<br>Tomato</td>
+     </tr>
+     </tr>
+      <td align="center">Proteins and Fats to Avoid</td>
+      <td align="left">Almonds<br>Chicken Egg Yolk<br>Pistachios</td>
+      <td align="left">Almonds<br>Pistachios</td>
+     </tr>
+     </tr>
+      <td align="center">Fruits and Grains to Avoid</td>
+      <td align="left"><i>None</i></td>
+      <td align="left"><i>None</i></td>
+     </tr>
+     </tr>
+      <td align="center">Other Food Items to Avoid</td>
+      <td align="left"><i>None</i></td>
+      <td align="left"><i>None</i></td>
+     </tr>
+</tbody>
+</table>
+
+## Sample #2
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
