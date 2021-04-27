@@ -233,5 +233,3 @@ My experiences with my [nutrigenomics](https://github.com/cwarden45/DTC_Scripts/
 I am not concerned about the extra costs for the part that I do not want to collect (the blood samples).  However, others might want to know that a partial refund is not possible (if they find themselves in a similar situation).  For me, this was only an extra $100 with the sale price.  However, I think the regular price difference is $300 (as of 3/10/2021).
 
 **3)** It might also be worth noting that [Psomagen](https://psomagen.com/) provides other genomics services, but I believe the others are not Direct-To-Consumer.
-
-**4)** I have not tried it myself (yet), but I believe [thryve](https://www.thryveinside.com/products/thryves-gut-health-test) is another option for gut microbiome analysis.
