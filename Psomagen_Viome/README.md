@@ -218,6 +218,8 @@ I ordered 3 kits from 3 companies on 4/26/2021 (1 for each program):
 
 ***thryve***: [Gut Health Test](https://www.thryveinside.com/products/thryves-gut-health-test)
 
+The Viome and thryve kits arrived on 4/29/2021.
+
 
 ## Other Notes
 
