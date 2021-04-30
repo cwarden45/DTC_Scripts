@@ -249,4 +249,4 @@ I am not concerned about the extra costs for the part that I do not want to coll
 
 I double-checked with the vendor and the [Floré Gut Health Test Kit](https://sungenomics.com/products/microbiome-collection-kit) from Sun Genomics does **not** offer raw FASTQ files.
 
-My understanding is that the [BIOHM Gut Test](https://www.biohmhealth.com/products/gut-report-kit-new) does not currently provide FASTQ files, but they would be willing to work with me to provide that data individually (at least for Excel files with read classification counts).  So, I think I will probably check that out for my 3rd sample.
+My understanding is that the [BIOHM Gut Test](https://www.biohmhealth.com/products/gut-report-kit-new) does not currently provide FASTQ files, but they would be willing to work with me to provide "raw" data individually (at least for Excel files with read classification counts).  So, I think I will probably check that out for my 3rd sample.
