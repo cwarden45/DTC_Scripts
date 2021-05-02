@@ -184,6 +184,10 @@ However, for the 1st sample, this also provides the opporunity to compare the sc
       <td align="left">1st Percentile<br><b>Not Optimal</b></td>
       <td align="left">12th Percentile<br>Average</td>
      </tr>
+      <tr>
+      <td align="center" colspan="3"></td>
+     </tr>
+    <tr>
       <td align="center">Vegetables to Avoid</td>
       <td align="left">Bell Pepper<br>Broccoli<br>Brussels Sprouts<br>Cabbage<br>Mustard Greens<br>Tomato</td>
       <td align="left">Bell Pepper<br>Tomato</td>
@@ -219,6 +223,8 @@ I ordered 3 kits from 3 companies on 4/26/2021 (1 for each program):
 ***thryve***: [Gut Health Test](https://www.thryveinside.com/products/thryves-gut-health-test)
 
 The Viome and thryve kits arrived on 4/29/2021.
+
+My Psomagen kit arrived on 4/30/2021.
 
 
 ## Other Notes
