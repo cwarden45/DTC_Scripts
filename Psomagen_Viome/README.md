@@ -226,6 +226,10 @@ The Viome and thryve kits arrived on 4/29/2021.
 
 My Psomagen kit arrived on 4/30/2021.
 
+All 3 samples collected on 5/3/2021.
+
+**I did not make any changes to my diet, based upon the previous set of results.**
+
 
 ## Other Notes
 
