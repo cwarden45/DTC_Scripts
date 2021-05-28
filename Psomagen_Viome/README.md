@@ -228,9 +228,12 @@ My Psomagen kit arrived on 4/30/2021.
 
 All 3 samples collected on 5/3/2021.
 
+**I did not make any changes to my diet, based upon the previous set of results.**
+
 I recieved my **thryve** results on 5/19/2021.  This includes CSV assignments for classifications, as well as FASTQ files.
 
-**I did not make any changes to my diet, based upon the previous set of results.**
+I received a notification that my *Viome* sample would need to be reprocessed (same sample, new sequencing run) on 5/27/2021.
+
 
 
 ## Other Notes
