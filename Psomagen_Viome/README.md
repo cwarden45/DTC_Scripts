@@ -234,6 +234,7 @@ I recieved my **thryve** results on 5/19/2021.  This includes CSV assignments fo
 
 I received a notification that my *Viome* sample would need to be reprocessed (same sample, new sequencing run) on 5/27/2021.
 
+I recieved by **Psomagen** report on 5/29/2021.
 
 
 ## Other Notes
