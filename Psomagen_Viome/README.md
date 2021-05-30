@@ -322,7 +322,7 @@ Similar to before, here is a comparison of classificaiton for this same sample:
       <td align="center"><i>Pseudomonas</i></td>
       <td align="left">Not Reported?</td>
       <td align="left"></td>
-      <td align="left">0.002%<br>(genus-level)<br>(bad bacteria, healthy level)</td>
+      <td align="left">0.002%<br>(genus-level)<br>(bad bacteria,<br> healthy level)</td>
       </tr>
     <tr>
       <td align="center"><i>Roseburia</i></td>
