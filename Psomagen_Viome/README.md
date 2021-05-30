@@ -256,19 +256,19 @@ Similar to before, here is a comparison of classificaiton for this same sample:
       <td align="center"><i>Akkermansia sp</i></td>
       <td align="left">1.4%</td>
       <td align="left"></td>
-      <td align="left">0.916%<br>genus-level</td>
+      <td align="left">0.916%<br>(genus-level)</td>
     </tr>
      <tr>
       <td align="center"><i>Alistipes</i></td>
       <td align="left">13.2%<br>7 species</td>
       <td align="left"></td>
-      <td align="left">3.223%<br>genus-level</td>
+      <td align="left">3.223%<br>(genus-level)</td>
     </tr>
     <tr>
       <td align="center"><i>Bacteroides stercoris</i></td>
       <td align="left">26.5%</td>
       <td align="left"></td>
-      <td align="left">54.456%<br>genus-level</td>
+      <td align="left">54.456%<br>(genus-level)</td>
     </tr>
     <tr>
       <td align="center"><i>Bacteroides uniformis</i></td>
@@ -286,31 +286,31 @@ Similar to before, here is a comparison of classificaiton for this same sample:
       <td align="center"><i>Bifidobacterium</i></td>
       <td align="left">Not Detected</td>
       <td align="left"></td>
-      <td align="left">0.026%<br>genus-level</td>
+      <td align="left">0.026%<br>(genus-level)</td>
     </tr>
     <tr>
       <td align="center"><i>Blautia</i></td>
       <td align="left">Not Reported?</td>
       <td align="left"></td>
-      <td align="left">3.949%<br>genus-level</td>
+      <td align="left">3.949%<br>(genus-level)</td>
     </tr>
     <tr>
       <td align="center"><i>Eubacterium</i></td>
       <td align="left">Not Reported?</td>
       <td align="left"></td>
-      <td align="left">6.802%<br>genus-level</td>
+      <td align="left">6.802%<br>(genus-level)</td>
     </tr>
     <tr>
       <td align="center"><i>Faecalibacterium prausnitzii</i></td>
       <td align="left">2.0%</td>
       <td align="left"></td>
-      <td align="left">1.687%<br>genus-level</td>
+      <td align="left">1.687%<br>(genus-level)</td>
     </tr>
     <tr>
       <td align="center"><i>Lactobacillus</i></td>
       <td align="left">Not Detected</td>
       <td align="left"></td>
-      <td align="left">0.006%<br>genus-level</td>
+      <td align="left">0.006%<br>(genus-level)</td>
       </tr>
     <tr>
       <td align="center"><i>Parasutterella excrementihominis</i></td>
@@ -322,19 +322,19 @@ Similar to before, here is a comparison of classificaiton for this same sample:
       <td align="center"><i>Pseudomonas</i></td>
       <td align="left">Not Reported?</td>
       <td align="left"></td>
-      <td align="left">0.002%<br>genus-level<br>bad bacteria, healthy level</td>
+      <td align="left">0.002%<br>(genus-level)<br>(bad bacteria, healthy level)</td>
       </tr>
     <tr>
       <td align="center"><i>Roseburia</i></td>
       <td align="left">Not Reported?</td>
       <td align="left"></td>
-      <td align="left">0.717%<br>genus-level</td>
+      <td align="left">0.717%<br>(genus-level)</td>
       </tr>
     <tr>
       <td align="center"><i>Ruminococcus bicirculans</i></td>
       <td align="left">0.3%</td>
       <td align="left"></td>
-      <td align="left">6.734%<br>genus-level</td>
+      <td align="left">6.734%<br>(genus-level)</td>
       </tr>
 </tbody>
 </table>
