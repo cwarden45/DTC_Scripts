@@ -41,6 +41,13 @@ The details are also somewhat different:
       <td align="left">Active</td>
       <td align="left">Active</td>
     </tr>
+     <tr>
+      <td align="center"><i>Alistipes</i></td>
+      <td align="left">4.5%<br>(genus-level)</td>
+      <td align="left">10.7%<br>(7 species)</td>
+      <td align="left">Active<br>(9 species)</td>
+      <td align="left">Active<br>(9 species)</td>
+    </tr>
     <tr>
       <td align="center"><i>Bacteroides stercoris</i></td>
       <td align="left">19%</td>
