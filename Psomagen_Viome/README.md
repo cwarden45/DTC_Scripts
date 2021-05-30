@@ -248,7 +248,7 @@ Similar to before, here is a comparison of classificaiton for this same sample:
     </tr>
     <tr>
       <td align="center"><i>Agathobacter rectalis</i></td>
-      <td align="left">2.2%%</td>
+      <td align="left">2.2%</td>
       <td align="left"></td>
       <td align="left">Not Classified?</td>
      </tr>
