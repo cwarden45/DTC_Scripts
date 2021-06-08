@@ -346,6 +346,11 @@ Similar to before, here is a comparison of classificaiton for this same sample:
 </tbody>
 </table>
 
+I sent an e-mail to **Psomagen** to obtain my FASTQ files on 5/29/2021, and I recieved links to download the FASTQ files on 6/8/2021:
+
+[http://ngs2.macrogenlab.com/~customer/2106/2105DNHX-0230/C058-S779-Y072_R1.fastq.gz](http://ngs2.macrogenlab.com/~customer/2106/2105DNHX-0230/C058-S779-Y072_R1.fastq.gz)
+
+[http://ngs2.macrogenlab.com/~customer/2106/2105DNHX-0230/C058-S779-Y072_R2.fastq.gz](http://ngs2.macrogenlab.com/~customer/2106/2105DNHX-0230/C058-S779-Y072_R2.fastq.gz)
 
 ## Other Notes
 
