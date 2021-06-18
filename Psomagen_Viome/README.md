@@ -354,6 +354,113 @@ I sent an e-mail to **Psomagen** to obtain my FASTQ files on 5/29/2021, and I re
 
 I recieved my **Viome** results on 6/16/2021.
 
+The Viome results are somewhat harder to compare.  However, I can compare the scores between measurements.  So, I have added the new sample in the table with earlier samples:
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Genus</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(downgraded)<br>3/11/2021</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(as purchased)<br>3/11/2021</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(as purchased)<br>5/3/2021</th>
+    </tr>
+    <tr>
+      <td align="center">Gut Microbiome Health</td>
+      <td align="left">41<br><b>Not Optimal</b></td>
+      <td align="left">49<br>Average</td>
+      <td align="left">36<br><b>Not Optimal</b></td>
+     </tr>
+    <tr>
+      <td align="center">Inflammatory Activity</td>
+      <td align="left">41<br>Average</td>
+      <td align="left">36<br>Average</td>
+      <td align="left">44<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Metabolic Fitness</td>
+      <td align="left">28<br>Average</td>
+      <td align="left">29<br>Average</td>
+      <td align="left">31<br><i>Good</i></td>
+     </tr>
+    <tr>
+      <td align="center">Digestive Efficiency</td>
+      <td align="left">56<br>Average</td>
+      <td align="left">71<br><i>Good</i></td>
+      <td align="left">41<br><b>Not Optimal</b></td>
+     </tr>
+    <tr>
+      <td align="center">Gut Lining Health</td>
+      <td align="left">67<br>Average</td>
+      <td align="left">68<br>Average</td>
+      <td align="left">67<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Protein Fermentation</td>
+      <td align="left">42<br>Average</td>
+      <td align="left">28<br><i>Good</i></td>
+      <td align="left">75<br><b>Not Optimal</b></td>
+     </tr>
+    <tr>
+      <td align="center">Gas Production</td>
+      <td align="left">46<br>Average</td>
+      <td align="left">30<br><i>Good</i></td>
+      <td align="left">62<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Active Microbial Diversity</td>
+      <td align="left">1st Percentile<br><b>Not Optimal</b></td>
+      <td align="left">12th Percentile<br>Average</td>
+      <td align="left">4th Percentile<br><b>Not Optimal</b></td>
+     </tr>
+       <tr>
+      <td align="center" colspan="3"></td>
+     </tr>
+     <tr>
+      <td align="center">Total Supplement Recommendation Count</td>
+      <td align="left">28</td>
+      <td align="left">30</td>
+      <td align="left">37</td>
+     </tr>
+     <tr>
+      <td align="center">Total Probiotic Recommendation Count</td>
+      <td align="left">19</td>
+      <td align="left">18</td>
+      <td align="left">18</td>
+     </tr>
+      <tr>
+      <td align="center" colspan="3"></td>
+     </tr>
+    <tr>
+      <td align="center">Vegetables to Avoid</td>
+      <td align="left">Bell Pepper<br>Broccoli<br>Brussels Sprouts<br>Cabbage<br>Mustard Greens<br>Tomato</td>
+      <td align="left">Bell Pepper<br>Tomato</td>
+      <td align="left">Bell Pepper<br>Sauerkraut<br>Tomato</td>
+     </tr>
+     </tr>
+      <td align="center">Proteins and Fats to Avoid</td>
+      <td align="left">Almonds<br>Chicken Egg Yolk<br>Pistachios</td>
+      <td align="left">Almonds<br>Pistachios</td>
+      <td align="left">Kefir (Cow Milk)<br>Yogurt (Cow Milk, Plain)</td>
+     </tr>
+     </tr>
+      <td align="center">Fruits and Grains to Avoid</td>
+      <td align="left"><i>None</i></td>
+      <td align="left"><i>None</i></td>
+      <td align="left">Barley<br>Blueberry</td>
+     </tr>
+     </tr>
+      <td align="center">Other Food Items to Avoid</td>
+      <td align="left"><i>None</i></td>
+      <td align="left"><i>None</i></td>
+      <td align="left">Coffee<br></td>
+     </tr>
+</tbody>
+</table>
+
+I eat Activia with my lunch most days, and I think it helps some.  So, I am ***not*** doing to stop taking that.
+
+*Again, please remember that I have **not** made any recommended changes from the previous collection.*  So, I drink almond milk, and I think that is helpful.  However, I didn't do anything different for almonds to be removed from the foods to avoid.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
