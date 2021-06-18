@@ -256,91 +256,91 @@ Similar to before, here is a comparison of classificaiton for this same sample:
     <tr>
       <td align="center"><i>Agathobacter rectalis</i></td>
       <td align="left">2.2%</td>
-      <td align="left"></td>
+      <td align="left">Not Active?</td>
       <td align="left">Not Classified?</td>
      </tr>
     <tr>
       <td align="center"><i>Akkermansia sp</i></td>
       <td align="left">1.4%</td>
-      <td align="left"></td>
+      <td align="left">Active</td>
       <td align="left">0.916%<br>(genus-level)</td>
     </tr>
      <tr>
       <td align="center"><i>Alistipes</i></td>
       <td align="left">13.2%<br>7 species</td>
-      <td align="left"></td>
+      <td align="left">Active<br>9 species</td>
       <td align="left">3.223%<br>(genus-level)</td>
     </tr>
     <tr>
       <td align="center"><i>Bacteroides stercoris</i></td>
       <td align="left">26.5%</td>
-      <td align="left"></td>
+      <td align="left">Active<br>4 strains</td>
       <td align="left">54.456%<br>(genus-level)</td>
     </tr>
     <tr>
       <td align="center"><i>Bacteroides uniformis</i></td>
       <td align="left">5.1%</td>
-      <td align="left"></td>
+      <td align="left">Active</td>
       <td align="left">see above</td>
       </tr>
       <tr>
       <td align="center"><i>Bacteroides vulgatus</i></td>
       <td align="left">9.1%</td>
-      <td align="left"></td>
+      <td align="left">Active</td>
       <td align="left">see above</td>
       </tr>
       <tr>
       <td align="center"><i>Bifidobacterium</i></td>
       <td align="left">Not Detected</td>
-      <td align="left"></td>
+      <td align="left">Active<br>5 subsp / strains</td>
       <td align="left">0.026%<br>(genus-level)</td>
     </tr>
     <tr>
       <td align="center"><i>Blautia</i></td>
       <td align="left">Not Reported?</td>
-      <td align="left"></td>
+      <td align="left">Active<br>14 species / strains</td>
       <td align="left">3.949%<br>(genus-level)</td>
     </tr>
     <tr>
       <td align="center"><i>Eubacterium</i></td>
       <td align="left">Not Reported?</td>
-      <td align="left"></td>
+      <td align="left">Active<br>7 species / strains</td>
       <td align="left">6.802%<br>(genus-level)</td>
     </tr>
     <tr>
       <td align="center"><i>Faecalibacterium prausnitzii</i></td>
       <td align="left">2.0%</td>
-      <td align="left"></td>
+      <td align="left">Active</td>
       <td align="left">1.687%<br>(genus-level)</td>
     </tr>
     <tr>
       <td align="center"><i>Lactobacillus</i></td>
       <td align="left">Not Detected</td>
-      <td align="left"></td>
+      <td align="left">Active<br>8 species / strains</td>
       <td align="left">0.006%<br>(genus-level)</td>
       </tr>
     <tr>
       <td align="center"><i>Parasutterella excrementihominis</i></td>
       <td align="left">0.9%</td>
-      <td align="left"></td>
+      <td align="left">Active</td>
       <td align="left">0.011%</td>
       </tr>
     <tr>
       <td align="center"><i>Pseudomonas</i></td>
       <td align="left">Not Reported?</td>
-      <td align="left"></td>
+      <td align="left">Active<br>2 species</td>
       <td align="left">0.002%<br>(genus-level)<br>(bad bacteria,<br> healthy level)</td>
       </tr>
     <tr>
       <td align="center"><i>Roseburia</i></td>
       <td align="left">Not Reported?</td>
-      <td align="left"></td>
+      <td align="left">Active<br>6 species / strains</td>
       <td align="left">0.717%<br>(genus-level)</td>
       </tr>
     <tr>
       <td align="center"><i>Ruminococcus bicirculans</i></td>
       <td align="left">0.3%</td>
-      <td align="left"></td>
+      <td align="left">Active<br>6 species</td>
       <td align="left">6.734%<br>(genus-level)</td>
       </tr>
 </tbody>
@@ -351,6 +351,8 @@ I sent an e-mail to **Psomagen** to obtain my FASTQ files on 5/29/2021, and I re
 [http://ngs2.macrogenlab.com/~customer/2106/2105DNHX-0230/C058-S779-Y072_R1.fastq.gz](http://ngs2.macrogenlab.com/~customer/2106/2105DNHX-0230/C058-S779-Y072_R1.fastq.gz)
 
 [http://ngs2.macrogenlab.com/~customer/2106/2105DNHX-0230/C058-S779-Y072_R2.fastq.gz](http://ngs2.macrogenlab.com/~customer/2106/2105DNHX-0230/C058-S779-Y072_R2.fastq.gz)
+
+I recieved my **Viome** results on 6/16/2021.
 
 ## Other Notes
 
