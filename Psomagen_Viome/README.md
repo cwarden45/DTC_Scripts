@@ -465,11 +465,11 @@ I eat Activia with my lunch most days, and I think it helps some.  So, I am ***n
 
 I ordered 4 kits from 3 companies on 6/20/2021 (2 for thyrve, 1 for other companies):
 
-***Psomagen***: [GutBiome+](https://psomagen.com/gutbiome/)
+***Psomagen***: [GutBiome+](https://psomagen.com/gutbiome/) (1x)
 
-***Viome***: [Gut Intelligence Test](https://www.viome.com/products/gut-intelligence)
+***Viome***: [Gut Intelligence Test](https://www.viome.com/products/gut-intelligence) (1x)
 
-***thryve***: [Gut Health Test](https://www.thryveinside.com/products/thryves-gut-health-test)
+***thryve***: [Gut Health Test](https://www.thryveinside.com/products/thryves-gut-health-test) (2x)
 
 ## Other Notes
 
