@@ -461,6 +461,16 @@ I eat Activia with my lunch most days, and I think it helps some.  So, I am ***n
 
 *Again, please remember that I have **not** made any recommended changes from the previous collection.*  So, I drink almond milk, and I think that is helpful.  However, I didn't do anything different for almonds to be removed from the foods to avoid.
 
+## Sample #3
+
+I ordered 4 kits from 3 companies on 6/20/2021 (2 for thyrve, 1 for other companies):
+
+***Psomagen***: [GutBiome+](https://psomagen.com/gutbiome/)
+
+***Viome***: [Gut Intelligence Test](https://www.viome.com/products/gut-intelligence)
+
+***thryve***: [Gut Health Test](https://www.thryveinside.com/products/thryves-gut-health-test)
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
