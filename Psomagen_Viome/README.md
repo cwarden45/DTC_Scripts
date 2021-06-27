@@ -473,7 +473,7 @@ I ordered 4 kits from 3 companies on 6/20/2021 (2 for thyrve, 1 for other compan
 
 All 4 kits arrived on 6/23/2021.
 
-I collected all 4 samples (from the same stool) on 6/27/2021.
+I collected all 4 samples (from the same stool) on 6/27/2021.  I dropped them off to mail that same day.
 
 ## Other Notes
 
