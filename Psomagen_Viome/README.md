@@ -473,6 +473,8 @@ I ordered 4 kits from 3 companies on 6/20/2021 (2 for thyrve, 1 for other compan
 
 All 4 kits arriveed on 6/23/2021.
 
+I collected all 4 samples (from the same stool) on 6/27/2021.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
