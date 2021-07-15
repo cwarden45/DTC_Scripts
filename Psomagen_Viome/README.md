@@ -492,106 +492,106 @@ Similar to before, here is a comparison of classificaiton for this same sample:
       <td align="center"><i>Agathobacter rectalis</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Not Classified?</td>
+      <td align="left">Not Classified?</td>
      </tr>
     <tr>
       <td align="center"><i>Akkermansia sp</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">4.692%</td>
+      <td align="left">4.959%</td>
     </tr>
      <tr>
       <td align="center"><i>Alistipes</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">4.226%</td>
+      <td align="left">4.684%</td>
     </tr>
     <tr>
       <td align="center"><i>Bacteroides stercoris</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">18.356%</td>
+      <td align="left">16.176%</td>
     </tr>
     <tr>
       <td align="center"><i>Bacteroides uniformis</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">4.669%</td>
+      <td align="left">3.982%</td>
       </tr>
       <tr>
       <td align="center"><i>Bacteroides vulgatus</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">12.395%</td>
+      <td align="left">11.154%</td>
       </tr>
       <tr>
       <td align="center"><i>Bifidobacterium</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">0.012%</td>
+      <td align="left">0.027%</td>
     </tr>
     <tr>
       <td align="center"><i>Blautia</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">5.408%</td>
+      <td align="left">6.139%</td>
     </tr>
     <tr>
       <td align="center"><i>Eubacterium</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">4.296%</td>
+      <td align="left">3.922%</td>
     </tr>
     <tr>
       <td align="center"><i>Faecalibacterium prausnitzii</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">7.104%</td>
+      <td align="left">5.226%</td>
     </tr>
     <tr>
       <td align="center"><i>Lactobacillus</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">0.012%</td>
+      <td align="left">0.011%</td>
       </tr>
     <tr>
       <td align="center"><i>Parasutterella excrementihominis</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">0.685%</td>
+      <td align="left">0.562%</td>
       </tr>
     <tr>
       <td align="center"><i>Pseudomonas</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Not Classified?</td>
+      <td align="left">Not Classified?</td>
       </tr>
     <tr>
       <td align="center"><i>Roseburia</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">0.986%</td>
+      <td align="left">0.987%</td>
       </tr>
     <tr>
       <td align="center"><i>Ruminococcus bicirculans</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Not Classified?</td>
+      <td align="left">Not Classified?</td>
       </tr>
 </tbody>
 </table>
