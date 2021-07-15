@@ -475,6 +475,127 @@ All 4 kits arrived on 6/23/2021.
 
 I collected all 4 samples (from the same stool) on 6/27/2021.  I dropped them off to mail that same day.
 
+I recieved my **thryve** results on 7/14/2021.  This includes CSV assignments for classifications, as well as FASTQ files.
+
+Similar to before, here is a comparison of classificaiton for this same sample:
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Genus</th>
+      <th align="center">Psomagen<br>GutBiome+</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(as purchased)</th>
+      <th align="center">thryve<br>(rep 1)</th>
+      <th align="center">thryve<br>(rep 2)</th>
+    </tr>
+    <tr>
+      <td align="center"><i>Agathobacter rectalis</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+     </tr>
+    <tr>
+      <td align="center"><i>Akkermansia sp</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+     <tr>
+      <td align="center"><i>Alistipes</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Bacteroides stercoris</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Bacteroides uniformis</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+      <tr>
+      <td align="center"><i>Bacteroides vulgatus</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+      <tr>
+      <td align="center"><i>Bifidobacterium</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Blautia</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Eubacterium</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Faecalibacterium prausnitzii</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Lactobacillus</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+    <tr>
+      <td align="center"><i>Parasutterella excrementihominis</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+    <tr>
+      <td align="center"><i>Pseudomonas</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+    <tr>
+      <td align="center"><i>Roseburia</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+    <tr>
+      <td align="center"><i>Ruminococcus bicirculans</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+</tbody>
+</table>
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
