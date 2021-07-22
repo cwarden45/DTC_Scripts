@@ -477,6 +477,8 @@ I collected all 4 samples (from the same stool) on 6/27/2021.  I dropped them of
 
 I recieved my **thryve** results on 7/14/2021.  This includes CSV assignments for classifications, as well as FASTQ files.
 
+I recieved my **Psomagen** results on 7/22/2021.  I then sent an e-mail to recieve the raw FASTQ files.
+
 Similar to before, here is a comparison of classificaiton for this same sample:
 
 <table>
