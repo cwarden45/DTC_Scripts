@@ -576,21 +576,21 @@ Similar to before, here is a comparison of classificaiton for this same sample:
       </tr>
     <tr>
       <td align="center"><i>Pseudomonas</i></td>
-      <td align="left">Not Detected?</td>
+      <td align="left">Not Reported?</td>
       <td align="left"></td>
       <td align="left">Not Classified?</td>
       <td align="left">Not Classified?</td>
       </tr>
     <tr>
       <td align="center"><i>Roseburia</i></td>
-      <td align="left">Not Detected?</td>
+      <td align="left">Not Reported?</td>
       <td align="left"></td>
       <td align="left">0.986%</td>
       <td align="left">0.987%</td>
       </tr>
     <tr>
       <td align="center"><i>Ruminococcus bicirculans</i></td>
-      <td align="left">Not Detected?</td>
+      <td align="left">Not Reported?</td>
       <td align="left"></td>
       <td align="left">Not Classified?</td>
       <td align="left">Not Classified?</td>
