@@ -477,9 +477,13 @@ I collected all 4 samples (from the same stool) on 6/27/2021.  I dropped them of
 
 I recieved my **thryve** results on 7/14/2021.  This includes CSV assignments for classifications, as well as FASTQ files.
 
-I recieved my **Psomagen** results on 7/22/2021.  I then sent an e-mail to recieve the raw FASTQ files.
+I recieved my **Psomagen** results on 7/22/2021.  I then sent an e-mail to recieve the raw FASTQ files.  I recieved links to download the raw files on 7/26/2021.
 
-Similar to before, here is a comparison of classificaiton for this same sample:
+[http://ngs2.macrogenlab.com/~customer/2107/2107DNHX-0076/C882-L638-A372_R1.fastq.gz](http://ngs2.macrogenlab.com/~customer/2107/2107DNHX-0076/C882-L638-A372_R1.fastq.gz)
+
+[http://ngs2.macrogenlab.com/~customer/2107/2107DNHX-0076/C882-L638-A372_R2.fastq.gzz](http://ngs2.macrogenlab.com/~customer/2107/2107DNHX-0076/C882-L638-A372_R2.fastq.gz)
+
+Also, similar to before, here is a comparison of classificaiton for this same sample:
 
 <table>
   <tbody>
