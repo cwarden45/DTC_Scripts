@@ -12,3 +12,5 @@ In my previous Nebula lcWGS sample, I received a false negative in my APOE E4 he
 ```
 
 The coverage for my new sample is higher than my previous sample.  So, this should help with the imputation.  However, I currently don't know if this was intentionally increased for all runs, or there is random variation among the small libraries for each run.
+
+I can currently access a .vcf file and .bam alignment file.  However, I cannot yet download the original .fastq files (unlike my 1st lcWGS sample).  Also, I have Microbiome result for my [1st sample](https://github.com/cwarden45/DTC_Scripts/blob/master/Nebula/Nebula_Microbiome.pdf), but not my [2nd sample](https://github.com/cwarden45/DTC_Scripts/blob/master/Nebula/Sample2/Nebula_Microbiome.PNG).
