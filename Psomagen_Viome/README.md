@@ -352,7 +352,7 @@ I sent an e-mail to **Psomagen** to obtain my FASTQ files on 5/29/2021, and I re
 
 [http://ngs2.macrogenlab.com/~customer/2106/2105DNHX-0230/C058-S779-Y072_R2.fastq.gz](http://ngs2.macrogenlab.com/~customer/2106/2105DNHX-0230/C058-S779-Y072_R2.fastq.gz)
 
-I recieved my **Viome** results on 6/16/2021.
+I recieved my **Viome** results on 6/16/2021 (and I recieved e-mails about sample reprocessing on 5/27/2021 and 6/10/2021).
 
 The Viome results are somewhat harder to compare.  However, I can compare the scores between measurements.  So, I have added the new sample in the table with earlier samples:
 
@@ -601,6 +601,8 @@ Also, similar to before, here is a comparison of classificaiton for this same sa
       </tr>
 </tbody>
 </table>
+
+I recieved e-mails from **Viome** about sample reprocessing (such as on 8/12/2021 and 8/26/2021).  The format was swappped relative to the 2nd sample.  So, I might have also recieved earlier e-mail that I deleted.  Either way, the turn-around time for Viome has been noticably longer than the other options.
 
 ## Other Notes
 
