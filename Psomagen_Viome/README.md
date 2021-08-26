@@ -602,7 +602,7 @@ Also, similar to before, here is a comparison of classificaiton for this same sa
 </tbody>
 </table>
 
-I recieved e-mails from **Viome** about sample reprocessing (such as on 8/12/2021 and 8/26/2021).  The format was swappped relative to the 2nd sample.  So, I might have also recieved earlier e-mail that I deleted.  Either way, the turn-around time for Viome has been noticably longer than the other options.
+I recieved e-mails from **Viome** about sample reprocessing (such as on 8/12/2021 and 8/26/2021).  The format was swappped relative to the 2nd sample.  So, I might have also recieved earlier e-mail that I deleted (especially since I had recieved results from the other companies by 7/14-21/2021).  Either way, the turn-around time for Viome has been noticably longer than the other options.
 
 ## Other Notes
 
