@@ -604,6 +604,21 @@ Also, similar to before, here is a comparison of classificaiton for this same sa
 
 I recieved e-mails from **Viome** about sample reprocessing (such as on 8/12/2021 and 8/26/2021).  The format was swappped relative to the 2nd sample.  So, I might have also recieved earlier e-mail that I deleted (especially since I had recieved results from the other companies by 7/14-21/2021).  Either way, the turn-around time for Viome has been noticably longer than the other options.
 
+## Sample #3
+
+I ordered 4 kits from 4 companies on 9/6/2021:
+
+***Psomagen***: [GutBiome+](https://psomagen.com/gutbiome/)
+
+***Viome***: [Gut Intelligence Test](https://www.viome.com/products/gut-intelligence)
+
+***thryve***: [Gut Health Test](https://www.thryveinside.com/products/thryves-gut-health-test)
+
+***BIOHM***: [Gut Test](https://www.biohmhealth.com/products/gut-report-kit-new)
+
+I had still not recieved my previous Viome results at this time, but I used a different account (from when I had 2 submissions at the same time) in order to order another sample to have pairs for 3 thryve measurements.
+
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
