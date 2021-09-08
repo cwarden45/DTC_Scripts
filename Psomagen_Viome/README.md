@@ -724,7 +724,9 @@ Again, for comparison, here are the differences in scores for the Viome samples:
 </tbody>
 </table>
 
-## Sample #3
+*Again, please remember that I have **not** made any recommended changes from the previous collection.*  I will also not make any changes based upon the current set of reports.
+
+## Sample #4
 
 I ordered 4 kits from 4 companies on 9/6/2021:
 
