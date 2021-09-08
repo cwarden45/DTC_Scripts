@@ -604,6 +604,126 @@ Also, similar to before, here is a comparison of classificaiton for this same sa
 
 I recieved e-mails from **Viome** about sample reprocessing (such as on 8/12/2021 and 8/26/2021).  The format was swappped relative to the 2nd sample.  So, I might have also recieved earlier e-mail that I deleted (especially since I had recieved results from the other companies by 7/14-21/2021).  Either way, the turn-around time for Viome has been noticably longer than the other options.
 
+I later recieved my **Viome** results on 9/7/2021.
+
+Again, for comparison, here are the differences in scores for the Viome samples:
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Genus</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(downgraded)<br>3/11/2021</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(as purchased)<br>3/11/2021</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(as purchased)<br>5/3/2021</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(as purchased)<br>6/27/2021</th>
+    </tr>
+    <tr>
+      <td align="center">Gut Microbiome Health</td>
+      <td align="left">41<br><b>Not Optimal</b></td>
+      <td align="left">49<br>Average</td>
+      <td align="left">36<br><b>Not Optimal</b></td>
+      <td align="left">46<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Inflammatory Activity</td>
+      <td align="left">41<br>Average</td>
+      <td align="left">36<br>Average</td>
+      <td align="left">44<br>Average</td>
+      <td align="left">35<br><i>Good</i></td>
+     </tr>
+    <tr>
+      <td align="center">Metabolic Fitness</td>
+      <td align="left">28<br>Average</td>
+      <td align="left">29<br>Average</td>
+      <td align="left">31<br><i>Good</i></td>
+      <td align="left">27<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Digestive Efficiency</td>
+      <td align="left">56<br>Average</td>
+      <td align="left">71<br><i>Good</i></td>
+      <td align="left">41<br><b>Not Optimal</b></td>
+      <td align="left">61<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Gut Lining Health</td>
+      <td align="left">67<br>Average</td>
+      <td align="left">68<br>Average</td>
+      <td align="left">67<br>Average</td>
+      <td align="left">72<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Protein Fermentation</td>
+      <td align="left">42<br>Average</td>
+      <td align="left">28<br><i>Good</i></td>
+      <td align="left">75<br><b>Not Optimal</b></td>
+      <td align="left">51<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Gas Production</td>
+      <td align="left">46<br>Average</td>
+      <td align="left">30<br><i>Good</i></td>
+      <td align="left">62<br>Average</td>
+      <td align="left">29<br><i>Good</i></td>
+     </tr>
+    <tr>
+      <td align="center">Active Microbial Diversity</td>
+      <td align="left">1st Percentile<br><b>Not Optimal</b></td>
+      <td align="left">12th Percentile<br>Average</td>
+      <td align="left">4th Percentile<br><b>Not Optimal</b></td>
+      <td align="left">12th Percentile<br>Average</td>
+     </tr>
+       <tr>
+      <td align="center" colspan="4"></td>
+     </tr>
+     <tr>
+      <td align="center">Total Supplement Recommendation Count</td>
+      <td align="left">28</td>
+      <td align="left">30</td>
+      <td align="left">37</td>
+      <td align="left">34</td>
+     </tr>
+     <tr>
+      <td align="center">Total Probiotic Recommendation Count</td>
+      <td align="left">19</td>
+      <td align="left">18</td>
+      <td align="left">18</td>
+       <td align="left">18</td>
+     </tr>
+      <tr>
+      <td align="center" colspan="4"></td>
+     </tr>
+    <tr>
+      <td align="center">Vegetables to Avoid</td>
+      <td align="left">Bell Pepper<br>Broccoli<br>Brussels Sprouts<br>Cabbage<br>Mustard Greens<br>Tomato</td>
+      <td align="left">Bell Pepper<br>Tomato</td>
+      <td align="left">Bell Pepper<br>Sauerkraut<br>Tomato</td>
+      <td align="left">Bell Pepper<br>Tomato</td>
+     </tr>
+     </tr>
+      <td align="center">Proteins and Fats to Avoid</td>
+      <td align="left">Almonds<br>Chicken Egg Yolk<br>Pistachios</td>
+      <td align="left">Almonds<br>Pistachios</td>
+      <td align="left">Kefir (Cow Milk)<br>Yogurt (Cow Milk, Plain)</td>
+      <td align="left">Almonds<br>Pistachios</td>
+     </tr>
+     </tr>
+      <td align="center">Fruits and Grains to Avoid</td>
+      <td align="left"><i>None</i></td>
+      <td align="left"><i>None</i></td>
+      <td align="left">Barley<br>Blueberry</td>
+      <td align="left"><i>None</i></td>
+     </tr>
+     </tr>
+      <td align="center">Other Food Items to Avoid</td>
+      <td align="left"><i>None</i></td>
+      <td align="left"><i>None</i></td>
+      <td align="left">Coffee<br></td>
+      <td align="left">Turmeric<br></td>
+     </tr>
+</tbody>
+</table>
+
 ## Sample #3
 
 I ordered 4 kits from 4 companies on 9/6/2021:
