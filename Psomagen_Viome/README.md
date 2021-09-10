@@ -461,8 +461,6 @@ I eat Activia with my lunch most days, and I think it helps some.  So, I am ***n
 
 *Again, please remember that I have **not** made any recommended changes from the previous collection.*  So, I drink almond milk, and I think that is helpful.  However, I didn't do anything different for almonds to be removed from the foods to avoid.
 
-On 9/9/2021, I recieved an e-mail that my **Viome** sample needed to be reprocessed.  However, ***I have already recieved those results***, so I think something may be technically wrong with the e-mail system.  I believe there have also been inconsistencies in whether I recieved an e-mail about results, versus periodically checking and finding results.
-
 ## Sample #3
 
 I ordered 4 kits from 3 companies on 6/20/2021 (2 for thyrve, 1 for other companies):
@@ -727,6 +725,8 @@ Again, for comparison, here are the differences in scores for the Viome samples:
 </table>
 
 *Again, please remember that I have **not** made any recommended changes from the previous collection.*  I will also not make any changes based upon the current set of reports.
+
+Also, on 9/9/2021, I recieved an e-mail that my **Viome** sample needed to be reprocessed.  However, ***I have already recieved those results***, so I think something may be technically wrong with the e-mail system.  I believe there have also been inconsistencies in whether I recieved an e-mail about results, versus periodically checking and finding results.
 
 ## Sample #4
 
