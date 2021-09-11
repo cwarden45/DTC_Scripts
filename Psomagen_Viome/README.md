@@ -726,7 +726,7 @@ Again, for comparison, here are the differences in scores for the Viome samples:
 
 *Again, please remember that I have **not** made any recommended changes from the previous collection.*  I will also not make any changes based upon the current set of reports.
 
-Also, on 9/9/2021, I recieved an e-mail that my **Viome** sample needed to be reprocessed.  However, ***I have already recieved those results***, so I think something may be technically wrong with the e-mail system.  I believe there have also been inconsistencies in whether I recieved an e-mail about results, versus periodically checking and finding results.
+Also, on 9/9/2021, I recieved an e-mail that my **Viome** sample needed to be reprocessed.  However, ***I have already recieved those results***, so I think something may be technically wrong with the e-mail system.  I believe there have also been inconsistencies in whether I recieved an e-mail about results, versus periodically checking and finding results.  However, to be fair, I think I have noticed that for multiple genomics companies.
 
 ## Sample #4
 
