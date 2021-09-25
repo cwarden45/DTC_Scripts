@@ -744,6 +744,8 @@ I had still not recieved my previous Viome results at this time, but I used a di
 
 My understanding is that the [BIOHM Gut Test](https://www.biohmhealth.com/products/gut-report-kit-new) does not currently provide FASTQ files, but they would be willing to work with me to provide "raw" data individually (at least for Excel files with read classification counts).
 
+The *Psomagen*, *Viome*, and *BIOHM* kits arrived within a normal period of time.  However, for this sample, there was a substantial delay in the delivery of the **thryve** kit.  I contacted customer support, and I recieved the following explanation on 9/17/2021: *"Unfortunately, your order hasn't been shipped out yet. We recently transferred warehouse facilities and have begun shipping out orders. However, it may take 1-2 weeks to ship out."*
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
