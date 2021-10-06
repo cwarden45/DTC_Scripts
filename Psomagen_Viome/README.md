@@ -746,6 +746,8 @@ My understanding is that the [BIOHM Gut Test](https://www.biohmhealth.com/produc
 
 The *Psomagen*, *Viome*, and *BIOHM* kits arrived within a normal period of time.  However, for this sample, there was a substantial delay in the delivery of the **thryve** kit.  I contacted customer support, and I recieved the following explanation on 9/17/2021: *"Unfortunately, your order hasn't been shipped out yet. We recently transferred warehouse facilities and have begun shipping out orders. However, it may take 1-2 weeks to ship out."*  My thryve kit then arrived on **10/4/2021**.
 
+I collected all 4 samples on **10/6/2021.**  My sample looked more different than the other samples (it was harder and it was composed of more distinct smaller roughly spherical parts).  However, as with all samples (except for the 1st one, with "a" and "b" sites), all collections were made from a similar location from the stool.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
