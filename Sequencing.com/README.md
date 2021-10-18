@@ -14,7 +14,7 @@
 
 There is an [icon automatically generated for my sample](https://github.com/cwarden45/DTC_Scripts/blob/master/Sequencing.com/DNA_Selfie-Profile-211016.PNG), but that does not match what is produced by the App.
 
-The [picture from the App also doesn't look like me](https://github.com/cwarden45/DTC_Scripts/blob/master/Sequencing.com/MyDNASelfie-Sequencing.com-2021Oct17.png), but it is somewhat closer in some ways.  The maiin issue is my hair: even if my hair was lighter as a child, I think light brown (or medium brown) is a better fit than light blonde, and this was an option (along with black and red).
+The [picture from the App also doesn't look like me](https://github.com/cwarden45/DTC_Scripts/blob/master/Sequencing.com/MyDNASelfie-Sequencing.com-2021Oct17.png), but it is somewhat closer in some ways.  The main issue is **my hair**: even if my hair was lighter as a child, I think **light brown** is a better fit than light blonde, and this was an option (along with black and red).
 
 <table>
   <tbody>
@@ -48,3 +48,5 @@ The [picture from the App also doesn't look like me](https://github.com/cwarden4
      </tr>
 </tbody>
 </table>
+
+I think the shade can only be "light" or "dark" hair color (not "medium" or "regular").
