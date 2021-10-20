@@ -243,7 +243,7 @@ I received a notification that my *Viome* sample would need to be reprocessed (s
 
 I recieved by **Psomagen** report on 5/29/2021.
 
-Similar to before, here is a comparison of classificaiton for this same sample:
+Similar to before, here is a comparison of classification for this same sample:
 
 <table>
   <tbody>
@@ -483,7 +483,7 @@ I recieved my **Psomagen** results on 7/22/2021.  I then sent an e-mail to recie
 
 [http://ngs2.macrogenlab.com/~customer/2107/2107DNHX-0076/C882-L638-A372_R2.fastq.gzz](http://ngs2.macrogenlab.com/~customer/2107/2107DNHX-0076/C882-L638-A372_R2.fastq.gz)
 
-Also, similar to before, here is a comparison of classificaiton for this same sample:
+Also, similar to before, here is a comparison of classification for this same sample:
 
 <table>
   <tbody>
@@ -749,6 +749,124 @@ The *Psomagen*, *Viome*, and *BIOHM* kits arrived within a normal period of time
 I collected all 4 samples on **10/6/2021.**  My sample looked more different than the other samples (it was harder and it was composed of more distinct smaller roughly spherical parts).  However, as with all samples (except for the 1st one, with "a" and "b" sites), all collections were made from a similar location from the stool.
 
 I recieved my **thryve** results on 10/19/2021.  This includes CSV assignments for classifications, as well as FASTQ files.
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Genus</th>
+      <th align="center">Psomagen<br>GutBiome+</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(as purchased)</th>
+      <th align="center">thryve</th>
+      <th align="center">BIOHM</th>
+    </tr>
+    <tr>
+      <td align="center"><i>Agathobacter rectalis</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">Not Classified?</td>
+      <td align="left"></td>
+     </tr>
+    <tr>
+      <td align="center"><i>Akkermansia sp</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">21.463%</td>
+      <td align="left"></td>
+    </tr>
+     <tr>
+      <td align="center"><i>Alistipes</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">7.396%</td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Bacteroides stercoris</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">2.959%</td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Bacteroides uniformis</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">2.140%</td>
+      <td align="left"></td>
+      </tr>
+      <tr>
+      <td align="center"><i>Bacteroides vulgatus</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">2.094%</td>
+      <td align="left"></td>
+      </tr>
+      <tr>
+      <td align="center"><i>Bifidobacterium</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">0.183%</td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Blautia</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">13.584%</td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Eubacterium</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">2.182%</td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Faecalibacterium prausnitzii</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">0.102%</td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Lactobacillus</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">0.036%</td>
+      <td align="left"></td>
+      </tr>
+    <tr>
+      <td align="center"><i>Parasutterella excrementihominis</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">0.585%</td>
+      <td align="left"></td>
+      </tr>
+    <tr>
+      <td align="center"><i>Pseudomonas</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">Not Classified?</td>
+      <td align="left"></td>
+      </tr>
+    <tr>
+      <td align="center"><i>Roseburia</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">0.014%</td>
+      <td align="left"></td>
+      </tr>
+    <tr>
+      <td align="center"><i>Ruminococcus bicirculans</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left">0.014%<br>(1.081% Ruminococcus)</td>
+      <td align="left"></td>
+      </tr>
+</tbody>
+</table>
+
 
 ## Other Notes
 
