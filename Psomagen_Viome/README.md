@@ -861,7 +861,7 @@ I recieved my **thryve** results on 10/19/2021.  This includes CSV assignments f
       <td align="center"><i>Ruminococcus bicirculans</i></td>
       <td align="left"></td>
       <td align="left"></td>
-      <td align="left">0.014%<br>(1.081% Ruminococcus)</td>
+      <td align="left">Not Classified?<br>(1.081% Ruminococcus)</td>
       <td align="left"></td>
       </tr>
 </tbody>
