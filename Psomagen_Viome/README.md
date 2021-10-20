@@ -748,6 +748,8 @@ The *Psomagen*, *Viome*, and *BIOHM* kits arrived within a normal period of time
 
 I collected all 4 samples on **10/6/2021.**  My sample looked more different than the other samples (it was harder and it was composed of more distinct smaller roughly spherical parts).  However, as with all samples (except for the 1st one, with "a" and "b" sites), all collections were made from a similar location from the stool.
 
+I recieved my **thryve** results on 10/19/2021.  This includes CSV assignments for classifications, as well as FASTQ files.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
