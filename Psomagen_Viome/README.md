@@ -867,6 +867,144 @@ I recieved my **thryve** results on 10/19/2021.  This includes CSV assignments f
 </tbody>
 </table>
 
+I recieved my **Viome** results on 10/20/2021.
+
+Yet again, for comparison, here are the differences in scores for the Viome samples:
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Genus</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(downgraded)<br>3/11/2021</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(as purchased)<br>3/11/2021</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(as purchased)<br>5/3/2021</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(as purchased)<br>6/27/2021</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(as purchased)<br>10/6/2021</th>
+    </tr>
+    <tr>
+      <td align="center">Gut Microbiome Health</td>
+      <td align="left">41<br><b>Not Optimal</b></td>
+      <td align="left">49<br>Average</td>
+      <td align="left">36<br><b>Not Optimal</b></td>
+      <td align="left">46<br>Average</td>
+      <td align="left">40<br><b>Not Optimal</b></td>
+     </tr>
+    <tr>
+      <td align="center">Inflammatory Activity</td>
+      <td align="left">41<br>Average</td>
+      <td align="left">36<br>Average</td>
+      <td align="left">44<br>Average</td>
+      <td align="left">35<br><i>Good</i></td>
+      <td align="left">41<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Metabolic Fitness</td>
+      <td align="left">28<br>Average</td>
+      <td align="left">29<br>Average</td>
+      <td align="left">31<br><i>Good</i></td>
+      <td align="left">27<br>Average</td>
+      <td align="left">30<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Digestive Efficiency</td>
+      <td align="left">56<br>Average</td>
+      <td align="left">71<br><i>Good</i></td>
+      <td align="left">41<br><b>Not Optimal</b></td>
+      <td align="left">61<br>Average</td>
+      <td align="left">47<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Gut Lining Health</td>
+      <td align="left">67<br>Average</td>
+      <td align="left">68<br>Average</td>
+      <td align="left">67<br>Average</td>
+      <td align="left">72<br>Average</td>
+      <td align="left">70<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Protein Fermentation</td>
+      <td align="left">42<br>Average</td>
+      <td align="left">28<br><i>Good</i></td>
+      <td align="left">75<br><b>Not Optimal</b></td>
+      <td align="left">51<br>Average</td>
+      <td align="left">71<br><b>Not Optimal</b></td>
+     </tr>
+    <tr>
+      <td align="center">Gas Production</td>
+      <td align="left">46<br>Average</td>
+      <td align="left">30<br><i>Good</i></td>
+      <td align="left">62<br>Average</td>
+      <td align="left">29<br><i>Good</i></td>
+      <td align="left">45<br>Average</td>
+     </tr>
+    <tr>
+      <td align="center">Active Microbial Diversity</td>
+      <td align="left">1st Percentile<br><b>Not Optimal</b></td>
+      <td align="left">12th Percentile<br>Average</td>
+      <td align="left">4th Percentile<br><b>Not Optimal</b></td>
+      <td align="left">12th Percentile<br>Average</td>
+      <td align="left">15th Percentile<br>Average<br></td>
+     </tr>
+       <tr>
+      <td align="center" colspan="5"></td>
+     </tr>
+     <tr>
+      <td align="center">Total Supplement Recommendation Count</td>
+      <td align="left">28</td>
+      <td align="left">30</td>
+      <td align="left">37</td>
+      <td align="left">34</td>
+       <td align="left">30</td>
+     </tr>
+     <tr>
+      <td align="center">Total Probiotic Recommendation Count</td>
+      <td align="left">19</td>
+      <td align="left">18</td>
+      <td align="left">18</td>
+      <td align="left">18</td>
+      <td align="left">19</td>
+     </tr>
+      <tr>
+      <td align="center" colspan="5"></td>
+     </tr>
+    <tr>
+      <td align="center">Vegetables to Avoid</td>
+      <td align="left">Bell Pepper<br>Broccoli<br>Brussels Sprouts<br>Cabbage<br>Mustard Greens<br>Tomato</td>
+      <td align="left">Bell Pepper<br>Tomato</td>
+      <td align="left">Bell Pepper<br>Sauerkraut<br>Tomato</td>
+      <td align="left">Bell Pepper<br>Tomato</td>
+      <td align="left">Bell Pepper<br>Cucumber<br>Tomato</td>
+     </tr>
+     </tr>
+      <td align="center">Proteins and Fats to Avoid</td>
+      <td align="left">Almonds<br>Chicken Egg Yolk<br>Pistachios</td>
+      <td align="left">Almonds<br>Pistachios</td>
+      <td align="left">Kefir (Cow Milk)<br>Yogurt (Cow Milk, Plain)</td>
+      <td align="left">Almonds<br>Pistachios</td>
+      <td align="left">Shimp (Domestic)</td>
+     </tr>
+     </tr>
+      <td align="center">Fruits and Grains to Avoid</td>
+      <td align="left"><i>None</i></td>
+      <td align="left"><i>None</i></td>
+      <td align="left">Barley<br>Blueberry</td>
+      <td align="left"><i>None</i></td>
+      <td align="left">Watermelon</td>
+     </tr>
+     </tr>
+      <td align="center">Other Food Items to Avoid</td>
+      <td align="left"><i>None</i></td>
+      <td align="left"><i>None</i></td>
+      <td align="left">Coffee<br></td>
+      <td align="left">Turmeric<br></td>
+      <td align="left"><i>None</i></td>
+     </tr>
+</tbody>
+</table>
+
+*Again, please remember that I have **not** made any recommended changes from the previous collection.*  I will also not make any changes based upon the current set of reports.
+
+For example, watermelon, cucumber and shrimp are some of my favorite foods, and I will not stop eating those.  If anything, I think watermelon and cucumber can be helpful for my digestion.
 
 ## Other Notes
 
