@@ -10,6 +10,8 @@
 
 [Mitochondrial Variants](https://api.sequencing.com/download.ashx?id=947342e4-406d-4b8c-aeb1-9347235a4531)
 
+Temporary links were created upon request to download the FASTQ reads and BAM alignment.  Those were public links, but they expired within 48 hours (and are not currently valid).
+
 ## DNA Selfie Results
 
 There is an [icon automatically generated for my sample](https://github.com/cwarden45/DTC_Scripts/blob/master/Sequencing.com/DNA_Selfie-Profile-211016.PNG), but that does not match what is produced by the App.
