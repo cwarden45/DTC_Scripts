@@ -762,105 +762,105 @@ I recieved my **thryve** results on 10/19/2021.  This includes CSV assignments f
     <tr>
       <td align="center"><i>Agathobacter rectalis</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Not Active?</td>
       <td align="left">Not Classified?</td>
       <td align="left"></td>
      </tr>
     <tr>
       <td align="center"><i>Akkermansia sp</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Active<br>2 species</td>
       <td align="left">21.463%</td>
       <td align="left"></td>
     </tr>
      <tr>
       <td align="center"><i>Alistipes</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Active<br>9 species</td>
       <td align="left">7.396%</td>
       <td align="left"></td>
     </tr>
     <tr>
       <td align="center"><i>Bacteroides stercoris</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Active<br>4 strains</td>
       <td align="left">2.959%</td>
       <td align="left"></td>
     </tr>
     <tr>
       <td align="center"><i>Bacteroides uniformis</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">c</td>
       <td align="left">2.140%</td>
       <td align="left"></td>
       </tr>
       <tr>
       <td align="center"><i>Bacteroides vulgatus</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Active<br>Strain ATCC 8482</td>
       <td align="left">2.094%</td>
       <td align="left"></td>
       </tr>
       <tr>
       <td align="center"><i>Bifidobacterium</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Active<br>8 strains/species</td>
       <td align="left">0.183%</td>
       <td align="left"></td>
     </tr>
     <tr>
       <td align="center"><i>Blautia</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Active<br>9 strains/species</td>
       <td align="left">13.584%</td>
       <td align="left"></td>
     </tr>
     <tr>
       <td align="center"><i>Eubacterium</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Active<br>6 species/strains</td>
       <td align="left">2.182%</td>
       <td align="left"></td>
     </tr>
     <tr>
       <td align="center"><i>Faecalibacterium prausnitzii</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Active</td>
       <td align="left">0.102%</td>
       <td align="left"></td>
     </tr>
     <tr>
       <td align="center"><i>Lactobacillus</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Active<br>2 species</td>
       <td align="left">0.036%</td>
       <td align="left"></td>
       </tr>
     <tr>
       <td align="center"><i>Parasutterella excrementihominis</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Active<br>Strain YIT 11859</td>
       <td align="left">0.585%</td>
       <td align="left"></td>
       </tr>
     <tr>
       <td align="center"><i>Pseudomonas</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Not Active?</td>
       <td align="left">Not Classified?</td>
       <td align="left"></td>
       </tr>
     <tr>
       <td align="center"><i>Roseburia</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Active<br>4 species</td>
       <td align="left">0.014%</td>
       <td align="left"></td>
       </tr>
     <tr>
       <td align="center"><i>Ruminococcus bicirculans</i></td>
       <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Active</td>
       <td align="left">Not Classified?<br>(1.081% Ruminococcus)</td>
       <td align="left"></td>
       </tr>
