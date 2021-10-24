@@ -790,7 +790,7 @@ I recieved my **thryve** results on 10/19/2021.  This includes CSV assignments f
     <tr>
       <td align="center"><i>Bacteroides uniformis</i></td>
       <td align="left"></td>
-      <td align="left">c</td>
+      <td align="left">Active</td>
       <td align="left">2.140%</td>
       <td align="left"></td>
       </tr>
