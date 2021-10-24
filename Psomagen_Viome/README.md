@@ -981,7 +981,7 @@ Yet again, for comparison, here are the differences in scores for the Viome samp
       <td align="left">Almonds<br>Pistachios</td>
       <td align="left">Kefir (Cow Milk)<br>Yogurt (Cow Milk, Plain)</td>
       <td align="left">Almonds<br>Pistachios</td>
-      <td align="left">Shimp (Domestic)</td>
+      <td align="left">Shrimp (Domestic)</td>
      </tr>
      </tr>
       <td align="center">Fruits and Grains to Avoid</td>
