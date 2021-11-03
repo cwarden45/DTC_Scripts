@@ -1006,6 +1006,8 @@ Yet again, for comparison, here are the differences in scores for the Viome samp
 
 For example, watermelon, cucumber and shrimp are some of my favorite foods, and I will not stop eating those.  If anything, I think watermelon and cucumber can be helpful for my digestion.
 
+I recieved an e-mail saying that my **Psomagen** were ready on 11/2/2021.  However, I could **not** sign in to access my report.  I think this was an issue with the set of links that were available, although I could briefly see information about "*Kean Health*" (although I did not sign up, based upon past experiences for Psomagen).
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
