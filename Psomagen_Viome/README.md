@@ -1008,6 +1008,8 @@ For example, watermelon, cucumber and shrimp are some of my favorite foods, and 
 
 I recieved an e-mail saying that my **Psomagen** were ready on 11/2/2021.  However, I could **not** sign in to access my report.  I think this was an issue with the set of links that were available, although I could briefly see information about "*Kean Health*" (although I did not sign up, based upon past experiences for Psomagen).
 
+I recieved an e-mail that my **BIOHM** results were ready to download on 11/10/2021.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
