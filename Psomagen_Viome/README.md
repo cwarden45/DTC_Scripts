@@ -848,14 +848,14 @@ I recieved my **thryve** results on 10/19/2021.  This includes CSV assignments f
       <td align="left"></td>
       <td align="left">Not Active?</td>
       <td align="left">Not Classified?</td>
-      <td align="left"></td>
+      <td align="left">0.038%</td>
       </tr>
     <tr>
       <td align="center"><i>Roseburia</i></td>
       <td align="left"></td>
       <td align="left">Active<br>4 species</td>
       <td align="left">0.014%</td>
-      <td align="left"></td>
+      <td align="left">0.032%</td>
       </tr>
     <tr>
       <td align="center"><i>Ruminococcus bicirculans</i></td>
