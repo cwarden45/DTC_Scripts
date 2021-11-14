@@ -160,7 +160,7 @@ I think the shade can only be "light" or "dark" hair color (not "medium" or "reg
     </tr>
     <tr>
       <td align="center">Biological Aging</td>
-      <td align="center">Besides DNA Methylation at a given time,</br> unsure how to independently validate,</br> <i>or impact on health or appearance</i></td>
+      <td align="center">Besides DNA Methylation at a given time,</br> unsure how to independently validate,</br> <i>or impact on health or appearance</i>.</td>
       <td align="center">2years Older</td>
     </tr>
     <tr>
