@@ -30,6 +30,13 @@ The [picture from the App also doesn't look like me](https://github.com/cwarden4
       <th align="center">Skin Color</th>
     </tr>
     <tr>
+      <td align="center">Truth</td>
+      <td align="left">Male</td>
+      <td align="left">Brown</td>
+      <td align="left">Brown or Light Brown</td>
+      <td align="left">Intermediate or Light</td>
+     </tr>
+    <tr>
       <td align="center">Sequencing.com<br>(BAM alignment)</td>
       <td align="left">Male</td>
       <td align="left">Brown</td>
@@ -56,3 +63,101 @@ The [picture from the App also doesn't look like me](https://github.com/cwarden4
 I think the shade can only be "light" or "dark" hair color (not "medium" or "regular").
 
 **Nevertheless, I believe some forensic papers were cited, and I would say this methodology should not be used to prove innocence or be consistent with guilt (or the identity of the victim).**
+
+## Physical Appearance Genetic Report
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Input</th>
+      <td align="center">Eyes – Color Blue vs. Brown</td>
+      <td align="center">Eyes – Color Blue vs. Green</td>
+      <td align="center">Eyes – Iris Crypts</td>
+      <td align="center">Eyes – Iris Furrows</td>
+      <td align="center">Eyes – Iris Rings</td>
+      <td align="center">Hair – Color Black vs. Not Black</td>
+      <td align="center">Hair – Color Blond vs. Not Blond</td>
+      <td align="center">Hair – Color Red vs. Not Red</td>
+      <td align="center">Hair – Curly vs. Straighter</td>
+      <td align="center">Hair – Male Pattern Baldness</td>
+      <td align="center">Hair – Thinner vs. Thicker</td>
+      <td align="center">Skin – Freckles</td>
+      <td align="center">Skin – Lighter vs. Darker</td>
+      <td align="center">Skin – Pigmentation</td>
+      <td align="center">Skin – Sensitivity to Sun</td>
+      <td align="center">Weight – Body Mass Index</td>
+      <td align="center">Alcohol Flush Reaction</td>
+      <td align="center">Biological Aging</td>
+      <td align="center">Earwax Type – Wet vs. Dry</td>
+      <td align="center">Mosquito Bite Size</td>
+      <td align="center">Personality – Foraging Strategy</td>
+      <td align="center">Personality – Warrior vs. Worrier</td>
+      <td align="center">Sleep – Intensity</td>
+      <td align="center">Sleep – Morning vs. Night Owl</td>
+      <td align="center">Sleep – Movement</td>
+      <td align="center">Sleep – Oversleep vs. Undersleep</td>
+    </tr>
+    <tr>
+      <td align="center">Truth</td>
+      <td align="left">Brown</td>
+      <td align="left">Brown</br>(Possible Coding Error,</br>consistent but not one of 2 options)</td>
+      <td align="left">Typical?</td>
+      <td align="left">Typical?</td>
+      <td align="left">Typical?</td>
+      <td align="left">Not Black</td>
+      <td align="left">Brown or Dark</td>
+      <td align="left">Not Red</br>(unless you count a few hairs in my beard)</td>
+      <td align="left">Straighter</td>
+      <td align="left">Too early to tell</td>
+      <td align="left">?</td>
+      <td align="left">Typical?</td>
+      <td align="left">Lighter or Intermediate</td>
+      <td align="left">Low Pigmentation?</td>
+      <td align="left">Moderate or High?<br>(depends upon previous exposure)</td>
+      <td align="left">Changes over time<br>(currently 5 feet 11 inches and ~173 lbs, BMI=24.1, at cusp for normal(</td>
+      <td align="left">Close to None</td>
+      <td align="left">Unsure how to independently validate, or impact on health/appearance</td>
+      <td align="left">Wet</td>
+      <td align="left">Typical or Larger</td>
+      <td align="left">I think there is a fundamental problem with trying to assign people to these 2 categories</td>
+      <td align="left">Closer to Worrier, but anxiety problems have improved over time</br>So, again, I think there is a fundamental problem with assigning this to people based upon their DNA.</td>
+      <td align="left">Not Tested</td>
+      <td align="left">Evening / Night Owl</td>
+      <td align="left">Unknown / Not Tested</td>
+      <td align="left">Oversleep</td>
+     </tr>
+    <tr>
+      <td align="center">Sequencing.com</td>
+      <td align="left">Green</td>
+      <td align="left">Green or Brown</td>
+      <td align="left">Typical</td>
+      <td align="left">Typical</td>
+      <td align="left">More</td>
+      <td align="left">Not Black</td>
+      <td align="left">Brown or Dark</td>
+      <td align="left">Red Likely</td>
+      <td align="left">Straighter</td>
+      <td align="left">Typical</td>
+      <td align="left">Thinner</td>
+      <td align="left">Typical</td>
+      <td align="left">Intermediate</td>
+      <td align="left">Mixed</td>
+      <td align="left">Moderate</td>
+      <td align="left">Higher</td>
+      <td align="left">None</td>
+      <td align="left">2years Older</td>
+      <td align="left">Wet</td>
+      <td align="left">Larger</td>
+      <td align="left">Locomotor</td>
+      <td align="left">Warrior</td>
+      <td align="left">Typical</td>
+      <td align="left">Evening</td>
+      <td align="left">Higher</td>
+      <td align="left">Typical</td>
+     </tr>
+</tbody>
+</table>
+
+There is also a "**Santa and Me | Compare Your DNA to St. Nick**" under the "*Children*" category.  However, given the results above, I think that you should at least expect limitations in the "Santa" reference.  I therefore question if this provide a balanced educational tool that gives children a sense the current utility of genomics.  However, to be fair, I ran out of App uses this month, and I canceled the subscription.
+
+Simiarly, I was going to check how much the results varied for my 23andMe data or my Genes for Good data.  However, "1 App" counts for 1 use.  I would need 3 Apps in order to run the same application on 3 samples for myself.
