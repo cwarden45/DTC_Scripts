@@ -150,7 +150,7 @@ I think the shade can only be "light" or "dark" hair color (not "medium" or "reg
     </tr>
     <tr>
       <td align="center">Weight – Body Mass Index</td>
-      <td align="left"><b>Changes over time</b><br>(currently 5 feet 11 inches and ~173 lbs, BMI=24.1, at cusp for normal)</td>
+      <td align="left"><b>Changes over time</b></br>(currently 5 feet 11 inches and ~173 lbs,</br> BMI=24.1, normal-high-borderline)</td>
       <td align="left">Higher</td>
     </tr>
     <tr>
@@ -160,7 +160,7 @@ I think the shade can only be "light" or "dark" hair color (not "medium" or "reg
     </tr>
     <tr>
       <td align="center">Biological Aging</td>
-      <td align="left">Besides DNA Methylation at a given time, unsure how to independently validate, <i>or impact on health or appearance</i></td>
+      <td align="left">Besides DNA Methylation at a given time,</br> unsure how to independently validate,</br> <i>or impact on health or appearance</i></td>
       <td align="left">2years Older</td>
     </tr>
     <tr>
@@ -175,12 +175,12 @@ I think the shade can only be "light" or "dark" hair color (not "medium" or "reg
     </tr>
     <tr>
        <td align="center">Personality – Foraging Strategy</td>
-       <td align="left">I think there is a <b>fundamental problem</b> with trying to assign people to these 2 categories</td>
+       <td align="left">I think there is a <b>fundamental problem</b></br> with trying to assign people to these 2 categories</td>
        <td align="left">Locomotor</td>
     </tr>
     <tr>
        <td align="center">Personality – Warrior vs. Worrier</td>
-       <td align="left">Closer to <b>Worrier</b>, but anxiety problems have improved over time</br>So, again, I think there is a <b>fundamental problem</b> with assigning this to people based upon their DNA.</td>
+       <td align="left">Closer to <b>Worrier</b>,</br> but anxiety problems have improved over time</br>So, again, I think there is a <b>fundamental problem</b></br> with assigning this to people based upon their DNA.</td>
         <td align="left">Warrior</td>
     </tr>
     <tr>
