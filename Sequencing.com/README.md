@@ -31,31 +31,31 @@ The [picture from the App also doesn't look like me](https://github.com/cwarden4
     </tr>
     <tr>
       <td align="center"><b>Truth</b></td>
-      <td align="left">Male</td>
-      <td align="left">Brown</td>
-      <td align="left"><b>Brown or Light Brown</b></td>
-      <td align="left">Intermediate or Light</td>
+      <td align="center">Male</td>
+      <td align="center">Brown</td>
+      <td align="center"><b>Brown or Light Brown</b></td>
+      <td align="center">Intermediate or Light</td>
      </tr>
     <tr>
       <td align="center">Sequencing.com<br>(BAM alignment)</td>
-      <td align="left">Male</td>
-      <td align="left">Brown</td>
-      <td align="left">Light Blonde</td>
-      <td align="left">Intermediate</td>
+      <td align="center">Male</td>
+      <td align="center">Brown</td>
+      <td align="center">Light Blonde</td>
+      <td align="center">Intermediate</td>
      </tr>
     <tr>
       <td align="center">23andMe</td>
-      <td align="left">Male</td>
-      <td align="left">Brown</td>
-      <td align="left">Light Blonde</td>
-      <td align="left">Intermediate</td>
+      <td align="center">Male</td>
+      <td align="center">Brown</td>
+      <td align="center">Light Blonde</td>
+      <td align="center">Intermediate</td>
      </tr>
     <tr>
       <td align="center">Genes for Good<br>(Unphased VCF)</td>
-      <td align="left">Male</td>
-      <td align="left">Brown</td>
-      <td align="left">Light Blonde</td>
-      <td align="left">Intermediate</td>
+      <td align="center">Male</td>
+      <td align="center">Brown</td>
+      <td align="center">Light Blonde</td>
+      <td align="center">Intermediate</td>
      </tr>
 </tbody>
 </table>
@@ -75,133 +75,133 @@ I think the shade can only be "light" or "dark" hair color (not "medium" or "reg
     </tr>
     <tr>
       <td align="center">Eyes – Color Blue vs. Brown</td>
-      <td align="left"><b>Brown</b></td>
-      <td align="left">Green</td>
+      <td align="center"><b>Brown</b></td>
+      <td align="center">Green</td>
     </tr>
     <tr>
       <td align="center">Eyes – Color Blue vs. Green</td>
-       <td align="left">Brown</td>
-       <td align="left">Green or Brown</td>
+       <td align="center">Brown</td>
+       <td align="center">Green or Brown</td>
     </tr>
     <tr>
       <td align="center">Eyes – Iris Crypts</td>
-      <td align="left">Typical?</td>
-      <td align="left">Typical</td>
+      <td align="center">Typical?</td>
+      <td align="center">Typical</td>
     </tr>
     <tr>
       <td align="center">Eyes – Iris Furrows</td>
-      <td align="left">Typical?</td>
-      <td align="left">Typical</td>
+      <td align="center">Typical?</td>
+      <td align="center">Typical</td>
     </tr>
     <tr>
       <td align="center">Eyes – Iris Rings</td>
-      <td align="left"><i>Typical?</i></td>
-      <td align="left">More</td>
+      <td align="center"><i>Typical?</i></td>
+      <td align="center">More</td>
     </tr>
     <tr>
       <td align="center">Hair – Color Black vs. Not Black</td>
-      <td align="left">Not Black</td>
-      <td align="left">Not Black</td>
+      <td align="center">Not Black</td>
+      <td align="center">Not Black</td>
     </tr>
     <tr>
       <td align="center">Hair – Color Blond vs. Not Blond</td>
-      <td align="left">Brown or Dark</td>
-      <td align="left">Brown or Dark</td>
+      <td align="center">Brown or Dark</td>
+      <td align="center">Brown or Dark</td>
     </tr>
     <tr>
       <td align="center">Hair – Color Red vs. Not Red</td>
-      <td align="left"><b>Not Red</b></br>(unless you count a few hairs in my beard)</td>
-      <td align="left">Red Likely</td>
+      <td align="center"><b>Not Red</b></br>(unless you count a few hairs in my beard)</td>
+      <td align="center">Red Likely</td>
     </tr>
     <tr>
       <td align="center">Hair – Curly vs. Straighter</td>
-      <td align="left">Straighter</td>
-      <td align="left">Straighter</td>
+      <td align="center">Straighter</td>
+      <td align="center">Straighter</td>
     </tr>
     <tr>
       <td align="center">Hair – Male Pattern Baldness</td>
-      <td align="left"><i>Too early to tell?</i></td>
-      <td align="left">Typical</td>
+      <td align="center"><i>Too early to tell?</i></td>
+      <td align="center">Typical</td>
     </tr>
     <tr>
       <td align="center">Hair – Thinner vs. Thicker</td>
-      <td align="left">Thinner?</td>
-      <td align="left">Thinner</td>
+      <td align="center">Thinner?</td>
+      <td align="center">Thinner</td>
     </tr>
     <tr>
       <td align="center">Skin – Freckles</td>
-      <td align="left">None or Typical?</td>
-      <td align="left">Typical</td>
+      <td align="center">None or Typical?</td>
+      <td align="center">Typical</td>
     </tr>
     <tr>
       <td align="center">Skin – Lighter vs. Darker</td>
-      <td align="left">Lighter or Intermediate</td>
-      <td align="left">Intermediate</td>
+      <td align="center">Lighter or Intermediate</td>
+      <td align="center">Intermediate</td>
     </tr>
     <tr>
       <td align="center">Skin – Pigmentation</td>
-      <td align="left"><i>Low Pigmentation?</i></td>
-      <td align="left">Mixed</td>
+      <td align="center"><i>Low Pigmentation?</i></td>
+      <td align="center">Mixed</td>
     </tr>
     <tr>
       <td align="center">Skin – Sensitivity to Sun</td>
-      <td align="left">Moderate or High?<br>(<i>depends upon previous exposure</i>)</td>
-      <td align="left">Moderate</td>
+      <td align="center">Moderate or High?<br>(<i>depends upon previous exposure</i>)</td>
+      <td align="center">Moderate</td>
     </tr>
     <tr>
       <td align="center">Weight – Body Mass Index</td>
-      <td align="left"><b>Changes over time</b></br>(currently 5 feet 11 inches and ~173 lbs,</br> BMI=24.1, normal-high-borderline)</td>
-      <td align="left">Higher</td>
+      <td align="center"><b>Changes over time</b></br>(currently 5 feet 11 inches and ~173 lbs,</br> BMI=24.1, normal-high-borderline)</td>
+      <td align="center">Higher</td>
     </tr>
     <tr>
       <td align="center">Alcohol Flush Reaction</td>
-      <td align="left">Close to None</td>
-      <td align="left">None</td>
+      <td align="center">Close to None</td>
+      <td align="center">None</td>
     </tr>
     <tr>
       <td align="center">Biological Aging</td>
-      <td align="left">Besides DNA Methylation at a given time,</br> unsure how to independently validate,</br> <i>or impact on health or appearance</i></td>
-      <td align="left">2years Older</td>
+      <td align="center">Besides DNA Methylation at a given time,</br> unsure how to independently validate,</br> <i>or impact on health or appearance</i></td>
+      <td align="center">2years Older</td>
     </tr>
     <tr>
       <td align="center">Earwax Type – Wet vs. Dry</td>
-      <td align="left">Wet</td>
-      <td align="left">Wet</td>
+      <td align="center">Wet</td>
+      <td align="center">Wet</td>
     </tr>
     <tr>
        <td align="center">Mosquito Bite Size</td>
-       <td align="left">Typical or Larger</td>
-       <td align="left">Larger</td>
+       <td align="center">Typical or Larger</td>
+       <td align="center">Larger</td>
     </tr>
     <tr>
        <td align="center">Personality – Foraging Strategy</td>
-       <td align="left">I think there is a <b>fundamental problem</b></br> with trying to assign people to these 2 categories</td>
-       <td align="left">Locomotor</td>
+       <td align="center">I think there is a <b>fundamental problem</b></br> with trying to assign people to these 2 categories</td>
+       <td align="center">Locomotor</td>
     </tr>
     <tr>
        <td align="center">Personality – Warrior vs. Worrier</td>
-       <td align="left">Closer to <b>Worrier</b>,</br> but anxiety problems have improved over time.</br></br>(So, again, I think there is a <b>fundamental problem</b></br> with assigning this to people based upon their DNA).</td>
-        <td align="left">Warrior</td>
+       <td align="center">Closer to <b>Worrier</b>,</br> but anxiety problems have improved over time.</br></br>(So, again, I think there is a <b>fundamental problem</b></br> with assigning this to people based upon their DNA).</td>
+        <td align="center">Warrior</td>
     </tr>
     <tr>
        <td align="center">Sleep – Intensity</td>
-       <td align="left">Not Tested</td>
-       <td align="left">Typical</td>
+       <td align="center">Not Tested</td>
+       <td align="center">Typical</td>
     </tr>
     <tr>
         <td align="center">Sleep – Morning vs. Night Owl</td>
-        <td align="left">Evening / Night Owl</td>
-        <td align="left">Evening</td>
+        <td align="center">Evening / Night Owl</td>
+        <td align="center">Evening</td>
     </tr>
     <tr>
         <td align="center">Sleep – Movement</td>
-        <td align="left">Unknown / Not Tested</td>
-        <td align="left">Higher</td>
+        <td align="center">Unknown / Not Tested</td>
+        <td align="center">Higher</td>
     </tr>
     <tr>
         <td align="center">Sleep – Oversleep vs. Undersleep</td>
-  <td align="left"><i>Oversleep</i></td>
-        <td align="left">Typical</td>
+        <td align="center"><i>Oversleep</i></td>
+        <td align="center">Typical</td>
     </tr>
  </tr>
 </tbody>
