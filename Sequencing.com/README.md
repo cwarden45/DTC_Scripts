@@ -180,7 +180,7 @@ I think the shade can only be "light" or "dark" hair color (not "medium" or "reg
     </tr>
     <tr>
        <td align="center">Personality – Warrior vs. Worrier</td>
-       <td align="left">Closer to <b>Worrier</b>,</br> but anxiety problems have improved over time.</br>(So, again, I think there is a <b>fundamental problem</b></br> with assigning this to people based upon their DNA).</td>
+       <td align="left">Closer to <b>Worrier</b>,</br> but anxiety problems have improved over time.</br></br>(So, again, I think there is a <b>fundamental problem</b></br> with assigning this to people based upon their DNA).</td>
         <td align="left">Warrior</td>
     </tr>
     <tr>
