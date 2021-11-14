@@ -1,4 +1,4 @@
-*WARNING*: Please note that I was automatically subscribed for a monthly membership.  After the first separate month of charges, I canceled the membership (under "Settings --> Membership").  I am not sure if you might want to do this immediately after recieving your data.
+***WARNING***: Please note that I was automatically subscribed for a monthly membership.  After the first separate month of charges, I canceled the membership (under "Settings --> Membership").  I am not sure if you might want to do this immediately after recieving your data.
 
 ## Data Download Links
 
