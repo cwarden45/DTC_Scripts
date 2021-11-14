@@ -54,3 +54,5 @@ The [picture from the App also doesn't look like me](https://github.com/cwarden4
 </table>
 
 I think the shade can only be "light" or "dark" hair color (not "medium" or "regular").
+
+Nevertheless, I believe some forensic papers were cited, and I would say this methodology should not be used to prove innocence or be consistent with guilt.
