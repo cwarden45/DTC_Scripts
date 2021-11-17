@@ -210,3 +210,15 @@ I think the shade can only be "light" or "dark" hair color (not "medium" or "reg
 There is also a "**Santa and Me | Compare Your DNA to St. Nick**" under the "*Children*" category.  However, given the results above, I think that you should at least expect limitations in the "Santa" reference.  I therefore question if this provide a balanced educational tool that gives children a sense the current utility of genomics.  However, to be fair, I ran out of App uses this month, and I canceled the subscription.
 
 Simiarly, I was going to check how much the results varied for my 23andMe data or my Genes for Good data.  However, "1 App" counts for 1 use.  I would need 3 Apps in order to run the same application on 3 samples for myself.
+
+## Cannabis DNA Health Report
+
+I am not sure if there are any legal problems with offering this (at least in some locations).
+
+I also probably do not know what should be the "truth" results.  However, my guess is that many of the results should be viewed critically, and I thought this might help in giving others a sense of the of results that you can obtain (possibly with extra cost).
+
+The run-time is longer than the other apps.  However, once available, I will post and summarize the results.
+
+Again, I was going to check how much the results varied for my 23andMe data or my Genes for Good data.  However, "1 App" counts for 1 use.  I would need 3 Apps in order to run the same application on 3 samples for myself.
+
+In general, one goal of all the postings is to help critically assess the results.  So, providing a report should not be considered an endorsement.  In fact, if offering my opinion, I would probably **not** encourage purchasing any of the app results that I have downloaded.
