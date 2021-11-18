@@ -215,10 +215,12 @@ Simiarly, I was going to check how much the results varied for my 23andMe data o
 
 I am not sure if there are any legal problems with offering this (at least in some locations).
 
-I also probably do not know what should be the "truth" results.  However, my guess is that many of the results should be viewed critically, and I thought this might help in giving others a sense of the of results that you can obtain (possibly with extra cost).
+There are a lot of results, and I think many are not directly related to the specific recommendation being made.  So, I am not sureshould be the "truth" results.  However, I will continue to think about this.
 
-The run-time is longer than the other apps.  However, once available, I will post and summarize the results.
+My guess is that many of the results should be viewed critically, but I also thought this might help in giving others a sense of the of results that you can obtain (possibly with extra cost).
 
-Again, I was going to check how much the results varied for my 23andMe data or my Genes for Good data.  However, "1 App" counts for 1 use.  I would need 3 Apps in order to run the same application on 3 samples for myself.
+The run-time is longer than the other apps (3 days, versus less than 1 day).
 
-In general, one goal of all the postings is to help critically assess the results.  So, providing a report should not be considered an endorsement.  In fact, if offering my opinion, I would probably **not** encourage purchasing any of the app results that I have downloaded.
+I was going to check how much the results varied for my 23andMe data or my Genes for Good data.  However, "1 App" counts for 1 use.  I would need 3 Apps in order to run the same application on 3 samples for myself.
+
+In general, one goal of all the postings is to help critically assess the results.  *So, providing a report should not be considered an endorsement.*  In fact, if offering my opinion, I would probably **not** encourage purchasing any of the app results that I have downloaded.  However, at the same time, a lot of information is not directly related to Cannabis, and I don't think everything should discredited because it is in the report (even if I think more information is needed to evaluate each specific claim, both in terms of the risk estimate as well the recommendation about action to take).
