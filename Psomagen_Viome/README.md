@@ -1012,7 +1012,7 @@ I recieved an e-mail that my **BIOHM** results were ready to download on 11/10/2
 
 For **Psomagen** access to the typical report was still an issue on 11/13/2021.  However, if I used Firefox instead of Google Chrome, I could view my report for my most recent sample.  I also sent a separate e-mail to request the raw FASTQ files on that day.
 
-I contacted **BIOHM** regarding getting additional information about my sample on 11/15/2021, and they kindly provided an Excel file with some additional information on 11/17/2021.
+I contacted **BIOHM** regarding getting additional information about my sample on 11/15/2021, and they kindly provided an Excel file with some additional information on 11/17/2021.  They also provided some information on how to improve the quality of the PDF to download, which I then uploaded (after checking *both* boxes for "Headers and Footers" as well as "Background Graphics"). 
 
 ## Other Notes
 
