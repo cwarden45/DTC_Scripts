@@ -757,28 +757,28 @@ I recieved my **thryve** results on 10/19/2021.  This includes CSV assignments f
       <th align="center">Psomagen<br>GutBiome+</th>
       <th align="center">Viome<br>Gut Intelligence<br>(as purchased)</th>
       <th align="center">thryve</th>
-      <th align="center">BIOHM</br>(Excel file</br>per 44255</br>Phylum-assigned</br>reads)</th>
+      <th align="center">BIOHM</br>(Excel file,</br>per 44255</br>Phylum-assigned</br>reads)</th>
     </tr>
     <tr>
       <td align="center"><i>Agathobacter rectalis</i></td>
       <td align="left">Not Classified?</td>
       <td align="left">Not Active?</td>
       <td align="left">Not Classified?</td>
-      <td align="left"></td>
+      <td align="left">Not Classified</td>
      </tr>
     <tr>
       <td align="center"><i>Akkermansia sp</i></td>
       <td align="left">7.7%</td>
       <td align="left">Active<br>2 species</td>
       <td align="left">21.463%</td>
-      <td align="left"></td>
+      <td align="left">2.53%</td>
     </tr>
      <tr>
       <td align="center"><i>Alistipes</i></td>
       <td align="left">26.3%<br>7 species</td>
       <td align="left">Active<br>9 species</td>
       <td align="left">7.396%</td>
-      <td align="left"></td>
+      <td align="left">0.2%</td>
     </tr>
     <tr>
       <td align="center"><i>Bacteroides stercoris</i></td>
@@ -792,14 +792,14 @@ I recieved my **thryve** results on 10/19/2021.  This includes CSV assignments f
       <td align="left">4.9%</td>
       <td align="left">Active</td>
       <td align="left">2.140%</td>
-      <td align="left"></td>
+      <td align="left">0.26%</td>
       </tr>
       <tr>
       <td align="center"><i>Bacteroides vulgatus</i></td>
       <td align="left">2.5%</td>
       <td align="left">Active<br>Strain ATCC 8482</td>
       <td align="left">2.094%</td>
-      <td align="left"></td>
+      <td align="left" rowspan="2">(5.29% genus total)</td>
       </tr>
       <tr>
       <td align="center"><i>Bifidobacterium</i></td>
