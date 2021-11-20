@@ -757,7 +757,7 @@ I recieved my **thryve** results on 10/19/2021.  This includes CSV assignments f
       <th align="center">Psomagen<br>GutBiome+</th>
       <th align="center">Viome<br>Gut Intelligence<br>(as purchased)</th>
       <th align="center">thryve</th>
-      <th align="center">BIOHM<br>(per 44255 Phylum-assigned reads)</th>
+      <th align="center">BIOHM</br>(Excel file</br>per 44255</br>Phylum-assigned</br>reads)</th>
     </tr>
     <tr>
       <td align="center"><i>Agathobacter rectalis</i></td>
