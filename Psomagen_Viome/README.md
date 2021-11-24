@@ -1014,6 +1014,8 @@ For **Psomagen** access to the typical report was still an issue on 11/13/2021. 
 
 I contacted **BIOHM** regarding getting additional information about my sample on 11/15/2021, and they kindly provided an Excel file with some additional information on 11/17/2021.  They also provided some information on how to improve the quality of the PDF to download, which I then uploaded (after checking *both* boxes for "Headers and Footers" as well as "Background Graphics"). 
 
+I recieved my FASTQ files for my **Psomagen** sample on 11/23/2021.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
