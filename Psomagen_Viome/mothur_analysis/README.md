@@ -8,7 +8,6 @@ Otherwise, the input files can be downloaded from the following locations:
       <th align="center">Sample</th>
       <th align="center">R1</th>
       <th align="center">R2</th>
-
     </tr>
     <tr>
       <td align="center">Psomagen1a</td>
