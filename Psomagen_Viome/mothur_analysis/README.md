@@ -410,6 +410,6 @@ For example, as a starting point, it looks like a lot more Psomagen sequences ar
 </tbody>
 </table>
 
-![alt text](n8_SILVA_filtered_genera-heatmap_quantified.png "mothur Percent Quantified Clustering")
+![mothur Percent Quantified Clustering](n8_SILVA_filtered_genera-heatmap_quantified.PNG "mothur Percent Quantified Clustering")
 
 As you can see above, Sample 4 clusters separately.  However, the other samples cluster more by company than collection date and there is a noticable difference in the genera-level percentages for some assignments (between companies).  Also, only a small fraction (<1%) of the Psomagen data is being used in the plot above.
