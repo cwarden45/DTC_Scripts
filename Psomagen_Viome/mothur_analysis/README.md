@@ -1,4 +1,4 @@
-**NOTE:** The file size for *Psomagen1a* was different (larger 16S fragment, so that sample was not considered for downstream analysis)
+**NOTE:** The down-sampled file size for *Psomagen1a* was different becaues the read length was different (larger 16S fragment), so that sample was not considered for downstream analysis)
 
 Otherwise, the input files can be downloaded from the following locations:
 
