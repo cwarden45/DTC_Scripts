@@ -1016,6 +1016,8 @@ I contacted **BIOHM** regarding getting additional information about my sample o
 
 I recieved my FASTQ files for my **Psomagen** sample on 11/23/2021.
 
+I am performing some additional analysis before creating a blog post.  In some cases, I needed to go back and find additional screenshots.  I am not sure how to get the optimal percent for the 2 replicates from the 3rd sample for thryve.  However, on **11/28/2021**, I in the interface for **Ombre** (which the previous result links redirect to) was almost identical to the interface from **thryve**.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
