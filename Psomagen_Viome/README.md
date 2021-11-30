@@ -1024,6 +1024,10 @@ I will **not** purchase any additional *Viome* or *BIOHM* tests.
 
 I ordered 2 kits from 2 companies on 11/29/2021:
 
+***Ombre* (previously thyrve)**: [Gut Health Test](https://www.ombrelab.com/products/ombre-gut-health-test)
+
+***Kean*  (previously Psomagen)**: [Kean Gut](https://www.keanhealth.com/gut?hsLang=en)
+
 I think the **Ombre** results should be similar to the **thyrve** results, but I am ordering 1 more set of samples (in order to have something to share with others).
 
 The options to order look a little different for **Kean** than **Psomagen**.  Strictly speaking, I think the raw data may be more similar for *Gut+*, but the price-point is more similar for *Gut* (relative to *thryve/Ombre*).  If there is still no collection liquid to stop bacterial growth after collection, I will not order any additional Kean kits in the future (although, to be fair, I will probably also not order additional Ombre/thryve results in the immediate future, and I will start a new collection of experiments if I do).
