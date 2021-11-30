@@ -1018,6 +1018,16 @@ I recieved my FASTQ files for my **Psomagen** sample on 11/23/2021.
 
 I am performing some additional analysis before creating a blog post.  In some cases, I needed to go back and find additional screenshots.  I am not sure how to get the optimal percent for the 2 replicates from the 3rd sample for thryve.  However, on **11/28/2021**, I in the interface for **Ombre** (which the previous result links redirect to) was almost identical to the interface from **thryve**.
 
+## Sample #5
+
+I will **not** purchase any additional *Viome* or *BIOHM* tests.
+
+I ordered 2 kits from 2 companies on 11/29/2021:
+
+I think the **Ombre** results should be similar to the **thyrve** results, but I am ordering 1 more set of samples (in order to have something to share with others).
+
+The options to order look a little different for **Kean** than **Psomagen**.  Strictly speaking, I think the raw data may be more similar for *Gut+*, but the price-point is more similar for *Gut* (relative to *thryve/Ombre*).  If there is still no collection liquid to stop bacterial growth after collection, I will not order any additional Kean kits in the future (although, to be fair, I will probably also not order additional Ombre/thryve results in the immediate future, and I will start a new collection of experiments if I do).
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
