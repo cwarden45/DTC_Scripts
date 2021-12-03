@@ -1032,6 +1032,8 @@ I think the **Ombre** results should be similar to the **thyrve** results, but I
 
 The options to order look a little different for **Kean** than **Psomagen**.  Strictly speaking, I think the raw data may be more similar for *Gut+*, but the price-point is more similar for *Gut* (relative to *thryve/Ombre*).  If there is still no collection liquid to stop bacterial growth after collection, I will not order any additional Kean kits in the future (although, to be fair, I will probably also not order additional Ombre/thryve results in the immediate future, and I will start a new collection of experiments if I do).
 
+The Kean Gut kit arrived on 12/2/2021.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
