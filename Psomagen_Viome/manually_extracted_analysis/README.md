@@ -88,7 +88,7 @@ While less rigorous than the collections from the same sample, I think a z-trans
     </tr>
     <tr>
       <td align="center">Psomagen Lifestyle Status</td>
-      <td align="center">70</td>
+      <td align="center">70.0</td>
 	  <td align="center">0</td>
 	  <td align="center">60</td>
 	  <td align="center"><b><i>Undefined</i></b></td>
@@ -130,14 +130,14 @@ While less rigorous than the collections from the same sample, I think a z-trans
      </tr>
     <tr>
       <td align="center">Viome Gut Microbiome Health</td>
-      <td align="center">43</td>
+      <td align="center">43.0</td>
 	  <td align="center">5.7</td>
 	  <td align="center">40</td>
 	  <td align="center">-0.5</td>
      </tr>
     <tr>
       <td align="center">Psomagen Nutrition Utility</td>
-      <td align="center">42</td>
+      <td align="center">42.0</td>
 	  <td align="center">3.5</td>
 	  <td align="center">42</td>
 	  <td align="center">0</td>
@@ -151,14 +151,14 @@ While less rigorous than the collections from the same sample, I think a z-trans
      </tr>
     <tr>
       <td align="center">thryve Gut Diversity Score</td>
-      <td align="center">91</td>
+      <td align="center">91.0</td>
 	  <td align="center">4.4</td>
       <td align="center">92</td>
 	  <td align="center">0.2</td>
      </tr>
     <tr>
       <td align="center">Viome Inflammatory Activity</td>
-      <td align="center">39</td>
+      <td align="center">39.0</td>
 	  <td align="center">4.2</td>
       <td align="center">41</td>
 	  <td align="center">0.5</td>
@@ -186,7 +186,7 @@ While less rigorous than the collections from the same sample, I think a z-trans
      </tr>
     <tr>
       <td align="center">Viome Protein Fermentation</td>
-      <td align="center">49</td>
+      <td align="center">49.0</td>
 	  <td align="center">19.7</td>
       <td align="center">71</td>
 	  <td align="center">1.1</td>
