@@ -1,4 +1,4 @@
-Unless otherwise specified, all figures and tables were created using `create_tables_and_plots.R`.
+All figures and tables were created using `create_tables_and_plots.R`.
 
 ![overall heatmap](all_signatures-heatmap.png "overall heatmap")
 
