@@ -1,0 +1,82 @@
+Company	Product	Sample	Score/Signature	Value
+Psomagen	GutBiome+	1b	Gut Health Score	65
+Psomagen	GutBiome+	1b	Lifestyle Status	70
+Psomagen	GutBiome+	1b	Nutrition Utility	44
+Psomagen	GutBiome+	1b	Metabolic Supply	74
+Psomagen	GutBiome+	1b	Metabolic Concern	76
+Psomagen	GutBiome+	1b	Microbial Diversity	52
+Psomagen	GutBiome+	2	Gut Health Score	64
+Psomagen	GutBiome+	2	Lifestyle Status	70
+Psomagen	GutBiome+	2	Nutrition Utility	44
+Psomagen	GutBiome+	2	Metabolic Supply	78
+Psomagen	GutBiome+	2	Metabolic Concern	75
+Psomagen	GutBiome+	2	Microbial Diversity	55
+Psomagen	GutBiome+	3	Gut Health Score	64
+Psomagen	GutBiome+	3	Lifestyle Status	70
+Psomagen	GutBiome+	3	Nutrition Utility	38
+Psomagen	GutBiome+	3	Metabolic Supply	74
+Psomagen	GutBiome+	3	Metabolic Concern	70
+Psomagen	GutBiome+	3	Microbial Diversity	63
+Psomagen	GutBiome+	4	Gut Health Score	45
+Psomagen	GutBiome+	4	Lifestyle Status	60
+Psomagen	GutBiome+	4	Nutrition Utility	42
+Psomagen	GutBiome+	4	Metabolic Supply	66
+Psomagen	GutBiome+	4	Metabolic Concern	54
+Psomagen	GutBiome+	4	Microbial Diversity	60
+Viome	Health Intelligence (downgraded to Gut Intelligence)	1a	Active Microbial Diversity (Percentile)	1
+Viome	Health Intelligence (downgraded to Gut Intelligence)	1a	Gut Microbiome Health	41
+Viome	Health Intelligence (downgraded to Gut Intelligence)	1a	Inflammatory Activity	41
+Viome	Health Intelligence (downgraded to Gut Intelligence)	1a	Metabolic Fitness	28
+Viome	Health Intelligence (downgraded to Gut Intelligence)	1a	Digestive Efficacy	57
+Viome	Health Intelligence (downgraded to Gut Intelligence)	1a	Gut Lining Health	67
+Viome	Health Intelligence (downgraded to Gut Intelligence)	1a	Protein Fermentation	42
+Viome	Health Intelligence (downgraded to Gut Intelligence)	1a	Gas Production	46
+Viome	Health Intelligence (downgraded to Gut Intelligence)	1a	Microbiome-Induced Stress	51
+Viome	Gut Intelligence	1b	Active Microbial Diversity (Percentile)	12
+Viome	Gut Intelligence	1b	Gut Microbiome Health	49
+Viome	Gut Intelligence	1b	Inflammatory Activity	36
+Viome	Gut Intelligence	1b	Metabolic Fitness	29
+Viome	Gut Intelligence	1b	Digestive Efficacy	71
+Viome	Gut Intelligence	1b	Gut Lining Health	68
+Viome	Gut Intelligence	1b	Protein Fermentation	28
+Viome	Gut Intelligence	1b	Gas Production	30
+Viome	Gut Intelligence	1b	Microbiome-Induced Stress	36
+Viome	Gut Intelligence	2	Active Microbial Diversity (Percentile)	4
+Viome	Gut Intelligence	2	Gut Microbiome Health	36
+Viome	Gut Intelligence	2	Inflammatory Activity	44
+Viome	Gut Intelligence	2	Metabolic Fitness	31
+Viome	Gut Intelligence	2	Digestive Efficacy	41
+Viome	Gut Intelligence	2	Gut Lining Health	67
+Viome	Gut Intelligence	2	Protein Fermentation	75
+Viome	Gut Intelligence	2	Gas Production	62
+Viome	Gut Intelligence	2	Microbiome-Induced Stress	59
+Viome	Gut Intelligence	3	Active Microbial Diversity (Percentile)	12
+Viome	Gut Intelligence	3	Gut Microbiome Health	46
+Viome	Gut Intelligence	3	Inflammatory Activity	35
+Viome	Gut Intelligence	3	Metabolic Fitness	27
+Viome	Gut Intelligence	3	Digestive Efficacy	61
+Viome	Gut Intelligence	3	Gut Lining Health	72
+Viome	Gut Intelligence	3	Protein Fermentation	51
+Viome	Gut Intelligence	3	Gas Production	29
+Viome	Gut Intelligence	3	Microbiome-Induced Stress	47
+Viome	Gut Intelligence	4	Active Microbial Diversity (Percentile)	15
+Viome	Gut Intelligence	4	Gut Microbiome Health	40
+Viome	Gut Intelligence	4	Inflammatory Activity	41
+Viome	Gut Intelligence	4	Metabolic Fitness	30
+Viome	Gut Intelligence	4	Digestive Efficacy	47
+Viome	Gut Intelligence	4	Gut Lining Health	70
+Viome	Gut Intelligence	4	Protein Fermentation	71
+Viome	Gut Intelligence	4	Gas Production	45
+Viome	Gut Intelligence	4	Microbiome-Induced Stress	Not Reported
+thryve	Gut Health Program	2	Bacteria Optimal Percent	40
+thryve	Gut Health Program	2	Gut Wellness Score	77
+thryve	Gut Health Program	2	Gut Diversity Score	86
+thryve	Gut Health Program	3a	Bacteria Optimal Percent	Not in Screenshots
+thryve	Gut Health Program	3a	Gut Wellness Score	81
+thryve	Gut Health Program	3a	Gut Diversity Score	93
+thryve	Gut Health Program	3b	Bacteria Optimal Percent	Not in Screenshots
+thryve	Gut Health Program	3b	Gut Wellness Score	81
+thryve	Gut Health Program	3b	Gut Diversity Score	94
+thryve	Gut Health Program	4	Bacteria Optimal Percent	50
+thryve	Gut Health Program	4	Gut Wellness Score	70
+thryve	Gut Health Program	4	Gut Diversity Score	92

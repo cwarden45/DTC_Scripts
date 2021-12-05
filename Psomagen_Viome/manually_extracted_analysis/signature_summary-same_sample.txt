@@ -1,0 +1,12 @@
+Sig	Mean	SD
+Viome Active Microbial Diversity (Percentile)	6.5	7.77817459305202
+Viome Digestive Efficacy	64	9.89949493661167
+Viome Gas Production	38	11.3137084989848
+Viome Gut Lining Health	67.5	0.707106781186548
+Viome Gut Microbiome Health	45	5.65685424949238
+Viome Inflammatory Activity	38.5	3.53553390593274
+Viome Metabolic Fitness	28.5	0.707106781186548
+Viome Microbiome-Induced Stress	43.5	10.6066017177982
+Viome Protein Fermentation	35	9.89949493661167
+thryve Gut Diversity Score	93.5	0.707106781186548
+thryve Gut Wellness Score	81	0
