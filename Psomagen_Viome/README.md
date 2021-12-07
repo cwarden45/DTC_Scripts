@@ -1034,6 +1034,8 @@ The options to order look a little different for **Kean** than **Psomagen**.  St
 
 The Kean Gut kit arrived on 12/2/2021.
 
+The Kean Gut kit arrived on 12/6/2021.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
