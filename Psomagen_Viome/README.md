@@ -1034,7 +1034,11 @@ The options to order look a little different for **Kean** than **Psomagen**.  St
 
 The Kean Gut kit arrived on 12/2/2021.
 
-The Kean Gut kit arrived on 12/6/2021.
+The Ombre Gut kit arrived on 12/6/2021.
+
+I collected and mailed my sample on 12/11/2021.
+
+Multiple collections for the same sample were more difficult when only using tissue paper, without the stool collector to attach to the tiolet (previously provided by Psomagen, but now not provided by Kean).  However, my goal is to compare and contrast what is provided when the companies were under a different name.  So, in that sense, this may be OK.
 
 ## Other Notes
 
