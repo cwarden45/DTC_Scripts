@@ -1036,9 +1036,13 @@ The Kean Gut kit arrived on 12/2/2021.
 
 The Ombre Gut kit arrived on 12/6/2021.
 
-I collected and mailed my sample on 12/11/2021.
+I collected and mailed my sample on **12/11/2021**.
 
 Multiple collections for the same sample were more difficult when only using tissue paper, without the stool collector to attach to the tiolet (previously provided by Psomagen, but now not provided by Kean).  However, my goal is to compare and contrast what is provided when the companies were under a different name.  So, in that sense, this may be OK.
+
+I believe my previous **thryve** samples were carried over to **Ombre** (and the interface is almost identical).  However, I **don't** think that my **Psomagen** samples were carried over to **Kean**.
+
+Also, I think only parts of the [Terms of Service](https://www.keanhealth.com/terms) and [Privacy Policy](https://www.keanhealth.com/privacy) have currently been coverted to say "Kean" instead of "Psomagen."  The mailing address at the bottom includes both, so this may be intentional (even if possibly somewhat confusing to me).
 
 ## Other Notes
 
