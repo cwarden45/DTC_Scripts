@@ -1044,6 +1044,8 @@ I believe my previous **thryve** samples were carried over to **Ombre** (and the
 
 Also, I think only parts of the [Terms of Service](https://www.keanhealth.com/terms) and [Privacy Policy](https://www.keanhealth.com/privacy) have currently been coverted to say "Kean" instead of "Psomagen."  The mailing address at the bottom includes both, so this may be intentional (even if possibly somewhat confusing to me).
 
+I recieved my **Ombre** results on 12/29/2021.  This includes CSV assignments for classifications, as well as FASTQ files.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
