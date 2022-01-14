@@ -1046,6 +1046,10 @@ Also, I think only parts of the [Terms of Service](https://www.keanhealth.com/te
 
 I recieved my **Ombre** results on 12/29/2021.  This includes CSV assignments for classifications, as well as FASTQ files.
 
+I recieved my **Kean** results on 1/13/2021.  I was a little confused about the interface, where the hamburger button needed to be pressed to navigate (on a web browser).  I had difficulties being able to download PDF files to share (using the print function).  So, I downloaded complete webpages.
+
+Psomagen provided FASTQ files upon e-mail, but the Kean report is very different.  So, I sent a follow-up email about raw data access on 1/13/2021.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
