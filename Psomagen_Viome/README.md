@@ -1050,6 +1050,12 @@ I recieved my **Kean** results on 1/13/2021.  I was a little confused about the 
 
 Psomagen provided FASTQ files upon e-mail, but the Kean report is very different.  So, I sent a follow-up email about raw data access on 1/13/2021.
 
+I recieved links to download the **Kean** FASTQ files on 1/19/2022:
+
+[http://ngs2.macrogenlab.com/~customer/2201/AN00001264/2DNYT6MDA4_R1.fastq.gz](http://ngs2.macrogenlab.com/~customer/2201/AN00001264/2DNYT6MDA4_R1.fastq.gz)
+
+[http://ngs2.macrogenlab.com/~customer/2201/AN00001264/2DNYT6MDA4_R2.fastq.gz](http://ngs2.macrogenlab.com/~customer/2201/AN00001264/2DNYT6MDA4_R2.fastq.gz)
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
