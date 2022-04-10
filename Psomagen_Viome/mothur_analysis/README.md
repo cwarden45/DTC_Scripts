@@ -34,7 +34,12 @@ Otherwise, the input files can be downloaded from the following locations:
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Psomagen4_R1.fastq.gz">R1</a></td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Psomagen4_R2.fastq.gz">R2</a></td>
      </tr>
-    <tr>
+	<tr>
+      <td align="center">Kean5<br>(Psomagen is now <a href="https://www.keanhealth.com/">Kean</a>)</td>
+      <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Kean5_R1.fastq.gz">R1</a></td>
+      <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Kean5_R2.fastq.gz">R2</a></td>
+     </tr>
+	  <tr>
       <td align="center">thryve2</td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/thryve2_R1.fastq.gz">R1</a></td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/thryve2_R2.fastq.gz">R2</a></td>
@@ -53,6 +58,11 @@ Otherwise, the input files can be downloaded from the following locations:
       <td align="center">thryve4</td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/thryve4_R1.fastq.gz">R1</a></td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/thryve4_R2.fastq.gz">R2</a></td>
+     </tr>
+    <tr>
+      <td align="center">Ombre5<br>(thryve is now <a href="https://www.ombrelab.com/">Ombre</a>)</td>
+      <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Ombre5_R1.fastq.gz">R1</a></td>
+      <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Ombre5_R2.fastq.gz">R2</a></td>
      </tr>
 </tbody>
 </table>
