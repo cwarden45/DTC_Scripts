@@ -1,5 +1,9 @@
 ### Update from 4/18/2022
 
+I received an e-mail from Color indicating that I had additional data available to download.  **The lcWGS data file was much larger than I was previously provided, more similar in size to what I downloaded from Nebula.** 
+
+You can download the much larger set of reads from [here](https://storage.googleapis.com/cdw-metagenomics/Color/38721806153623_lcWGS.fastq.gz).
+
 ### Additional Notes
 
 I first tested a very simple strategy (looking for the presence of a variant or a reference match in at least one read, and defining the variant as heterozygous if it was present).  However, I couldn't do this for the Color lcWGS data (for the subset of 1000 Genomes variants that I was checking), and this showed a noticable loss in the relatedness estimates between my re-aligned Nebula lcWGS and SNP chip samples (producing kinship estimates of ~0.24, instead of a kinship estimate of ~0.50 between my 23and Me and Genes for Good SNP chips).  With accuracy genotypes that is more than you would expect by chance (and perhaps would be identifiable enough to say the results belonged to someone within a particular family), but I know that I can get a more accurate result from the provided Nebula lcWGS genotypes (and I think it is worth seeing what else I can do with low-coverage sequencing data).
