@@ -397,6 +397,11 @@ For example, as a starting point, it looks like a lot more Psomagen sequences ar
       <td align="center">19,314</td>
      </tr>
     <tr>
+      <td align="center">Kean5</td>
+      <td align="center">0</td>
+      <td align="center">NA</td>
+     </tr>
+    <tr>
       <td align="center">thryve2</td>
       <td align="center">50,003</td>
       <td align="center">49,648</td>
@@ -416,9 +421,14 @@ For example, as a starting point, it looks like a lot more Psomagen sequences ar
       <td align="center">38,138</td>
       <td align="center">37,701</td>
      </tr>
+    <tr>
+      <td align="center">Ombre5</td>
+      <td align="center">35,786</td>
+      <td align="center">35,537</td>
+     </tr>
 </tbody>
 </table>
 
-![mothur Percent Quantified Clustering](n8_SILVA_filtered_genera-heatmap_quantified.PNG "mothur Percent Quantified Clustering")
+![mothur Percent Quantified Clustering](n9_SILVA_filtered_genera-heatmap_quantified.PNG "mothur Percent Quantified Clustering")
 
 As you can see above, Sample 4 clusters separately.  However, the other samples cluster more by company than collection date and there is a noticable difference in the genera-level percentages for some assignments (between companies).  Also, only a small fraction (<1%) of the Psomagen data is being used in the plot above.
