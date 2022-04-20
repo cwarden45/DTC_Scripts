@@ -11,13 +11,19 @@
 #heatmap.output_quantified = "n7_SILVA_filtered_genera-heatmap_quantified.pdf"
 #min.percent = 0.5
 
-input.file = "16S_2021.trim.contigs.good.unique.nr_v132.wang.tax.summary"
-SampleNum=c("S1","S2","S3","S4","S2","S3","S3","S4")
-Company=c("Psomagen","Psomagen","Psomagen","Psomagen","thryve","thryve","thryve","thryve")
-output.percent_quantified = "n8_SILVA_filtered_genera-percent_quantified.txt"
-heatmap.output_quantified = "n8_SILVA_filtered_genera-heatmap_quantified.pdf"
-min.percent = 0.5
+#input.file = "16S_2021.trim.contigs.good.unique.nr_v132.wang.tax.summary"
+#SampleNum=c("S1","S2","S3","S4","S2","S3","S3","S4")
+#Company=c("Psomagen","Psomagen","Psomagen","Psomagen","thryve","thryve","thryve","thryve")
+#output.percent_quantified = "n8_SILVA_filtered_genera-percent_quantified.txt"
+#heatmap.output_quantified = "n8_SILVA_filtered_genera-heatmap_quantified.pdf"
+#min.percent = 0.5
 
+input.file = "16S_2021.trim.contigs.good.unique.nr_v132.wang.tax.summary"
+SampleNum=c("S5","S1","S2","S3","S4","S2","S3","S3","S4")
+Company=c("Ombre","Psomagen","Psomagen","Psomagen","Psomagen","thryve","thryve","thryve","thryve")
+output.percent_quantified = "n9_SILVA_filtered_genera-percent_quantified.txt"
+heatmap.output_quantified = "n9_SILVA_filtered_genera-heatmap_quantified.pdf"
+min.percent = 0.5
 
 #uses R v3.6.3 and gplots v3.1.1
 library(gplots)
@@ -56,14 +62,17 @@ genus_percent.quantified = genus_percent.quantified[max_percentage > min.percent
 print(dim(genus_percent.quantified))
 
 sampleCol=rep("black",length(SampleNum))
-sampleCol[SampleNum == "S1"]=rainbow(5)[2]
-sampleCol[SampleNum == "S2"]=rainbow(5)[3]
-sampleCol[SampleNum == "S3"]=rainbow(5)[4]
-sampleCol[SampleNum == "S4"]=rainbow(5)[5]
+sampleCol[SampleNum == "S1"]=rainbow(6)[2]
+sampleCol[SampleNum == "S2"]=rainbow(6)[3]
+sampleCol[SampleNum == "S3"]=rainbow(6)[4]
+sampleCol[SampleNum == "S4"]=rainbow(6)[5]
+sampleCol[SampleNum == "S5"]=rainbow(6)[6]
 
 companyCol=rep("black",length(SampleNum))
 companyCol[Company == "Psomagen"]="darkgreen"
+companyCol[Company == "Kean"]="green"
 companyCol[Company == "thryve"]="darkorange"
+companyCol[Company == "Ombre"]="orange"
 
 source("heatmap.3.R")
 
@@ -75,7 +84,7 @@ heatmap.3(genus_percent.quantified,   distfun = dist, hclustfun = hclust,
 			col=colorpanel(33, low="black", mid="pink", high="red"), density.info="none", key=TRUE,
 			ColSideColors=column_annotation, ColSideColorsSize=2, cexRow=0.5,
 			trace="none", margins = c(15,10), dendrogram="both")
-legend("bottom", pch=15, ncol=4, pt.cex=1, xpd=T,inset=-0.14,
-		legend=c("Psomagen","Sample1","thryve","Sample2","","Sample3","","Sample4"),
-		col=c("darkgreen",rainbow(5)[2],"darkorange",rainbow(5)[3],"white",rainbow(5)[4],"white",rainbow(5)[5]))
+legend("bottom", pch=15, ncol=5, pt.cex=1, xpd=T,inset=-0.14,
+		legend=c("Psomagen","Sample1","Kean","Sample2","thryve","Sample3","Ombre","Sample4","","Sample5"),
+		col=c("darkgreen",rainbow(6)[2],"green",rainbow(6)[3],"darkorange",rainbow(6)[4],"orange",rainbow(6)[5],"white",rainbow(6)[6]))
 dev.off()
