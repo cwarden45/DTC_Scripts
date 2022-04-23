@@ -60,4 +60,6 @@ This code has been applied elsewhere, such as [here](https://github.com/cwarden4
 
 With either strategy, the classification rate is noticably lower for the Psomagen samples than the thryve samples.  It is possible there is some other compromise, but the classification rate for Kraken2 was much higher than mothur.
 
-![Bracken-Adjusted Percent Quantified Clustering](n8_Braken2_genera-heatmap_quantified.PNG "Bracken-Adjusted Percent Quantified Clustering")
+I am not sure why the bacterial classification rate is higher for both Kean (converted from Psomagen) and Ombre (converted from thryve).
+
+![Bracken-Adjusted Percent Quantified Clustering](n10_Braken2_genera-heatmap_quantified.PNG "Bracken-Adjusted Percent Quantified Clustering")
