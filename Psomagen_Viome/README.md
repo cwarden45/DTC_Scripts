@@ -1020,7 +1020,7 @@ I am performing some additional analysis before creating a blog post.  In some c
 
 ## Sample #5
 
-I will **not** purchase any additional *Viome* or *BIOHM* tests.
+I am **not** planning on purchasing additional *Viome* or *BIOHM* tests.
 
 I ordered 2 kits from 2 companies on 11/29/2021:
 
@@ -1055,6 +1055,18 @@ I recieved links to download the **Kean** FASTQ files on 1/19/2022:
 [http://ngs2.macrogenlab.com/~customer/2201/AN00001264/2DNYT6MDA4_R1.fastq.gz](http://ngs2.macrogenlab.com/~customer/2201/AN00001264/2DNYT6MDA4_R1.fastq.gz)
 
 [http://ngs2.macrogenlab.com/~customer/2201/AN00001264/2DNYT6MDA4_R2.fastq.gz](http://ngs2.macrogenlab.com/~customer/2201/AN00001264/2DNYT6MDA4_R2.fastq.gz)
+
+## Sample #6
+
+I was not going to purchase additional Viome tests, but I have gained some better understanding of the 2 versions of Psomagen/Kean gut tests.  So, I thought I should also have Viome results with the extra testing, and the stool collector should also be useful.
+
+I ordered 4 kits from 2 companies on 4/28/2022:
+
+***Ombre* (previously thyrve)**: [Gut Health Test](https://www.ombrelab.com/products/ombre-gut-health-test)
+
+***Kean*  (previously Psomagen)**: [Kean Gut](https://www.keanhealth.com/gut) as well as [Kean Gut+](https://www.keanhealth.com/gutplus)
+
+***Viome**: [Gut Intelligence](https://www.viome.com/products/gut-intelligence)
 
 ## Other Notes
 
