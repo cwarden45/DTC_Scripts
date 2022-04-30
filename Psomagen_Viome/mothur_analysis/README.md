@@ -74,6 +74,8 @@ Otherwise, the input files can be downloaded from the following locations:
 - Execute `16S_2021-SILVA-FULL-PE150.batch` using `run_mothur-FULL-PE150.sh`
 - Execute `16S_2021-SILVA-FULL-PE300.batch` using `run_mothur-FULL-PE300.sh`
 
+You might need to run commands *after* `make.contigs()` separately, which is why certain lines are commented out (and the comments lines should be swapped when the command is run for a second time).
+
 For samples 1-4, there was only 1 sample of a differnet fragment size and only PE150 samples were tested.  In that scenarios, you could run `16S_2021-RDP.batch` +`run_mothur-downsample.sh`, `16S_2021-SILVA.batch` + `run_mothur-downsample.sh`, or `16S_2021-SILVA-FULL.batch` + `run_mothur-FULL.sh`.You could also change the classifier setting within `run_mothur-downsample.sh` or `run_mothur-FULL.sh` (to be 80% confidence or 50% confidence, for example).  However, after realizing that the Kean Gut+ sample was more like the Psomagen GutBiome+ sample (and the Kean Gut sample was not like something that I believe was previously available to purchase separately, I revised the scripts to be able to process different fragment sizes separately and then combine the results).
 
 The alignment file became very large with the full set of reads and it was not currently being used with downstream analysis.  So, there are 2 fewer lines in the batch file for the reads that are not down-sampled.
