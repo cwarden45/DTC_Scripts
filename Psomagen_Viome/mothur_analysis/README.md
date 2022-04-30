@@ -428,13 +428,13 @@ For example, as a starting point, it looks like a lot more Psomagen sequences ar
 </tbody>
 </table>
 
-![mothur Percent Quantified Clustering](n9_SILVA_filtered_genera-heatmap_quantified.PNG "mothur Percent Quantified Clustering")
+**Re-run processing PE150 and PE300 separately.**
 
 As you can see above, Sample 4 clusters separately.  However, the other samples cluster more by company than collection date and there is a noticable difference in the genera-level percentages for some assignments (between companies).
 
 Also, only a small fraction (<1%) of the Psomagen data is being used in the plot above.  The number of reads returned by Kean is considerably lower.  I am not sure if that relates to no eligable reads remaining for the plot above (for Kean).
 
-### Percentage Classified Plots (SILVA, full, 80% confidence, PROCESS PE300 and PE150 separately)
+### Percentage Classified Plots (SILVA, full, 80% confidence, PROCESS PE300 and PE150 SEPARATELY)
 
 <table>
   <tbody>
@@ -500,3 +500,5 @@ Also, only a small fraction (<1%) of the Psomagen data is being used in the plot
      </tr>
 </tbody>
 </table>
+
+![mothur Percent Quantified Clustering](n1_SILVA_filtered_genera-heatmap_quantified.PNG "mothur Percent Quantified Clustering")
