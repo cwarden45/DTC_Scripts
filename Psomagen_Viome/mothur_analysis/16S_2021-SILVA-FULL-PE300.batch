@@ -1,0 +1,7 @@
+make.file(inputdir=$DIR, type=gz, prefix=$PREFIX)
+make.contigs(file=$PREFIX.files, processors=$PROC)
+#summary.seqs(fasta=$PREFIX.trim.contigs.fasta)
+#screen.seqs(fasta=$PREFIX.trim.contigs.fasta, group=$PREFIX.contigs.groups, maxambig=0, maxlength=$MAXLENGTH)
+#unique.seqs(fasta=$PREFIX.trim.contigs.good.fasta)
+#count.seqs(name=$PREFIX.trim.contigs.good.names, group=$PREFIX.contigs.good.groups)
+#classify.seqs(fasta=$PREFIX.trim.contigs.good.unique.fasta, count=$PREFIX.trim.contigs.good.count_table, reference=$REF.align, taxonomy=$REF.tax, cutoff=$CONF)
