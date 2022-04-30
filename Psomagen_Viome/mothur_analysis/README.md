@@ -428,7 +428,7 @@ For example, as a starting point, it looks like a lot more Psomagen sequences ar
 </tbody>
 </table>
 
-**Re-run processing PE150 and PE300 separately.**
+**^^^Re-run processing PE150 and PE300 separately.^^^**
 
 As you can see above, Sample 4 clusters separately.  However, the other samples cluster more by company than collection date and there is a noticable difference in the genera-level percentages for some assignments (between companies).
 
