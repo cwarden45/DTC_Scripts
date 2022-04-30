@@ -69,13 +69,12 @@ Otherwise, the input files can be downloaded from the following locations:
 
 ## mothur analysis
 
-**1)** Run mothur using one of the following options:
+**1)** Run mothur seperately for each amplicon size:
 
- - Execute `16S_2021-RDP.batch` using `run_mothur-downsample.sh`
- - Execute `16S_2021-SILVA.batch` using `run_mothur-downsample.sh`
- - Execute `16S_2021-SILVA-FULL.batch` using `run_mothur-FULL.sh`
+- Execute `16S_2021-SILVA-FULL-PE150.batch` using `run_mothur-FULL-PE150.sh`
+- Execute `16S_2021-SILVA-FULL-PE300.batch` using `run_mothur-FULL-PE300.sh`
 
-You can also change the classifier setting within `run_mothur-downsample.sh` or `run_mothur-FULL.sh` (to be 80% confidence or 50% confidence, for example).
+For samples 1-4, there was only 1 sample of a differnet fragment size and only PE150 samples were tested.  In that scenarios, you could run `16S_2021-RDP.batch` +`run_mothur-downsample.sh`, `16S_2021-SILVA.batch` + `run_mothur-downsample.sh`, or `16S_2021-SILVA-FULL.batch` + `run_mothur-FULL.sh`.You could also change the classifier setting within `run_mothur-downsample.sh` or `run_mothur-FULL.sh` (to be 80% confidence or 50% confidence, for example).  However, after realizing that the Kean Gut+ sample was more like the Psomagen GutBiome+ sample (and the Kean Gut sample was not like something that I believe was previously available to purchase separately, I revised the scripts to be able to process different fragment sizes separately and then combine the results).
 
 The alignment file became very large with the full set of reads and it was not currently being used with downstream analysis.  So, there are 2 fewer lines in the batch file for the reads that are not down-sampled.
 
@@ -434,3 +433,70 @@ For example, as a starting point, it looks like a lot more Psomagen sequences ar
 As you can see above, Sample 4 clusters separately.  However, the other samples cluster more by company than collection date and there is a noticable difference in the genera-level percentages for some assignments (between companies).
 
 Also, only a small fraction (<1%) of the Psomagen data is being used in the plot above.  The number of reads returned by Kean is considerably lower.  I am not sure if that relates to no eligable reads remaining for the plot above (for Kean).
+
+### Percentage Classified Plots (SILVA, full, 80% confidence, PROCESS PE300 and PE150 separately)
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Sample</th>
+      <th align="center">mothur Returned</th>
+      <th align="center">Total for<br>Percent Classified</th>
+    </tr>
+    <tr>
+      <td align="center">Psomagen1a</td>
+      <td align="center"></td>
+      <td align="center"></td>
+     </tr>
+    <tr>
+      <td align="center">Psomagen1b</td>
+      <td align="center"></td>
+      <td align="center"></td>
+     </tr>
+    <tr>
+      <td align="center">Psomagen2</td>
+      <td align="center"></td>
+      <td align="center"></td>
+     </tr>
+    <tr>
+      <td align="center">Psomagen3</td>
+      <td align="center"></td>
+      <td align="center"></td>
+     </tr>
+    <tr>
+      <td align="center">Psomagen4</td>
+      <td align="center"></td>
+      <td align="center"></td>
+     </tr>
+    <tr>
+      <td align="center">Kean5</td>
+      <td align="center"></td>
+      <td align="center"></td>
+     </tr>
+    <tr>
+      <td align="center">thryve2</td>
+      <td align="center"></td>
+      <td align="center"></td>
+     </tr>
+    <tr>
+      <td align="center">thryve3a</td>
+      <td align="center"></td>
+      <td align="center"></td>
+     </tr>
+    <tr>
+      <td align="center">thryve3b</td>
+      <td align="center"></td>
+      <td align="center"></td>
+     </tr>
+    <tr>
+      <td align="center">thryve4</td>
+      <td align="center"></td>
+      <td align="center"></td>
+     </tr>
+    <tr>
+      <td align="center">Ombre5</td>
+      <td align="center"></td>
+      <td align="center"></td>
+     </tr>
+</tbody>
+</table>
