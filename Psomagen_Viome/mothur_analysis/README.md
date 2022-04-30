@@ -78,7 +78,7 @@ For samples 1-4, there was only 1 sample of a differnet fragment size and only P
 
 The alignment file became very large with the full set of reads and it was not currently being used with downstream analysis.  So, there are 2 fewer lines in the batch file for the reads that are not down-sampled.
 
-**2)** Illustrate sample clustering using `mothur_genera_clustering.R`.  This is based upon commands that I most commonly used for generating heatmaps for RNA-Seq analysis (such as [DEG_goseq.R](https://github.com/cwarden45/RNAseq_templates/blob/master/TopHat_Workflow/DEG_goseq.R))
+**2)** Illustrate sample clustering using `mothur_genera_clustering-combined.R`.  This is based upon commands that I most commonly used for generating heatmaps for RNA-Seq analysis (such as [DEG_goseq.R](https://github.com/cwarden45/RNAseq_templates/blob/master/TopHat_Workflow/DEG_goseq.R)).  When the code was only intended to be used for PE300 samples, the command used was `mothur_genera_clustering.R`.
 
 This uses [heatmap.3.R](https://github.com/obigriffith/biostar-tutorials/blob/master/Heatmaps/heatmap.3.R) as a dependency.
 
