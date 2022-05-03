@@ -4,8 +4,13 @@ import re
 
 #copied and modified from https://github.com/cwarden45/Bastu_Cat_Genome/blob/master/basepaws_Dental_Health_Test/run_Kracken2_Bracken-FASTQ-PE.py
 
-finishedSamples = [""]
-inputFolder = ".."
+#inputFolder = "../PE150"
+#finishedSamples = ["Ombre5","Psomagen1b","Psomagen2","Psomagen3","Psomagen4","thryve2","thryve3a","thryve3b","thryve4"]
+
+inputFolder = "../PE300"
+finishedSamples = ["Kean5"]
+
+
 outputFolder = "output_files"
 suffix = "_R1.fastq.gz"
 
