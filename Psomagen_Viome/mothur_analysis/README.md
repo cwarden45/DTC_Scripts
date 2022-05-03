@@ -447,58 +447,58 @@ Also, only a small fraction (<1%) of the Psomagen data is being used in the plot
     </tr>
     <tr>
       <td align="center">Psomagen1a</td>
-      <td align="center"></td>
+      <td align="center">266,114</td>
       <td align="center"></td>
      </tr>
     <tr>
       <td align="center">Psomagen1b</td>
-      <td align="center"></td>
+      <td align="center">9,050,376</td>
       <td align="center"></td>
      </tr>
     <tr>
       <td align="center">Psomagen2</td>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">7,014,774</td>
+      <td align="center">14,146</td>
      </tr>
     <tr>
       <td align="center">Psomagen3</td>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">7,183,238</td>
+      <td align="center">11,343</td>
      </tr>
     <tr>
       <td align="center">Psomagen4</td>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">7,761,896</td>
+      <td align="center">19,314</td>
      </tr>
     <tr>
       <td align="center">Kean5</td>
-      <td align="center"></td>
+      <td align="center">336,148</td>
       <td align="center"></td>
      </tr>
     <tr>
       <td align="center">thryve2</td>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">50,003</td>
+      <td align="center">49,648</td>
      </tr>
     <tr>
       <td align="center">thryve3a</td>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">36,671</td>
+      <td align="center">36,332</td>
      </tr>
     <tr>
       <td align="center">thryve3b</td>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">42,403</td>
+      <td align="center">41,996</td>
      </tr>
     <tr>
       <td align="center">thryve4</td>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">38,138</td>
+      <td align="center">37,701</td>
      </tr>
     <tr>
       <td align="center">Ombre5</td>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center">35,786</td>
+      <td align="center">35,537</td>
      </tr>
 </tbody>
 </table>
