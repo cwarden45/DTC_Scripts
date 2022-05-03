@@ -66,4 +66,4 @@ With either strategy, the classification rate is noticably lower for the Psomage
 
 I am not sure why the bacterial classification rate is higher for both Kean (converted from Psomagen) and Ombre (converted from thryve).
 
-![Bracken-Adjusted Percent Quantified Clustering](n10_Braken2_genera-heatmap_quantified.PNG "Bracken-Adjusted Percent Quantified Clustering")
+![Bracken-Adjusted Percent Quantified Clustering](n11_Braken2_genera-heatmap_quantified.PNG "Bracken-Adjusted Percent Quantified Clustering")
