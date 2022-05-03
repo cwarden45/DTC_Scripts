@@ -16,8 +16,8 @@ This code has been applied elsewhere, such as [here](https://github.com/cwarden4
       <th align="center">Kraken2 Bacterial Classification Rate</th>
     </tr>
     <tr>
-      <td align="center">Psomagen1b</td>
-      <td align="center"></td>
+      <td align="center">Psomagen1a</td>
+      <td align="center">99.97%</td>
      </tr>
      <tr>
       <td align="center">Psomagen1b</td>
