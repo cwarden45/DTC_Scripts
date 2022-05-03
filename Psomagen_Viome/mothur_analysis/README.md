@@ -448,7 +448,7 @@ Also, only a small fraction (<1%) of the Psomagen data is being used in the plot
     <tr>
       <td align="center">Psomagen1a</td>
       <td align="center">266,114</td>
-      <td align="center"></td>
+      <td align="center">261,605</td>
      </tr>
     <tr>
       <td align="center">Psomagen1b</td>
@@ -473,7 +473,7 @@ Also, only a small fraction (<1%) of the Psomagen data is being used in the plot
     <tr>
       <td align="center">Kean5</td>
       <td align="center">336,148</td>
-      <td align="center"></td>
+      <td align="center">331,177</td>
      </tr>
     <tr>
       <td align="center">thryve2</td>
