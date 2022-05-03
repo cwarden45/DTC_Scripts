@@ -453,7 +453,7 @@ Also, only a small fraction (<1%) of the Psomagen data is being used in the plot
     <tr>
       <td align="center">Psomagen1b</td>
       <td align="center">9,050,376</td>
-      <td align="center"></td>
+      <td align="center">19,671</td>
      </tr>
     <tr>
       <td align="center">Psomagen2</td>
