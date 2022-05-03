@@ -64,6 +64,6 @@ This code has been applied elsewhere, such as [here](https://github.com/cwarden4
 
 As explained by Kean technical support, the Psomagen1b and Ombre5 use V+V4 16 Amplicon-Seq data.  However, the other Psomagen samples use "shotgun" metagenomics.
 
-That said, the classification rate is noticably lower in Psomagen saples when the 16S region is not targeted, even though this program is designed to work on data without target enrichment.
+That said, the classification rate is noticably lower in Psomagen saples when the 16S region is not targeted, even though this program is designed to work on data without target enrichment.  While both are high, the classification rate appears to be closer to 100% for the V3+V4 16S amplicon (Kean) versus the V4 16S amplicon (thyrve/Ombre).
 
 ![Bracken-Adjusted Percent Quantified Clustering](n11_Braken2_genera-heatmap_quantified.PNG "Bracken-Adjusted Percent Quantified Clustering")
