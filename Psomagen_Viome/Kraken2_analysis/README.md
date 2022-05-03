@@ -62,8 +62,8 @@ This code has been applied elsewhere, such as [here](https://github.com/cwarden4
 </tbody>
 </table>
 
-With either strategy, the classification rate is noticably lower for the Psomagen samples than the thryve samples.  It is possible there is some other compromise, but the classification rate for Kraken2 was much higher than mothur.
+As explained by Kean technical support, the Psomagen1b and Ombre5 use V+V4 16 Amplicon-Seq data.  However, the other Psomagen samples use "shotgun" metagenomics.
 
-I am not sure why the bacterial classification rate is higher for both Kean (converted from Psomagen) and Ombre (converted from thryve).
+That said, the classification rate is noticably lower in Psomagen saples when the 16S region is not targeted, even though this program is designed to work on data without target enrichment.
 
 ![Bracken-Adjusted Percent Quantified Clustering](n11_Braken2_genera-heatmap_quantified.PNG "Bracken-Adjusted Percent Quantified Clustering")
