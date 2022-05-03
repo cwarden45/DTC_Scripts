@@ -1,0 +1,12 @@
+Sample	Classification_Rate
+Kean5	99.98
+Ombre5	97.89
+Psomagen1a	99.97
+Psomagen1b	61.88
+Psomagen2	57.21
+Psomagen3	58.75
+Psomagen4	55.04
+thryve2	97.66
+thryve3a	98.15
+thryve3b	97.39
+thryve4	98.99
