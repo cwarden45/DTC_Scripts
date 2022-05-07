@@ -1068,6 +1068,8 @@ I ordered 4 kits from 2 companies on 4/28/2022:
 
 ***Viome**: [Gut Intelligence](https://www.viome.com/products/gut-intelligence)
 
+I collected my sample on **5/6/2022**.  However, due to a problem with registring my Kean kits, I did not mail the samples back the same day.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
