@@ -1068,7 +1068,9 @@ I ordered 4 kits from 2 companies on 4/28/2022:
 
 ***Viome**: [Gut Intelligence](https://www.viome.com/products/gut-intelligence)
 
-I collected my sample on **5/6/2022**.  However, due to a problem with registring my Kean kits, I did not mail the samples back the same day.
+I collected my sample on **5/6/2022**.  Due to a problem with registring my Kean kits, I did not mail the samples back the same day.  However, I mailed all 4 samples on Saturday *5/7/2022*.
+
+My understanding is that there was a bug in the system, and I successfully registered my *Kean Gut* and *Kean Gut+* kits on Monday (5/9/2022).
 
 ## Other Notes
 
