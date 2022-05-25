@@ -1072,6 +1072,8 @@ I collected my sample on **5/6/2022**.  Due to a problem with registring my Kean
 
 My understanding is that there was a bug in the system, and I successfully registered my *Kean Gut* and *Kean Gut+* kits on Monday (5/9/2022).
 
+I recieved my **Ombre** results on 5/24/2022.  This includes CSV assignments for classifications, as well as FASTQ files.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
