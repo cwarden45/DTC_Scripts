@@ -15,7 +15,7 @@ I also ordered the version of AncestryDNA that provides some trait information, 
 
 I uploaded my AncestryDNA data and reports to [my PGP page](https://my.pgp-hms.org/profile/hu832966), if anybody wants to look into those.  There were some noticeable differences for the [DNA.land](https://dna.land/) ancestry estimations for my 23andMe chip versus my AncestryDNA chip, but both of those are up there (if you want to compare similar reports for the same individual, but using different chips).
 
-***So, overall, I wouldn't push too hard for people to have an additional test (and I'm not purchasing the additional Ancestry membership), but I think it provides some potentially interesting information.  For an extra $10, I think the extra traits results are worth it.***
+***So, overall, I wouldn't push too hard for people to have an additional test (and I'm not purchasing the additional Ancestry membership).***  For my purposes, I thought the cost of an extra $10 was acceptable, but I am not completely sure what to say about all of those results.
 
 Raw Data File Conversion
 -----------
