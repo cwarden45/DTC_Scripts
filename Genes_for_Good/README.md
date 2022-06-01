@@ -91,4 +91,4 @@ I also liked that they described limitations to the ancestry predictions within 
 
 I mention this because I would otherwise note that some chromosome painting results seemed like they may be false positives (even though my pie chart was 99% European, and I was clearly in the European cluster in the PCA plot).  For example, [in this blog post](https://cdwscience.blogspot.com/2019/09/examples-of-visual-critical-assessment.html), I believe you can see a likely phasing problem on *my human chromosome 14* (when the raw data was re-analyzed), where the African ancestry should only be coming from one of my parents (and this means the smaller segments of European ancestry in between could also be imprecise, or at least not have a clear parent of origin).
 
-However, with this warning, I feel very comfortable with the overall results (and, most importantly, the raw data), particulary given that they were free.
+So, with this warning, I feel very comfortable with the overall results (and, most importantly, the raw data), particulary given that they were free.
