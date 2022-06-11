@@ -1074,6 +1074,8 @@ My understanding is that there was a bug in the system, and I successfully regis
 
 I recieved my **Ombre** results on 5/24/2022.  This includes CSV assignments for classifications, as well as FASTQ files.
 
+I don't believe that I recieved an e-mail that my **Kean** results were ready.  However, I did receive an e-mail asking me to rate the project on 6/10/2022.  I then signed in, and I found that reports were available.  I then contacted the company to receive the raw data.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
