@@ -1074,7 +1074,19 @@ My understanding is that there was a bug in the system, and I successfully regis
 
 I recieved my **Ombre** results on 5/24/2022.  This includes CSV assignments for classifications, as well as FASTQ files.
 
-I don't believe that I recieved an e-mail that my **Kean** results were ready.  However, I did receive an e-mail asking me to rate the project on 6/10/2022.  I then signed in, and I found that reports were available.  I then contacted the company to receive the raw data.
+I don't believe that I recieved an e-mail that my **Kean** results were ready.  However, I did receive an e-mail asking me to rate the project on 6/10/2022.  I then signed in, and I found that reports were available.  I then contacted the company to receive the raw data.  I then promptly recieved the raw fastq.gz files on 6/13/2022:
+
+***Kean*  (Gut, Sample 6a):**
+
+[http://ngs2.macrogenlab.com/~customer/2206/AN00006955/2WP8H6PWY2_1.fastq.gz](http://ngs2.macrogenlab.com/~customer/2206/AN00006955/2WP8H6PWY2_1.fastq.gz)
+
+[http://ngs2.macrogenlab.com/~customer/2206/AN00006955/2WP8H6PWY2_2.fastq.gz](http://ngs2.macrogenlab.com/~customer/2206/AN00006955/2WP8H6PWY2_2.fastq.gz)
+
+***Kean*  (Gut+, Sample 6b):**
+
+[http://ngs2.macrogenlab.com/~customer/2206/AN00006896/3AR4YF9DW3_1.fastq.gz](http://ngs2.macrogenlab.com/~customer/2206/AN00006896/3AR4YF9DW3_1.fastq.gz)
+
+[http://ngs2.macrogenlab.com/~customer/2206/AN00006896/3AR4YF9DW3_2.fastq.gz](http://ngs2.macrogenlab.com/~customer/2206/AN00006896/3AR4YF9DW3_2.fastq.gz)
 
 ## Other Notes
 
