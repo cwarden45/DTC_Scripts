@@ -1104,14 +1104,14 @@ To provide a selected comparison of assignments (from the companies) for my 6th 
     <tr>
       <td align="center"><i>Akkermansia sp</i></td>
       <td align="left">?</td>
-      <td align="left">8.3%(<i>muciniphila</i>)</td>
+      <td align="left">8.3% (<i>muciniphila</i>)</td>
       <td align="left">0.288%</td>
-      <td align="left">Active(<i>muciniphila</i>)</td>
+      <td align="left">Active (<i>muciniphila</i>)</td>
     </tr>
      <tr>
       <td align="center"><i>Alistipes</i></td>
       <td align="left">?</td>
-       <td align="left">8.5%(<i>shahii</i>)<br>3.1%(<i>communis</i>)<br>2.1%(<i>finegoldii</i>)<br>1.9%(<i>sp. dk3624</i>)<br>1.8%(<i>indistinctus</i>)</td>
+       <td align="left">8.5% (<i>shahii</i>)<br>3.1% (<i>communis</i>)<br>2.1% (<i>finegoldii</i>)<br>1.9% (<i>sp. dk3624</i>)<br>1.8% (<i>indistinctus</i>)</td>
       <td align="left">3.096%</td>
       <td align="left">Active<br>(4 species)</td>
     </tr>
@@ -1131,7 +1131,7 @@ To provide a selected comparison of assignments (from the companies) for my 6th 
       </tr>
       <td align="center"><i>Bacteroides [other]</i></td>
       <td align="left">?</td>
-      <td align="left">7.9%(<i>sp. CACC 737</i>)<br>7.8%(<i>sp. A1C1</i>)<br>4.7%(<i>sp. HF-162</i>)<br>4.0%(<i>thetaiotaomicron</i>)<br>3.1%(<i>ovatus</i>)<br>2.8%(<i>caccae</i>)<br>2.8%(<i>xylanisolvens</i>)<br>1.5%(<i>fragilis</i>)<br>1.2%(<i>sp. HF-5287</i>)</td>
+      <td align="left">7.9% (<i>sp. CACC 737</i>)<br>7.8% (<i>sp. A1C1</i>)<br>4.7% (<i>sp. HF-162</i>)<br>4.0% (<i>thetaiotaomicron</i>)<br>3.1% (<i>ovatus</i>)<br>2.8% (<i>caccae</i>)<br>2.8% (<i>xylanisolvens</i>)<br>1.5% (<i>fragilis</i>)<br>1.2% (<i>sp. HF-5287</i>)</td>
       <td align="left">38.131%<br>(total)</td>
       <td align="left">Active<br>(14 other species)</td>
       </tr>
@@ -1145,7 +1145,7 @@ To provide a selected comparison of assignments (from the companies) for my 6th 
     <tr>
       <td align="center"><i>Eubacterium</i></td>
       <td align="left">?</td>
-  <td align="left">&lt0.1%(<i>sp. NSJ-61</i>)</td>
+  <td align="left">&lt0.1% (<i>sp. NSJ-61</i>)</td>
       <td align="left">6.040%</td>
       <td align="left">Not Detected?</td>
     </tr>
