@@ -1177,8 +1177,8 @@ I recieved my **Viome** results on 6/18/2022.
     </tr>
     <tr>
       <td align="center"><i>Lactobacillus</i></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Not Detected</td>
+      <td align="left">Not Detected</td>
       <td align="left"></td>
       <td align="left"></td>
       </tr>
