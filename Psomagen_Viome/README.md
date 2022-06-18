@@ -1088,6 +1088,8 @@ I don't believe that I recieved an e-mail that my **Kean** results were ready.  
 
 [http://ngs2.macrogenlab.com/~customer/2206/AN00006896/3AR4YF9DW3_2.fastq.gz](http://ngs2.macrogenlab.com/~customer/2206/AN00006896/3AR4YF9DW3_2.fastq.gz)
 
+I recieved my **Viome** results on 6/18/2022.
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
