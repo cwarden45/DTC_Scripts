@@ -1090,6 +1090,124 @@ I don't believe that I recieved an e-mail that my **Kean** results were ready.  
 
 I recieved my **Viome** results on 6/18/2022.
 
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Genus</th>
+      <th align="center">Kean<br>Gut</th>
+      <th align="center">Kean<br>Gut+</th>
+      <th align="center">Ombre</th>
+      <th align="center">Viome<br>Gut Intelligence<br>(as purchased)</th>
+    </tr>
+    <tr>
+      <td align="center"><i>Agathobacter rectalis</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+     </tr>
+    <tr>
+      <td align="center"><i>Akkermansia sp</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+     <tr>
+      <td align="center"><i>Alistipes</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Bacteroides stercoris</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Bacteroides uniformis</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+      <tr>
+      <td align="center"><i>Bacteroides vulgatus</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+      <tr>
+      <td align="center"><i>Bifidobacterium</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Blautia</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Eubacterium</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Faecalibacterium prausnitzii</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+    </tr>
+    <tr>
+      <td align="center"><i>Lactobacillus</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+    <tr>
+      <td align="center"><i>Parasutterella excrementihominis</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+    <tr>
+      <td align="center"><i>Pseudomonas</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+    <tr>
+      <td align="center"><i>Roseburia</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+    <tr>
+      <td align="center"><i>Ruminococcus bicirculans</i></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      <td align="left"></td>
+      </tr>
+</tbody>
+</table>
+
+
 ## Other Notes
 
 **1)** There is no liquid in the Psomagen stool collection tubes, so I don't believe there is anything to stop or reduce bacterial growth post-collection.
