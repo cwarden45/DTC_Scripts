@@ -1137,10 +1137,10 @@ To provide a selected comparison of assignments (from the companies) for my 6th 
       </tr>
     <tr>
       <td align="center"><i>Blautia</i></td>
-      <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">?</td>
+      <td align="left">0.4% (<i>sp. SC05B48</i>)<br>&lt0.1% (<i>obeum</i>)<br>&lt0.1%  (<i>producta</i>)</td>
+      <td align="left">3.062%</td>
+      <td align="left">Active<br>(2 species)</td>
     </tr>
     <tr>
       <td align="center"><i>Eubacterium</i></td>
@@ -1153,50 +1153,29 @@ To provide a selected comparison of assignments (from the companies) for my 6th 
       <td align="center"><i>Faecalibacterium prausnitzii</i></td>
       <td align="left">?</td>
       <td align="left">1.4%</td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">0.791%</td>
+      <td align="left">Active</td>
     </tr>
     <tr>
       <td align="center"><i>Lactobacillus</i></td>
       <td align="left">Not Detected</td>
       <td align="left">Not Detected</td>
-      <td align="left"></td>
-      <td align="left"></td>
-      </tr>
-    <tr>
-      <td align="center"><i>Parasutterella excrementihominis</i></td>
-      <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">0.037%</td>
+  <td align="left">Detected<br>(<i>johnsonii</i>)</td>
       </tr>
     <tr>
       <td align="center"><i>Phocaeicola vulgatus</i></td>
       <td align="left">?</td>
       <td align="left">21.4%</td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Not Classified?</td>
+      <td align="left">Not Active?</td>
       </tr>
       <tr>
       <td align="center"><i>Phocaeicola dorei</i></td>
       <td align="left">?</td>
       <td align="left">1.6%</td>
-      <td align="left"></td>
-      <td align="left"></td>
-      </tr>
-    <tr>
-      <td align="center"><i>Pseudomonas</i></td>
-      <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
-      </tr>
-    <tr>
-      <td align="center"><i>Roseburia</i></td>
-      <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
-      <td align="left"></td>
+      <td align="left">Not Classified?</td>
+      <td align="left">Not Active?</td>
       </tr>
     <tr>
       <td align="center"><i>Ruminococcus bicirculans</i></td>
