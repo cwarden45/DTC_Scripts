@@ -39,7 +39,15 @@ This code has been applied elsewhere, such as [here](https://github.com/cwarden4
       <td align="center">Kean5</td>
       <td align="center">99.98%</td>
      </tr>
-    <tr>
+ 	<tr>
+      <td align="center">Kean6a</td>
+      <td align="center"></td>
+     </tr>
+ 	<tr>
+      <td align="center">Kean6b</td>
+      <td align="center"></td>
+     </tr>
+	  <tr>
       <td align="center">thryve2</td>
       <td align="center">97.66%</td>
      </tr>
@@ -58,6 +66,10 @@ This code has been applied elsewhere, such as [here](https://github.com/cwarden4
     <tr>
       <td align="center">Ombre5</td>
       <td align="center">97.89%</td>
+     </tr>
+    <tr>
+      <td align="center">Ombre6</td>
+      <td align="center"></td>
      </tr>
 </tbody>
 </table>
