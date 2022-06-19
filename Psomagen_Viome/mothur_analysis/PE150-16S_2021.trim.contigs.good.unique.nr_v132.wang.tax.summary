@@ -1,403 +1,418 @@
-taxlevel	rankID	taxon	daughterlevels	total	Ombre5	Psomagen1b	Psomagen2	Psomagen3	Psomagen4	thryve2	thryve3a	thryve3b	thryve4
-0	0	Root	4	31213285	35786	9050376	7014774	7183238	7761896	50003	36671	42403	38138
-1	0.1	Archaea	1	1	0	0	0	0	1	0	0	0	0
-2	0.1.1	Archaea_unclassified	1	1	0	0	0	0	1	0	0	0	0
-3	0.1.1.1	Archaea_unclassified	1	1	0	0	0	0	1	0	0	0	0
-4	0.1.1.1.1	Archaea_unclassified	1	1	0	0	0	0	1	0	0	0	0
-5	0.1.1.1.1.1	Archaea_unclassified	1	1	0	0	0	0	1	0	0	0	0
-6	0.1.1.1.1.1.1	Archaea_unclassified	0	1	0	0	0	0	1	0	0	0	0
-1	0.2	Bacteria	8	272881	35744	21400	15347	12187	21169	49941	36628	42344	38121
-2	0.2.1	Actinobacteria	3	397	77	10	18	26	82	30	13	28	113
-3	0.2.1.1	Actinobacteria	5	159	52	1	1	2	18	7	2	12	64
-4	0.2.1.1.1	Actinobacteria_unclassified	1	1	0	0	0	0	1	0	0	0	0
-5	0.2.1.1.1.1	Actinobacteria_unclassified	1	1	0	0	0	0	1	0	0	0	0
-6	0.2.1.1.1.1.1	Actinobacteria_unclassified	0	1	0	0	0	0	1	0	0	0	0
-4	0.2.1.1.2	Actinomycetales	1	14	9	0	0	1	2	0	0	2	0
-5	0.2.1.1.2.1	Actinomycetaceae	2	14	9	0	0	1	2	0	0	2	0
-6	0.2.1.1.2.1.1	Actinomyces	0	10	5	0	0	1	2	0	0	2	0
-6	0.2.1.1.2.1.2	Mobiluncus	0	4	4	0	0	0	0	0	0	0	0
-4	0.2.1.1.3	Bifidobacteriales	1	128	28	1	1	1	15	7	2	10	63
-5	0.2.1.1.3.1	Bifidobacteriaceae	2	128	28	1	1	1	15	7	2	10	63
-6	0.2.1.1.3.1.1	Bifidobacteriaceae_unclassified	0	8	4	0	0	1	2	0	0	0	1
-6	0.2.1.1.3.1.2	Bifidobacterium	0	120	24	1	1	0	13	7	2	10	62
-4	0.2.1.1.4	Corynebacteriales	1	8	8	0	0	0	0	0	0	0	0
-5	0.2.1.1.4.1	Corynebacteriaceae	2	8	8	0	0	0	0	0	0	0	0
-6	0.2.1.1.4.1.1	Corynebacterium_1	0	7	7	0	0	0	0	0	0	0	0
-6	0.2.1.1.4.1.2	Lawsonella	0	1	1	0	0	0	0	0	0	0	0
-4	0.2.1.1.5	Micrococcales	2	8	7	0	0	0	0	0	0	0	1
-5	0.2.1.1.5.1	Brevibacteriaceae	1	7	7	0	0	0	0	0	0	0	0
-6	0.2.1.1.5.1.1	Brevibacterium	0	7	7	0	0	0	0	0	0	0	0
-5	0.2.1.1.5.2	Micrococcaceae	1	1	0	0	0	0	0	0	0	0	1
-6	0.2.1.1.5.2.1	Paenarthrobacter	0	1	0	0	0	0	0	0	0	0	1
-3	0.2.1.2	Actinobacteria_unclassified	1	3	0	1	0	0	2	0	0	0	0
-4	0.2.1.2.1	Actinobacteria_unclassified	1	3	0	1	0	0	2	0	0	0	0
-5	0.2.1.2.1.1	Actinobacteria_unclassified	1	3	0	1	0	0	2	0	0	0	0
-6	0.2.1.2.1.1.1	Actinobacteria_unclassified	0	3	0	1	0	0	2	0	0	0	0
-3	0.2.1.3	Coriobacteriia	1	235	25	8	17	24	62	23	11	16	49
-4	0.2.1.3.1	Coriobacteriales	5	235	25	8	17	24	62	23	11	16	49
-5	0.2.1.3.1.1	Atopobiaceae	1	1	1	0	0	0	0	0	0	0	0
-6	0.2.1.3.1.1.1	uncultured	0	1	1	0	0	0	0	0	0	0	0
-5	0.2.1.3.1.2	Coriobacteriaceae	1	2	0	0	0	1	0	1	0	0	0
-6	0.2.1.3.1.2.1	Collinsella	0	2	0	0	0	1	0	1	0	0	0
-5	0.2.1.3.1.3	Coriobacteriales_Incertae_Sedis	1	40	7	1	0	1	2	12	7	4	6
-6	0.2.1.3.1.3.1	uncultured	0	40	7	1	0	1	2	12	7	4	6
-5	0.2.1.3.1.4	Coriobacteriales_unclassified	1	5	0	1	1	1	2	0	0	0	0
-6	0.2.1.3.1.4.1	Coriobacteriales_unclassified	0	5	0	1	1	1	2	0	0	0	0
-5	0.2.1.3.1.5	Eggerthellaceae	6	187	17	6	16	21	58	10	4	12	43
-6	0.2.1.3.1.5.1	Adlercreutzia	0	78	3	4	9	7	33	3	2	4	13
-6	0.2.1.3.1.5.2	DNF00809	0	4	1	0	0	0	0	1	0	1	1
-6	0.2.1.3.1.5.3	Eggerthella	0	64	11	1	1	3	11	4	2	5	26
-6	0.2.1.3.1.5.4	Eggerthellaceae_unclassified	0	19	0	1	3	8	5	0	0	1	1
-6	0.2.1.3.1.5.5	Gordonibacter	0	21	2	0	3	3	8	2	0	1	2
-6	0.2.1.3.1.5.6	Slackia	0	1	0	0	0	0	1	0	0	0	0
-2	0.2.2	Bacteria_unclassified	1	6585	134	1717	1195	832	1830	178	199	254	246
-3	0.2.2.1	Bacteria_unclassified	1	6585	134	1717	1195	832	1830	178	199	254	246
-4	0.2.2.1.1	Bacteria_unclassified	1	6585	134	1717	1195	832	1830	178	199	254	246
-5	0.2.2.1.1.1	Bacteria_unclassified	1	6585	134	1717	1195	832	1830	178	199	254	246
-6	0.2.2.1.1.1.1	Bacteria_unclassified	0	6585	134	1717	1195	832	1830	178	199	254	246
-2	0.2.3	Bacteroidetes	2	111960	17827	10003	7034	5459	3548	29252	15761	16688	6388
-3	0.2.3.1	Bacteroidetes_unclassified	1	57	2	12	19	15	5	3	1	0	0
-4	0.2.3.1.1	Bacteroidetes_unclassified	1	57	2	12	19	15	5	3	1	0	0
-5	0.2.3.1.1.1	Bacteroidetes_unclassified	1	57	2	12	19	15	5	3	1	0	0
-6	0.2.3.1.1.1.1	Bacteroidetes_unclassified	0	57	2	12	19	15	5	3	1	0	0
-3	0.2.3.2	Bacteroidia	2	111903	17825	9991	7015	5444	3543	29249	15760	16688	6388
-4	0.2.3.2.1	Bacteroidales	11	110751	17799	9684	6764	5259	3330	29193	15705	16642	6375
-5	0.2.3.2.1.1	Bacteroidaceae	1	94392	16474	8091	5477	3944	1649	27074	13875	14408	3400
-6	0.2.3.2.1.1.1	Bacteroides	0	94392	16474	8091	5477	3944	1649	27074	13875	14408	3400
-5	0.2.3.2.1.2	Bacteroidales_unclassified	1	2977	55	998	765	580	305	97	76	66	35
-6	0.2.3.2.1.2.1	Bacteroidales_unclassified	0	2977	55	998	765	580	305	97	76	66	35
-5	0.2.3.2.1.3	Barnesiellaceae	1	2	0	0	0	0	0	2	0	0	0
-6	0.2.3.2.1.3.1	Barnesiella	0	2	0	0	0	0	0	2	0	0	0
-5	0.2.3.2.1.4	Dysgonomonadaceae	1	1	0	0	1	0	0	0	0	0	0
-6	0.2.3.2.1.4.1	Dysgonomonadaceae_unclassified	0	1	0	0	1	0	0	0	0	0	0
-5	0.2.3.2.1.5	Marinifilaceae	3	1286	151	133	54	85	107	259	178	159	160
-6	0.2.3.2.1.5.1	Butyricimonas	0	703	94	70	20	61	81	117	82	76	102
-6	0.2.3.2.1.5.2	Marinifilaceae_unclassified	0	2	0	0	0	1	1	0	0	0	0
-6	0.2.3.2.1.5.3	Odoribacter	0	581	57	63	34	23	25	142	96	83	58
-5	0.2.3.2.1.6	Muribaculaceae	1	2	0	0	0	0	0	1	0	0	1
-6	0.2.3.2.1.6.1	Muribaculaceae_ge	0	2	0	0	0	0	0	1	0	0	1
-5	0.2.3.2.1.7	Paludibacteraceae	2	11	0	2	1	8	0	0	0	0	0
-6	0.2.3.2.1.7.1	H1	0	6	0	0	1	5	0	0	0	0	0
-6	0.2.3.2.1.7.2	Paludibacteraceae_unclassified	0	5	0	2	0	3	0	0	0	0	0
-5	0.2.3.2.1.8	Porphyromonadaceae	1	71	71	0	0	0	0	0	0	0	0
-6	0.2.3.2.1.8.1	Porphyromonas	0	71	71	0	0	0	0	0	0	0	0
-5	0.2.3.2.1.9	Prevotellaceae	8	312	259	1	1	3	1	8	14	20	5
-6	0.2.3.2.1.9.1	Paraprevotella	0	1	0	0	0	0	0	0	0	0	1
-6	0.2.3.2.1.9.2	Prevotella	0	237	235	0	0	0	0	0	0	1	1
-6	0.2.3.2.1.9.3	Prevotella_2	0	2	0	0	0	0	0	1	1	0	0
-6	0.2.3.2.1.9.4	Prevotella_6	0	2	0	0	0	0	1	0	1	0	0
-6	0.2.3.2.1.9.5	Prevotella_9	0	61	18	0	0	3	0	6	12	19	3
-6	0.2.3.2.1.9.6	Prevotellaceae_Ga6A1_group	0	1	0	1	0	0	0	0	0	0	0
-6	0.2.3.2.1.9.7	Prevotellaceae_unclassified	0	7	6	0	1	0	0	0	0	0	0
-6	0.2.3.2.1.9.8	uncultured	0	1	0	0	0	0	0	1	0	0	0
-5	0.2.3.2.1.10	Rikenellaceae	3	10828	589	411	396	623	1248	1527	1439	1861	2734
-6	0.2.3.2.1.10.1	Alistipes	0	10680	589	391	381	597	1192	1523	1432	1856	2719
-6	0.2.3.2.1.10.2	Mucinivorans	0	1	0	0	0	1	0	0	0	0	0
-6	0.2.3.2.1.10.3	Rikenellaceae_unclassified	0	147	0	20	15	25	56	4	7	5	15
-5	0.2.3.2.1.11	Tannerellaceae	2	869	200	48	69	16	20	225	123	128	40
-6	0.2.3.2.1.11.1	Parabacteroides	0	832	199	33	62	12	15	225	119	127	40
-6	0.2.3.2.1.11.2	Tannerellaceae_unclassified	0	37	1	15	7	4	5	0	4	1	0
-4	0.2.3.2.2	Bacteroidia_unclassified	1	1152	26	307	251	185	213	56	55	46	13
-5	0.2.3.2.2.1	Bacteroidia_unclassified	1	1152	26	307	251	185	213	56	55	46	13
-6	0.2.3.2.2.1.1	Bacteroidia_unclassified	0	1152	26	307	251	185	213	56	55	46	13
-2	0.2.4	Cyanobacteria	2	165	0	0	0	11	1	0	77	67	9
-3	0.2.4.1	Melainabacteria	1	162	0	0	0	11	1	0	77	67	6
-4	0.2.4.1.1	Gastranaerophilales	1	162	0	0	0	11	1	0	77	67	6
-5	0.2.4.1.1.1	Gastranaerophilales_fa	1	162	0	0	0	11	1	0	77	67	6
-6	0.2.4.1.1.1.1	Gastranaerophilales_ge	0	162	0	0	0	11	1	0	77	67	6
-3	0.2.4.2	Oxyphotobacteria	1	3	0	0	0	0	0	0	0	0	3
-4	0.2.4.2.1	Chloroplast	1	3	0	0	0	0	0	0	0	0	3
-5	0.2.4.2.1.1	Chloroplast_fa	1	3	0	0	0	0	0	0	0	0	3
-6	0.2.4.2.1.1.1	Chloroplast_ge	0	3	0	0	0	0	0	0	0	0	3
-2	0.2.5	Firmicutes	5	109318	15555	3796	2514	2516	3600	19114	18339	22750	21134
-3	0.2.5.1	Bacilli	2	304	60	5	0	1	32	20	16	31	139
-4	0.2.5.1.1	Bacilli_unclassified	1	2	0	1	0	0	1	0	0	0	0
-5	0.2.5.1.1.1	Bacilli_unclassified	1	2	0	1	0	0	1	0	0	0	0
-6	0.2.5.1.1.1.1	Bacilli_unclassified	0	2	0	1	0	0	1	0	0	0	0
-4	0.2.5.1.2	Lactobacillales	5	302	60	4	0	1	31	20	16	31	139
-5	0.2.5.1.2.1	Carnobacteriaceae	2	6	1	1	0	1	2	0	0	1	0
-6	0.2.5.1.2.1.1	Carnobacteriaceae_unclassified	0	1	0	0	0	0	0	0	0	1	0
-6	0.2.5.1.2.1.2	Granulicatella	0	5	1	1	0	1	2	0	0	0	0
-5	0.2.5.1.2.2	Enterococcaceae	2	4	3	0	0	0	0	0	0	0	1
-6	0.2.5.1.2.2.1	Enterococcus	0	1	0	0	0	0	0	0	0	0	1
-6	0.2.5.1.2.2.2	Tetragenococcus	0	3	3	0	0	0	0	0	0	0	0
-5	0.2.5.1.2.3	Lactobacillaceae	1	3	1	0	0	0	0	1	1	0	0
-6	0.2.5.1.2.3.1	Lactobacillus	0	3	1	0	0	0	0	1	1	0	0
-5	0.2.5.1.2.4	Lactobacillales_unclassified	1	10	0	0	0	0	4	0	0	1	5
-6	0.2.5.1.2.4.1	Lactobacillales_unclassified	0	10	0	0	0	0	4	0	0	1	5
-5	0.2.5.1.2.5	Streptococcaceae	3	279	55	3	0	0	25	19	15	29	133
-6	0.2.5.1.2.5.1	Lactococcus	0	38	10	0	0	0	0	0	8	5	15
-6	0.2.5.1.2.5.2	Streptococcaceae_unclassified	0	3	1	0	0	0	0	0	0	0	2
-6	0.2.5.1.2.5.3	Streptococcus	0	238	44	3	0	0	25	19	7	24	116
-3	0.2.5.2	Clostridia	3	107132	15278	3668	2433	2460	3388	18674	18171	22558	20502
-4	0.2.5.2.1	Clostridia_unclassified	1	2398	106	10	4	8	32	148	186	236	1668
-5	0.2.5.2.1.1	Clostridia_unclassified	1	2398	106	10	4	8	32	148	186	236	1668
-6	0.2.5.2.1.1.1	Clostridia_unclassified	0	2398	106	10	4	8	32	148	186	236	1668
-4	0.2.5.2.2	Clostridiales	13	104714	15172	3657	2426	2451	3341	18526	17985	22322	18834
-5	0.2.5.2.2.1	Christensenellaceae	4	2802	211	49	49	94	223	179	471	584	942
-6	0.2.5.2.2.1.1	Catabacter	0	11	0	0	0	0	0	1	1	2	7
-6	0.2.5.2.2.1.2	Christensenellaceae_R-7_group	0	2649	200	41	42	72	188	162	454	559	931
-6	0.2.5.2.2.1.3	Christensenellaceae_unclassified	0	65	0	6	7	19	30	0	1	2	0
-6	0.2.5.2.2.1.4	uncultured	0	77	11	2	0	3	5	16	15	21	4
-5	0.2.5.2.2.2	Clostridiaceae_1	2	15	3	0	1	0	0	10	0	1	0
-6	0.2.5.2.2.2.1	Clostridiaceae_1_unclassified	0	4	2	0	1	0	0	1	0	0	0
-6	0.2.5.2.2.2.2	Clostridium_sensu_stricto_1	0	11	1	0	0	0	0	9	0	1	0
-5	0.2.5.2.2.3	Clostridiales_unclassified	1	1527	112	87	60	90	169	134	203	299	373
-6	0.2.5.2.2.3.1	Clostridiales_unclassified	0	1527	112	87	60	90	169	134	203	299	373
-5	0.2.5.2.2.4	Clostridiales_vadinBB60_group	1	498	1	15	22	79	53	44	52	95	137
-6	0.2.5.2.2.4.1	Clostridiales_vadinBB60_group_ge	0	498	1	15	22	79	53	44	52	95	137
-5	0.2.5.2.2.5	Defluviitaleaceae	1	4	0	0	0	0	4	0	0	0	0
-6	0.2.5.2.2.5.1	Defluviitaleaceae_UCG-011	0	4	0	0	0	0	4	0	0	0	0
-5	0.2.5.2.2.6	Eubacteriaceae	1	3	0	0	0	0	0	0	1	1	1
-6	0.2.5.2.2.6.1	Anaerofustis	0	3	0	0	0	0	0	0	1	1	1
-5	0.2.5.2.2.7	Family_XI	5	267	261	0	0	0	0	0	2	0	4
-6	0.2.5.2.2.7.1	Anaerococcus	0	10	10	0	0	0	0	0	0	0	0
-6	0.2.5.2.2.7.2	Ezakiella	0	75	75	0	0	0	0	0	0	0	0
-6	0.2.5.2.2.7.3	Finegoldia	0	30	30	0	0	0	0	0	0	0	0
-6	0.2.5.2.2.7.4	Murdochiella	0	114	112	0	0	0	0	0	2	0	0
-6	0.2.5.2.2.7.5	Peptoniphilus	0	38	34	0	0	0	0	0	0	0	4
-5	0.2.5.2.2.8	Family_XIII	6	305	29	6	1	1	56	21	20	25	146
-6	0.2.5.2.2.8.1	Family_XIII_AD3011_group	0	131	6	3	0	0	25	8	11	16	62
-6	0.2.5.2.2.8.2	Family_XIII_UCG-001	0	14	4	2	1	0	0	6	0	1	0
-6	0.2.5.2.2.8.3	Family_XIII_ge	0	1	0	0	0	0	0	0	0	0	1
-6	0.2.5.2.2.8.4	Family_XIII_unclassified	0	143	3	1	0	1	31	7	9	8	83
-6	0.2.5.2.2.8.5	Mogibacterium	0	4	4	0	0	0	0	0	0	0	0
-6	0.2.5.2.2.8.6	S5-A14a	0	12	12	0	0	0	0	0	0	0	0
-5	0.2.5.2.2.9	Lachnospiraceae	37	47321	6623	1682	1143	1241	1007	8329	8837	11628	6831
-6	0.2.5.2.2.9.1	Agathobacter	0	11381	333	548	393	433	0	2848	2792	4020	14
-6	0.2.5.2.2.9.2	Anaerosporobacter	0	1	0	0	0	0	0	1	0	0	0
-6	0.2.5.2.2.9.3	Anaerostipes	0	375	53	32	12	2	11	122	47	43	53
-6	0.2.5.2.2.9.4	Blautia	0	12035	2050	174	120	106	488	1238	1493	1846	4520
-6	0.2.5.2.2.9.5	CAG-56	0	27	0	0	0	1	0	1	1	9	15
-6	0.2.5.2.2.9.6	Coprococcus_1	0	12	4	0	0	0	0	1	2	1	4
-6	0.2.5.2.2.9.7	Coprococcus_2	0	4	4	0	0	0	0	0	0	0	0
-6	0.2.5.2.2.9.8	Coprococcus_3	0	12	4	0	0	0	0	1	0	3	4
-6	0.2.5.2.2.9.9	Cuneatibacter	0	2	0	1	1	0	0	0	0	0	0
-6	0.2.5.2.2.9.10	Dorea	0	24	0	3	1	1	10	4	1	4	0
-6	0.2.5.2.2.9.11	Eisenbergiella	0	51	4	12	9	7	2	1	2	7	7
-6	0.2.5.2.2.9.12	Fusicatenibacter	0	2937	526	137	55	78	0	478	617	1046	0
-6	0.2.5.2.2.9.13	GCA-900066575	0	175	32	2	1	1	0	24	37	34	44
-6	0.2.5.2.2.9.14	GCA-900066755	0	15	3	0	0	1	3	0	1	2	5
-6	0.2.5.2.2.9.15	Hungatella	0	199	16	5	2	5	11	25	25	60	50
-6	0.2.5.2.2.9.16	Lachnoclostridium	0	2157	599	45	45	26	22	603	219	319	279
-6	0.2.5.2.2.9.17	Lachnoclostridium_5	0	3	0	3	0	0	0	0	0	0	0
-6	0.2.5.2.2.9.18	Lachnospira	0	25	2	9	3	1	2	2	4	1	1
-6	0.2.5.2.2.9.19	Lachnospiraceae_FCS020_group	0	5	0	0	0	0	1	0	0	4	0
-6	0.2.5.2.2.9.20	Lachnospiraceae_ND3007_group	0	406	210	1	0	0	0	73	70	44	8
-6	0.2.5.2.2.9.21	Lachnospiraceae_NK4A136_group	0	313	61	37	17	29	1	39	45	84	0
-6	0.2.5.2.2.9.22	Lachnospiraceae_NK4B4_group	0	42	1	0	0	2	3	0	15	18	3
-6	0.2.5.2.2.9.23	Lachnospiraceae_UCG-004	0	466	116	23	13	4	0	161	72	74	3
-6	0.2.5.2.2.9.24	Lachnospiraceae_UCG-010	0	136	20	4	2	0	0	31	26	47	6
-6	0.2.5.2.2.9.25	Lachnospiraceae_ge	0	2940	527	20	12	19	42	427	685	714	494
-6	0.2.5.2.2.9.26	Lachnospiraceae_unclassified	0	12098	1963	574	392	435	397	1877	2285	2885	1290
-6	0.2.5.2.2.9.27	Lactonifactor	0	1	0	0	0	0	0	0	0	1	0
-6	0.2.5.2.2.9.28	Marvinbryantia	0	39	2	1	0	2	9	4	5	2	14
-6	0.2.5.2.2.9.29	Pseudobutyrivibrio	0	34	0	13	8	13	0	0	0	0	0
-6	0.2.5.2.2.9.30	Roseburia	0	993	7	15	47	70	0	292	292	268	2
-6	0.2.5.2.2.9.31	Sellimonas	0	122	7	4	2	1	3	27	39	32	7
-6	0.2.5.2.2.9.32	Shuttleworthia	0	66	19	1	0	2	0	13	15	13	3
-6	0.2.5.2.2.9.33	Sporobacterium	0	1	0	1	0	0	0	0	0	0	0
-6	0.2.5.2.2.9.34	Tyzzerella	0	204	55	16	7	2	0	33	42	44	5
-6	0.2.5.2.2.9.35	Tyzzerella_4	0	2	0	0	0	0	2	0	0	0	0
-6	0.2.5.2.2.9.36	UC5-1-2E3	0	14	3	1	1	0	0	3	3	3	0
-6	0.2.5.2.2.9.37	uncultured	0	4	2	0	0	0	0	0	2	0	0
-5	0.2.5.2.2.10	Peptococcaceae	3	72	13	4	4	3	4	7	13	13	11
-6	0.2.5.2.2.10.1	Peptococcaceae_unclassified	0	10	0	4	2	1	2	0	0	1	0
-6	0.2.5.2.2.10.2	Peptococcus	0	1	0	0	1	0	0	0	0	0	0
-6	0.2.5.2.2.10.3	uncultured	0	61	13	0	1	2	2	7	13	12	11
-5	0.2.5.2.2.11	Peptostreptococcaceae	3	6	0	0	0	0	0	0	1	4	1
-6	0.2.5.2.2.11.1	Intestinibacter	0	2	0	0	0	0	0	0	1	1	0
-6	0.2.5.2.2.11.2	Peptostreptococcaceae_unclassified	0	1	0	0	0	0	0	0	0	1	0
-6	0.2.5.2.2.11.3	Romboutsia	0	3	0	0	0	0	0	0	0	2	1
-5	0.2.5.2.2.12	Ruminococcaceae	45	51891	7919	1814	1146	943	1825	9801	8383	9672	10388
-6	0.2.5.2.2.12.1	Acetanaerobacterium	0	13	3	0	0	1	0	1	4	2	2
-6	0.2.5.2.2.12.2	Anaerofilum	0	15	1	2	0	0	0	2	6	4	0
-6	0.2.5.2.2.12.3	Anaerotruncus	0	877	204	10	11	7	42	75	82	133	313
-6	0.2.5.2.2.12.4	Angelakisella	0	229	18	1	6	4	9	22	55	61	53
-6	0.2.5.2.2.12.5	Butyricicoccus	0	258	68	5	5	3	3	102	45	19	8
-6	0.2.5.2.2.12.6	Candidatus_Soleaferrea	0	19	2	1	0	1	1	2	0	2	10
-6	0.2.5.2.2.12.7	Caproiciproducens	0	22	2	4	2	2	7	0	0	1	4
-6	0.2.5.2.2.12.8	DTU089	0	39	0	1	1	2	1	1	4	6	23
-6	0.2.5.2.2.12.9	Faecalibacterium	0	11188	1840	826	429	196	1	3359	2436	2077	24
-6	0.2.5.2.2.12.10	Fastidiosipila	0	44	44	0	0	0	0	0	0	0	0
-6	0.2.5.2.2.12.11	Flavonifractor	0	305	118	10	28	11	9	46	24	18	41
-6	0.2.5.2.2.12.12	Fournierella	0	33	9	1	0	4	4	6	1	6	2
-6	0.2.5.2.2.12.13	GCA-900066225	0	14	3	0	0	0	4	1	0	2	4
-6	0.2.5.2.2.12.14	Harryflintia	0	2	0	0	0	0	0	0	2	0	0
-6	0.2.5.2.2.12.15	Hydrogenoanaerobacterium	0	642	52	3	4	6	30	52	55	82	358
-6	0.2.5.2.2.12.16	Intestinimonas	0	675	123	16	25	18	44	73	101	101	174
-6	0.2.5.2.2.12.17	Negativibacillus	0	516	201	4	6	12	2	30	85	154	22
-6	0.2.5.2.2.12.18	Oscillibacter	0	451	126	18	32	20	10	67	60	72	46
-6	0.2.5.2.2.12.19	Oscillospira	0	77	20	4	11	2	0	33	3	4	0
-6	0.2.5.2.2.12.20	Papillibacter	0	3	0	0	0	0	0	2	1	0	0
-6	0.2.5.2.2.12.21	Phocea	0	45	12	2	0	0	0	9	13	5	4
-6	0.2.5.2.2.12.22	Pseudoflavonifractor	0	43	3	14	8	6	3	1	6	2	0
-6	0.2.5.2.2.12.23	Ruminiclostridium	0	6	0	1	0	0	1	0	0	4	0
-6	0.2.5.2.2.12.24	Ruminiclostridium_1	0	1	0	1	0	0	0	0	0	0	0
-6	0.2.5.2.2.12.25	Ruminiclostridium_5	0	2061	334	5	3	2	60	155	212	198	1092
-6	0.2.5.2.2.12.26	Ruminiclostridium_6	0	2386	391	43	32	35	67	590	515	385	328
-6	0.2.5.2.2.12.27	Ruminiclostridium_9	0	939	303	39	20	37	10	94	176	182	78
-6	0.2.5.2.2.12.28	Ruminococcaceae_NK4A214_group	0	377	43	10	5	21	26	20	45	68	139
-6	0.2.5.2.2.12.29	Ruminococcaceae_UCG-001	0	1	0	1	0	0	0	0	0	0	0
-6	0.2.5.2.2.12.30	Ruminococcaceae_UCG-002	0	991	58	23	12	33	100	76	68	131	490
-6	0.2.5.2.2.12.31	Ruminococcaceae_UCG-003	0	1033	180	83	29	51	24	85	172	295	114
-6	0.2.5.2.2.12.32	Ruminococcaceae_UCG-004	0	340	73	4	0	1	2	45	78	57	80
-6	0.2.5.2.2.12.33	Ruminococcaceae_UCG-005	0	656	64	12	4	1	84	24	23	67	377
-6	0.2.5.2.2.12.34	Ruminococcaceae_UCG-007	0	3	0	0	0	0	0	0	1	1	1
-6	0.2.5.2.2.12.35	Ruminococcaceae_UCG-010	0	161	14	1	4	1	1	41	26	31	42
-6	0.2.5.2.2.12.36	Ruminococcaceae_UCG-011	0	8	0	1	0	0	0	0	0	4	3
-6	0.2.5.2.2.12.37	Ruminococcaceae_UCG-013	0	2194	629	15	9	16	24	290	472	544	195
-6	0.2.5.2.2.12.38	Ruminococcaceae_UCG-014	0	523	29	5	15	7	13	163	116	122	53
-6	0.2.5.2.2.12.39	Ruminococcaceae_ge	0	939	163	12	4	10	79	44	46	75	506
-6	0.2.5.2.2.12.40	Ruminococcaceae_unclassified	0	11087	981	356	254	246	1087	902	867	1059	5335
-6	0.2.5.2.2.12.41	Ruminococcus_1	0	4650	597	73	19	6	12	1872	915	1015	141
-6	0.2.5.2.2.12.42	Ruminococcus_2	0	5480	837	125	92	84	24	1196	1176	1946	0
-6	0.2.5.2.2.12.43	Subdoligranulum	0	2029	333	74	63	89	5	275	436	666	88
-6	0.2.5.2.2.12.44	UBA1819	0	230	25	0	8	3	19	21	28	29	97
-6	0.2.5.2.2.12.45	uncultured	0	286	16	8	5	5	17	24	28	42	141
-5	0.2.5.2.2.13	Syntrophomonadaceae	1	3	0	0	0	0	0	1	2	0	0
-6	0.2.5.2.2.13.1	Syntrophomonadaceae_unclassified	0	3	0	0	0	0	0	1	2	0	0
-4	0.2.5.2.3	DTU014	1	20	0	1	3	1	15	0	0	0	0
-5	0.2.5.2.3.1	DTU014_fa	1	20	0	1	3	1	15	0	0	0	0
-6	0.2.5.2.3.1.1	DTU014_ge	0	20	0	1	3	1	15	0	0	0	0
-3	0.2.5.3	Erysipelotrichia	1	997	159	31	19	9	81	270	78	80	270
-4	0.2.5.3.1	Erysipelotrichales	1	997	159	31	19	9	81	270	78	80	270
-5	0.2.5.3.1.1	Erysipelotrichaceae	13	997	159	31	19	9	81	270	78	80	270
-6	0.2.5.3.1.1.1	Candidatus_Stoquefichus	0	30	8	4	1	0	0	3	3	10	1
-6	0.2.5.3.1.1.2	Coprobacillus	0	3	1	0	0	0	0	0	2	0	0
-6	0.2.5.3.1.1.3	Dielma	0	20	0	0	0	0	3	3	0	2	12
-6	0.2.5.3.1.1.4	Erysipelatoclostridium	0	85	18	4	0	2	2	10	10	10	29
-6	0.2.5.3.1.1.5	Erysipelotrichaceae_UCG-003	0	387	115	14	5	0	0	209	22	15	7
-6	0.2.5.3.1.1.6	Erysipelotrichaceae_ge	0	25	1	0	2	2	2	2	6	1	9
-6	0.2.5.3.1.1.7	Erysipelotrichaceae_unclassified	0	38	2	0	1	0	23	0	0	1	11
-6	0.2.5.3.1.1.8	Faecalitalea	0	295	1	5	7	3	45	28	19	22	165
-6	0.2.5.3.1.1.9	Holdemanella	0	2	0	0	0	0	0	1	0	0	1
-6	0.2.5.3.1.1.10	Holdemania	0	75	13	4	3	2	3	13	13	13	11
-6	0.2.5.3.1.1.11	Merdibacter	0	32	0	0	0	0	2	0	3	6	21
-6	0.2.5.3.1.1.12	Solobacterium	0	4	0	0	0	0	1	1	0	0	2
-6	0.2.5.3.1.1.13	Turicibacter	0	1	0	0	0	0	0	0	0	0	1
-3	0.2.5.4	Firmicutes_unclassified	1	444	17	46	39	35	64	21	45	46	131
-4	0.2.5.4.1	Firmicutes_unclassified	1	444	17	46	39	35	64	21	45	46	131
-5	0.2.5.4.1.1	Firmicutes_unclassified	1	444	17	46	39	35	64	21	45	46	131
-6	0.2.5.4.1.1.1	Firmicutes_unclassified	0	444	17	46	39	35	64	21	45	46	131
-3	0.2.5.5	Negativicutes	1	441	41	46	23	11	35	129	29	35	92
-4	0.2.5.5.1	Selenomonadales	2	441	41	46	23	11	35	129	29	35	92
-5	0.2.5.5.1.1	Acidaminococcaceae	2	8	4	0	0	0	0	2	1	1	0
-6	0.2.5.5.1.1.1	Acidaminococcus	0	3	2	0	0	0	0	1	0	0	0
-6	0.2.5.5.1.1.2	Phascolarctobacterium	0	5	2	0	0	0	0	1	1	1	0
-5	0.2.5.5.1.2	Veillonellaceae	5	433	37	46	23	11	35	127	28	34	92
-6	0.2.5.5.1.2.1	Dialister	0	416	35	45	15	10	34	127	26	33	91
-6	0.2.5.5.1.2.2	Megamonas	0	6	0	0	5	1	0	0	0	0	0
-6	0.2.5.5.1.2.3	Megasphaera	0	2	0	0	1	0	0	0	1	0	0
-6	0.2.5.5.1.2.4	Veillonella	0	1	0	0	1	0	0	0	0	0	0
-6	0.2.5.5.1.2.5	Veillonellaceae_unclassified	0	8	2	1	1	0	1	0	1	1	1
-2	0.2.6	Proteobacteria	4	28111	821	5772	4501	3163	11129	813	470	429	1013
-3	0.2.6.1	Alphaproteobacteria	5	18404	0	4471	3418	2389	8122	0	0	2	2
-4	0.2.6.1.1	Alphaproteobacteria_unclassified	1	87	0	34	22	10	21	0	0	0	0
-5	0.2.6.1.1.1	Alphaproteobacteria_unclassified	1	87	0	34	22	10	21	0	0	0	0
-6	0.2.6.1.1.1.1	Alphaproteobacteria_unclassified	0	87	0	34	22	10	21	0	0	0	0
-4	0.2.6.1.2	Caulobacterales	1	1	0	0	0	0	0	0	0	0	1
-5	0.2.6.1.2.1	Caulobacteraceae	1	1	0	0	0	0	0	0	0	0	1
-6	0.2.6.1.2.1.1	uncultured	0	1	0	0	0	0	0	0	0	0	1
-4	0.2.6.1.3	Rhodospirillales	1	2	0	0	0	0	0	0	0	2	0
-5	0.2.6.1.3.1	uncultured	1	2	0	0	0	0	0	0	0	2	0
-6	0.2.6.1.3.1.1	uncultured_ge	0	2	0	0	0	0	0	0	0	2	0
-4	0.2.6.1.4	Rickettsiales	2	18313	0	4437	3396	2379	8101	0	0	0	0
-5	0.2.6.1.4.1	Mitochondria	1	18163	0	4397	3366	2360	8040	0	0	0	0
-6	0.2.6.1.4.1.1	Mitochondria_ge	0	18163	0	4397	3366	2360	8040	0	0	0	0
-5	0.2.6.1.4.2	Rickettsiales_unclassified	1	150	0	40	30	19	61	0	0	0	0
-6	0.2.6.1.4.2.1	Rickettsiales_unclassified	0	150	0	40	30	19	61	0	0	0	0
-4	0.2.6.1.5	Sphingomonadales	1	1	0	0	0	0	0	0	0	0	1
-5	0.2.6.1.5.1	Sphingomonadaceae	1	1	0	0	0	0	0	0	0	0	1
-6	0.2.6.1.5.1.1	Sphingomonas	0	1	0	0	0	0	0	0	0	0	1
-3	0.2.6.2	Deltaproteobacteria	2	1470	320	25	48	31	22	306	208	192	318
-4	0.2.6.2.1	Deltaproteobacteria_unclassified	1	3	0	0	2	0	1	0	0	0	0
-5	0.2.6.2.1.1	Deltaproteobacteria_unclassified	1	3	0	0	2	0	1	0	0	0	0
-6	0.2.6.2.1.1.1	Deltaproteobacteria_unclassified	0	3	0	0	2	0	1	0	0	0	0
-4	0.2.6.2.2	Desulfovibrionales	2	1467	320	25	46	31	21	306	208	192	318
-5	0.2.6.2.2.1	Desulfovibrionaceae	5	1464	320	25	45	30	21	306	207	192	318
-6	0.2.6.2.2.1.1	Bilophila	0	1179	291	14	28	21	15	226	151	165	268
-6	0.2.6.2.2.1.2	Desulfovibrio	0	96	3	0	6	0	3	18	21	7	38
-6	0.2.6.2.2.1.3	Desulfovibrionaceae_unclassified	0	45	3	9	9	5	3	7	3	5	1
-6	0.2.6.2.2.1.4	Mailhella	0	1	0	0	1	0	0	0	0	0	0
-6	0.2.6.2.2.1.5	uncultured	0	143	23	2	1	4	0	55	32	15	11
-5	0.2.6.2.2.2	Desulfovibrionales_unclassified	1	3	0	0	1	1	0	0	1	0	0
-6	0.2.6.2.2.2.1	Desulfovibrionales_unclassified	0	3	0	0	1	1	0	0	1	0	0
-3	0.2.6.3	Gammaproteobacteria	4	2910	501	142	159	82	329	507	262	235	693
-4	0.2.6.3.1	Betaproteobacteriales	2	2318	496	141	152	79	95	500	261	234	360
-5	0.2.6.3.1.1	Betaproteobacteriales_unclassified	1	16	1	3	6	3	3	0	0	0	0
-6	0.2.6.3.1.1.1	Betaproteobacteriales_unclassified	0	16	1	3	6	3	3	0	0	0	0
-5	0.2.6.3.1.2	Burkholderiaceae	5	2302	495	138	146	76	92	500	261	234	360
-6	0.2.6.3.1.2.1	Burkholderiaceae_unclassified	0	41	1	5	4	1	3	0	1	2	24
-6	0.2.6.3.1.2.2	Oxalobacter	0	5	0	0	0	0	4	0	0	0	1
-6	0.2.6.3.1.2.3	Parasutterella	0	2234	490	133	142	75	85	498	259	232	320
-6	0.2.6.3.1.2.4	Ralstonia	0	14	0	0	0	0	0	0	0	0	14
-6	0.2.6.3.1.2.5	Sutterella	0	8	4	0	0	0	0	2	1	0	1
-4	0.2.6.3.2	Enterobacteriales	1	556	4	0	5	0	214	2	0	0	331
-5	0.2.6.3.2.1	Enterobacteriaceae	7	556	4	0	5	0	214	2	0	0	331
-6	0.2.6.3.2.1.1	Cronobacter	0	13	0	0	0	0	13	0	0	0	0
-6	0.2.6.3.2.1.2	Enterobacteriaceae_unclassified	0	177	0	0	4	0	90	0	0	0	83
-6	0.2.6.3.2.1.3	Escherichia-Shigella	0	347	4	0	0	0	93	2	0	0	248
-6	0.2.6.3.2.1.4	Pseudocitrobacter	0	1	0	0	0	0	1	0	0	0	0
-6	0.2.6.3.2.1.5	Raoultella	0	1	0	0	1	0	0	0	0	0	0
-6	0.2.6.3.2.1.6	Salmonella	0	15	0	0	0	0	15	0	0	0	0
-6	0.2.6.3.2.1.7	Trabulsiella	0	2	0	0	0	0	2	0	0	0	0
-4	0.2.6.3.3	Gammaproteobacteria_unclassified	1	29	0	1	2	3	20	0	1	0	2
-5	0.2.6.3.3.1	Gammaproteobacteria_unclassified	1	29	0	1	2	3	20	0	1	0	2
-6	0.2.6.3.3.1.1	Gammaproteobacteria_unclassified	0	29	0	1	2	3	20	0	1	0	2
-4	0.2.6.3.4	Pasteurellales	1	7	1	0	0	0	0	5	0	1	0
-5	0.2.6.3.4.1	Pasteurellaceae	2	7	1	0	0	0	0	5	0	1	0
-6	0.2.6.3.4.1.1	Haemophilus	0	4	1	0	0	0	0	2	0	1	0
-6	0.2.6.3.4.1.2	Pasteurellaceae_unclassified	0	3	0	0	0	0	0	3	0	0	0
-3	0.2.6.4	Proteobacteria_unclassified	1	5327	0	1134	876	661	2656	0	0	0	0
-4	0.2.6.4.1	Proteobacteria_unclassified	1	5327	0	1134	876	661	2656	0	0	0	0
-5	0.2.6.4.1.1	Proteobacteria_unclassified	1	5327	0	1134	876	661	2656	0	0	0	0
-6	0.2.6.4.1.1.1	Proteobacteria_unclassified	0	5327	0	1134	876	661	2656	0	0	0	0
-2	0.2.7	Tenericutes	1	1506	2	32	7	0	327	99	0	1	1038
-3	0.2.7.1	Mollicutes	3	1506	2	32	7	0	327	99	0	1	1038
-4	0.2.7.1.1	Izimaplasmatales	1	1	0	0	0	0	0	0	0	1	0
-5	0.2.7.1.1.1	Izimaplasmatales_fa	1	1	0	0	0	0	0	0	0	1	0
-6	0.2.7.1.1.1.1	Izimaplasmatales_ge	0	1	0	0	0	0	0	0	0	1	0
-4	0.2.7.1.2	Mollicutes_RF39	1	1495	2	32	7	0	323	99	0	0	1032
-5	0.2.7.1.2.1	Mollicutes_RF39_fa	1	1495	2	32	7	0	323	99	0	0	1032
-6	0.2.7.1.2.1.1	Mollicutes_RF39_ge	0	1495	2	32	7	0	323	99	0	0	1032
-4	0.2.7.1.3	Mollicutes_unclassified	1	10	0	0	0	0	4	0	0	0	6
-5	0.2.7.1.3.1	Mollicutes_unclassified	1	10	0	0	0	0	4	0	0	0	6
-6	0.2.7.1.3.1.1	Mollicutes_unclassified	0	10	0	0	0	0	4	0	0	0	6
-2	0.2.8	Verrucomicrobia	1	14839	1328	70	78	180	652	455	1769	2127	8180
-3	0.2.8.1	Verrucomicrobiae	2	14839	1328	70	78	180	652	455	1769	2127	8180
-4	0.2.8.1.1	Verrucomicrobiae_unclassified	1	13	0	1	1	4	6	0	0	0	1
-5	0.2.8.1.1.1	Verrucomicrobiae_unclassified	1	13	0	1	1	4	6	0	0	0	1
-6	0.2.8.1.1.1.1	Verrucomicrobiae_unclassified	0	13	0	1	1	4	6	0	0	0	1
-4	0.2.8.1.2	Verrucomicrobiales	2	14826	1328	69	77	176	646	455	1769	2127	8179
-5	0.2.8.1.2.1	Akkermansiaceae	1	14767	1327	67	74	166	617	455	1764	2124	8173
-6	0.2.8.1.2.1.1	Akkermansia	0	14767	1327	67	74	166	617	455	1764	2124	8173
-5	0.2.8.1.2.2	Verrucomicrobiales_unclassified	1	59	1	2	3	10	29	0	5	3	6
-6	0.2.8.1.2.2.1	Verrucomicrobiales_unclassified	0	59	1	2	3	10	29	0	5	3	6
-1	0.3	Eukaryota	3	14048972	26	4412220	3313475	3113778	3209347	43	34	40	9
-2	0.3.1	Euglenozoa	2	6	0	2	1	1	2	0	0	0	0
-3	0.3.1.1	Euglenida	1	2	0	0	1	0	1	0	0	0	0
-4	0.3.1.1.1	Aphagea	1	2	0	0	1	0	1	0	0	0	0
-5	0.3.1.1.1.1	Aphagea_fa	2	2	0	0	1	0	1	0	0	0	0
-6	0.3.1.1.1.1.1	Aphagea_fa_unclassified	0	1	0	0	1	0	0	0	0	0	0
-6	0.3.1.1.1.1.2	Distigma	0	1	0	0	0	0	1	0	0	0	0
-3	0.3.1.2	Euglenozoa_unclassified	1	4	0	2	0	1	1	0	0	0	0
-4	0.3.1.2.1	Euglenozoa_unclassified	1	4	0	2	0	1	1	0	0	0	0
-5	0.3.1.2.1.1	Euglenozoa_unclassified	1	4	0	2	0	1	1	0	0	0	0
-6	0.3.1.2.1.1.1	Euglenozoa_unclassified	0	4	0	2	0	1	1	0	0	0	0
-2	0.3.2	Eukaryota_unclassified	1	14048964	26	4412218	3313474	3113775	3209345	43	34	40	9
-3	0.3.2.1	Eukaryota_unclassified	1	14048964	26	4412218	3313474	3113775	3209345	43	34	40	9
-4	0.3.2.1.1	Eukaryota_unclassified	1	14048964	26	4412218	3313474	3113775	3209345	43	34	40	9
-5	0.3.2.1.1.1	Eukaryota_unclassified	1	14048964	26	4412218	3313474	3113775	3209345	43	34	40	9
-6	0.3.2.1.1.1.1	Eukaryota_unclassified	0	14048964	26	4412218	3313474	3113775	3209345	43	34	40	9
-2	0.3.3	Vertebrata	1	2	0	0	0	2	0	0	0	0	0
-3	0.3.3.1	Mammalia	1	2	0	0	0	2	0	0	0	0	0
-4	0.3.3.1.1	Mammalia_or	1	2	0	0	0	2	0	0	0	0	0
-5	0.3.3.1.1.1	Mammalia_fa	1	2	0	0	0	2	0	0	0	0	0
-6	0.3.3.1.1.1.1	Mammalia_ge	0	2	0	0	0	2	0	0	0	0	0
-1	0.4	unknown	1	16891431	16	4616756	3685952	4057273	4531379	19	9	19	8
-2	0.4.1	unknown_unclassified	1	16891431	16	4616756	3685952	4057273	4531379	19	9	19	8
-3	0.4.1.1	unknown_unclassified	1	16891431	16	4616756	3685952	4057273	4531379	19	9	19	8
-4	0.4.1.1.1	unknown_unclassified	1	16891431	16	4616756	3685952	4057273	4531379	19	9	19	8
-5	0.4.1.1.1.1	unknown_unclassified	1	16891431	16	4616756	3685952	4057273	4531379	19	9	19	8
-6	0.4.1.1.1.1.1	unknown_unclassified	0	16891431	16	4616756	3685952	4057273	4531379	19	9	19	8
+taxlevel	rankID	taxon	daughterlevels	total	Kean6b	Ombre5	Ombre6	Psomagen1b	Psomagen2	Psomagen3	Psomagen4	thryve2	thryve3a	thryve3b	thryve4
+0	0	Root	4	38453406	7214333	35786	25788	9050376	7014774	7183238	7761896	50003	36671	42403	38138
+1	0.1	Archaea	1	1	0	0	0	0	0	0	1	0	0	0	0
+2	0.1.1	Archaea_unclassified	1	1	0	0	0	0	0	0	1	0	0	0	0
+3	0.1.1.1	Archaea_unclassified	1	1	0	0	0	0	0	0	1	0	0	0	0
+4	0.1.1.1.1	Archaea_unclassified	1	1	0	0	0	0	0	0	1	0	0	0	0
+5	0.1.1.1.1.1	Archaea_unclassified	1	1	0	0	0	0	0	0	1	0	0	0	0
+6	0.1.1.1.1.1.1	Archaea_unclassified	0	1	0	0	0	0	0	0	1	0	0	0	0
+1	0.2	Bacteria	8	314082	15430	35744	25771	21400	15347	12187	21169	49941	36628	42344	38121
+2	0.2.1	Actinobacteria	3	440	19	77	24	10	18	26	82	30	13	28	113
+3	0.2.1.1	Actinobacteria	5	172	6	52	7	1	1	2	18	7	2	12	64
+4	0.2.1.1.1	Actinobacteria_unclassified	1	2	1	0	0	0	0	0	1	0	0	0	0
+5	0.2.1.1.1.1	Actinobacteria_unclassified	1	2	1	0	0	0	0	0	1	0	0	0	0
+6	0.2.1.1.1.1.1	Actinobacteria_unclassified	0	2	1	0	0	0	0	0	1	0	0	0	0
+4	0.2.1.1.2	Actinomycetales	1	17	0	9	3	0	0	1	2	0	0	2	0
+5	0.2.1.1.2.1	Actinomycetaceae	2	17	0	9	3	0	0	1	2	0	0	2	0
+6	0.2.1.1.2.1.1	Actinomyces	0	13	0	5	3	0	0	1	2	0	0	2	0
+6	0.2.1.1.2.1.2	Mobiluncus	0	4	0	4	0	0	0	0	0	0	0	0	0
+4	0.2.1.1.3	Bifidobacteriales	1	137	5	28	4	1	1	1	15	7	2	10	63
+5	0.2.1.1.3.1	Bifidobacteriaceae	2	137	5	28	4	1	1	1	15	7	2	10	63
+6	0.2.1.1.3.1.1	Bifidobacteriaceae_unclassified	0	8	0	4	0	0	0	1	2	0	0	0	1
+6	0.2.1.1.3.1.2	Bifidobacterium	0	129	5	24	4	1	1	0	13	7	2	10	62
+4	0.2.1.1.4	Corynebacteriales	1	8	0	8	0	0	0	0	0	0	0	0	0
+5	0.2.1.1.4.1	Corynebacteriaceae	2	8	0	8	0	0	0	0	0	0	0	0	0
+6	0.2.1.1.4.1.1	Corynebacterium_1	0	7	0	7	0	0	0	0	0	0	0	0	0
+6	0.2.1.1.4.1.2	Lawsonella	0	1	0	1	0	0	0	0	0	0	0	0	0
+4	0.2.1.1.5	Micrococcales	2	8	0	7	0	0	0	0	0	0	0	0	1
+5	0.2.1.1.5.1	Brevibacteriaceae	1	7	0	7	0	0	0	0	0	0	0	0	0
+6	0.2.1.1.5.1.1	Brevibacterium	0	7	0	7	0	0	0	0	0	0	0	0	0
+5	0.2.1.1.5.2	Micrococcaceae	1	1	0	0	0	0	0	0	0	0	0	0	1
+6	0.2.1.1.5.2.1	Paenarthrobacter	0	1	0	0	0	0	0	0	0	0	0	0	1
+3	0.2.1.2	Actinobacteria_unclassified	1	3	0	0	0	1	0	0	2	0	0	0	0
+4	0.2.1.2.1	Actinobacteria_unclassified	1	3	0	0	0	1	0	0	2	0	0	0	0
+5	0.2.1.2.1.1	Actinobacteria_unclassified	1	3	0	0	0	1	0	0	2	0	0	0	0
+6	0.2.1.2.1.1.1	Actinobacteria_unclassified	0	3	0	0	0	1	0	0	2	0	0	0	0
+3	0.2.1.3	Coriobacteriia	1	265	13	25	17	8	17	24	62	23	11	16	49
+4	0.2.1.3.1	Coriobacteriales	5	265	13	25	17	8	17	24	62	23	11	16	49
+5	0.2.1.3.1.1	Atopobiaceae	1	1	0	1	0	0	0	0	0	0	0	0	0
+6	0.2.1.3.1.1.1	uncultured	0	1	0	1	0	0	0	0	0	0	0	0	0
+5	0.2.1.3.1.2	Coriobacteriaceae	1	2	0	0	0	0	0	1	0	1	0	0	0
+6	0.2.1.3.1.2.1	Collinsella	0	2	0	0	0	0	0	1	0	1	0	0	0
+5	0.2.1.3.1.3	Coriobacteriales_Incertae_Sedis	1	41	0	7	1	1	0	1	2	12	7	4	6
+6	0.2.1.3.1.3.1	uncultured	0	41	0	7	1	1	0	1	2	12	7	4	6
+5	0.2.1.3.1.4	Coriobacteriales_unclassified	1	5	0	0	0	1	1	1	2	0	0	0	0
+6	0.2.1.3.1.4.1	Coriobacteriales_unclassified	0	5	0	0	0	1	1	1	2	0	0	0	0
+5	0.2.1.3.1.5	Eggerthellaceae	6	216	13	17	16	6	16	21	58	10	4	12	43
+6	0.2.1.3.1.5.1	Adlercreutzia	0	85	4	3	3	4	9	7	33	3	2	4	13
+6	0.2.1.3.1.5.2	DNF00809	0	4	0	1	0	0	0	0	0	1	0	1	1
+6	0.2.1.3.1.5.3	Eggerthella	0	81	7	11	10	1	1	3	11	4	2	5	26
+6	0.2.1.3.1.5.4	Eggerthellaceae_unclassified	0	22	2	0	1	1	3	8	5	0	0	1	1
+6	0.2.1.3.1.5.5	Gordonibacter	0	23	0	2	2	0	3	3	8	2	0	1	2
+6	0.2.1.3.1.5.6	Slackia	0	1	0	0	0	0	0	0	1	0	0	0	0
+2	0.2.2	Bacteria_unclassified	1	8083	1381	134	117	1717	1195	832	1830	178	199	254	246
+3	0.2.2.1	Bacteria_unclassified	1	8083	1381	134	117	1717	1195	832	1830	178	199	254	246
+4	0.2.2.1.1	Bacteria_unclassified	1	8083	1381	134	117	1717	1195	832	1830	178	199	254	246
+5	0.2.2.1.1.1	Bacteria_unclassified	1	8083	1381	134	117	1717	1195	832	1830	178	199	254	246
+6	0.2.2.1.1.1.1	Bacteria_unclassified	0	8083	1381	134	117	1717	1195	832	1830	178	199	254	246
+2	0.2.3	Bacteroidetes	2	128214	5619	17827	10635	10003	7034	5459	3548	29252	15761	16688	6388
+3	0.2.3.1	Bacteroidetes_unclassified	1	64	7	2	0	12	19	15	5	3	1	0	0
+4	0.2.3.1.1	Bacteroidetes_unclassified	1	64	7	2	0	12	19	15	5	3	1	0	0
+5	0.2.3.1.1.1	Bacteroidetes_unclassified	1	64	7	2	0	12	19	15	5	3	1	0	0
+6	0.2.3.1.1.1.1	Bacteroidetes_unclassified	0	64	7	2	0	12	19	15	5	3	1	0	0
+3	0.2.3.2	Bacteroidia	2	128150	5612	17825	10635	9991	7015	5444	3543	29249	15760	16688	6388
+4	0.2.3.2.1	Bacteroidales	11	126751	5401	17799	10599	9684	6764	5259	3330	29193	15705	16642	6375
+5	0.2.3.2.1.1	Bacteroidaceae	1	108158	4238	16474	9528	8091	5477	3944	1649	27074	13875	14408	3400
+6	0.2.3.2.1.1.1	Bacteroides	0	108158	4238	16474	9528	8091	5477	3944	1649	27074	13875	14408	3400
+5	0.2.3.2.1.2	Bacteroidales_unclassified	1	3665	649	55	39	998	765	580	305	97	76	66	35
+6	0.2.3.2.1.2.1	Bacteroidales_unclassified	0	3665	649	55	39	998	765	580	305	97	76	66	35
+5	0.2.3.2.1.3	Barnesiellaceae	1	2	0	0	0	0	0	0	0	2	0	0	0
+6	0.2.3.2.1.3.1	Barnesiella	0	2	0	0	0	0	0	0	0	2	0	0	0
+5	0.2.3.2.1.4	Dysgonomonadaceae	1	1	0	0	0	0	1	0	0	0	0	0	0
+6	0.2.3.2.1.4.1	Dysgonomonadaceae_unclassified	0	1	0	0	0	0	1	0	0	0	0	0	0
+5	0.2.3.2.1.5	Marinifilaceae	3	1527	88	151	153	133	54	85	107	259	178	159	160
+6	0.2.3.2.1.5.1	Butyricimonas	0	826	50	94	73	70	20	61	81	117	82	76	102
+6	0.2.3.2.1.5.2	Marinifilaceae_unclassified	0	2	0	0	0	0	0	1	1	0	0	0	0
+6	0.2.3.2.1.5.3	Odoribacter	0	699	38	57	80	63	34	23	25	142	96	83	58
+5	0.2.3.2.1.6	Muribaculaceae	1	2	0	0	0	0	0	0	0	1	0	0	1
+6	0.2.3.2.1.6.1	Muribaculaceae_ge	0	2	0	0	0	0	0	0	0	1	0	0	1
+5	0.2.3.2.1.7	Paludibacteraceae	2	11	0	0	0	2	1	8	0	0	0	0	0
+6	0.2.3.2.1.7.1	H1	0	6	0	0	0	0	1	5	0	0	0	0	0
+6	0.2.3.2.1.7.2	Paludibacteraceae_unclassified	0	5	0	0	0	2	0	3	0	0	0	0	0
+5	0.2.3.2.1.8	Porphyromonadaceae	1	71	0	71	0	0	0	0	0	0	0	0	0
+6	0.2.3.2.1.8.1	Porphyromonas	0	71	0	71	0	0	0	0	0	0	0	0	0
+5	0.2.3.2.1.9	Prevotellaceae	9	321	3	259	6	1	1	3	1	8	14	20	5
+6	0.2.3.2.1.9.1	Alloprevotella	0	1	0	0	1	0	0	0	0	0	0	0	0
+6	0.2.3.2.1.9.2	Paraprevotella	0	1	0	0	0	0	0	0	0	0	0	0	1
+6	0.2.3.2.1.9.3	Prevotella	0	238	0	235	1	0	0	0	0	0	0	1	1
+6	0.2.3.2.1.9.4	Prevotella_2	0	2	0	0	0	0	0	0	0	1	1	0	0
+6	0.2.3.2.1.9.5	Prevotella_6	0	2	0	0	0	0	0	0	1	0	1	0	0
+6	0.2.3.2.1.9.6	Prevotella_9	0	65	0	18	4	0	0	3	0	6	12	19	3
+6	0.2.3.2.1.9.7	Prevotellaceae_Ga6A1_group	0	2	1	0	0	1	0	0	0	0	0	0	0
+6	0.2.3.2.1.9.8	Prevotellaceae_unclassified	0	9	2	6	0	0	1	0	0	0	0	0	0
+6	0.2.3.2.1.9.9	uncultured	0	1	0	0	0	0	0	0	0	1	0	0	0
+5	0.2.3.2.1.10	Rikenellaceae	4	12008	392	589	788	411	396	623	1248	1527	1439	1861	2734
+6	0.2.3.2.1.10.1	Alistipes	0	11829	361	589	788	391	381	597	1192	1523	1432	1856	2719
+6	0.2.3.2.1.10.2	Mucinivorans	0	2	1	0	0	0	0	1	0	0	0	0	0
+6	0.2.3.2.1.10.3	Rikenella	0	1	1	0	0	0	0	0	0	0	0	0	0
+6	0.2.3.2.1.10.4	Rikenellaceae_unclassified	0	176	29	0	0	20	15	25	56	4	7	5	15
+5	0.2.3.2.1.11	Tannerellaceae	2	985	31	200	85	48	69	16	20	225	123	128	40
+6	0.2.3.2.1.11.1	Parabacteroides	0	939	24	199	83	33	62	12	15	225	119	127	40
+6	0.2.3.2.1.11.2	Tannerellaceae_unclassified	0	46	7	1	2	15	7	4	5	0	4	1	0
+4	0.2.3.2.2	Bacteroidia_unclassified	1	1399	211	26	36	307	251	185	213	56	55	46	13
+5	0.2.3.2.2.1	Bacteroidia_unclassified	1	1399	211	26	36	307	251	185	213	56	55	46	13
+6	0.2.3.2.2.1.1	Bacteroidia_unclassified	0	1399	211	26	36	307	251	185	213	56	55	46	13
+2	0.2.4	Cyanobacteria	2	167	0	0	2	0	0	11	1	0	77	67	9
+3	0.2.4.1	Melainabacteria	1	164	0	0	2	0	0	11	1	0	77	67	6
+4	0.2.4.1.1	Gastranaerophilales	1	164	0	0	2	0	0	11	1	0	77	67	6
+5	0.2.4.1.1.1	Gastranaerophilales_fa	1	164	0	0	2	0	0	11	1	0	77	67	6
+6	0.2.4.1.1.1.1	Gastranaerophilales_ge	0	164	0	0	2	0	0	11	1	0	77	67	6
+3	0.2.4.2	Oxyphotobacteria	1	3	0	0	0	0	0	0	0	0	0	0	3
+4	0.2.4.2.1	Chloroplast	1	3	0	0	0	0	0	0	0	0	0	0	3
+5	0.2.4.2.1.1	Chloroplast_fa	1	3	0	0	0	0	0	0	0	0	0	0	3
+6	0.2.4.2.1.1.1	Chloroplast_ge	0	3	0	0	0	0	0	0	0	0	0	0	3
+2	0.2.5	Firmicutes	5	126989	3133	15555	14538	3796	2514	2516	3600	19114	18339	22750	21134
+3	0.2.5.1	Bacilli	2	323	1	60	18	5	0	1	32	20	16	31	139
+4	0.2.5.1.1	Bacilli_unclassified	1	2	0	0	0	1	0	0	1	0	0	0	0
+5	0.2.5.1.1.1	Bacilli_unclassified	1	2	0	0	0	1	0	0	1	0	0	0	0
+6	0.2.5.1.1.1.1	Bacilli_unclassified	0	2	0	0	0	1	0	0	1	0	0	0	0
+4	0.2.5.1.2	Lactobacillales	6	321	1	60	18	4	0	1	31	20	16	31	139
+5	0.2.5.1.2.1	Carnobacteriaceae	2	7	0	1	1	1	0	1	2	0	0	1	0
+6	0.2.5.1.2.1.1	Carnobacteriaceae_unclassified	0	1	0	0	0	0	0	0	0	0	0	1	0
+6	0.2.5.1.2.1.2	Granulicatella	0	6	0	1	1	1	0	1	2	0	0	0	0
+5	0.2.5.1.2.2	Enterococcaceae	3	6	0	3	2	0	0	0	0	0	0	0	1
+6	0.2.5.1.2.2.1	Enterococcaceae_unclassified	0	1	0	0	1	0	0	0	0	0	0	0	0
+6	0.2.5.1.2.2.2	Enterococcus	0	2	0	0	1	0	0	0	0	0	0	0	1
+6	0.2.5.1.2.2.3	Tetragenococcus	0	3	0	3	0	0	0	0	0	0	0	0	0
+5	0.2.5.1.2.3	Lactobacillaceae	1	3	0	1	0	0	0	0	0	1	1	0	0
+6	0.2.5.1.2.3.1	Lactobacillus	0	3	0	1	0	0	0	0	0	1	1	0	0
+5	0.2.5.1.2.4	Lactobacillales_unclassified	1	10	0	0	0	0	0	0	4	0	0	1	5
+6	0.2.5.1.2.4.1	Lactobacillales_unclassified	0	10	0	0	0	0	0	0	4	0	0	1	5
+5	0.2.5.1.2.5	Leuconostocaceae	1	1	0	0	1	0	0	0	0	0	0	0	0
+6	0.2.5.1.2.5.1	Leuconostoc	0	1	0	0	1	0	0	0	0	0	0	0	0
+5	0.2.5.1.2.6	Streptococcaceae	3	294	1	55	14	3	0	0	25	19	15	29	133
+6	0.2.5.1.2.6.1	Lactococcus	0	44	0	10	6	0	0	0	0	0	8	5	15
+6	0.2.5.1.2.6.2	Streptococcaceae_unclassified	0	3	0	1	0	0	0	0	0	0	0	0	2
+6	0.2.5.1.2.6.3	Streptococcus	0	247	1	44	8	3	0	0	25	19	7	24	116
+3	0.2.5.2	Clostridia	3	124580	3056	15278	14392	3668	2433	2460	3388	18674	18171	22558	20502
+4	0.2.5.2.1	Clostridia_unclassified	1	2933	15	106	520	10	4	8	32	148	186	236	1668
+5	0.2.5.2.1.1	Clostridia_unclassified	1	2933	15	106	520	10	4	8	32	148	186	236	1668
+6	0.2.5.2.1.1.1	Clostridia_unclassified	0	2933	15	106	520	10	4	8	32	148	186	236	1668
+4	0.2.5.2.2	Clostridiales	13	121622	3036	15172	13872	3657	2426	2451	3341	18526	17985	22322	18834
+5	0.2.5.2.2.1	Christensenellaceae	5	3229	146	211	281	49	49	94	223	179	471	584	942
+6	0.2.5.2.2.1.1	Catabacter	0	13	2	0	0	0	0	0	0	1	1	2	7
+6	0.2.5.2.2.1.2	Christensenella	0	2	2	0	0	0	0	0	0	0	0	0	0
+6	0.2.5.2.2.1.3	Christensenellaceae_R-7_group	0	3052	132	200	271	41	42	72	188	162	454	559	931
+6	0.2.5.2.2.1.4	Christensenellaceae_unclassified	0	75	10	0	0	6	7	19	30	0	1	2	0
+6	0.2.5.2.2.1.5	uncultured	0	87	0	11	10	2	0	3	5	16	15	21	4
+5	0.2.5.2.2.2	Clostridiaceae_1	2	16	1	3	0	0	1	0	0	10	0	1	0
+6	0.2.5.2.2.2.1	Clostridiaceae_1_unclassified	0	4	0	2	0	0	1	0	0	1	0	0	0
+6	0.2.5.2.2.2.2	Clostridium_sensu_stricto_1	0	12	1	1	0	0	0	0	0	9	0	1	0
+5	0.2.5.2.2.3	Clostridiales_unclassified	1	1783	121	112	135	87	60	90	169	134	203	299	373
+6	0.2.5.2.2.3.1	Clostridiales_unclassified	0	1783	121	112	135	87	60	90	169	134	203	299	373
+5	0.2.5.2.2.4	Clostridiales_vadinBB60_group	1	512	6	1	8	15	22	79	53	44	52	95	137
+6	0.2.5.2.2.4.1	Clostridiales_vadinBB60_group_ge	0	512	6	1	8	15	22	79	53	44	52	95	137
+5	0.2.5.2.2.5	Defluviitaleaceae	1	4	0	0	0	0	0	0	4	0	0	0	0
+6	0.2.5.2.2.5.1	Defluviitaleaceae_UCG-011	0	4	0	0	0	0	0	0	4	0	0	0	0
+5	0.2.5.2.2.6	Eubacteriaceae	1	3	0	0	0	0	0	0	0	0	1	1	1
+6	0.2.5.2.2.6.1	Anaerofustis	0	3	0	0	0	0	0	0	0	0	1	1	1
+5	0.2.5.2.2.7	Family_XI	5	269	0	261	2	0	0	0	0	0	2	0	4
+6	0.2.5.2.2.7.1	Anaerococcus	0	10	0	10	0	0	0	0	0	0	0	0	0
+6	0.2.5.2.2.7.2	Ezakiella	0	75	0	75	0	0	0	0	0	0	0	0	0
+6	0.2.5.2.2.7.3	Finegoldia	0	30	0	30	0	0	0	0	0	0	0	0	0
+6	0.2.5.2.2.7.4	Murdochiella	0	116	0	112	2	0	0	0	0	0	2	0	0
+6	0.2.5.2.2.7.5	Peptoniphilus	0	38	0	34	0	0	0	0	0	0	0	0	4
+5	0.2.5.2.2.8	Family_XIII	6	382	26	29	51	6	1	1	56	21	20	25	146
+6	0.2.5.2.2.8.1	Family_XIII_AD3011_group	0	160	11	6	18	3	0	0	25	8	11	16	62
+6	0.2.5.2.2.8.2	Family_XIII_UCG-001	0	16	0	4	2	2	1	0	0	6	0	1	0
+6	0.2.5.2.2.8.3	Family_XIII_ge	0	3	0	0	2	0	0	0	0	0	0	0	1
+6	0.2.5.2.2.8.4	Family_XIII_unclassified	0	187	15	3	29	1	0	1	31	7	9	8	83
+6	0.2.5.2.2.8.5	Mogibacterium	0	4	0	4	0	0	0	0	0	0	0	0	0
+6	0.2.5.2.2.8.6	S5-A14a	0	12	0	12	0	0	0	0	0	0	0	0	0
+5	0.2.5.2.2.9	Lachnospiraceae	39	52903	1173	6623	4409	1682	1143	1241	1007	8329	8837	11628	6831
+6	0.2.5.2.2.9.1	Agathobacter	0	13079	325	333	1373	548	393	433	0	2848	2792	4020	14
+6	0.2.5.2.2.9.2	Anaerosporobacter	0	1	0	0	0	0	0	0	0	1	0	0	0
+6	0.2.5.2.2.9.3	Anaerostipes	0	402	11	53	16	32	12	2	11	122	47	43	53
+6	0.2.5.2.2.9.4	Blautia	0	12669	172	2050	462	174	120	106	488	1238	1493	1846	4520
+6	0.2.5.2.2.9.5	CAG-56	0	31	0	0	4	0	0	1	0	1	1	9	15
+6	0.2.5.2.2.9.6	Cellulosilyticum	0	49	6	0	43	0	0	0	0	0	0	0	0
+6	0.2.5.2.2.9.7	Coprococcus_1	0	13	0	4	1	0	0	0	0	1	2	1	4
+6	0.2.5.2.2.9.8	Coprococcus_2	0	4	0	4	0	0	0	0	0	0	0	0	0
+6	0.2.5.2.2.9.9	Coprococcus_3	0	20	1	4	7	0	0	0	0	1	0	3	4
+6	0.2.5.2.2.9.10	Cuneatibacter	0	4	2	0	0	1	1	0	0	0	0	0	0
+6	0.2.5.2.2.9.11	Dorea	0	27	2	0	1	3	1	1	10	4	1	4	0
+6	0.2.5.2.2.9.12	Eisenbergiella	0	73	18	4	4	12	9	7	2	1	2	7	7
+6	0.2.5.2.2.9.13	Fusicatenibacter	0	2976	8	526	31	137	55	78	0	478	617	1046	0
+6	0.2.5.2.2.9.14	GCA-900066575	0	201	0	32	26	2	1	1	0	24	37	34	44
+6	0.2.5.2.2.9.15	GCA-900066755	0	16	0	3	1	0	0	1	3	0	1	2	5
+6	0.2.5.2.2.9.16	Hungatella	0	229	9	16	21	5	2	5	11	25	25	60	50
+6	0.2.5.2.2.9.17	Lachnoclostridium	0	2350	21	599	172	45	45	26	22	603	219	319	279
+6	0.2.5.2.2.9.18	Lachnoclostridium_5	0	3	0	0	0	3	0	0	0	0	0	0	0
+6	0.2.5.2.2.9.19	Lachnospira	0	57	25	2	7	9	3	1	2	2	4	1	1
+6	0.2.5.2.2.9.20	Lachnospiraceae_FCS020_group	0	7	1	0	1	0	0	0	1	0	0	4	0
+6	0.2.5.2.2.9.21	Lachnospiraceae_ND3007_group	0	488	7	210	75	1	0	0	0	73	70	44	8
+6	0.2.5.2.2.9.22	Lachnospiraceae_NK4A136_group	0	337	17	61	7	37	17	29	1	39	45	84	0
+6	0.2.5.2.2.9.23	Lachnospiraceae_NK4B4_group	0	52	3	1	7	0	0	2	3	0	15	18	3
+6	0.2.5.2.2.9.24	Lachnospiraceae_UCG-001	0	3	0	0	3	0	0	0	0	0	0	0	0
+6	0.2.5.2.2.9.25	Lachnospiraceae_UCG-004	0	475	1	116	8	23	13	4	0	161	72	74	3
+6	0.2.5.2.2.9.26	Lachnospiraceae_UCG-010	0	156	0	20	20	4	2	0	0	31	26	47	6
+6	0.2.5.2.2.9.27	Lachnospiraceae_ge	0	3260	37	527	283	20	12	19	42	427	685	714	494
+6	0.2.5.2.2.9.28	Lachnospiraceae_unclassified	0	14319	470	1963	1751	574	392	435	397	1877	2285	2885	1290
+6	0.2.5.2.2.9.29	Lactonifactor	0	1	0	0	0	0	0	0	0	0	0	1	0
+6	0.2.5.2.2.9.30	Marvinbryantia	0	50	5	2	6	1	0	2	9	4	5	2	14
+6	0.2.5.2.2.9.31	Pseudobutyrivibrio	0	38	4	0	0	13	8	13	0	0	0	0	0
+6	0.2.5.2.2.9.32	Roseburia	0	999	1	7	5	15	47	70	0	292	292	268	2
+6	0.2.5.2.2.9.33	Sellimonas	0	143	4	7	17	4	2	1	3	27	39	32	7
+6	0.2.5.2.2.9.34	Shuttleworthia	0	100	6	19	28	1	0	2	0	13	15	13	3
+6	0.2.5.2.2.9.35	Sporobacterium	0	1	0	0	0	1	0	0	0	0	0	0	0
+6	0.2.5.2.2.9.36	Tyzzerella	0	246	14	55	28	16	7	2	0	33	42	44	5
+6	0.2.5.2.2.9.37	Tyzzerella_4	0	3	0	0	1	0	0	0	2	0	0	0	0
+6	0.2.5.2.2.9.38	UC5-1-2E3	0	14	0	3	0	1	1	0	0	3	3	3	0
+6	0.2.5.2.2.9.39	uncultured	0	7	3	2	0	0	0	0	0	0	2	0	0
+5	0.2.5.2.2.10	Peptococcaceae	3	82	2	13	8	4	4	3	4	7	13	13	11
+6	0.2.5.2.2.10.1	Peptococcaceae_unclassified	0	10	0	0	0	4	2	1	2	0	0	1	0
+6	0.2.5.2.2.10.2	Peptococcus	0	1	0	0	0	0	1	0	0	0	0	0	0
+6	0.2.5.2.2.10.3	uncultured	0	71	2	13	8	0	1	2	2	7	13	12	11
+5	0.2.5.2.2.11	Peptostreptococcaceae	3	6	0	0	0	0	0	0	0	0	1	4	1
+6	0.2.5.2.2.11.1	Intestinibacter	0	2	0	0	0	0	0	0	0	0	1	1	0
+6	0.2.5.2.2.11.2	Peptostreptococcaceae_unclassified	0	1	0	0	0	0	0	0	0	0	0	1	0
+6	0.2.5.2.2.11.3	Romboutsia	0	3	0	0	0	0	0	0	0	0	0	2	1
+5	0.2.5.2.2.12	Ruminococcaceae	46	62430	1561	7919	8978	1814	1146	943	1825	9801	8383	9672	10388
+6	0.2.5.2.2.12.1	Acetanaerobacterium	0	15	0	3	2	0	0	1	0	1	4	2	2
+6	0.2.5.2.2.12.2	Anaerofilum	0	16	1	1	0	2	0	0	0	2	6	4	0
+6	0.2.5.2.2.12.3	Anaerotruncus	0	1080	24	204	179	10	11	7	42	75	82	133	313
+6	0.2.5.2.2.12.4	Angelakisella	0	255	3	18	23	1	6	4	9	22	55	61	53
+6	0.2.5.2.2.12.5	Butyricicoccus	0	287	9	68	20	5	5	3	3	102	45	19	8
+6	0.2.5.2.2.12.6	CAG-352	0	1	0	0	1	0	0	0	0	0	0	0	0
+6	0.2.5.2.2.12.7	Candidatus_Soleaferrea	0	20	0	2	1	1	0	1	1	2	0	2	10
+6	0.2.5.2.2.12.8	Caproiciproducens	0	22	0	2	0	4	2	2	7	0	0	1	4
+6	0.2.5.2.2.12.9	DTU089	0	45	1	0	5	1	1	2	1	1	4	6	23
+6	0.2.5.2.2.12.10	Faecalibacterium	0	11494	133	1840	173	826	429	196	1	3359	2436	2077	24
+6	0.2.5.2.2.12.11	Fastidiosipila	0	44	0	44	0	0	0	0	0	0	0	0	0
+6	0.2.5.2.2.12.12	Flavonifractor	0	337	9	118	23	10	28	11	9	46	24	18	41
+6	0.2.5.2.2.12.13	Fournierella	0	35	1	9	1	1	0	4	4	6	1	6	2
+6	0.2.5.2.2.12.14	GCA-900066225	0	24	0	3	10	0	0	0	4	1	0	2	4
+6	0.2.5.2.2.12.15	Harryflintia	0	2	0	0	0	0	0	0	0	0	2	0	0
+6	0.2.5.2.2.12.16	Hydrogenoanaerobacterium	0	949	18	52	289	3	4	6	30	52	55	82	358
+6	0.2.5.2.2.12.17	Intestinimonas	0	740	12	123	53	16	25	18	44	73	101	101	174
+6	0.2.5.2.2.12.18	Negativibacillus	0	636	24	201	96	4	6	12	2	30	85	154	22
+6	0.2.5.2.2.12.19	Oscillibacter	0	517	17	126	49	18	32	20	10	67	60	72	46
+6	0.2.5.2.2.12.20	Oscillospira	0	77	0	20	0	4	11	2	0	33	3	4	0
+6	0.2.5.2.2.12.21	Papillibacter	0	3	0	0	0	0	0	0	0	2	1	0	0
+6	0.2.5.2.2.12.22	Phocea	0	45	0	12	0	2	0	0	0	9	13	5	4
+6	0.2.5.2.2.12.23	Pseudoflavonifractor	0	53	9	3	1	14	8	6	3	1	6	2	0
+6	0.2.5.2.2.12.24	Ruminiclostridium	0	6	0	0	0	1	0	0	1	0	0	4	0
+6	0.2.5.2.2.12.25	Ruminiclostridium_1	0	1	0	0	0	1	0	0	0	0	0	0	0
+6	0.2.5.2.2.12.26	Ruminiclostridium_5	0	2189	11	334	117	5	3	2	60	155	212	198	1092
+6	0.2.5.2.2.12.27	Ruminiclostridium_6	0	2925	113	391	426	43	32	35	67	590	515	385	328
+6	0.2.5.2.2.12.28	Ruminiclostridium_9	0	1102	31	303	132	39	20	37	10	94	176	182	78
+6	0.2.5.2.2.12.29	Ruminococcaceae_NK4A214_group	0	666	82	43	207	10	5	21	26	20	45	68	139
+6	0.2.5.2.2.12.30	Ruminococcaceae_UCG-001	0	1	0	0	0	1	0	0	0	0	0	0	0
+6	0.2.5.2.2.12.31	Ruminococcaceae_UCG-002	0	1162	22	58	149	23	12	33	100	76	68	131	490
+6	0.2.5.2.2.12.32	Ruminococcaceae_UCG-003	0	1216	37	180	146	83	29	51	24	85	172	295	114
+6	0.2.5.2.2.12.33	Ruminococcaceae_UCG-004	0	378	2	73	36	4	0	1	2	45	78	57	80
+6	0.2.5.2.2.12.34	Ruminococcaceae_UCG-005	0	715	15	64	44	12	4	1	84	24	23	67	377
+6	0.2.5.2.2.12.35	Ruminococcaceae_UCG-007	0	3	0	0	0	0	0	0	0	0	1	1	1
+6	0.2.5.2.2.12.36	Ruminococcaceae_UCG-010	0	201	5	14	35	1	4	1	1	41	26	31	42
+6	0.2.5.2.2.12.37	Ruminococcaceae_UCG-011	0	8	0	0	0	1	0	0	0	0	0	4	3
+6	0.2.5.2.2.12.38	Ruminococcaceae_UCG-013	0	2460	25	629	241	15	9	16	24	290	472	544	195
+6	0.2.5.2.2.12.39	Ruminococcaceae_UCG-014	0	706	17	29	166	5	15	7	13	163	116	122	53
+6	0.2.5.2.2.12.40	Ruminococcaceae_ge	0	1205	57	163	209	12	4	10	79	44	46	75	506
+6	0.2.5.2.2.12.41	Ruminococcaceae_unclassified	0	12201	413	981	701	356	254	246	1087	902	867	1059	5335
+6	0.2.5.2.2.12.42	Ruminococcus_1	0	5578	74	597	854	73	19	6	12	1872	915	1015	141
+6	0.2.5.2.2.12.43	Ruminococcus_2	0	9948	231	837	4237	125	92	84	24	1196	1176	1946	0
+6	0.2.5.2.2.12.44	Subdoligranulum	0	2450	148	333	273	74	63	89	5	275	436	666	88
+6	0.2.5.2.2.12.45	UBA1819	0	254	8	25	16	0	8	3	19	21	28	29	97
+6	0.2.5.2.2.12.46	uncultured	0	358	9	16	63	8	5	5	17	24	28	42	141
+5	0.2.5.2.2.13	Syntrophomonadaceae	1	3	0	0	0	0	0	0	0	1	2	0	0
+6	0.2.5.2.2.13.1	Syntrophomonadaceae_unclassified	0	3	0	0	0	0	0	0	0	1	2	0	0
+4	0.2.5.2.3	DTU014	1	25	5	0	0	1	3	1	15	0	0	0	0
+5	0.2.5.2.3.1	DTU014_fa	1	25	5	0	0	1	3	1	15	0	0	0	0
+6	0.2.5.2.3.1.1	DTU014_ge	0	25	5	0	0	1	3	1	15	0	0	0	0
+3	0.2.5.3	Erysipelotrichia	1	1092	26	159	69	31	19	9	81	270	78	80	270
+4	0.2.5.3.1	Erysipelotrichales	1	1092	26	159	69	31	19	9	81	270	78	80	270
+5	0.2.5.3.1.1	Erysipelotrichaceae	13	1092	26	159	69	31	19	9	81	270	78	80	270
+6	0.2.5.3.1.1.1	Candidatus_Stoquefichus	0	34	3	8	1	4	1	0	0	3	3	10	1
+6	0.2.5.3.1.1.2	Coprobacillus	0	7	0	1	4	0	0	0	0	0	2	0	0
+6	0.2.5.3.1.1.3	Dielma	0	21	0	0	1	0	0	0	3	3	0	2	12
+6	0.2.5.3.1.1.4	Erysipelatoclostridium	0	98	2	18	11	4	0	2	2	10	10	10	29
+6	0.2.5.3.1.1.5	Erysipelotrichaceae_UCG-003	0	414	1	115	26	14	5	0	0	209	22	15	7
+6	0.2.5.3.1.1.6	Erysipelotrichaceae_ge	0	27	2	1	0	0	2	2	2	2	6	1	9
+6	0.2.5.3.1.1.7	Erysipelotrichaceae_unclassified	0	53	6	2	9	0	1	0	23	0	0	1	11
+6	0.2.5.3.1.1.8	Faecalitalea	0	306	5	1	6	5	7	3	45	28	19	22	165
+6	0.2.5.3.1.1.9	Holdemanella	0	3	0	0	1	0	0	0	0	1	0	0	1
+6	0.2.5.3.1.1.10	Holdemania	0	91	7	13	9	4	3	2	3	13	13	13	11
+6	0.2.5.3.1.1.11	Merdibacter	0	33	0	0	1	0	0	0	2	0	3	6	21
+6	0.2.5.3.1.1.12	Solobacterium	0	4	0	0	0	0	0	0	1	1	0	0	2
+6	0.2.5.3.1.1.13	Turicibacter	0	1	0	0	0	0	0	0	0	0	0	0	1
+3	0.2.5.4	Firmicutes_unclassified	1	534	48	17	42	46	39	35	64	21	45	46	131
+4	0.2.5.4.1	Firmicutes_unclassified	1	534	48	17	42	46	39	35	64	21	45	46	131
+5	0.2.5.4.1.1	Firmicutes_unclassified	1	534	48	17	42	46	39	35	64	21	45	46	131
+6	0.2.5.4.1.1.1	Firmicutes_unclassified	0	534	48	17	42	46	39	35	64	21	45	46	131
+3	0.2.5.5	Negativicutes	1	460	2	41	17	46	23	11	35	129	29	35	92
+4	0.2.5.5.1	Selenomonadales	2	460	2	41	17	46	23	11	35	129	29	35	92
+5	0.2.5.5.1.1	Acidaminococcaceae	2	10	0	4	2	0	0	0	0	2	1	1	0
+6	0.2.5.5.1.1.1	Acidaminococcus	0	4	0	2	1	0	0	0	0	1	0	0	0
+6	0.2.5.5.1.1.2	Phascolarctobacterium	0	6	0	2	1	0	0	0	0	1	1	1	0
+5	0.2.5.5.1.2	Veillonellaceae	5	450	2	37	15	46	23	11	35	127	28	34	92
+6	0.2.5.5.1.2.1	Dialister	0	431	2	35	13	45	15	10	34	127	26	33	91
+6	0.2.5.5.1.2.2	Megamonas	0	8	0	0	2	0	5	1	0	0	0	0	0
+6	0.2.5.5.1.2.3	Megasphaera	0	2	0	0	0	0	1	0	0	0	1	0	0
+6	0.2.5.5.1.2.4	Veillonella	0	1	0	0	0	0	1	0	0	0	0	0	0
+6	0.2.5.5.1.2.5	Veillonellaceae_unclassified	0	8	0	2	0	1	1	0	1	0	1	1	1
+2	0.2.6	Proteobacteria	4	33477	4995	821	371	5772	4501	3163	11129	813	470	429	1013
+3	0.2.6.1	Alphaproteobacteria	5	22264	3860	0	0	4471	3418	2389	8122	0	0	2	2
+4	0.2.6.1.1	Alphaproteobacteria_unclassified	1	107	20	0	0	34	22	10	21	0	0	0	0
+5	0.2.6.1.1.1	Alphaproteobacteria_unclassified	1	107	20	0	0	34	22	10	21	0	0	0	0
+6	0.2.6.1.1.1.1	Alphaproteobacteria_unclassified	0	107	20	0	0	34	22	10	21	0	0	0	0
+4	0.2.6.1.2	Caulobacterales	1	1	0	0	0	0	0	0	0	0	0	0	1
+5	0.2.6.1.2.1	Caulobacteraceae	1	1	0	0	0	0	0	0	0	0	0	0	1
+6	0.2.6.1.2.1.1	uncultured	0	1	0	0	0	0	0	0	0	0	0	0	1
+4	0.2.6.1.3	Rhodospirillales	1	2	0	0	0	0	0	0	0	0	0	2	0
+5	0.2.6.1.3.1	uncultured	1	2	0	0	0	0	0	0	0	0	0	2	0
+6	0.2.6.1.3.1.1	uncultured_ge	0	2	0	0	0	0	0	0	0	0	0	2	0
+4	0.2.6.1.4	Rickettsiales	2	22153	3840	0	0	4437	3396	2379	8101	0	0	0	0
+5	0.2.6.1.4.1	Mitochondria	1	21967	3804	0	0	4397	3366	2360	8040	0	0	0	0
+6	0.2.6.1.4.1.1	Mitochondria_ge	0	21967	3804	0	0	4397	3366	2360	8040	0	0	0	0
+5	0.2.6.1.4.2	Rickettsiales_unclassified	1	186	36	0	0	40	30	19	61	0	0	0	0
+6	0.2.6.1.4.2.1	Rickettsiales_unclassified	0	186	36	0	0	40	30	19	61	0	0	0	0
+4	0.2.6.1.5	Sphingomonadales	1	1	0	0	0	0	0	0	0	0	0	0	1
+5	0.2.6.1.5.1	Sphingomonadaceae	1	1	0	0	0	0	0	0	0	0	0	0	1
+6	0.2.6.1.5.1.1	Sphingomonas	0	1	0	0	0	0	0	0	0	0	0	0	1
+3	0.2.6.2	Deltaproteobacteria	2	1697	39	320	188	25	48	31	22	306	208	192	318
+4	0.2.6.2.1	Deltaproteobacteria_unclassified	1	4	1	0	0	0	2	0	1	0	0	0	0
+5	0.2.6.2.1.1	Deltaproteobacteria_unclassified	1	4	1	0	0	0	2	0	1	0	0	0	0
+6	0.2.6.2.1.1.1	Deltaproteobacteria_unclassified	0	4	1	0	0	0	2	0	1	0	0	0	0
+4	0.2.6.2.2	Desulfovibrionales	2	1693	38	320	188	25	46	31	21	306	208	192	318
+5	0.2.6.2.2.1	Desulfovibrionaceae	5	1690	38	320	188	25	45	30	21	306	207	192	318
+6	0.2.6.2.2.1.1	Bilophila	0	1332	23	291	130	14	28	21	15	226	151	165	268
+6	0.2.6.2.2.1.2	Desulfovibrio	0	135	6	3	33	0	6	0	3	18	21	7	38
+6	0.2.6.2.2.1.3	Desulfovibrionaceae_unclassified	0	54	9	3	0	9	9	5	3	7	3	5	1
+6	0.2.6.2.2.1.4	Mailhella	0	1	0	0	0	0	1	0	0	0	0	0	0
+6	0.2.6.2.2.1.5	uncultured	0	168	0	23	25	2	1	4	0	55	32	15	11
+5	0.2.6.2.2.2	Desulfovibrionales_unclassified	1	3	0	0	0	0	1	1	0	0	1	0	0
+6	0.2.6.2.2.2.1	Desulfovibrionales_unclassified	0	3	0	0	0	0	1	1	0	0	1	0	0
+3	0.2.6.3	Gammaproteobacteria	5	3174	81	501	183	142	159	82	329	507	262	235	693
+4	0.2.6.3.1	Betaproteobacteriales	2	2572	77	496	177	141	152	79	95	500	261	234	360
+5	0.2.6.3.1.1	Betaproteobacteriales_unclassified	1	18	2	1	0	3	6	3	3	0	0	0	0
+6	0.2.6.3.1.1.1	Betaproteobacteriales_unclassified	0	18	2	1	0	3	6	3	3	0	0	0	0
+5	0.2.6.3.1.2	Burkholderiaceae	5	2554	75	495	177	138	146	76	92	500	261	234	360
+6	0.2.6.3.1.2.1	Burkholderiaceae_unclassified	0	57	5	1	11	5	4	1	3	0	1	2	24
+6	0.2.6.3.1.2.2	Oxalobacter	0	6	1	0	0	0	0	0	4	0	0	0	1
+6	0.2.6.3.1.2.3	Parasutterella	0	2468	69	490	165	133	142	75	85	498	259	232	320
+6	0.2.6.3.1.2.4	Ralstonia	0	14	0	0	0	0	0	0	0	0	0	0	14
+6	0.2.6.3.1.2.5	Sutterella	0	9	0	4	1	0	0	0	0	2	1	0	1
+4	0.2.6.3.2	Enterobacteriales	1	561	0	4	5	0	5	0	214	2	0	0	331
+5	0.2.6.3.2.1	Enterobacteriaceae	7	561	0	4	5	0	5	0	214	2	0	0	331
+6	0.2.6.3.2.1.1	Cronobacter	0	13	0	0	0	0	0	0	13	0	0	0	0
+6	0.2.6.3.2.1.2	Enterobacteriaceae_unclassified	0	180	0	0	3	0	4	0	90	0	0	0	83
+6	0.2.6.3.2.1.3	Escherichia-Shigella	0	349	0	4	2	0	0	0	93	2	0	0	248
+6	0.2.6.3.2.1.4	Pseudocitrobacter	0	1	0	0	0	0	0	0	1	0	0	0	0
+6	0.2.6.3.2.1.5	Raoultella	0	1	0	0	0	0	1	0	0	0	0	0	0
+6	0.2.6.3.2.1.6	Salmonella	0	15	0	0	0	0	0	0	15	0	0	0	0
+6	0.2.6.3.2.1.7	Trabulsiella	0	2	0	0	0	0	0	0	2	0	0	0	0
+4	0.2.6.3.3	Gammaproteobacteria_unclassified	1	33	4	0	0	1	2	3	20	0	1	0	2
+5	0.2.6.3.3.1	Gammaproteobacteria_unclassified	1	33	4	0	0	1	2	3	20	0	1	0	2
+6	0.2.6.3.3.1.1	Gammaproteobacteria_unclassified	0	33	4	0	0	1	2	3	20	0	1	0	2
+4	0.2.6.3.4	Pasteurellales	1	7	0	1	0	0	0	0	0	5	0	1	0
+5	0.2.6.3.4.1	Pasteurellaceae	2	7	0	1	0	0	0	0	0	5	0	1	0
+6	0.2.6.3.4.1.1	Haemophilus	0	4	0	1	0	0	0	0	0	2	0	1	0
+6	0.2.6.3.4.1.2	Pasteurellaceae_unclassified	0	3	0	0	0	0	0	0	0	3	0	0	0
+4	0.2.6.3.5	Pseudomonadales	1	1	0	0	1	0	0	0	0	0	0	0	0
+5	0.2.6.3.5.1	Moraxellaceae	1	1	0	0	1	0	0	0	0	0	0	0	0
+6	0.2.6.3.5.1.1	Enhydrobacter	0	1	0	0	1	0	0	0	0	0	0	0	0
+3	0.2.6.4	Proteobacteria_unclassified	1	6342	1015	0	0	1134	876	661	2656	0	0	0	0
+4	0.2.6.4.1	Proteobacteria_unclassified	1	6342	1015	0	0	1134	876	661	2656	0	0	0	0
+5	0.2.6.4.1.1	Proteobacteria_unclassified	1	6342	1015	0	0	1134	876	661	2656	0	0	0	0
+6	0.2.6.4.1.1.1	Proteobacteria_unclassified	0	6342	1015	0	0	1134	876	661	2656	0	0	0	0
+2	0.2.7	Tenericutes	1	1521	0	2	15	32	7	0	327	99	0	1	1038
+3	0.2.7.1	Mollicutes	3	1521	0	2	15	32	7	0	327	99	0	1	1038
+4	0.2.7.1.1	Izimaplasmatales	1	1	0	0	0	0	0	0	0	0	0	1	0
+5	0.2.7.1.1.1	Izimaplasmatales_fa	1	1	0	0	0	0	0	0	0	0	0	1	0
+6	0.2.7.1.1.1.1	Izimaplasmatales_ge	0	1	0	0	0	0	0	0	0	0	0	1	0
+4	0.2.7.1.2	Mollicutes_RF39	1	1510	0	2	15	32	7	0	323	99	0	0	1032
+5	0.2.7.1.2.1	Mollicutes_RF39_fa	1	1510	0	2	15	32	7	0	323	99	0	0	1032
+6	0.2.7.1.2.1.1	Mollicutes_RF39_ge	0	1510	0	2	15	32	7	0	323	99	0	0	1032
+4	0.2.7.1.3	Mollicutes_unclassified	1	10	0	0	0	0	0	0	4	0	0	0	6
+5	0.2.7.1.3.1	Mollicutes_unclassified	1	10	0	0	0	0	0	0	4	0	0	0	6
+6	0.2.7.1.3.1.1	Mollicutes_unclassified	0	10	0	0	0	0	0	0	4	0	0	0	6
+2	0.2.8	Verrucomicrobia	1	15191	283	1328	69	70	78	180	652	455	1769	2127	8180
+3	0.2.8.1	Verrucomicrobiae	2	15191	283	1328	69	70	78	180	652	455	1769	2127	8180
+4	0.2.8.1.1	Verrucomicrobiae_unclassified	1	18	5	0	0	1	1	4	6	0	0	0	1
+5	0.2.8.1.1.1	Verrucomicrobiae_unclassified	1	18	5	0	0	1	1	4	6	0	0	0	1
+6	0.2.8.1.1.1.1	Verrucomicrobiae_unclassified	0	18	5	0	0	1	1	4	6	0	0	0	1
+4	0.2.8.1.2	Verrucomicrobiales	2	15173	278	1328	69	69	77	176	646	455	1769	2127	8179
+5	0.2.8.1.2.1	Akkermansiaceae	1	15101	265	1327	69	67	74	166	617	455	1764	2124	8173
+6	0.2.8.1.2.1.1	Akkermansia	0	15101	265	1327	69	67	74	166	617	455	1764	2124	8173
+5	0.2.8.1.2.2	Verrucomicrobiales_unclassified	1	72	13	1	0	2	3	10	29	0	5	3	6
+6	0.2.8.1.2.2.1	Verrucomicrobiales_unclassified	0	72	13	1	0	2	3	10	29	0	5	3	6
+1	0.3	Eukaryota	3	17515831	3466851	26	8	4412220	3313475	3113778	3209347	43	34	40	9
+2	0.3.1	Euglenozoa	2	9	3	0	0	2	1	1	2	0	0	0	0
+3	0.3.1.1	Euglenida	2	4	2	0	0	0	1	0	1	0	0	0	0
+4	0.3.1.1.1	Aphagea	1	3	1	0	0	0	1	0	1	0	0	0	0
+5	0.3.1.1.1.1	Aphagea_fa	2	3	1	0	0	0	1	0	1	0	0	0	0
+6	0.3.1.1.1.1.1	Aphagea_fa_unclassified	0	1	0	0	0	0	1	0	0	0	0	0	0
+6	0.3.1.1.1.1.2	Distigma	0	2	1	0	0	0	0	0	1	0	0	0	0
+4	0.3.1.1.2	Euglenida_unclassified	1	1	1	0	0	0	0	0	0	0	0	0	0
+5	0.3.1.1.2.1	Euglenida_unclassified	1	1	1	0	0	0	0	0	0	0	0	0	0
+6	0.3.1.1.2.1.1	Euglenida_unclassified	0	1	1	0	0	0	0	0	0	0	0	0	0
+3	0.3.1.2	Euglenozoa_unclassified	1	5	1	0	0	2	0	1	1	0	0	0	0
+4	0.3.1.2.1	Euglenozoa_unclassified	1	5	1	0	0	2	0	1	1	0	0	0	0
+5	0.3.1.2.1.1	Euglenozoa_unclassified	1	5	1	0	0	2	0	1	1	0	0	0	0
+6	0.3.1.2.1.1.1	Euglenozoa_unclassified	0	5	1	0	0	2	0	1	1	0	0	0	0
+2	0.3.2	Eukaryota_unclassified	1	17515820	3466848	26	8	4412218	3313474	3113775	3209345	43	34	40	9
+3	0.3.2.1	Eukaryota_unclassified	1	17515820	3466848	26	8	4412218	3313474	3113775	3209345	43	34	40	9
+4	0.3.2.1.1	Eukaryota_unclassified	1	17515820	3466848	26	8	4412218	3313474	3113775	3209345	43	34	40	9
+5	0.3.2.1.1.1	Eukaryota_unclassified	1	17515820	3466848	26	8	4412218	3313474	3113775	3209345	43	34	40	9
+6	0.3.2.1.1.1.1	Eukaryota_unclassified	0	17515820	3466848	26	8	4412218	3313474	3113775	3209345	43	34	40	9
+2	0.3.3	Vertebrata	1	2	0	0	0	0	0	2	0	0	0	0	0
+3	0.3.3.1	Mammalia	1	2	0	0	0	0	0	2	0	0	0	0	0
+4	0.3.3.1.1	Mammalia_or	1	2	0	0	0	0	0	2	0	0	0	0	0
+5	0.3.3.1.1.1	Mammalia_fa	1	2	0	0	0	0	0	2	0	0	0	0	0
+6	0.3.3.1.1.1.1	Mammalia_ge	0	2	0	0	0	0	0	2	0	0	0	0	0
+1	0.4	unknown	1	20623492	3732052	16	9	4616756	3685952	4057273	4531379	19	9	19	8
+2	0.4.1	unknown_unclassified	1	20623492	3732052	16	9	4616756	3685952	4057273	4531379	19	9	19	8
+3	0.4.1.1	unknown_unclassified	1	20623492	3732052	16	9	4616756	3685952	4057273	4531379	19	9	19	8
+4	0.4.1.1.1	unknown_unclassified	1	20623492	3732052	16	9	4616756	3685952	4057273	4531379	19	9	19	8
+5	0.4.1.1.1.1	unknown_unclassified	1	20623492	3732052	16	9	4616756	3685952	4057273	4531379	19	9	19	8
+6	0.4.1.1.1.1.1	unknown_unclassified	0	20623492	3732052	16	9	4616756	3685952	4057273	4531379	19	9	19	8
