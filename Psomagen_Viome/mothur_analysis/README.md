@@ -487,12 +487,12 @@ For example, as a starting point, it looks like a lot more Psomagen sequences ar
     <tr>
       <td align="center">Kean6a</td>
       <td align="center">1,666,852</td>
-      <td align="center"></td>
+      <td align="center">1,633,956</td>
      </tr>
     <tr>
       <td align="center">Kean6b</td>
       <td align="center">7,214,333</td>
-      <td align="center"></td>
+      <td align="center">14,038</td>
      </tr> 
 	<tr>
       <td align="center">thryve2</td>
@@ -522,7 +522,7 @@ For example, as a starting point, it looks like a lot more Psomagen sequences ar
     <tr>
       <td align="center">Ombre6</td>
       <td align="center">25,788</td>
-      <td align="center"></td>
+      <td align="center">25,547</td>
      </tr>
 </tbody>
 </table>
