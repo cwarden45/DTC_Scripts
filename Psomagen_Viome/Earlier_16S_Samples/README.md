@@ -15,14 +15,12 @@ However, if that raw data is useful, then these are links listed in a place that
 	  <td align="center">Fecal/Stool</td>
 	  <td align="center">American Gut</td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2013/American_Gut/fecal.fastq">FASTQ R1</a></td>
-      <td align="center">Not Applicable</td>
      </tr>
     <tr>
       <td align="center">2013</td>
 	  <td align="center">Oral/Mouth</td>
 	  <td align="center">American Gut</td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2013/American_Gut/oral.fastq">FASTQ R1</a></td>
-      <td align="center">Not Applicable</td>
      </tr>
     <tr>
       <td align="center">2013-12-04</td>
