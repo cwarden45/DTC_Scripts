@@ -9,7 +9,6 @@ However, if that raw data is useful, then these are links listed in a place that
 	  <th align="center">Collection Site</th>
 	  <th align="center">Company/Organization</th>
       <th align="center">Raw Data</th>
-
     </tr>
     <tr>
       <td align="center">2013</td>
