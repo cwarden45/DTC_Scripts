@@ -10,34 +10,44 @@ Otherwise, the input files can be downloaded from the following locations:
       <th align="center">R2</th>
     </tr>
     <tr>
-      <td align="center">Psomagen1a</td>
+      <td align="center">Psomagen1a<br>(Gene and GutBiome)</td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Psomagen1a_R1.fastq.gz">R1</a></td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Psomagen1a_R1.fastq.gz">R2</a></td>
      </tr>
     <tr>
-      <td align="center">Psomagen1b</td>
+      <td align="center">Psomagen1b<br>(GutBiome+)</td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Psomagen1b_R1.fastq.gz">R1</a></td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Psomagen1b_R2.fastq.gz">R2</a></td>
      </tr>
      <tr>
-      <td align="center">Psomagen2</td>
+      <td align="center">Psomagen2<br>(GutBiome+)</td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Psomagen2_R1.fastq.gz">R1</a></td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Psomagen2_R2.fastq.gz">R2</a></td>
      </tr>
 	<tr>
-      <td align="center">Psomagen3</td>
+      <td align="center">Psomagen3<br>(GutBiome+)</td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Psomagen3_R1.fastq.gz">R1</a></td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Psomagen3_R2.fastq.gz">R2</a></td>
      </tr>
 	<tr>
-      <td align="center">Psomagen4</td>
+      <td align="center">Psomagen4<br>(GutBiome+)</td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Psomagen4_R1.fastq.gz">R1</a></td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Psomagen4_R2.fastq.gz">R2</a></td>
      </tr>
 	<tr>
-      <td align="center">Kean5<br>(Psomagen is now <a href="https://www.keanhealth.com/">Kean</a>)</td>
+      <td align="center">Kean5<br>(Gut)<br>(Psomagen is now <a href="https://www.keanhealth.com/">Kean</a>)</td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Kean5_R1.fastq.gz">R1</a></td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Kean5_R2.fastq.gz">R2</a></td>
+     </tr>
+	<tr>
+      <td align="center">Kean6a<br>(Gut)<br>(Psomagen is now <a href="https://www.keanhealth.com/">Kean</a>)</td>
+      <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Kean6a_R1.fastq.gz">R1</a></td>
+      <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Kean6a_R2.fastq.gz">R2</a></td>
+     </tr>
+	<tr>
+      <td align="center">Kean6b<br>(Gut+)<br>(Psomagen is now <a href="https://www.keanhealth.com/">Kean</a>)</td>
+      <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Kean6b_R1.fastq.gz">R1</a></td>
+      <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Kean6b_R2.fastq.gz">R2</a></td>
      </tr>
 	  <tr>
       <td align="center">thryve2</td>
@@ -64,6 +74,11 @@ Otherwise, the input files can be downloaded from the following locations:
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Ombre5_R1.fastq.gz">R1</a></td>
       <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Ombre5_R2.fastq.gz">R2</a></td>
      </tr>
+    <tr>
+      <td align="center">Ombre6<br>(thryve is now <a href="https://www.ombrelab.com/">Ombre</a>)</td>
+      <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Ombre6_R1.fastq.gz">R1</a></td>
+      <td align="center"><a href="https://storage.googleapis.com/cdw-metagenomics/CDW_16S_2021/Ombre6_R2.fastq.gz">R2</a></td>
+     </tr>	  
 </tbody>
 </table>
 
