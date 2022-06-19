@@ -41,11 +41,11 @@ This code has been applied elsewhere, such as [here](https://github.com/cwarden4
      </tr>
  	<tr>
       <td align="center">Kean6a</td>
-      <td align="center"></td>
+      <td align="center">99.98%</td>
      </tr>
  	<tr>
       <td align="center">Kean6b</td>
-      <td align="center"></td>
+      <td align="center">53.81%</td>
      </tr>
 	  <tr>
       <td align="center">thryve2</td>
@@ -69,7 +69,7 @@ This code has been applied elsewhere, such as [here](https://github.com/cwarden4
      </tr>
     <tr>
       <td align="center">Ombre6</td>
-      <td align="center"></td>
+      <td align="center">98.77%</td>
      </tr>
 </tbody>
 </table>
