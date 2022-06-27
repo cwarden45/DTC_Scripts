@@ -1123,9 +1123,9 @@ To provide a selected comparison of assignments (from the companies) for my 6th 
       <td align="left">Active</td>
       </tr>
       <tr>
-      <td align="center"><i>Bacteroides vulgatus</i></td>
+      <td align="center"><i>Bacteroides vulgatus</i><br><i>Phocaeicola vulgatus</i></td>
       <td align="left">?</td>
-      <td align="left">Phocaeicola vulgatus?</td>
+      <td align="left">21.4%</td>
       <td align="left">10.9%?</td>
       <td align="left">Active<br>(ATCC 8482)</td>
       </tr>
@@ -1135,7 +1135,14 @@ To provide a selected comparison of assignments (from the companies) for my 6th 
       <td align="left">38.131%<br>(total)</td>
       <td align="left">Active<br>(14 other species)</td>
       </tr>
-    <tr>
+      <tr>
+      <td align="center"><i>Phocaeicola dorei</i></td>
+      <td align="left">?</td>
+      <td align="left">1.6%</td>
+      <td align="left">[Bacteroides]</td>
+      <td align="left">[Bacteroides]</td>
+      </tr>
+<tr>
       <td align="center"><i>Blautia</i></td>
       <td align="left">?</td>
       <td align="left">0.4% (<i>sp. SC05B48</i>)<br>&lt0.1% (<i>obeum</i>)<br>&lt0.1%  (<i>producta</i>)</td>
@@ -1162,20 +1169,6 @@ To provide a selected comparison of assignments (from the companies) for my 6th 
       <td align="left">Not Detected</td>
       <td align="left">0.037%</td>
   <td align="left">Detected<br>(<i>johnsonii</i>)</td>
-      </tr>
-    <tr>
-      <td align="center"><i>Phocaeicola vulgatus</i></td>
-      <td align="left">?</td>
-      <td align="left">21.4%</td>
-      <td align="left">[Bacteroides]</td>
-      <td align="left">[Bacteroides]</td>
-      </tr>
-      <tr>
-      <td align="center"><i>Phocaeicola dorei</i></td>
-      <td align="left">?</td>
-      <td align="left">1.6%</td>
-      <td align="left">[Bacteroides]</td>
-      <td align="left">[Bacteroides]</td>
       </tr>
     <tr>
       <td align="center"><i>Ruminococcus bicirculans</i></td>
