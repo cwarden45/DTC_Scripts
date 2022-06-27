@@ -1167,15 +1167,15 @@ To provide a selected comparison of assignments (from the companies) for my 6th 
       <td align="center"><i>Phocaeicola vulgatus</i></td>
       <td align="left">?</td>
       <td align="left">21.4%</td>
-      <td align="left">Not Classified?</td>
-      <td align="left">Not Active?</td>
+      <td align="left">[Bacteroides]</td>
+      <td align="left">[Bacteroides]</td>
       </tr>
       <tr>
       <td align="center"><i>Phocaeicola dorei</i></td>
       <td align="left">?</td>
       <td align="left">1.6%</td>
-      <td align="left">Not Classified?</td>
-      <td align="left">Not Active?</td>
+      <td align="left">[Bacteroides]</td>
+      <td align="left">[Bacteroides]</td>
       </tr>
     <tr>
       <td align="center"><i>Ruminococcus bicirculans</i></td>
