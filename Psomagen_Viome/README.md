@@ -1143,6 +1143,13 @@ To provide a selected comparison of assignments (from the companies) for my 6th 
       <td align="left">[Bacteroides]</td>
       </tr>
 <tr>
+      <td align="center"><i>Bifidobacterium</i></td>
+      <td align="left">?</td>
+      <td align="left">&lt0.1%</td>
+      <td align="left">0.026%%</td>
+      <td align="left">Active</td>
+    </tr>
+<tr>
       <td align="center"><i>Blautia</i></td>
       <td align="left">?</td>
       <td align="left">0.4% (<i>sp. SC05B48</i>)<br>&lt0.1% (<i>obeum</i>)<br>&lt0.1%  (<i>producta</i>)</td>
