@@ -1144,8 +1144,8 @@ To provide a selected comparison of assignments (from the companies) for my 6th 
       </tr>
 <tr>
       <td align="center"><i>Bifidobacterium</i></td>
-      <td align="left">?</td>
-      <td align="left">&lt0.1%</td>
+      <td align="left">Detected</td>
+      <td align="left">Detected<br>(&lt0.1%)</td>
       <td align="left">0.026%%</td>
       <td align="left">Active</td>
     </tr>
