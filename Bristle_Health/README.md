@@ -10,6 +10,6 @@ I recieved results on 10/27/2022.  I then sent a follow-up e-mail requesting raw
 
 I recieved a custom link to recieve FASTQ files on 11/8/2022.  I have also uploaded those reads, and they are available to download using the links below:
 
-https://storage.googleapis.com/cdw-metagenomics/Bristle-Health/BH3773Y4_R1.fastq.gz
+[BH3773Y4_R1.fastq.gz](https://storage.googleapis.com/cdw-metagenomics/Bristle-Health/BH3773Y4_R1.fastq.gz)
 
-https://storage.googleapis.com/cdw-metagenomics/Bristle-Health/BH3773Y4_R2.fastq.gz
+[BH3773Y4_R2.fastq.gz](https://storage.googleapis.com/cdw-metagenomics/Bristle-Health/BH3773Y4_R2.fastq.gz)
