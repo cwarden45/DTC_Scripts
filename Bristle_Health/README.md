@@ -13,3 +13,5 @@ I recieved a custom link to recieve FASTQ files on 11/8/2022.  I have also uploa
 [BH3773Y4_R1.fastq.gz](https://storage.googleapis.com/cdw-metagenomics/Bristle-Health/BH3773Y4_R1.fastq.gz)
 
 [BH3773Y4_R2.fastq.gz](https://storage.googleapis.com/cdw-metagenomics/Bristle-Health/BH3773Y4_R2.fastq.gz)
+
+Selected output of Kraken2/Bracken (following procedure described [here](https://github.com/cwarden45/Bastu_Cat_Genome/tree/master/Basepaws_Notes/Reformat_Basepaws_WGS2_and_Combine)) is available within the [Kraken-OUT](https://github.com/cwarden45/DTC_Scripts/tree/master/Bristle_Health/Kraken-OUT) folder.
