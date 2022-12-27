@@ -1,3 +1,5 @@
+## Strategy #1: Upload Data Generated Outside of Dante Labs
+
 I think most people get reports with sequencing performed by Dante Labs.  However, I tested uploading different files using [this link](https://us.dantelabs.com/products/import-your-genetic-data).
 
 More specifically, I tested uploading the following files for at least 1 of the 3 available reports:
@@ -112,3 +114,7 @@ Also, for the 11 discordant genotypes described above, only 2 ([rs2304795](https
 While I didn't see any inconsistent genotypes by eye between the "Wellness and Lifestyle" reports for 23andMe and AncestryDNA data, I am a [cystic fibrosis carrier](http://cdwscience.blogspot.com/2019/08/digging-deeper-into-my-cystic-fibrosis.html) and **both reports from Dante Labs *incorrectly* said that I was *not* an cystic fibrosis carrier**.  So, I would say that there was at least 1 serious problem that I found with each report.
 
 I was also a little concerned that the link to upload my "Wellness & Lifestyle" 23andMe data actually said "AncestryDNA: Fitness (Kit ID: TPD16382842155959)" as well as "Upload Your Genetic Data from 23andMe".  However, the report I recieved was in fact different than the other reports (so, I would consider this a minor typo.)
+
+## Strategy #2: Submit Sample to Generate HiFi Reads
+
+Order submitted on 12/26/2022
