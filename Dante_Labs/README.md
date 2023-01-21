@@ -118,3 +118,5 @@ I was also a little concerned that the link to upload my "Wellness & Lifestyle" 
 ## Strategy #2: Submit Sample to Generate HiFi Reads
 
 Order submitted on 12/26/2022
+
+1health attestation and questionnaire for Dante Labs kit available (and completed) on 1/20/2023.
