@@ -121,4 +121,4 @@ Order submitted on 12/26/2022
 
 1health attestation and questionnaire for Dante Labs kit available (and completed) on 1/20/2023.
 
-MyGenome kit arrived on 1/23/2023, and I then send a follow-up e-mail to confirm saliva kit is for PacBio HiFi reads.
+MyGenome kit arrived on 1/23/2023, and I then sent a follow-up e-mail to confirm saliva kit is for PacBio HiFi reads.
