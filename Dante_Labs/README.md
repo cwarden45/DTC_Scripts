@@ -14,7 +14,7 @@ Uploading a .vcf cost $19.99 instead of $4.99, so that is why I only generated o
 
 You can see the drafts and idenfifiers (if available) for the FDA MedWatch reports that I submitted [here](https://drive.google.com/file/d/1xigiaFiCRX_aKqyuypMnw-9B4Z8IxQrX/view?usp=sharing).  You can also see additional details below.
 
-I am currently waiting for those additional MedWatch identifiers to submit a negative review on TrustPilot, but I already have ethnical concerns with offering a product worth $499 only if a **positive 5 star review** is provided:
+I am currently waiting for those additional MedWatch identifiers to submit a negative review on TrustPilot, but I already have concerns with offering a $499 reward **only** if a **positive 5 star review** is provided:
 
 ![paying for positive review](require_5star_review_for_500dollars.PNG)
 
