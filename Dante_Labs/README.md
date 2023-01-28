@@ -124,3 +124,5 @@ Order submitted on 12/26/2022
 MyGenome kit arrived on 1/23/2023, and I then sent a follow-up e-mail to confirm saliva kit is for PacBio HiFi reads.
 
 On 1/24/2023, Dante Labs confirmed that a saliva kit (not a blood kit) should be used to collection of DNA to generate HiFi reads.  So, I collected my salvia sample and prepared package to return.
+
+I dropped off my return page to a location [listed on the DHL webpage](https://mydhl.express.dhl/us/en/locator.html) on 1/25/2023.
