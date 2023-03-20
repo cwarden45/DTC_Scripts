@@ -6,7 +6,7 @@
 
 *Impression:* Mild muscle spasm with straightening of the lordotic curve. Mild degenerative disc disease at the L4-5 and L5-S1 level.
 
-## 2019 X-Ray (2 images, 2023-01-24.zip)
+## 2023 X-Ray (2 images, 2023-01-24.zip)
 
 **Radiologist Notes:**
 
