@@ -40,10 +40,20 @@ In terms of predictive limitations, I am glad that the subtitle for the cilantro
 
 ## Medicine (Pharmacogenomics)
 
-I **expanded** the details when creating the PDF, which includes **more details of what was tested** and **limitations in the results**.
+I **expanded** the details when [creating the uploaded PDF](https://github.com/cwarden45/DTC_Scripts/blob/master/All_of_Us/Medicine_and_DNA%20-%20230408.pdf), which includes **more details of what was tested** and **limitations in the results**.
+
+There is a warning that **These medicines MAY BE impacted by your genetics.**  Likewise, there are the following warnings (**bold font** added by me):
+
+ - "*It **won’t** tell us if a medicine will definitely work.*"
+
+ - "*It **won’t** tell us if a medicine will definitely cause side effects or won’t work at all.*"
+
+ - "*It **won’t** tell us exactly how much medicine someone should take.*"
+
+So, I think is good in terms of communicating some limitations in predictive power.  However, it might have been nice if I could learn more about the variation in risk estimates (for absolute and relative risk).
 
 ## Hereditary Disease
 
 **Result**: *"We did not find anything significant for your health in the genes we looked at."*
 
-I **expanded** the details when creating the PDF, in order to see the **list of genes** tested and **limitations in the results**.
+I **expanded** the details when [creating the uploaded PDF](https://github.com/cwarden45/DTC_Scripts/blob/master/All_of_Us/Hereditary%20Disease%20Risk%20-%20230408.pdf), in order to see the **list of genes** tested and **limitations in the results**.
