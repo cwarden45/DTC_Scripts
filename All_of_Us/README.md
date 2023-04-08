@@ -60,7 +60,7 @@ In terms of a short summary:
 |DPYD|*1/*1|Normal Metabolizer| |
 |G6PD|B|Normal| |
 |NUDT15|*1/*1|Normal Metabolizer| |
-|SLCO1B1|*1/*15|Decreased Function|simvastatin (Zocor®): This means some medicines may increase your risk of developing muscle pain.|
+|SLCO1B1|*1/*15|Decreased Function (**may** increase your risk of developing muscle pain.)|simvastatin (Zocor®)|
 |TPMT|*1/*1|Normal Metabolizer| |
 |UGT1A1|*1/*1|Normal Metabolizer| |
 
