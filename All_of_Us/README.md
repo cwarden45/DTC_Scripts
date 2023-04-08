@@ -52,6 +52,18 @@ There is a warning that **These medicines MAY BE impacted by your genetics.**  L
 
 So, I think is good in terms of communicating some limitations in predictive power.  However, it might have been nice if I could learn more about the variation in risk estimates (for absolute and relative risk).
 
+In terms of a short summary:
+
+| Gene | Alleles | Status | *Possible* Affected Mediciations |
+|---|---|---|---|
+|CYP2C19|*1/*1|Normal Metabolizer| |
+|DPYD|*1/*1|Normal Metabolizer| |
+|G6PD|B|Normal| |
+|NUDT15|*1/*1|Normal Metabolizer| |
+|SLCO1B1|*1/*15|Decreased Function|simvastatin (Zocor®): This means some medicines may increase your risk of developing muscle pain.|
+|TPMT|*1/*1|Normal Metabolizer| |
+|UGT1A1|*1/*1|Normal Metabolizer| |
+
 ## Hereditary Disease
 
 **Result**: *"We did **not** find anything significant for your health in the genes we looked at."* (**bold font** added by me)
