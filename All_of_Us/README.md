@@ -54,6 +54,6 @@ So, I think is good in terms of communicating some limitations in predictive pow
 
 ## Hereditary Disease
 
-**Result**: *"We did not find anything significant for your health in the genes we looked at."*
+**Result**: *"We did **not** find anything significant for your health in the genes we looked at."* (**bold font** added by me)
 
 I **expanded** the details when [creating the uploaded PDF](https://github.com/cwarden45/DTC_Scripts/blob/master/All_of_Us/Hereditary%20Disease%20Risk%20-%20230408.pdf), in order to see the **list of genes** tested and **limitations in the results**.
