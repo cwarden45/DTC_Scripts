@@ -1,6 +1,6 @@
 My Biosample collection was on **2/21/2019**
 
-I am not exactly sure when my sample was sequenced, but I recieved a notification that I could recieve my ancestry and trait results on 3/26/2021.
+I am not exactly sure when my sample was sequenced, but I recieved a notification that I could recieve my ancestry and trait results on 3/26/2021.  I recieved a notification that I could view my "Medicine and Your DNA" and "Hereditary Disease Risk" results on 4/7/2023.
 
 If you are not already aware of the program for free genome sequencing, you can learn more about **All of Us** [here](https://allofus.nih.gov/).
 
@@ -37,3 +37,13 @@ I think it is worth keeping in mind that this is free.  So, even though everythi
 I think it might help if there was more of a sense of confidence in the results communicated.  My preference would be to focus on what is most clear, but some negative results can also be informative (particularly if it might clear up a common misconception).
 
 In terms of predictive limitations, I am glad that the subtitle for the cilantro report is "***Your DNA isn’t the key to cilantro preference***."  I wish this was even more clear, but I think this is the right idea.
+
+## Medicine (Pharmacogenomics)
+
+I **expanded** the details when creating the PDF, which includes **more details of what was tested** and **limitations in the results**.
+
+## Hereditary Disease
+
+**Result**: *"We did not find anything significant for your health in the genes we looked at."*
+
+I **expanded** the details when creating the PDF, in order to see the **list of genes** tested and **limitations in the results**.
