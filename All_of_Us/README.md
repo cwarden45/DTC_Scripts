@@ -56,13 +56,13 @@ In terms of a short summary:
 
 | Gene | Alleles | Status | *Possible* Affected Mediciations |
 |---|---|---|---|
-|CYP2C19|*1/*1|Normal Metabolizer| |
-|DPYD|*1/*1|Normal Metabolizer| |
-|G6PD|B|Normal| |
-|NUDT15|*1/*1|Normal Metabolizer| |
+|CYP2C19|*1/*1|**Normal** Metabolizer| |
+|DPYD|*1/*1|**Normal** Metabolizer| |
+|G6PD|B|**Normal**| |
+|NUDT15|*1/*1|**Normal** Metabolizer| |
 |SLCO1B1|*1/*15|Decreased Function (**may** increase your risk of developing muscle pain.)|simvastatin (Zocor®)|
-|TPMT|*1/*1|Normal Metabolizer| |
-|UGT1A1|*1/*1|Normal Metabolizer| |
+|TPMT|*1/*1|**Normal** Metabolizer| |
+|UGT1A1|*1/*1|**Normal** Metabolizer| |
 
 ## Hereditary Disease
 
