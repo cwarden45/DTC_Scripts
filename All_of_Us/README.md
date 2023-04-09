@@ -54,7 +54,7 @@ So, I think is good in terms of communicating some limitations in predictive pow
 
 In terms of a short summary:
 
-| Gene | Alleles | Status | *Possible* Affected Mediciations |
+| Gene | Alleles / Type | Status | *Possible* Affected Mediciations |
 |---|---|---|---|
 |CYP2C19|*1/*1|**Normal** Metabolizer| |
 |DPYD|*1/*1|**Normal** Metabolizer| |
