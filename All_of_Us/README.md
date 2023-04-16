@@ -70,4 +70,4 @@ In terms of a short summary:
 
 I **expanded** the details when [creating the uploaded PDF](https://github.com/cwarden45/DTC_Scripts/blob/master/All_of_Us/Hereditary%20Disease%20Risk%20-%20230408.pdf), in order to see the **list of genes** tested and **limitations in the results**.
 
-I think an **important additional detail** is that if you ***do*** have a positive result, then you are given access to discuss your results with a **genetic counselor.**  However, with my negative results, I did not do this.
+I believe an **important additional detail** is that if you ***do*** have a positive result, then you are given access to discuss your results with a **genetic counselor.**  However, with my negative results, I did not do this.
