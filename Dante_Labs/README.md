@@ -133,9 +133,9 @@ I recieved an e-mail notification that the status of my kit has changed to "Resu
 
 **VCF 2 (SV):** https://storage.googleapis.com/cdw-metagenomics/Dante-HiFi/GFX0457625.sv.vcf.gz
 
-**HiFi Reads (.bam):**
+**HiFi Reads (.bam file):** https://storage.googleapis.com/cdw-metagenomics/Dante-HiFi/GFX0457625_SL_L001_001.reads.bam
 
-**Alignment (.bam):**
+**Alignment (.bam file):** https://storage.googleapis.com/cdw-metagenomics/Dante-HiFi/GFX0457625.bam
 
 Here is the header for the alignment file:
 
