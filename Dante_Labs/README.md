@@ -237,3 +237,11 @@ HD	VN:1.6	SO:coordinate	pb:5.0.0
 @PG	ID:samtools.2	PN:samtools	PP:pbmm2	VN:1.9-168-gb1e2c78	CL:/opt/samtools/samtools view -H GFX0457625.bam
 ```
 I used [this information](https://lh3.github.io/2017/11/13/which-human-reference-genome-to-use) to find a `hs37d5` sequence to download.
+
+After creating a TDF file in [IGV](), here is the default coveage view:
+
+![HiFi Coverage 1](IGV_HiFi_coverage-default.PNG)
+
+...and here is the coverage view when setting the **maximum plotted coverage to be 5x**:
+
+![HiFi Coverage 2](IGV_HiFi_coverage-default--max_5x.PNG)
