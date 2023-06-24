@@ -128,3 +128,11 @@ On 1/24/2023, Dante Labs confirmed that a saliva kit (not a blood kit) should be
 I dropped off my return page to a location [listed on the DHL webpage](https://mydhl.express.dhl/us/en/locator.html) on 1/25/2023.
 
 I recieved an e-mail notification that the status of my kit has changed to "Results Ready" on 6/23/2023.  Within the web interface, reports were not ready to download yet.  However, I have started to download the raw data that is available from the web interface.  The "raw" data includes 2 VCF files.
+
+**VCF 1:** https://storage.googleapis.com/cdw-metagenomics/Dante-HiFi/GFX0457625.raw.vcf.gz
+
+**VCF 2 (SV):** https://storage.googleapis.com/cdw-metagenomics/Dante-HiFi/GFX0457625.sv.vcf.gz
+
+**HiFi Reads (.bam):**
+
+**Alignment (.bam):**
