@@ -136,3 +136,103 @@ I recieved an e-mail notification that the status of my kit has changed to "Resu
 **HiFi Reads (.bam):**
 
 **Alignment (.bam):**
+
+Here is the header for the alignment file:
+
+```
+HD	VN:1.6	SO:coordinate	pb:5.0.0
+@SQ	SN:1	LN:249250621
+@SQ	SN:2	LN:243199373
+@SQ	SN:3	LN:198022430
+@SQ	SN:4	LN:191154276
+@SQ	SN:5	LN:180915260
+@SQ	SN:6	LN:171115067
+@SQ	SN:7	LN:159138663
+@SQ	SN:8	LN:146364022
+@SQ	SN:9	LN:141213431
+@SQ	SN:10	LN:135534747
+@SQ	SN:11	LN:135006516
+@SQ	SN:12	LN:133851895
+@SQ	SN:13	LN:115169878
+@SQ	SN:14	LN:107349540
+@SQ	SN:15	LN:102531392
+@SQ	SN:16	LN:90354753
+@SQ	SN:17	LN:81195210
+@SQ	SN:18	LN:78077248
+@SQ	SN:19	LN:59128983
+@SQ	SN:20	LN:63025520
+@SQ	SN:21	LN:48129895
+@SQ	SN:22	LN:51304566
+@SQ	SN:X	LN:155270560
+@SQ	SN:Y	LN:59373566
+@SQ	SN:MT	LN:16569
+@SQ	SN:GL000207.1	LN:4262
+@SQ	SN:GL000226.1	LN:15008
+@SQ	SN:GL000229.1	LN:19913
+@SQ	SN:GL000231.1	LN:27386
+@SQ	SN:GL000210.1	LN:27682
+@SQ	SN:GL000239.1	LN:33824
+@SQ	SN:GL000235.1	LN:34474
+@SQ	SN:GL000201.1	LN:36148
+@SQ	SN:GL000247.1	LN:36422
+@SQ	SN:GL000245.1	LN:36651
+@SQ	SN:GL000197.1	LN:37175
+@SQ	SN:GL000203.1	LN:37498
+@SQ	SN:GL000246.1	LN:38154
+@SQ	SN:GL000249.1	LN:38502
+@SQ	SN:GL000196.1	LN:38914
+@SQ	SN:GL000248.1	LN:39786
+@SQ	SN:GL000244.1	LN:39929
+@SQ	SN:GL000238.1	LN:39939
+@SQ	SN:GL000202.1	LN:40103
+@SQ	SN:GL000234.1	LN:40531
+@SQ	SN:GL000232.1	LN:40652
+@SQ	SN:GL000206.1	LN:41001
+@SQ	SN:GL000240.1	LN:41933
+@SQ	SN:GL000236.1	LN:41934
+@SQ	SN:GL000241.1	LN:42152
+@SQ	SN:GL000243.1	LN:43341
+@SQ	SN:GL000242.1	LN:43523
+@SQ	SN:GL000230.1	LN:43691
+@SQ	SN:GL000237.1	LN:45867
+@SQ	SN:GL000233.1	LN:45941
+@SQ	SN:GL000204.1	LN:81310
+@SQ	SN:GL000198.1	LN:90085
+@SQ	SN:GL000208.1	LN:92689
+@SQ	SN:GL000191.1	LN:106433
+@SQ	SN:GL000227.1	LN:128374
+@SQ	SN:GL000228.1	LN:129120
+@SQ	SN:GL000214.1	LN:137718
+@SQ	SN:GL000221.1	LN:155397
+@SQ	SN:GL000209.1	LN:159169
+@SQ	SN:GL000218.1	LN:161147
+@SQ	SN:GL000220.1	LN:161802
+@SQ	SN:GL000213.1	LN:164239
+@SQ	SN:GL000211.1	LN:166566
+@SQ	SN:GL000199.1	LN:169874
+@SQ	SN:GL000217.1	LN:172149
+@SQ	SN:GL000216.1	LN:172294
+@SQ	SN:GL000215.1	LN:172545
+@SQ	SN:GL000205.1	LN:174588
+@SQ	SN:GL000219.1	LN:179198
+@SQ	SN:GL000224.1	LN:179693
+@SQ	SN:GL000223.1	LN:180455
+@SQ	SN:GL000195.1	LN:182896
+@SQ	SN:GL000212.1	LN:186858
+@SQ	SN:GL000222.1	LN:186861
+@SQ	SN:GL000200.1	LN:187035
+@SQ	SN:GL000193.1	LN:189789
+@SQ	SN:GL000194.1	LN:191469
+@SQ	SN:GL000225.1	LN:211173
+@SQ	SN:GL000192.1	LN:547496
+@SQ	SN:NC_007605	LN:171823
+@SQ	SN:hs37d5	LN:35477943
+@RG	ID:67b370ea/1--1	PL:PACBIO	DS:READTYPE=CCS;BINDINGKIT=101-894-200;SEQUENCINGKIT=101-826-100;BASECALLERVERSION=5.0.0;FRAMERATEHZ=100.000000;BarcodeFile=m64023e_230412_163524.barcodes.fasta;BarcodeHash=86d73e586a6d3ede0295785b51105eea;BarcodeCount=96;BarcodeMode=Symmetric;BarcodeQuality=Score	LB:Pool_7_8_GFX0457790_GFX0457625	PU:m64023e_230412_163524	SM:GFX0457625
+	PM:SEQUELII	BC:TGCATGTCATGAGTAT	CM:S/P5-C2/5.0-8M
+@PG	ID:ccs	PN:ccs	VN:6.3.0	DS:Generate circular consensus sequences (ccs) from subreads.	CL:/opt/pacbio/pa-ccs/current/bin/ccs --streamed --suppress-reports --num-threads 200 --log-level INFO --log-file m64023e_230412_163524.ccs.log --report-json m64023e_230412_163524.ccs_reports.json --report-file m64023e_230412_163524.ccs_reports.txt --metrics-json m64023e_230412_163524.zmw_metrics.json.gz --hifi-summary-json m64023e_230412_163524.hifi_summary.json --stderr-json-log --bam m64023e_230412_163524.hifi_reads.ccs.bam m64023e_230412_163524.ccs.consensusreadset.xml
+@PG	ID:lima	VN:2.5.1 (commit v2.5.0-4-g1ae5c14)	CL:/opt/pacbio/pa-lima/current/bin/lima --output-missing-pairs --peek-guess --hifi-preset SYMMETRIC-ADAPTERS --store-unbarcoded --split-named --split-subdirs --reuse-source-uuid --reuse-biosample-uuids --stderr-json-log --log-level INFO --log-file m64023e_230412_163524.lima.log --alarms m64023e_230412_163524.alarms.json --guess-file-txt m64023e_230412_163524.lima_guess.txt --guess-file-json m64023e_230412_163524.lima_guess.json --counts-file-name m64023e_230412_163524.lima_counts.txt --report-file-name m64023e_230412_163524.lima_report.txt --summary-file-name m64023e_230412_163524.lima_summary.txt --unbarcoded-file-json m64023e_230412_163524.unbarcoded.json --unbarcoded-file-bam m64023e_230412_163524.unbarcoded.hifi_reads.bam --unbarcoded-file-xml m64023e_230412_163524.unbarcoded --bam m64023e_230412_163524.hifi_reads.bam m64023e_230412_163524.ccs.consensusreadset.xml m64023e_230412_163524.barcodes.fasta /data/pa/m64023e_230412_163524.consensusreadset.xml
+@PG	ID:pbmm2	PN:pbmm2	VN:1.10.0 (commit v1.10.0)	CL:pbmm2 align --sort --bam-index BAI grch37.mmi m64023e_230412_163524.hifi_reads.bc2002--bc2002.bam
+@PG	ID:samtools	PN:samtools	PP:ccs	VN:1.9-168-gb1e2c78	CL:/opt/samtools/samtools view -H GFX0457625.bam
+@PG	ID:samtools.1	PN:samtools	PP:lima	VN:1.9-168-gb1e2c78	CL:/opt/samtools/samtools view -H GFX0457625.bam
+@PG	ID:samtools.2	PN:samtools	PP:pbmm2	VN:1.9-168-gb1e2c78	CL:/opt/samtools/samtools view -H GFX0457625.bam
+```
