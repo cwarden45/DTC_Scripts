@@ -242,6 +242,6 @@ After creating a TDF file in [IGV](), here is the default coveage view:
 
 ![HiFi Coverage 1](IGV_HiFi_coverage-default.PNG)
 
-...and here is the coverage view when setting the **maximum plotted coverage to be 5x**:
+...and here is the coverage view when setting the ***maximum* plotted coverage to be 5x**:
 
 ![HiFi Coverage 2](IGV_HiFi_coverage-default--max_5x.PNG)
