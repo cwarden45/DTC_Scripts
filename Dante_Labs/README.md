@@ -236,3 +236,4 @@ HD	VN:1.6	SO:coordinate	pb:5.0.0
 @PG	ID:samtools.1	PN:samtools	PP:lima	VN:1.9-168-gb1e2c78	CL:/opt/samtools/samtools view -H GFX0457625.bam
 @PG	ID:samtools.2	PN:samtools	PP:pbmm2	VN:1.9-168-gb1e2c78	CL:/opt/samtools/samtools view -H GFX0457625.bam
 ```
+I used [this information](https://lh3.github.io/2017/11/13/which-human-reference-genome-to-use) to find a `hs37d5` sequence to download.
