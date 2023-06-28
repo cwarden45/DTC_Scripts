@@ -286,5 +286,5 @@ Similar to the [Genes for Good folder]([https://github.com/cwarden45/DTC_Scripts
 </tbody>
 </table>
 
-I needed to re-download files and recreate the bwakit "" reference.  Also, at least one file path to download has changed.  So, using the [GitHub instructions](https://github.com/lh3/bwa/tree/master/bwakit) as a guide, I created the reference using `download_ref.sh` and `index_bwakit_ref.sh`.
+I needed to re-download files and recreate the bwakit *hs38DH* reference.  Also, at least one file path to download has changed.  So, using the [GitHub instructions](https://github.com/lh3/bwa/tree/master/bwakit) as a guide, I created the reference using `download_ref.sh` and `index_bwakit_ref.sh`.
 
