@@ -227,3 +227,65 @@ In general, one goal of all the postings is to help critically assess the result
 
 
 However, at the same time, a lot of information is not directly related to cannabis, and I **don't** think everything should discredited because it is in the report (even if I think more information is needed to evaluate each specific claim, both in terms of the risk estimate as well the recommendation about action to take).  For example, I **am** a carrier for some increased risk for Alzheimer's Disease due to a variant in my APOE gene.  However, the variant details were not reported, and I was given what I believe is the strongest cateogry of "*Increased*" (when I know that I am much lower risk than somebody with 2 copies the vairant).  So, I don't believe this is the best way to learn that information.  Also, if you are a healthy individual, then my understanding is that your cannibis intake should usually not vary based upon your *risk* for most diseases (such as Alzheimer's).
+
+## Raw Re-Analysis for HLA Typing
+
+Similar to the [Genes for Good folder]([https://github.com/cwarden45/DTC_Scripts/tree/master/Genos_Exome](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good)), I can compare results for HLA typing with the raw reads to SNP chip imputation assignments (in that case, Exome results are also provided).  Relative to the Veritas WGS results, I expect the Seqeuncing.com results can provide better data for re-analysis due to the ability to include reads that would not have aligned to the "canonical" chromosomes for a given genome reference build.  Relative to Exome data, this also not dependent upon the target design:
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Marker</th>
+      <th align="center">SNP2HLA</th>
+      <th align="center">HIBAG</th>
+      <th align="center">bwakit</th>
+      <th align="center">HLAminer</th>
+    </tr>
+    <tr>
+      <td align="center">HLA-A</td>
+      <td align="left">A*01, A*02<br/>(23andMe)<br/><br/>A*01, A*02<br/>(Genes for Good)</td>
+      <td align="left">A*01, A*02<br/>(23andMe)</td>
+      <td align="left"><br/>(Genos Exome BWA-MEM)</td>
+      <td align="left"><br/>(Genos Exome BWA-MEM)</td>
+     </tr>
+    <tr>
+      <td align="center">HLA-B</td>
+      <td align="left">B*08, B*40<br/>(23andMe)<br/><br/>B*08, B*40<br/>(Genes for Good)</td>
+      <td align="left">B*08, B*40<br/>(23andMe)</td>
+      <td align="left"><br/>(Genos Exome BWA-MEM)</td>
+      <td align="left"><br/>(Genos Exome BWA-MEM)</td>
+     </tr>
+    <tr>
+      <td align="center">HLA-C</td>
+      <td align="left">C*03, C*07<br/>(23andMe)<br/><br/>C*03, C*07<br/>(Genes for Good)</td>
+      <td align="left">C*03, C*07<br/>(23andMe)</td>
+      <td align="left"><br/>(Genos Exome BWA-MEM)</td>
+      <td align="left"><br/>(Genos Exome BWA-MEM)</td>
+     </tr>
+    <tr>
+      <td align="center">HLA-DRB1</td>
+      <td align="left">DRB1*01, DRB1*03<br/>(23andMe)<br/><br/>DRB1*01, DRB1*03<br/>(Genes for Good)</td>
+      <td align="left">DRB1*03, DRB1*11<br/>(23andMe)</td>
+      <td align="left"><br/>(Genos Exome BWA-MEM)</td>
+      <td align="left"><br/>(Genos Exome BWA-MEM)</td>
+     </tr>
+     <tr>
+      <td align="center">HLA-DQA1</td>
+      <td align="left">DQA1*05, DQA1*05<br/>(23andMe)<br/><br/>DQA1*01, DQA1*05<br/>(Genes for Good)</td>
+      <td align="left">DQA1*05, DQA1*05<br/>(23andMe)</td>
+      <td align="left"><br/>(Genos Exome BWA-MEM)</td>
+      <td align="left"><br/>(Genos Exome BWA-MEM)</td>
+     </tr>
+     <tr>
+      <td align="center">HLA-DQB1</td>
+      <td align="left">DQB1*02, DQB1*05<br/>(23andMe)<br/><br/>DQB1*02, DQB1*02<br/>(Genes for Good)</td>
+      <td align="left">DQB1*02, DQB1*03<br/>(23andMe)</td>
+      <td align="left"><br/>(Genos Exome BWA-MEM)</td>
+      <td align="left"><br/>(Genos Exome BWA-MEM)</td>
+     </tr>
+</tbody>
+</table>
+
+
+
+
