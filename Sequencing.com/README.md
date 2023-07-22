@@ -290,5 +290,5 @@ I needed to re-download files and recreate the bwakit *hs38DH* reference.  Also,
 
 The *bwakit* results were produced using `bwakit-full_command.sh`.
 
-Because the run-time for bwa-kit was long, I tested using [T1K](https://github.com/mourisl/T1K).
+I also tested using [T1K](https://github.com/mourisl/T1K).
 
