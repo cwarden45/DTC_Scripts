@@ -235,6 +235,11 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
 <table>
   <tbody>
     <tr>
+      <th align="center"></th>
+      <th align="center" colspan="2">SNP Chip</th>
+      <th align="center" colspan="3">Illumina WGS</th>
+    </tr>
+    <tr>
       <th align="center">Marker</th>
       <th align="center">SNP2HLA</th>
       <th align="center">HIBAG</th>
