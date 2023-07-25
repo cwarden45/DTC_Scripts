@@ -308,7 +308,7 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
 
 I needed to re-download files and recreate the bwakit *hs38DH* reference.  Also, at least one file path to download has changed.  So, using the [GitHub instructions](https://github.com/lh3/bwa/tree/master/bwakit) as a guide, I created the reference using `download_ref.sh` and `index_bwakit_ref.sh`.
 
-The *bwakit* results were produced using `bwakit-full_command.sh`.
+The *bwakit* results were produced using `bwakit-full_command.sh`.  Selected output files are saved in `HLA-bwakit.zip`.
 
 The *HLAminer* results were produced using `HLAminer-HPRAwgs_classI-II.sh`.
 
