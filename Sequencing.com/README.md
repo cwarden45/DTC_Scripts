@@ -253,7 +253,7 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
       <td align="center">HLA-A</td>
       <td align="left">A*01, A*02<br/>(23andMe)<br/><br/>A*01, A*02<br/>(Genes for Good)</td>
       <td align="left">A*01, A*02<br/>(23andMe)</td>
-      <td align="left">A*01, A*02<br/>(BWA-MEM))</td>
+      <td align="left">A*01, A*02<br/>(BWA-MEM)</td>
       <td align="left">A*01, A*02<br/>(BWA-MEM Aligned)</td>
       <td align="left"><br/>(BWA-MEM Aligned)</td>
       <td align="left"><br/>(BWA-MEM Aligned)</td>
