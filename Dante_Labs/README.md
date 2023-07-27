@@ -260,3 +260,49 @@ OUTPREFIX=GFX0457625_SL_L001_001.reads
 ```
 
 ### HiFi Re-Analyis: Calling HLA Types
+
+Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good) and [Sequencing.com Illumina WGS](https://github.com/cwarden45/DTC_Scripts/tree/master/Sequencing.com) tables, testing running some methods to define HLA types (with some modification of parameters for PacBio HiFi data.
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center"></th>
+      <th align="center" colspan="2">PacBio HiFi</th>
+    </tr>
+    <tr>
+      <th align="center">Marker</th>
+      <th align="center">T1K</th>
+      <th align="center">HLAminer</th>
+    </tr>
+    <tr>
+      <td align="center">HLA-A</td>
+      <td align="left"><br/>(BWA-MEM Aligned)</td>
+      <td align="left"><br/>(BWA-MEM Aligned)</td>
+     </tr>
+    <tr>
+      <td align="center">HLA-B</td>
+      <td align="left"><br/>(BWA-MEM Aligned)</td>
+      <td align="left"><br/>(BWA-MEM Aligned)</td>
+     </tr>
+    <tr>
+      <td align="center">HLA-C</td>
+      <td align="left"><br/>(BWA-MEM Aligned)</td>
+      <td align="left"><br/>(BWA-MEM Aligned)</td>
+     </tr>
+    <tr>
+      <td align="center">HLA-DRB1</td>
+      <td align="left"><br/>(BWA-MEM Aligned)</td>
+      <td align="left"><br/>(BWA-MEM Aligned)</td>
+     </tr>
+     <tr>
+      <td align="center">HLA-DQA1</td>
+     <td align="left"><br/>(BWA-MEM Aligned)</td>
+       <td align="left"><br/>(BWA-MEM Aligned)</td>
+     </tr>
+     <tr>
+      <td align="center">HLA-DQB1</td>
+      <td align="left"><br/>(BWA-MEM Aligned)</td>
+      <td align="left"><br/>(BWA-MEM Aligned)</td>
+     </tr>
+</tbody>
+</table>
