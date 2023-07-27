@@ -250,4 +250,13 @@ After creating a TDF file in [IGV](), here is the default coveage view:
 
 First, I installed the `bam2fastq` function from PacBio using the command `./conda install -c bioconda pbtk` (based upon instructions provided [here](https://github.com/PacificBiosciences/bam2fastx)).
 
+Then, I generated .fastq.gz files using the following command:
+
+```
+BAM=GFX0457625_SL_L001_001.reads.bam
+OUTPREFIX=GFX0457625_SL_L001_001.reads
+
+/home/cwarden/miniconda3/bin/bam2fastq -o $OUTPREFIX --split-barcodes $BAM
+```
+
 ### HiFi Re-Analyis: Calling HLA Types
