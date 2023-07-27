@@ -255,7 +255,7 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
       <td align="left">A*01, A*02<br/>(23andMe)</td>
       <td align="left">A*01, A*02<br/>(BWA-MEM)</td>
       <td align="left">A*01, A*02<br/>(BWA-MEM Aligned)</td>
-      <td align="left">A*01, A*02<br/>(BWA-MEM Aligned)</td>
+      <td align="left">A*01, A*02</td>
       <td align="left"><br/>(BWA-MEM Aligned)</td>
      </tr>
     <tr>
@@ -264,7 +264,7 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
       <td align="left">B*08, B*40<br/>(23andMe)</td>
       <td align="left">B*08, B*40<br/>(BWA-MEM)</td>
       <td align="left">B*08, B*40<br/>(BWA-MEM Aligned)</td>
-      <td align="left">B*08, B*40<br/>(BWA-MEM Aligned)</td>
+      <td align="left">B*08, B*40</td>
       <td align="left"><br/>(BWA-MEM Aligned)</td>
      </tr>
     <tr>
@@ -273,7 +273,7 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
       <td align="left">C*03, C*07<br/>(23andMe)</td>
       <td align="left">C*03, C*07<br/>(BWA-MEM)</td>
       <td align="left">C*03, C*07<br/>(BWA-MEM Aligned)</td>
-      <td align="left">C*03, C*07<br/>(BWA-MEM Aligned)</td>
+      <td align="left">C*03, C*07</td>
       <td align="left"><br/>(BWA-MEM Aligned)</td>
      </tr>
     <tr>
@@ -282,7 +282,7 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
       <td align="left">DRB1*03, DRB1*11<br/>(23andMe)</td>
       <td align="left">DRB1*01, DRB1*15<br/>(BWA-MEM)</td>
       <td align="left">DRB1*04, DRB1*04<br/>(BWA-MEM Aligned)</td>
-      <td align="left">DRB1*04, DRB1*04<br/>(BWA-MEM Aligned)</td>
+      <td align="left">DRB1*04, DRB1*04</td>
       <td align="left"><br/>(BWA-MEM Aligned)</td>
      </tr>
      <tr>
@@ -291,7 +291,7 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
       <td align="left">DQA1*05, DQA1*05<br/>(23andMe)</td>
       <td align="left">DQA1*02, DQA1*03<br/>(BWA-MEM)</td>
       <td align="left">DQA1*03, DQA1*03<br/>(BWA-MEM Aligned)</td>
-      <td align="left">DQA1*03, DQA1*03<br/>(BWA-MEM Aligned)</td>
+      <td align="left">DQA1*03, DQA1*03</td>
        <td align="left"><br/>(BWA-MEM Aligned)</td>
      </tr>
      <tr>
@@ -300,7 +300,7 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
       <td align="left">DQB1*02, DQB1*03<br/>(23andMe)</td>
        <td align="left">DQB1*02, DQB1*03<br/>(BWA-MEM)</td>
       <td align="left">DQB1*03, DQB1*03<br/>(BWA-MEM Aligned)</td>
-      <td align="left">DQB1*03, DQB1*04<br/>(BWA-MEM Aligned)</td>
+      <td align="left">DQB1*03, DQB1*04</td>
       <td align="left"><br/>(BWA-MEM Aligned)</td>
      </tr>
 </tbody>
