@@ -245,3 +245,9 @@ After creating a TDF file in [IGV](), here is the default coveage view:
 ...and here is the coverage view when setting the ***maximum* plotted coverage to be 5x**:
 
 ![HiFi Coverage 2](IGV_HiFi_coverage-default--max_5x.PNG)
+
+### HiFi Re-Analyis: Reformat HiFi Reads to FASTQ
+
+First, I installed the `bam2fastq` function from PacBio using the command `./conda install -c bioconda pbtk` (based upon instructions provided [here](https://github.com/PacificBiosciences/bam2fastx)).
+
+### HiFi Re-Analyis: Calling HLA Types
