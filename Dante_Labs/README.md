@@ -276,33 +276,35 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
     </tr>
     <tr>
       <td align="center">HLA-A</td>
-      <td align="left"><br/>(BWA-MEM Aligned)</td>
-      <td align="left"><br/>(BWA-MEM Aligned)</td>
+      <td align="left"></td>
+      <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
     <tr>
       <td align="center">HLA-B</td>
-      <td align="left"><br/>(BWA-MEM Aligned)</td>
-      <td align="left"><br/>(BWA-MEM Aligned)</td>
+      <td align="left"></td>
+      <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
     <tr>
       <td align="center">HLA-C</td>
-      <td align="left"><br/>(BWA-MEM Aligned)</td>
-      <td align="left"><br/>(BWA-MEM Aligned)</td>
+      <td align="left"></td>
+      <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
     <tr>
       <td align="center">HLA-DRB1</td>
-      <td align="left"><br/>(BWA-MEM Aligned)</td>
-      <td align="left"><br/>(BWA-MEM Aligned)</td>
+      <td align="left"></td>
+      <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
      <tr>
       <td align="center">HLA-DQA1</td>
-     <td align="left"><br/>(BWA-MEM Aligned)</td>
-       <td align="left"><br/>(BWA-MEM Aligned)</td>
+      <td align="left"></td>
+      <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
      <tr>
       <td align="center">HLA-DQB1</td>
-      <td align="left"><br/>(BWA-MEM Aligned)</td>
-      <td align="left"><br/>(BWA-MEM Aligned)</td>
+      <td align="left"></td>
+      <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
 </tbody>
 </table>
+
+For HLAminer, BWA-MEM was used for the *"Illumina Param"* script (`HLAminer-HPRAwgs_classI-II`) and minimap2 was used for the *"ONT Param"* script (`HLAminer-HPRAwgs_ONTclassI-IIdemo`) and 
