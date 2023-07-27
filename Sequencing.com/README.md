@@ -310,7 +310,7 @@ I needed to re-download files and recreate the bwakit *hs38DH* reference.  Also,
 
 The *bwakit* results were produced using `bwakit-full_command.sh`.  Selected output files are saved in `HLA-bwakit.zip`.
 
-The *HLAminer* results were produced using `HLAminer-HPRAwgs_classI-II.sh`.  Most output files are saved in `HLA-T1K.zip`.
+The *HLAminer* results were produced using `HLAminer-HPRAwgs_classI-II.sh`.
 
-Starting with this data, I also tested using [T1K](https://github.com/mourisl/T1K).  The *T1K* results were produced using `run_T1K.sh`.
+Starting with this data, I also tested using [T1K](https://github.com/mourisl/T1K).  The *T1K* results were produced using `run_T1K.sh`, and most output files are saved in `HLA-T1K.zip`.
 
