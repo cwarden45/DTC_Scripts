@@ -310,4 +310,4 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
 
 T1K was run using `run_T1K.sh`.  However, with those parameters, that method was *omitted* from the table above (due to a lack of results).
 
-For HLAminer, BWA-MEM was used for the *"Illumina Param"* script (`HLAminer-HPRAwgs_classI-II.sh`) and minimap2 was used for the *"ONT Param"* script (`HLAminer-HPRAwgs_ONTclassI-IIdemo.sh`).  Beyond the upstream mapper, there are additional `-q 1 -i 1` parameters based upon the Nanopore (ONT) demo code.
+For HLAminer, BWA-MEM was used for the *"Illumina Param"* script (`HLAminer-HPRAwgs_classI-II.sh`) and minimap2 was used for the *"ONT Param"* script (`HLAminer-HPRAwgs_ONTclassI-IIdemo.sh`).  Beyond the upstream mapper, there are additional `-q 1 -i 1` parameters based upon the Nanopore (ONT) demo code.  The use of these parameters was influenced by the [Warren 2022](https://arxiv.org/abs/2209.09155) preprint.
