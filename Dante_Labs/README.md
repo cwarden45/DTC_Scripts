@@ -290,31 +290,31 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
      </tr>
     <tr>
       <td align="center">HLA-C</td>
-	    <td align="left">C*03, C*07<br/>(BWA-MEM)</td>
+	<td align="left">C*03, C*07<br/>(BWA-MEM)</td>
       <td align="left"></td>
       <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
     <tr>
       <td align="center">HLA-DRB1</td>
-	    <td align="left">DRB1*04, DRB1*04<br/>(BWA-MEM)</td>
+	<td align="left">DRB1*04, DRB1*04<br/>(BWA-MEM)</td>
       <td align="left"></td>
       <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
      <tr>
       <td align="center">HLA-DQA1</td>
-	     <td align="left">DQA1*03, DQA1*03<br/>(BWA-MEM)</td>
+	<td align="left">DQA1*03, DQA1*03<br/>(BWA-MEM)</td>
       <td align="left"></td>
       <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
      <tr>
       <td align="center">HLA-DQB1</td>
-	      <td align="left">DQB1*03, DQB1*04<br/>(BWA-MEM)</td>
+	<td align="left">DQB1*03, DQB1*04<br/>(BWA-MEM)</td>
       <td align="left"></td>
       <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
 </tbody>
 </table>
 
-T1K was run using `run_T1K.sh`.
+T1K was run using `run_T1K.sh`.  However, with those parameters, that method was *omitted* from the table above (due to a lack of results).
 
 For HLAminer, BWA-MEM was used for the *"Illumina Param"* script (`HLAminer-HPRAwgs_classI-II.sh`) and minimap2 was used for the *"ONT Param"* script (`HLAminer-HPRAwgs_ONTclassI-IIdemo.sh`).  Beyond the upstream mapper, there are additional `-q 1 -i 1` parameters based upon the Nanopore (ONT) demo code.
