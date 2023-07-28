@@ -268,48 +268,41 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
     <tr>
       <th align="center"></th>
       <th align="center">Illumina WGS</th>
-      <th align="center" colspan="2">PacBio HiFi</th>
+      <th align="center" colspan="1">PacBio HiFi</th>
     </tr>
     <tr>
       <th align="center">Marker</th>
 	<th align="center">T1K</th>
-      <th align="center">T1K</th>
       <th align="center">HLAminer</th>
     </tr>
     <tr>
       <td align="center">HLA-A</td>
 	<td align="left">A*01, A*02<br/>(BWA-MEM)</td>
-      <td align="left"></td>
       <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
     <tr>
       <td align="center">HLA-B</td>
 	<td align="left">B*08, B*40<br/>(BWA-MEM)</td>
-      <td align="left"></td>
       <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
     <tr>
       <td align="center">HLA-C</td>
 	<td align="left">C*03, C*07<br/>(BWA-MEM)</td>
-      <td align="left"></td>
       <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
     <tr>
       <td align="center">HLA-DRB1</td>
 	<td align="left">DRB1*04, DRB1*04<br/>(BWA-MEM)</td>
-      <td align="left"></td>
       <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
      <tr>
       <td align="center">HLA-DQA1</td>
 	<td align="left">DQA1*03, DQA1*03<br/>(BWA-MEM)</td>
-      <td align="left"></td>
       <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
      <tr>
       <td align="center">HLA-DQB1</td>
 	<td align="left">DQB1*03, DQB1*04<br/>(BWA-MEM)</td>
-      <td align="left"></td>
       <td align="left"><br/>(Illumina Param)<br/><br/>(ONT Param)</td>
      </tr>
 </tbody>
