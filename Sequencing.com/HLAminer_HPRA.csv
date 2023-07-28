@@ -1,0 +1,99 @@
+
+------------------------------------------------------------------------------------------
+SUMMARY 
+MOST LIKELY HLA class I ALLELES (Confidence (-10 * log10(Eval)) >= 30 Score >= 500)
+-Arranged by decreasing score, from most to less likely.
+-The prediction rank factors in the maximum score for each predicted allele.
+Allele,Score,Expect (Eval) value,Confidence (-10 * log10(Eval))
+*restricting output to top 2 highest scoring predictions per HLA gene and group. Refer to the log file for all predictions.
+------------------------------------------------------------------------------------------
+
+HLA-A
+	Prediction #1 - A*02
+		A*02:01P,600.00,7.94e-07,61.0
+
+HLA-B
+	Prediction #1 - B*08
+		B*08:01P,600.00,6.17e-07,62.1
+
+HLA-C
+	Prediction #1 - C*03
+		C*03:04P,899.01,5.47e-10,92.6
+	Prediction #2 - C*07
+		C*07:212,598.02,6.69e-07,61.7
+
+HLA-E
+
+HLA-F
+	Prediction #1 - F*01
+		F*01:01P,1497.99,3.49e-08,74.6
+		F*01:04,1199.01,1.08e-06,59.7
+
+HLA-G
+	Prediction #1 - G*01
+		G*01:01P,1197.00,9.54e-07,60.2
+
+------------------------------------------------------------------------------------------
+SUMMARY 
+MOST LIKELY HLA class II ALLELES (Confidence (-10 * log10(Eval)) >= 30 Score >= 500)
+-Arranged by decreasing score, from most to less likely.
+-The prediction rank factors in the maximum score for each predicted allele.
+Allele,Score,Expect (Eval) value,Confidence (-10 * log10(Eval))
+*restricting output to top 2 highest scoring predictions per HLA gene and group. Refer to the log file for all predictions.
+------------------------------------------------------------------------------------------
+
+HLA-DPA1
+	Prediction #1 - DPA1*01
+		DPA1*01:03P,4194.03,1.11e-22,219.5
+	Prediction #2 - DPA1*03
+		DPA1*03:01P,900.00,1.97e-05,47.0
+
+HLA-DPB1
+	Prediction #1 - DPB1*28
+		DPB1*28:01P,7254.00,1.18e-109,1089.3
+	Prediction #2 - DPB1*31
+		DPB1*31:01,5078.01,1.61e-72,717.9
+
+HLA-DQA1
+	Prediction #1 - DQA1*02
+		DQA1*02:01P,24896.01,1.01e-300,2999.9
+	Prediction #2 - DQA1*01
+		DQA1*01:03P,20605.06,3.87e-254,2534.1
+		DQA1*01:01P,2719.98,1.54e-30,298.1
+
+HLA-DQB1
+	Prediction #1 - DQB1*02
+		DQB1*02:84,3103.00,5.89e-49,482.3
+		DQB1*02:01P,1115.00,8.38e-17,160.8
+	Prediction #2 - DQB1*03
+		DQB1*03:02P,2392.98,4.23e-19,183.7
+
+HLA-DRA
+	Prediction #1 - DRA*01
+		DRA*01:01P,56564.10,2.10e-254,2536.8
+
+HLA-DRB1
+	Prediction #1 - DRB1*15
+		DRB1*15:02P,31285.83,7.31e-294,2931.4
+		DRB1*15:03P,28411.72,4.25e-241,2403.7
+	Prediction #2 - DRB1*04
+		DRB1*04:05P,26446.05,1.24e-303,3029.1
+		DRB1*04:04P,26322.01,1.53e-307,3068.2
+
+HLA-DRB2
+
+HLA-DRB3
+	Prediction #1 - DRB3*02
+		DRB3*02:02P,57114.09,7.53e-186,1851.2
+
+HLA-DRB4
+
+HLA-DRB5
+
+HLA-DRB6
+
+HLA-DRB7
+
+HLA-DRB8
+
+HLA-DRB9
