@@ -326,4 +326,6 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
 
 T1K was run using `run_T1K.sh`.  However, with those parameters, that method was *omitted* from the table above (due to a lack of results).
 
-For HLAminer, BWA-MEM was used for the *"Illumina Param"* script (`HLAminer-HPRAwgs_classI-II.sh`) and minimap2 was used for the *"ONT Param"* script (`HLAminer-HPRAwgs_ONTclassI-IIdemo.sh`).  Beyond the upstream mapper, there are additional `-q 1 -i 1` parameters based upon the Nanopore (ONT) demo code.  The use of these parameters was influenced by the [Warren 2022](https://arxiv.org/abs/2209.09155) preprint.
+For HLAminer, BWA-MEM was used for the *"Illumina Param"* script (`HLAminer-HPRAwgs_classI-II.sh`) and minimap2 was used for the *"ONT Param"* script (`HLAminer-HPRAwgs_ONTclassI-IIdemo.sh`).  Beyond the upstream mapper, there are additional `-q 1 -i 1` parameters based upon the Nanopore (ONT) demo code.  The use of these parameters was influenced by the [Warren 2022](https://arxiv.org/abs/2209.09155) preprint.  If using the exact commands from the `HLAminer-HPRAwgs_ONTclassI-IIdemo` script, then **0 HLA Calls were made** (and those were therefore omitted from the table above).  **I am not sure if coverage was a consideration.**
+
+Since the alignment reference for the .sam file for `HLAminer-HPRAwgs_ONTclassI-IIdemo.sh` contained chromosomes for each HLA type, **additional steps were added** in order to summarize *any* counts to any HLA types.
