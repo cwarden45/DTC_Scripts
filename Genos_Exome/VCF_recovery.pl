@@ -27,7 +27,7 @@ foreach my $arg (@ARGV)
 			
 		if ($arg =~ /--help/)
 			{
-				print "Usage: perl VCF_recovery.pl --smallVCF=[Genos / 23andMe / G4G].vcf --largeVCF=[Veritas_variants].vcf --output=[smallID]_in=_[largeID]_discordant.vcf\n";
+				print "Usage: perl VCF_recovery.pl --smallVCF=[Genos / 23andMe / G4G].vcf --largeVCF=[Veritas_variants].vcf --output=[smallID]_in_[largeID]_discordant.vcf\n";
 				print "--smallVCF : List of variants to recover in VCF format\n";
 				print "--largeVCF : List of variants to test in VCF format\n";
 				print "--output : Manually specify output file.  Otherwise, set to [smallID]_in_[largeID]_discordant.vcf\n";
