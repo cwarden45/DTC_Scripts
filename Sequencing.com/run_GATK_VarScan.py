@@ -1,7 +1,6 @@
 import sys
 import re
 import os
-from Bio import SeqIO
 
 bam= "BWA_MEM.nodup.bam"
 ref = "/home/cwarden/Ref/Homo_sapiens/UCSC/hg19/Sequence/BWAIndex/genome.fa"
