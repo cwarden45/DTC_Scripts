@@ -443,3 +443,4 @@ OUT=GFX0457625.quality_flagged.vcf
 
 /opt/gatk-4.1.4.1/gatk --java-options '-Xmx4g' VariantFiltration --variant $IN --output $OUT -window 35 -cluster 3 -filter-name QD -filter "QD < 2.0" -filter-name FS -filter "FS > 30.0"
 ```
+While I am not sure if this identified more variants as *PASS* than should be considered confident, this allowed me to work with a [previous script](https://github.com/cwarden45/DTC_Scripts/blob/master/Genos_Exome/convert_to_precisionFDA.pl) to reformat to test uploading an running comparisons in [precisionFDA](https://precision.fda.gov/).
