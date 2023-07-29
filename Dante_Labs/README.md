@@ -286,7 +286,7 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
       <td align="left">A*01, A*02<br/>(BWA-MEM)</td>
 	 <td align="left">A*01, A*02<br/>(BWA-MEM)</td>
       <td align="left">0 calls?</td>
-	<td align="left">?</td>
+	<td align="left">?</br>(smaller counts for A*02)</td>
      </tr>
     <tr>
       <td align="center">HLA-B</td>
@@ -294,7 +294,7 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
       <td align="left">B*08, B*40<br/>(BWA-MEM)</td>
 	<td align="left">B*08, B*40<br/>(BWA-MEM)</td>
       <td align="left">0 calls?</td>
-	<td align="left">B*08?</td>
+	<td align="left">B*08?</br>(smaller counts for B*40)</td>
      </tr>
     <tr>
       <td align="center">HLA-C</td>
@@ -302,7 +302,7 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
       <td align="left">C*03, C*07<br/>(BWA-MEM)</td>
 	<td align="left">C*03, C*07<br/>(BWA-MEM)</td>
       <td align="left">0 calls?</td>
-	<td align="left">?</td>
+	<td align="left">?</br>(1 count for C*03)</td>
      </tr>
     <tr>
       <td align="center">HLA-DRB1</td>
