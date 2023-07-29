@@ -314,3 +314,6 @@ The *HLAminer* results were produced using `HLAminer-HPRAwgs_classI-II.sh,` with
 
 Starting with this data, I also tested using [T1K](https://github.com/mourisl/T1K).  The *T1K* results were produced using `run_T1K.sh`, and most output files are saved in `HLA-T1K.zip`.
 
+## Raw Re-Analysis for SNP and Small Indel Calling
+
+After running `align_BWA_MEM.py`, `run_GATK_VarScan.py` was used to make SNP and Indel calls simlar to the [Veritas WGS](https://github.com/cwarden45/DTC_Scripts/tree/master) sample.
