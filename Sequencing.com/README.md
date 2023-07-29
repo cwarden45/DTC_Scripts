@@ -321,3 +321,7 @@ When I [previously compared VCF files](http://cdwscience.blogspot.com/2019/05/pr
 The Sequencing.com provided VCF (for SNPs and small indels) indicates that *GRCh38.p13* was used as the reference genome.  However, the previous analysis (and,I believe, the [Dante Labs PacBio HiFi](https://github.com/cwarden45/DTC_Scripts/tree/master/Dante_Labs) VCF) used *hg19*.  So, without strictly testing if it was still true that reprocessing the data can lead to better variant calls, I decided to focus on comparing the re-processed variant calls for my 2 Illumina WGS datasets (which I have available, unless/until I can recieve raw data from [All of Us](https://github.com/cwarden45/DTC_Scripts/tree/master/All_of_Us)).
 
 After running `align_BWA_MEM.py`, `run_GATK_VarScan.py` was used to make SNP and Indel calls simlar to the [Veritas WGS](https://github.com/cwarden45/DTC_Scripts/tree/master) sample.
+
+Results based upon a [custom script](https://github.com/cwarden45/DTC_Scripts/blob/master/Genos_Exome/VCF_recovery.pl) are shown below:
+
+PrecisionFDA VCF comparison results are shown below:
