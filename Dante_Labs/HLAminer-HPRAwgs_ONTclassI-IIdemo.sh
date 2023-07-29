@@ -15,6 +15,7 @@ echo "Predicting HLA..."
 /opt/HLAminer-1.4/HLAminer_v1.4/bin/HLAminer.pl -a aln.sam -h $REF2 -q 1 -i 1 -p /opt/HLAminer-1.4/HLAminer_v1.4/database/hla_nom_p.txt -s 500
 echo "Additional files for samtools idxstats summary"
 /opt/samtools/samtools view -b aln.sam > aln.bam
-java -Xmx8g -jar /opt/picard-v2.21.9.jar AddOrReplaceReadGroups I=aln.bam O=rg.bam SO=coordinate RGID=1 RGLB=HiFi RGPL=PacBio RGPU=DanteLabs RGSM=realign
-/opt/samtools/samtools index rg.bam
-/opt/samtools/samtools idxstats rg.bam > idxstats.txt
+#java -Xmx8g -jar /opt/picard-v2.21.9.jar AddOrReplaceReadGroups I=aln.bam O=rg.bam SO=coordinate RGID=1 RGLB=HiFi RGPL=PacBio RGPU=DanteLabs RGSM=realign
+/opt/samtools/samtools sort -o sort.bam aln.bam
+/opt/samtools/samtools index sort.bam
+/opt/samtools/samtools idxstats sort.bam > idxstats.txt
