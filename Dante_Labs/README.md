@@ -278,7 +278,7 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
 	<th align="center">HLAminer</th>
 	<th align="center">T1K</th>
       <th align="center">HLAminer</th>
-	<th align="center">samtools</br>idxstats</th>
+	<th align="center">samtools</br>idxstats</br>(3+ reads)</th>
     </tr>
     <tr>
       <td align="center">HLA-A</td>
@@ -335,4 +335,98 @@ T1K was run using `run_T1K.sh`.  However, with those parameters, that method was
 
 For HLAminer, BWA-MEM was used for the *"Illumina Param"* script (`HLAminer-HPRAwgs_classI-II.sh`) and minimap2 was used for the *"ONT Param"* script (`HLAminer-HPRAwgs_ONTclassI-IIdemo.sh`).  Beyond the upstream mapper, there are additional `-q 1 -i 1` parameters based upon the Nanopore (ONT) demo code.  The use of these parameters was influenced by the [Warren 2022](https://arxiv.org/abs/2209.09155) preprint.  If using **either** of those scripts (exactly as uploaded), then **0 HLA Calls were made** (and those were therefore omitted from the table above).  **I am not sure if coverage was a consideration.**
 
-Since the alignment reference for the .sam file for `HLAminer-HPRAwgs_ONTclassI-IIdemo.sh` contained chromosomes for each HLA type, **additional steps were added** in order to summarize *any* counts to any HLA types.
+Since the alignment reference for the .sam file for `HLAminer-HPRAwgs_ONTclassI-IIdemo.sh` contained chromosomes for each HLA type, **additional steps were added** in order to summarize *any* counts to any HLA types.  I uploaded the raw output of `samtools idxstats` as **HLAminer-minimap2-idxstats.txt**.
+
+I might write an Rscript to sum across individual alleles of a similar type, but here are all absolute counts for any alignments with at least 3 reads (in the idxstats format):
+
+```
+DRB1*04:03:01:01	15244	12	0
+DRB1*04:05:01:02	15138	12	0
+DPB2*01:01:01	17522	11	0
+DPB2*03:01:01:03	17521	11	0
+DRB1*04:03:01:02	15148	10	0
+DRB1*04:10:03	15152	10	0
+DRB1*04:06:01	15150	9	0
+DPA2*02:01	6743	8	0
+DPB2*01:01:02	17549	8	0
+DPB2*03:01:01:01	17834	8	0
+DPB2*03:01:01:02	17830	8	0
+DRB1*04:05:01:03	15144	8	0
+DRB1*04:10:01	14945	8	0
+DRB4*01:152	15464	8	0
+DPA2*01:01:01:03	6743	7	0
+DRA*01:01:01:01	5711	7	0
+DRA*01:01:01:03	5711	7	0
+DRA*01:01:01:07	5711	7	0
+DRA*01:01:01:12	5711	7	0
+DRB1*04:05:01:01	15140	7	0
+DRB1*07:01:01:01	16110	7	0
+DRB4*01:03:01:01	15464	7	0
+DRB4*01:03:01:02N	15464	7	0
+DRB4*01:03:01:03	15464	7	0
+G*01:05N	3137	6	0
+H*01:01:01:02	3503	6	0
+H*01:05	3498	6	0
+DPA2*01:01:01:01	6743	6	0
+DPA2*01:01:01:02	6743	6	0
+DPA2*01:01:02	6787	6	0
+DRA*01:01:01:08	5711	6	0
+DRB1*04:01:01:03	15152	6	0
+DRB1*04:07:01:02	15149	6	0
+DRB1*04:312N	15152	6	0
+G*01:01:02:01	3138	5	0
+G*01:01:02:02	3138	5	0
+G*01:01:02:05Q	3138	5	0
+G*01:06:01:01	3138	5	0
+G*01:26	3138	5	0
+H*01:01:01:01	3498	5	0
+DQA2*01:01:02:01	5855	5	0
+DQB1*03:02:23	7126	5	0
+DQB1*03:251	7126	5	0
+DRB1*04:04:01:01	15150	5	0
+DRB1*04:05:01:04	14504	5	0
+DRB4*01:03:01:11	14699	5	0
+DRB4*01:03:01:15	14926	5	0
+B*08:01:01:01	4080	4	0
+B*08:01:01:02	4080	4	0
+B*08:01:05	3916	4	0
+B*08:79:02	4079	4	0
+G*01:04:01:05	3138	4	0
+H*01:01:01:05	3498	4	0
+DQB1*03:02:01:02	7126	4	0
+DQB1*03:02:21	7126	4	0
+DRA*01:01:01:10	5711	4	0
+DRB1*01:77	10948	4	0
+DRB1*04:12	14504	4	0
+B*08:253	4007	3	0
+F*01:01:01:01	3550	3	0
+F*01:01:01:02	3550	3	0
+F*01:01:01:08	3550	3	0
+F*01:01:01:17	3548	3	0
+F*01:07	3550	3	0
+G*01:04:01:01	3138	3	0
+H*01:01:01:04	3498	3	0
+H*01:02:01:02	3497	3	0
+H*01:04	3497	3	0
+DPA1*01:03:01:01	9775	3	0
+DPA1*01:03:01:37	9775	3	0
+DPA1*01:03:11	9775	3	0
+DQA1*03:01:01:01	6437	3	0
+DQA1*03:03:05	5975	3	0
+DQA2*01:01:01:01	5854	3	0
+DQA2*01:01:01:02	5854	3	0
+DQA2*01:03	5847	3	0
+DQA2*01:04:01:01	5876	3	0
+DQB1*03:02:01:01	7126	3	0
+DQB1*03:02:01:08	7126	3	0
+DQB1*03:02:01:09	7126	3	0
+DQB1*03:02:12	7126	3	0
+DRB1*01:01:01:12	10948	3	0
+DRB1*01:02:01:01	11229	3	0
+DRB1*01:03:01:01	10956	3	0
+DRB1*04:326	14309	3	0
+DRB1*07:01:01:02	16120	3	0
+DRB1*07:01:01:14	15362	3	0
+DRB4*01:03:01:04	14942	3	0
+DRB4*01:03:01:16	14884	3	0
+```
