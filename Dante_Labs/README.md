@@ -259,6 +259,10 @@ OUTPREFIX=GFX0457625_SL_L001_001.reads
 /home/cwarden/miniconda3/bin/bam2fastq -o $OUTPREFIX --split-barcodes $BAM
 ```
 
+The reformated reads are available to download below:
+
+[GFX0457625_SL_L001_001.reads.1_1.fastq.gz](https://storage.googleapis.com/cdw-metagenomics/Dante-HiFi/GFX0457625_SL_L001_001.reads.1_1.fastq.gz)
+
 ### HiFi Re-Analyis: Calling HLA Types
 
 Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good) and [Sequencing.com Illumina WGS](https://github.com/cwarden45/DTC_Scripts/tree/master/Sequencing.com) tables, testing running some methods to define HLA types (with some modification of parameters for PacBio HiFi data.
