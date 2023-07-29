@@ -431,4 +431,15 @@ DRB4*01:03:01:04	14942	3	0
 DRB4*01:03:01:16	14884	3	0
 ```
 
-### Additional Re-Analyis: Comparisons to Provided VCF
+### Additional Re-Analysis: Comparisons to Provided VCF
+
+Based upon the header, the provided VCF file was created using GATK.  However, there are no annotations for quality filters.
+
+I was not sure how much of this might relate to coverage.  Nevertheless, I ran a downstream variant filtration step to see if any (and, hopefully, most) of the variants could be annotated with a *PASS* status:
+
+```
+IN=GFX0457625.raw.vcf.gz
+OUT=GFX0457625.quality_flagged.vcf
+
+/opt/gatk-4.1.4.1/gatk --java-options '-Xmx4g' VariantFiltration --variant $IN --output $OUT -window 35 -cluster 3 -filter-name QD -filter "QD < 2.0" -filter-name FS -filter "FS > 30.0"
+```
