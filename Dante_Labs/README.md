@@ -430,3 +430,5 @@ DRB1*07:01:01:14	15362	3	0
 DRB4*01:03:01:04	14942	3	0
 DRB4*01:03:01:16	14884	3	0
 ```
+
+### Additional Re-Analyis: Comparisons to Provided VCF
