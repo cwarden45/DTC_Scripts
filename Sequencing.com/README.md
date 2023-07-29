@@ -316,4 +316,6 @@ Starting with this data, I also tested using [T1K](https://github.com/mourisl/T1
 
 ## Raw Re-Analysis for SNP and Small Indel Calling
 
+When I [previously compared VCF files](http://cdwscience.blogspot.com/2019/05/precisionfda-and-custom-scripts-for.html) (mostly for WGS versus Exome data), I found **reprocessing** the raw data resulted in better concordance between technologies (target design).
+
 After running `align_BWA_MEM.py`, `run_GATK_VarScan.py` was used to make SNP and Indel calls simlar to the [Veritas WGS](https://github.com/cwarden45/DTC_Scripts/tree/master) sample.
