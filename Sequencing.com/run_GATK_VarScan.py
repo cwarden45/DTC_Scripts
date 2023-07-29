@@ -58,9 +58,9 @@ if gatkFlag == "1":
 	os.system(command)
 	
 	nodupGATKvcf = re.sub(".bam$",".GATK.HC.nosoftclip.vcf",os.path.basename(bam))
-	command = "/opt/gatk-4.0.1.1/gatk --java-options '-Xmx" +javaMem+ "' HaplotypeCaller --reference "+ ref +" --input "+bam+" --output " + nodupGATKvcf + " --dont-use-soft-clipped-bases true"
+	command = "/opt/gatk-4.1.4.1/gatk --java-options '-Xmx" +javaMem+ "' HaplotypeCaller --reference "+ ref +" --input "+bam+" --output " + nodupGATKvcf + " --dont-use-soft-clipped-bases true"
 	os.system(command)
 	
 	filteredGATKvcf = re.sub(".bam$",".GATK.HC.nosoftclip.filtered.vcf",os.path.basename(bam))
-	command = "/opt/gatk-4.0.1.1/gatk --java-options '-Xmx" +javaMem+ "' VariantFiltration --variant "+nodupGATKvcf+" --output " + filteredGATKvcf + " -window 35 -cluster 3 -filter-name QD -filter \"QD < 2.0\" -filter-name FS -filter \"FS > 30.0\""
+	command = "/opt/gatk-4.1.4.1/gatk --java-options '-Xmx" +javaMem+ "' VariantFiltration --variant "+nodupGATKvcf+" --output " + filteredGATKvcf + " -window 35 -cluster 3 -filter-name QD -filter \"QD < 2.0\" -filter-name FS -filter \"FS > 30.0\""
 	os.system(command)
