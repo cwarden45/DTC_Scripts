@@ -324,4 +324,15 @@ After running `align_BWA_MEM.py`, `run_GATK_VarScan.py` was used to make SNP and
 
 Results based upon a [custom script](https://github.com/cwarden45/DTC_Scripts/blob/master/Genos_Exome/VCF_recovery.pl) are shown below:
 
+```
+3574195 / 3954323 (90.4%) full SNP recovery
+3592079 / 3954323 (90.8%) partial SNP recovery
+
+315942 / 393034 (80.4%) full insertion recovery
+335196 / 393034 (85.3%) partial insertion recovery
+
+341822 / 429597 (79.6%) full deletion recovery
+371206 / 429597 (86.4%) partial deletion recovery
+```
+
 PrecisionFDA VCF comparison results are shown below:
