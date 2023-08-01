@@ -453,4 +453,15 @@ For comparison, I tested [re-processed data from Sequencing.com](https://github.
 
 Results based upon a [custom script](https://github.com/cwarden45/DTC_Scripts/blob/master/Genos_Exome/VCF_recovery.pl) are shown below:
 
+```
+1865455 / 2219417 (84.1%) full SNP recovery
+2096390 / 2219417 (94.5%) partial SNP recovery
+
+134738 / 258139 (52.2%) full insertion recovery
+161611 / 258139 (62.6%) partial insertion recovery
+
+131293 / 209593 (62.6%) full deletion recovery
+165106 / 209593 (78.8%) partial deletion recovery
+```
+
 PrecisionFDA VCF comparison results are shown below:
