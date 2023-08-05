@@ -465,3 +465,5 @@ Results based upon a [custom script](https://github.com/cwarden45/DTC_Scripts/bl
 ```
 
 PrecisionFDA VCF comparison results are shown below:
+
+![precisionFDA comparison, Provided versus Re-Analyzed GATK Filtered](precisionFDA-Comp_DanteLabsHiFi_Sequencing.com.PNG "Provided VCF for ~10x Coverage DanteLabs HiFi WGS versus Illumina Sequencing.com WGS")
