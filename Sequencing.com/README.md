@@ -338,3 +338,5 @@ Results based upon a [custom script](https://github.com/cwarden45/DTC_Scripts/bl
 ```
 
 PrecisionFDA VCF comparison results are shown below:
+
+![precisionFDA comparison, GATK filtered](precisionFDA-Comp_GATK-filtered_Sequencing.com-vs-Veritas.png "Sequencing.com WGS versus Veritas WGS")
