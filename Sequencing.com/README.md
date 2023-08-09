@@ -314,7 +314,7 @@ The *HLAminer* results were produced using `HLAminer-HPRAwgs_classI-II.sh,` with
 
 Starting with this data, I also tested using [T1K](https://github.com/mourisl/T1K).  The *T1K* results were produced using `run_T1K.sh`, and most output files are saved in `HLA-T1K.zip`.
 
-I also tested using *HISAT-genotype*, but I needed to modify the provided `setup.sh` file to use the uploaded `setup-HISAT-genotype.sh` for installation.  I then used `run_HISAT-genotype-python3.sh` to run the analysis.
+I also tested using *HISAT-genotype*, but I needed to modify the provided `setup.sh` file to use the uploaded `setup-HISAT-genotype.sh` for installation.  I then used `run_HISAT-genotype-python3-v2.sh` to run the analysis.
 
 ## Raw Re-Analysis for SNP and Small Indel Calling
 
