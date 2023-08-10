@@ -246,7 +246,7 @@ After creating a TDF file in [IGV](), here is the default coveage view:
 
 ![HiFi Coverage 2](IGV_HiFi_coverage-default--max_5x.PNG)
 
-### HiFi Re-Analyis: Reformat HiFi Reads to FASTQ
+### HiFi Re-Analysis: Reformat HiFi Reads to FASTQ
 
 First, I installed the `bam2fastq` function from PacBio using the command `./conda install -c bioconda pbtk` (based upon instructions provided [here](https://github.com/PacificBiosciences/bam2fastx)).
 
@@ -262,6 +262,8 @@ OUTPREFIX=GFX0457625_SL_L001_001.reads
 The reformated reads are available to download below:
 
 [GFX0457625_SL_L001_001.reads.1_1.fastq.gz](https://storage.googleapis.com/cdw-metagenomics/Dante-HiFi/GFX0457625_SL_L001_001.reads.1_1.fastq.gz)
+
+Those reads are also [uploaded to PrecisionFDA](https://precision.fda.gov/home/files/file-GYB3xG80G8fFYfb063Q9Q4jV-1), with the assistance of the [url-fetcher App](https://precision.fda.gov/home/apps/app-F0pyzk000GBvX7qVG137gV5Z-1).
 
 ### HiFi Re-Analyis: Calling HLA Types
 
