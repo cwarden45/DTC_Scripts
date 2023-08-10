@@ -471,3 +471,5 @@ PrecisionFDA VCF comparison results are shown below:
 ![precisionFDA comparison, Provided versus Re-Analyzed GATK Filtered](precisionFDA-Comp_DanteLabsHiFi_Sequencing.com.PNG "Provided VCF for ~10x Coverage DanteLabs HiFi WGS versus Illumina Sequencing.com WGS")
 
 In this situation, I think the full plot is helpful.  For example, there are some thresholds of variants where precision is higher, but this comes at the cost of sensitivity.  If the sequencing was at 20-30x, then I hope these metrics might improve.
+
+The comparison is also available [within PrecisionFDA](https://precision.fda.gov/comparisons/5467).
