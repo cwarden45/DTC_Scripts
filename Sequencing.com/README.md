@@ -230,7 +230,7 @@ However, at the same time, a lot of information is not directly related to canna
 
 ## Raw Re-Analysis for HLA Typing
 
-Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good), I can compare results for HLA typing with the raw reads to SNP chip imputation assignments (in that case, Exome results are also provided).  Relative to the Veritas WGS results, I expect the Seqeuncing.com results can provide better data for re-analysis due to the ability to include reads that would not have aligned to the "canonical" chromosomes for a given genome reference build.  Relative to Exome data, this also not dependent upon the target design:
+Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good) (and, more recently, the lower part of the [Dante Labs README](https://github.com/cwarden45/DTC_Scripts/tree/master/Dante_Labs) that describes PacBio HiFi data), I can compare results for HLA typing with the raw reads to SNP chip imputation assignments (in that case, Exome results are also provided).  Relative to the Veritas WGS results, I expect the Seqeuncing.com results can provide better data for re-analysis due to the ability to include reads that would not have aligned to the "canonical" chromosomes for a given genome reference build.  Relative to Exome data, this also not dependent upon the target design:
 
 <table>
   <tbody>
