@@ -246,6 +246,16 @@ After creating a TDF file in [IGV](), here is the default coveage view:
 
 ![HiFi Coverage 2](IGV_HiFi_coverage-default--max_5x.PNG)
 
+I recieved reports on **8/10/2023**, which I have uploaded:
+
+[Advanced Wellness and Lifestyle Report](https://github.com/cwarden45/DTC_Scripts/blob/master/Dante_Labs/627959-%7B%7Bwellness_report_v17%7D%7D-1-GFX0457625.pdf)
+
+[Fitness Report](https://github.com/cwarden45/DTC_Scripts/blob/master/Dante_Labs/627960-%7B%7Bdante_genomics_fitness_test%7D%7D-1-GFX0457625.pdf)
+
+[Nutrigenetic Report ](https://github.com/cwarden45/DTC_Scripts/blob/master/Dante_Labs/627961-%7B%7Bdante_genomics_nutrigenetic_test%7D%7D-1-GFX0457625.pdf)
+
+[Health and Disease Risk Report](https://github.com/cwarden45/DTC_Scripts/blob/master/Dante_Labs/627962-%7B%7BHealth_and_Disease_risk%7D%7D-1-GFX0457625.pdf)
+
 ### HiFi Re-Analysis: Reformat HiFi Reads to FASTQ
 
 First, I installed the `bam2fastq` function from PacBio using the command `./conda install -c bioconda pbtk` (based upon instructions provided [here](https://github.com/PacificBiosciences/bam2fastx)).
