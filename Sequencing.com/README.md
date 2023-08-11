@@ -268,7 +268,7 @@ Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/
       <td align="left">B*08, B*40<br/>(BWA-MEM Aligned)</td>
       <td align="left">B*08, B*40</td>
       <td align="left">B*08 ONLY<br/>(BWA-MEM Aligned)</td>
-      <td align="left">B*08, B*40</td>br>(~5% B*41)</td>
+      <td align="left">B*08, B*40</br>(~5% B*41)</td>
      </tr>
     <tr>
       <td align="center">HLA-C</td>
