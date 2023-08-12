@@ -264,7 +264,7 @@ At the bottom of this page, there was enough discordance that I might want to ch
 
 I will look more into the predictive power for this variant.  The report references 2 publications ([Peregud et al. 2021](https://pubmed.ncbi.nlm.nih.gov/32871288/) and [Tong and Wang 2020](https://pubmed.ncbi.nlm.nih.gov/32525256/)).  However, it appears to be a common variant in the [dbSNP](https://www.ncbi.nlm.nih.gov/snp/rs738409), which links to [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/variation/341932/?oq=((352627[AlleleID]))&m=NM_025225.3(PNPLA3):c.444C%3EG%20(p.Ile148Met)) with an indication that the pathogenity is **not clear**.
 
-***So, I am not planning to take any action based upon this result from the [Health and Disease Risk Report](https://github.com/cwarden45/DTC_Scripts/blob/master/Dante_Labs/627962-%7B%7BHealth_and_Disease_risk%7D%7D-1-GFX0457625.pdf).***
+**So, I am *not planning to take any action based upon this result from the [Health and Disease Risk Report](https://github.com/cwarden45/DTC_Scripts/blob/master/Dante_Labs/627962-%7B%7BHealth_and_Disease_risk%7D%7D-1-GFX0457625.pdf).**
 
 ### HiFi Re-Analysis: Reformat HiFi Reads to FASTQ
 
