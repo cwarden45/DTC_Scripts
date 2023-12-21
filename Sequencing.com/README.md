@@ -1,4 +1,6 @@
-***WARNING***: Please note that I was automatically subscribed for a monthly membership.  After the first separate month of charges, I canceled the membership (under "Settings --> Membership").  I am not sure if you might want to do this immediately after recieving your data.
+***FIRST WARNING***: Please note that I was automatically subscribed for a monthly membership.  After the first separate month of charges, I canceled the membership (under "Settings --> Membership").  I am not sure if you might want to do this immediately after recieving your data.
+
+***SECOND WARNING***: I recieved another unexpected charge in December 2023.  I canceled the membership again, but I was allowed to keep premium access for 1 month.
 
 ## Data Download Links
 
