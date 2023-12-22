@@ -230,6 +230,14 @@ In general, one goal of all the postings is to help critically assess the result
 
 However, at the same time, a lot of information is not directly related to cannabis, and I **don't** think everything should discredited because it is in the report (even if I think more information is needed to evaluate each specific claim, both in terms of the risk estimate as well the recommendation about action to take).  For example, I **am** a carrier for some increased risk for Alzheimer's Disease due to a variant in my APOE gene.  However, the variant details were not reported, and I was given what I believe is the strongest cateogry of "*Increased*" (when I know that I am much lower risk than somebody with 2 copies the vairant).  So, I don't believe this is the best way to learn that information.  Also, if you are a healthy individual, then my understanding is that your cannibis intake should usually not vary based upon your *risk* for most diseases (such as Alzheimer's).
 
+## Free ABO Blood Type
+
+When I recieved a notification of a second monthly charge, I ran this free report (before downgrading my account to no longer recieve health results, or other results, I believe).
+
+The report indicated that my blood type was "A".
+
+I believe that my blood type is A+.  When I find the record describing my blood type, I will update this README file.
+
 ## Raw Re-Analysis for HLA Typing
 
 Similar to the [Genes for Good folder](https://github.com/cwarden45/DTC_Scripts/tree/master/Genes_for_Good) (and, more recently, the lower part of the [Dante Labs README](https://github.com/cwarden45/DTC_Scripts/tree/master/Dante_Labs) that describes PacBio HiFi data), I can compare results for HLA typing with the raw reads to SNP chip imputation assignments (in that case, Exome results are also provided).  Relative to the Veritas WGS results, I expect the Seqeuncing.com results can provide better data for re-analysis due to the ability to include reads that would not have aligned to the "canonical" chromosomes for a given genome reference build.  Relative to Exome data, this also not dependent upon the target design:
