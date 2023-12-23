@@ -7,7 +7,9 @@ This code is associated with publications [Choudhury et al. 2020](https://journa
 I used 3 sets of datasets for myself:
 
 **1)** *23andMe* Genotypes
+
 **2)** *Genes for Good* Genotypes
+
 **3)** Provided *Veritas* Whole Genome Sequencing (WGS) VCF
 
 I used annotation from to assist with this inital set of mapping.  **I was not certain about the variant nucleotide for some positions**, so I am following up with a comment on the associated publication.
