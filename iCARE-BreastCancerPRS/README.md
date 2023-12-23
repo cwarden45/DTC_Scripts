@@ -22,5 +22,6 @@ There are 2 Veritas WGS results, since there was not a "PASS" status for *refere
 
 ## Results following comment discussion
 
+I am currently working on [posting a comment](https://journals.plos.org/plosone/article/comments?id=10.1371/journal.pone.0228198) on the associated PLOS ONE article.
 
 Of course, I am a **male**.  So, I expect my true risk for *breast cancer* to be **lower** than any of the estimates from the Polygenic Risk Score.
