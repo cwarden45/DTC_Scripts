@@ -20,4 +20,4 @@ This result is **not** consistently reported from all companies/organizations.  
 
 However, this variant ([rs6025](https://www.ncbi.nlm.nih.gov/snp/rs6025)) is listed in my [23andMe results](https://github.com/cwarden45/DTC_Scripts/blob/master/23andMe/23andMe--HealthPredispositionRisk--231222.pdf) as being at ***"Slightly Increased Risk"*** for *Hereditary Thrombophilia*.
 
-This variant is also described in my [Sequencing.com](https://github.com/cwarden45/DTC_Scripts/blob/master/Sequencing.com/Healthcare_Pro-211016.pdf) report.  However, I think I may prefer the description provided by *23andMe* (and I prefer this *Invitae* summary over what is provided from *Sequencing.com*).
+I believe this variant is also described in my [Sequencing.com](https://github.com/cwarden45/DTC_Scripts/blob/master/Sequencing.com/Healthcare_Pro-211016.pdf) report.  However, I think I may prefer the description provided by *23andMe* (and I prefer this *Invitae* summary over what is provided from *Sequencing.com*).
