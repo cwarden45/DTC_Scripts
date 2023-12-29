@@ -10,7 +10,7 @@ Picture indicated that they recieved my sample on 12/11/2023.
 
 I was notified that I could view my results on 12/28/2023.  I was also able to download a VCF File:
 
-[Picture_PGx_PG-TOR825373.vcf](https://www.picturegenetics.com/raw/Picture_PGx_PG-TOR825373.vcf)
+[Picture_PGx_PG-TOR825373.vcf](https://github.com/cwarden45/DTC_Scripts/blob/master/Fulgent_Picture/Picture_PGx_PG-TOR825373.vcf)
 
 ### Report Information
 
