@@ -14,7 +14,7 @@
 
 *Impression:* No acute findings.
 
-## Blood (platelet) donation experiences
+## Blood (Platelet) Donation Experiences
 
 While at least somewhat off-topic, I referenced the X-rays posted in this location within an FDA MedWatch report that I don't believe was successfully completed.
 
