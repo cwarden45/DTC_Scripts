@@ -26,10 +26,10 @@ However, I believe that I have worked with the blood donation staff to determine
 
 **I believe that relates to the following strategies:**
 
-**1)** I provided a **single large donation*, instead of a double donation.  *This was recommended to me during the donation.*
+**1)** I provided a **single large donation**, instead of a double donation.  *This was recommended to me during the donation.*
 
-**2)** I look the maximum number of calcium supplements (n=6).  I will ask for this in advance next time.
+**2)** I look the **maximum number of calcium supplements (n=6)**.  I will ask for this in advance next time.
 
-**3)** I brought extra back supports (padding for the back, as well as a support that wrapped around my waist.  To some extent, I believe the extra back support might have helped.  *Either way, this is the connection to the x-rays to my lower back.*
+**3)** I brought **extra back supports** (padding for the back, as well as a support that wrapped around my waist.  To some extent, I believe the extra back support might have helped.  *Either way, this is the connection to the x-rays to my lower back.*
 
 After following those procedures, I was able to **avoid** the adverse reactions occuring within ~2 weeks of my earlier platelet donation.  Additionally, I believe that I also had *fewer symptoms during the donation*, such as less noticeable discomfort in my jaw.
