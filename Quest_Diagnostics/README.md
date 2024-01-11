@@ -1,6 +1,6 @@
 ## Genetic Insights
 
-I ordered a kit on 11/8/2023.  I recieved physican approval ("physican-mediated" - I did not meet this physican), with a name listed in the Quest order details.
+I ordered a kit on 11/8/2023.  I recieved physician approval ("physician-mediated" - I did not meet this physican), with a name listed in the Quest order details.
 
 My kit was activated on 11/15/2023.
 
