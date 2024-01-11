@@ -2,7 +2,7 @@
 
 I ordered a kit on 12/4/2023.
 
-I recieved physican approval ("physician-mediated" - I did not meet this physican) on 12/5/2023.
+I recieved physician approval ("physician-mediated" - I did not meet this physican) on 12/5/2023.
 
 I believe my kit was delivered on 12/7/2023, which is indicated in my report as the sample collection date.  I put the sample in the mail as soon as possible.
 
