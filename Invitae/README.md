@@ -10,9 +10,9 @@ Invitae indicated that they recieved my sample on 12/12/2023.
 
 I was notified that I could view my results on 12/22/2023.  I also contacted the company about raw data on that date.
 
-I received a request for a DocuSign signature on 12/28/2023 (in order to recieve my raw data).
-
 I am expecting to be able to recieve a BAM alignment file by contacting *clientservices@invitae.com*, based upon the FAQ question "*Can I download my genetic data?*".
+
+I received a request for a DocuSign signature on 12/28/2023 (in order to recieve my raw data).
 
 On 1/10/2024, I recieved an message from an e-mail address ending with *revspringinc.com* indicating that payment was due to Invitae.  Some content looked like it was from Invitae, so I sent an e-mail (including a screenshot from my earlier message that confirmed payment at the time of ordering) to *billing@invitae.com*, in order to check if should follow the link from that message.
 
