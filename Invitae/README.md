@@ -14,6 +14,8 @@ I received a request for a DocuSign signature on 12/28/2023 (in order to recieve
 
 I am expecting to be able to recieve a BAM alignment file by contacting *clientservices@invitae.com*, based upon the FAQ question "*Can I download my genetic data?*".
 
+On 1/10/2024, I recieved an message from an e-mail address ending with *revspringinc.com* indicating that payment was due to Invitae.  Some content looked like it was from Invitae, so I sent an e-mail (including a screenshot from my earlier message that confirmed payment at the time of ordering) to *billing@invitae.com*, in order to check if should follow the link from that message.
+
 ### Report Information
 
 The [report](https://github.com/cwarden45/DTC_Scripts/blob/master/Invitae/report_RQ5937338.pdf) includes a positive result for the **F5** gene (for [ClinVar Accession 642](https://www.ncbi.nlm.nih.gov/clinvar/variation/642)).
