@@ -1,4 +1,4 @@
-##Genetic Insights
+## Genetic Insights
 
 I ordered a kit on 11/8/2023.  I recieved physican approval ("physican-mediated" - I did not meet this physican), with a name listed in the Quest order details.
 
