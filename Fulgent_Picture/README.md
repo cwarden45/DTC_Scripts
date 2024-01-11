@@ -4,7 +4,7 @@ I ordered a kit on 12/1/2023.
 
 I activated my kit on 12/6/2023.  This was the delivery date for my kit.  I put the sample in the mail as soon as possible.
 
-I recieved physican approval ("physician-mediated" - I did not meet this physican) on 12/9/2023.
+I recieved physician approval ("physician-mediated" - I did not meet this physican) on 12/9/2023.
 
 Picture indicated that they recieved my sample on 12/11/2023.
 
