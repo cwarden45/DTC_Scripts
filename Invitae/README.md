@@ -16,6 +16,8 @@ I received a request for a DocuSign signature on 12/28/2023 (in order to recieve
 
 On 1/10/2024, I recieved an message from an e-mail address ending with *revspringinc.com* indicating that payment was due to Invitae.  Some content looked like it was from Invitae, so I sent an e-mail (including a screenshot from my earlier message that confirmed payment at the time of ordering) to *billing@invitae.com*, in order to check if should follow the link from that message.
 
+The next day (1/11/2024), I recieved a paper bill form Inviate.  *The itemized charges (including some individual genes( interesting to see.*  However, the paper bill was for the *exact same amount* as in my confirmation e-mail (*$368*), and I confirmed that same amount was present on my credit card in December.  So, I hope the billing team can help confirm that this is an error.
+
 ### Report Information
 
 The [report](https://github.com/cwarden45/DTC_Scripts/blob/master/Invitae/report_RQ5937338.pdf) includes a positive result for the **F5** gene (for [ClinVar Accession 642](https://www.ncbi.nlm.nih.gov/clinvar/variation/642)).
