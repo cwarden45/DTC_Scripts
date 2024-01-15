@@ -16,7 +16,7 @@ I received a request for a DocuSign signature on 12/28/2023 (in order to recieve
 
 On 1/10/2024, I recieved an message from an e-mail address ending with *revspringinc.com* indicating that payment was due to Invitae.  Some content looked like it was from Invitae, so I sent an e-mail (including a screenshot from my earlier message that confirmed payment at the time of ordering) to *billing@invitae.com*, in order to check if should follow the link from that message.
 
-The next day (1/11/2024), I recieved a paper bill form Invitae.  *The itemized charges (including some individual genes( interesting to see.*  Fore example, the charge for *"BRCA1&2 GEN FULL SEQ DUP/DEL"* and *"BRCA2 GENE FULL SEQ ALYS"*  were both *$2.39.*  However, the paper bill was for the *exact same amount* as in my confirmation e-mail (*$368*), and I confirmed that same amount was present on my credit card in December.  So, I hope the billing team can help confirm that this is an error.
+The next day (1/11/2024), I recieved a paper bill form Invitae.  *The itemized charges (including some individual genes( interesting to see.*  Fore example, the charge for *"BRCA1&2 GEN FULL SEQ DUP/DEL"* and *"BRCA2 GENE FULL SEQ ALYS"*  were both *$2.39.*  However, the paper bill was for the *exact same amount* as in my confirmation e-mail (*$368*), and I confirmed that same amount was present on my credit card in December.  On 1/15/2024, a member of the billing department confirmed that the records will be updated and no additional payment is needed.
 
 ### Report Information
 
