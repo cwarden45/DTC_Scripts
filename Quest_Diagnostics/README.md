@@ -8,4 +8,4 @@ Quest indicated that they recieved my sample on 11/22/2023.
 
 After a noticable amount of time, I noticed that my sample was reported to not yet be at the DNA extraction stage.  So, on 1/7/2024, I sent a message to Quest about my sample's progress.
 
-If electronic communication isn't successful for this test (QST-00332874), then I am not sure if I might need to use the contact information provied within the Quest Health interface: 1-866-697-8378 (M-F, 8am-7pm EST)
+I somehow didn't notice the voicemail as soon as it arrived, but I was informed to call a phone number that I don't believe I saw listed among the information on 1/8/2024.  I called the phone number on 1/15/2024, and I was informed that there is a common delay and results are expected in **Spring 2024**.  I believe that I was also offered a partial refund, but I did not accept the refund.  I was mostly confused because it appeared that the DNA from my sample in November was still not extracted.  I will wait for addtional e-mail updates.
