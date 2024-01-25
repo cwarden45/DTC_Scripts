@@ -18,6 +18,8 @@ On 1/10/2024, I recieved an message from an e-mail address ending with *revsprin
 
 The next day (1/11/2024), I recieved a paper bill form Invitae.  *The itemized charges (including some individual genes( interesting to see.*  Fore example, the charge for *"BRCA1&2 GEN FULL SEQ DUP/DEL"* and *"BRCA2 GENE FULL SEQ ALYS"*  were both *$2.39.*  However, the paper bill was for the *exact same amount* as in my confirmation e-mail (*$368*), and I confirmed that same amount was present on my credit card in December.  On 1/15/2024, a member of the billing department confirmed that the records will be updated and no additional payment is needed.
 
+I sent a follow-up e-mail on 1/20/2024.  On 1/24/2024, I recieved a response indicating that my raw data was in progress.  My understanding is that I can hopefully receive my raw data in another week or two.
+
 ### Report Information
 
 The [report](https://github.com/cwarden45/DTC_Scripts/blob/master/Invitae/report_RQ5937338.pdf) includes a positive result for the **F5** gene (for [ClinVar Accession 642](https://www.ncbi.nlm.nih.gov/clinvar/variation/642)).
