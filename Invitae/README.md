@@ -20,6 +20,16 @@ The next day (1/11/2024), I recieved a paper bill form Invitae.  *The itemized c
 
 I sent a follow-up e-mail on 1/20/2024.  On 1/24/2024, I recieved a response indicating that my raw data was in progress.  My understanding is that I can hopefully receive my raw data in another week or two.
 
+On 1/31/2024, I recieved an invite from Box to recieve my raw data, which I then uploaded to Google Cloud:
+
+[aligned_requisitioned_cleaned.bam](https://storage.googleapis.com/cdw-metagenomics/Invitae/aligned_requisitioned_cleaned.bam)
+[aligned_requisitioned_cleaned.bam.bai](https://storage.googleapis.com/cdw-metagenomics/Invitae/aligned_requisitioned_cleaned.bam.bai)
+[aligned_requisitioned_cleaned.bam.md5](https://storage.googleapis.com/cdw-metagenomics/Invitae/aligned_requisitioned_cleaned.bam.md5)
+[genes.txt](https://storage.googleapis.com/cdw-metagenomics/Invitae/README.txt)
+[README.txt](https://storage.googleapis.com/cdw-metagenomics/Invitae/genes.txt)
+
+I verified the integrity of the data using the `md5sum` command, to confirm that the checksum was the same was within the file *aligned_requisitioned_cleaned.bam.md5*.
+
 ### Report Information
 
 The [report](https://github.com/cwarden45/DTC_Scripts/blob/master/Invitae/report_RQ5937338.pdf) includes a positive result for the **F5** gene (for [ClinVar Accession 642](https://www.ncbi.nlm.nih.gov/clinvar/variation/642)).
