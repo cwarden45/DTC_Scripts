@@ -34,6 +34,8 @@ On 1/31/2024, I recieved an invite from Box to recieve my raw data, which I then
 
 I verified the integrity of the data using the `md5sum` command, to confirm that the checksum was the same was within the file *aligned_requisitioned_cleaned.bam.md5*.
 
+On 2/8/2024, customer support informed me that the genome reference was **GRCh37** (*hg19*).
+
 ### Report Information
 
 The [report](https://github.com/cwarden45/DTC_Scripts/blob/master/Invitae/report_RQ5937338.pdf) includes a positive result for the **F5** gene (for [ClinVar Accession 642](https://www.ncbi.nlm.nih.gov/clinvar/variation/642)).
