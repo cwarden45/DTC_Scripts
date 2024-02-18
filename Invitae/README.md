@@ -45,3 +45,13 @@ This result is **not** consistently reported from all companies/organizations.  
 However, this variant ([rs6025](https://www.ncbi.nlm.nih.gov/snp/rs6025)) is listed in [my *23andMe* results](https://github.com/cwarden45/DTC_Scripts/blob/master/23andMe/23andMe--HealthPredispositionRisk--231222.pdf) as being at ***"Slightly Increased Risk"*** for *Hereditary Thrombophilia*.
 
 I believe this variant is also described in my [Sequencing.com](https://github.com/cwarden45/DTC_Scripts/blob/master/Sequencing.com/Healthcare_Pro-211016.pdf) report.  However, I think I may prefer the description provided by *23andMe* (and I prefer this *Invitae* summary over what is provided from *Sequencing.com*).
+
+### Steps to Upload Data into PrecisionFDA
+
+**1)** Go to [https://precision.fda.gov/](https://precision.fda.gov/).
+
+If you have not already done so, please [*"Request Access"*](https://precision.fda.gov/request_access) to create an account (upper-right view from main screen).
+
+**2)** Click **"Log In"**, with a process that starts with entering your Username or E-mail:
+
+![Step 2](PrecisionFDA-step1.jpeg "Step 2")
