@@ -56,4 +56,4 @@ If you have not already done so, please [*"Request Access"*](https://precision.f
 
 ![Step 2](PrecisionFDA-step1.jpeg "Step 2")
 
-You might periodically find that your account has been locked.  If this occurs, please contact *precisionFDA@fda.hhs.gov* as described in the error message.
+At the step of entering your passord, you might periodically find that your account has been locked.  If this occurs, please contact *precisionFDA@fda.hhs.gov* as described in the error message.
