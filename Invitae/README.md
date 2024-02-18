@@ -54,6 +54,6 @@ If you have not already done so, please [*"Request Access"*](https://precision.f
 
 **2)** Click **"Log In"**, with a process that starts with entering your Username or E-mail:
 
-![Step 2](PrecisionFDA-step1.jpeg "Step 2")
+![Step 2](PrecisionFDA-step1.JPG "Step 2")
 
 At the step of entering your passord, you might periodically find that your account has been locked.  If this occurs, please contact *precisionFDA@fda.hhs.gov* as described in the error message.
