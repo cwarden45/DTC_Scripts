@@ -57,3 +57,11 @@ If you have not already done so, please [*"Request Access"*](https://precision.f
 ![Step 2](PrecisionFDA-step1.JPG "Step 2")
 
 At the step of entering your passord, you might periodically find that your account has been locked.  If this occurs, please contact *precisionFDA@fda.hhs.gov* as described in the error message.
+
+**3)** After you have signed in, to go **"My Home"**:
+
+![Step3](PrecisionFDA-step3.JPG "Step 3")
+
+**4)** Select **"My Home"**, and then browse to the file to upload (in this situation, `aligned_requisitioned_cleaned.bam`).
+
+![Step4](PrecisionFDA-step4.JPG "Step 4")
