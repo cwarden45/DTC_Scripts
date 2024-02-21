@@ -65,3 +65,21 @@ At the step of entering your passord, you might periodically find that your acco
 **4)** Select **"My Home"**, and then browse to the file to upload (in this situation, `aligned_requisitioned_cleaned.bam`).
 
 ![Step4](PrecisionFDA-step4.JPG "Step 4")
+
+In this situation, the file was small enough to be uploaded though the web interface.  There is also a command-line interface.  However, for my relatively more recent uploads, I needed to use [url-fetcher](https://precision.fda.gov/home/apps/app-F0pyzk000GBvX7qVG137gV5Z-1) to input files that I uploaded as pubilc links using a different strategy (such as Google Cloud).
+
+**5)** After the upload is complete, you may not immediately be able to use the upload.
+
+For example, you want to see a **blue link** and the **gray name** below is ***NOT*** ready for use:
+
+![Step5](PrecisionFDA-step5a.JPG "Step 5 - NOT READY")
+
+In contrast, the version shown below ***IS*** ready for use:
+
+![Step5](PrecisionFDA-step5a.JPG "Step 5 - READY")
+
+For my upload, this process completed within a **few minutes**.
+
+**6)** After the upload is able to be used, you may with to re-name the files, add additional information, and/or share the file with others.
+
+
