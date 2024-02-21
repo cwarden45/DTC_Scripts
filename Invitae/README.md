@@ -76,10 +76,32 @@ For example, you want to see a **blue link** and the **gray name** below is ***N
 
 In contrast, the version shown below ***IS*** ready for use:
 
-![Step5](PrecisionFDA-step5a.JPG "Step 5 - READY")
+![Step5](PrecisionFDA-step5b.JPG "Step 5 - READY")
 
 For my upload, this process completed within a **few minutes**.
 
 **6)** After the upload is able to be used, you may with to re-name the files, add additional information, and/or share the file with others.
 
+**6a)** To add file information: *i)* select the file on the left, *ii)* select **Actions** on the right, and *iii)* select *Edit File Info*:
 
+![Step6](PrecisionFDA-step6a1.JPG "Step 6 - Edit File Selection")
+
+You can now enter information for the file.  I entered *"Invitae Alignment File (BAM, RQ5937338)"*:
+
+![Step6](PrecisionFDA-step6a2.JPG "Step 6 - Edit File Pop-Up")
+
+**6b)** To share the file with others: *i)* select the file on the left, *ii)* select **Actions** on the right, and *iii)* select *Edit File Info*:
+
+![Step6](PrecisionFDA-step6b1.JPG "Step 6 -Mmake File Public")
+
+You will then be asked to confirm your decision:
+
+![Step6](PrecisionFDA-step6b2.JPG "Step 6 - Public Confirmation")
+
+With a single file, you only need to click the **Publish selected objects** button.
+
+You can now find the shared file from the view for **Everyone**:
+
+![Step6](PrecisionFDA-step6b3.JPG "Step 6 - Viewing Shared File: View 1")
+
+![Step6](PrecisionFDA-step6b4.JPG "Step 6 - Viewing Shared File: View 2")
