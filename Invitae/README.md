@@ -36,6 +36,8 @@ I verified the integrity of the data using the `md5sum` command, to confirm that
 
 On 2/8/2024, customer support informed me that the genome reference was **GRCh37** (*hg19*).
 
+On 7/14/2024, I scheduled a follow-up appointment with a genetic counselor (for later in the  week).
+
 ### Report Information
 
 The [report](https://github.com/cwarden45/DTC_Scripts/blob/master/Invitae/report_RQ5937338.pdf) includes a positive result for the **F5** gene (for [ClinVar Accession 642](https://www.ncbi.nlm.nih.gov/clinvar/variation/642)).
