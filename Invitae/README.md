@@ -36,7 +36,7 @@ I verified the integrity of the data using the `md5sum` command, to confirm that
 
 On 2/8/2024, customer support informed me that the genome reference was **GRCh37** (*hg19*).
 
-On 7/14/2024, I scheduled a follow-up appointment with a genetic counselor (for later in the  week).
+On 7/14/2024, I scheduled a follow-up appointment with a genetic counselor (for later in the  week, with a genetic counselor from [Genome Medical](https://www.genomemedical.com/)).
 
 ### Report Information
 
