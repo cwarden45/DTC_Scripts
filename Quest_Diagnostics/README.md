@@ -13,3 +13,5 @@ I somehow didn't notice the voicemail as soon as it arrived, but I was informed 
 On 2/14/2024, I recieved an update that "the results of your Genetic Insights test will be delayed".  Due to the "major inconvenience", my understanding is that there should be a refund credited by 3/15/2024 (and, I hope, results will be returned as well).  I was offered 40% off another test.  However, I checked the other available tests to order, and I did not see another test that I wanted to order.  However, hopefully, free results will be returned before too much longer.
 
 On 5/23/2024, I recieved another update that "*the results of your Genetic Insights test continue to be delayed*," with an estimate of being able to return results in September.
+
+I received results on 10/30/2024.
